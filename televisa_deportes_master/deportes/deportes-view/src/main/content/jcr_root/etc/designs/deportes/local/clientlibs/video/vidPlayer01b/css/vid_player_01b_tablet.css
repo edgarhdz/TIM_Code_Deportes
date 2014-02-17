@@ -1,0 +1,124 @@
+@media screen and (min-width: 624px){
+
+	/*Contenedor*/
+    .vid_player_01b{
+        position: relative;
+        width: 625px;
+        background-color: transparent;
+        margin-bottom: 36px;
+        /*padding-bottom: 24px;*/
+        /*background-image:url(../../img/ajax-loader.gif);*/
+    }
+	.vid_player_01b .txt1 h3{
+        font-size:24px;
+    }
+	
+	.vid_player_01b .overlay .txt4{
+		display:block;
+		float:right;
+		margin-top:8px;
+		max-width: 294px;
+		margin-right: 3px;
+		
+	}
+	.vid_player_01b .overlay .txt4 img{
+		border: 1px solid #5D5D5D;
+	}
+
+    .vid_player_01b .txt2{
+        margin-bottom:10px;
+		margin-top: 6px;
+    }
+	.ie8 .vid_player_01b .txt2{
+        margin-bottom: 0px;
+    }
+	
+	.vid_player_01b .txt3{
+        background: none;
+		margin-top:0;
+    }
+
+    .vid_player_01b .overlay {    
+        padding: 16px 0 0px 25px;
+		position: relative;
+		overflow: hidden;
+		display: block;
+    }
+	
+    
+
+    .vid_player_01b .overlay .txt2,
+    .vid_player_01b .overlay .txt3{
+        float:left;
+        padding:-15px;
+		display:block;
+		width:100%;
+    }
+
+    .vid_player_01b .txt2 h3{
+        font-size:14px;
+        font-weight:bold;
+        font-style:italic;
+    }
+	.vid_player_01b .txt2 h4{
+        margin-bottom: 27px;
+    }
+    .vid_player_01b .txt2 h4, 
+    .vid_player_01b .txt3{
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+        color:#999;
+    }
+
+    .vid_player_01b #vid_player_01b_txts{
+        position: relative;
+        height: auto;
+		width: 275px;
+    }
+    
+    /* Texto del Overlay */
+    .vid_player_01b .vid_player_01b_black {
+        display: block;
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 0.8em;
+        font-size: 0.8em\9;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .vid_player_01b .vid_player_01b_gray {
+        display: block;
+        left: 60px;
+        top: 320px;
+        font-style: italic;
+        margin-right: 40px;
+        color: #666666;
+        font-weight: bold;
+        font-size: 0.7em;
+        *font-size: 0.8em;
+        font-size: 0.8em\9;
+    }
+	
+    .vid_player_01b div.vid_player_01b_image{
+        display: block;
+		height: 358px;
+		position: relative;
+		width: 624px;
+    }
+
+    .vid_player_01b div.vid_player_01b_image img{
+        width: 624px;
+        height:351px;
+    }
+
+    .vid_player_01b .vid_player_01b_txtdetail.topspace{
+        margin-top: 10px;
+    }
+	.vid_player_01b div.vid_player_01b_whtbkg {
+        padding:10px 36px;	
+		height:44px;	
+    }
+
+}

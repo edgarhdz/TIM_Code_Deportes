@@ -1,0 +1,40 @@
+@media screen and (min-width: 624px) {
+    /* BEGIN: btn_progr_02 (Medium) */
+    .btn_progr_02 .envivo {
+        width: 300px;
+        height: 120px;
+    }
+    .btn_progr_02 .overlay {
+        width: 300px;
+    }
+    .ie8 .btn_progr_02 .envivo {
+        z-index: 2000 !important;
+    }
+    .ie8 .btn_progr_02 .envivo .overlay {
+        z-index: 1000 !important;
+    }
+    .ie7 .btn_progr_02 .envivo {
+        z-index: 2000 !important;
+    }
+    .ie7 .btn_progr_02 .envivo .overlay {
+        z-index: 1000 !important;
+    }
+    .ie8 .btn_progr_02 .envivo .envivo_content {
+        z-index: 1000 !important;
+    }
+    .ie7 .btn_progr_02 .envivo .envivo_content {
+        z-index: 1000 !important;
+    }
+    .btn_progr_02 .envivo img {
+        height: auto;
+        width: 100%;
+    }
+    .btn_progr_02 .envivo .overlay {
+        background-color: #A70A0B;
+        height: 120px;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        width: 198px;
+    }
+}

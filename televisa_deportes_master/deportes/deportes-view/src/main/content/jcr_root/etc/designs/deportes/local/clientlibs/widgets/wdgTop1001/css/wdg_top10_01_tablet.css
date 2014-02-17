@@ -1,0 +1,74 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    .wdg_top10_01{
+        margin-bottom: 36px;
+        width:300px;
+    }
+    .wdg_top10_01 .wdg_carousa {
+        overflow: hidden;
+    }
+    div.wdg_top10_01_title {
+        margin-bottom: 24px;
+        zoom: 1;
+    }
+    div.wdg_top10_01_title:before,
+    div.wdg_top10_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.wdg_top10_01_title:after {
+        clear: both;
+    }
+    div.wdg_top10_01_title h3 {
+        width: 55%;
+        max-width: 300px;
+        float: left;
+    }
+    div.wdg_top10_01_title h3 a {
+        background-image: none;
+        background-position: right 2px\9;
+        *background-position: right 2px;
+    }
+    div.wdg_top10_01_title h3 a span.icon {
+        display: none;
+    }
+    .wdg_top10_01 .wdg_carousa {
+        padding-left: 0;
+    }
+    .wdg_top10_01 .wdg_carousa div.wdg_top10_01_title ul li a {
+        display: block;
+    }
+    .wdg_top10_01 .wdg_carousa ul {
+        margin: 25px 0 auto;
+    }
+    .wdg_top10_01 .wdg_carousa.showArrows div:first-child h1 {
+        width: 300px;
+    }
+    .wdg_top10_01 .wdg_carousa div:last-child ul {
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .wdg_top10_01 .wdg_carousa div:last-child ul li div a img{
+        padding: 0 12px 0 0px;
+    }
+    .wdg_twitt_02 .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: -5px;
+        padding-top: 14px;
+        margin-bottom: 0;
+    }
+    .wdg_top10_01 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    .wdg_top10_01 .bullets div:last-child{
+        margin-right: 0;
+    }
+    /* END: carouseltype1a (Medium) */
+}

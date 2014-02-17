@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.wdgscrolldropdown.pleca.description"
+                        fieldLabel="commons.wdgscrolldropdown.pleca.label"
+                        name="./title"
+                        xtype="textfield"/>
+                </items>
+            </settings>
+            <stadiums
+                jcr:primaryType="cq:Panel"
+                title="commons.wdgscrolldropdown.stadiums.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listItems
+                        jcr:primaryType="cq:Widget"
+                        genericmultifieldname="./listItems"
+                        name="./listItems"
+                        xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <patharticle
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="commons.wdgscrolldropdown.stadiumnote.description"
+                                fieldLabel="commons.wdgscrolldropdown.stadiumnote.label"
+                                name="./path"
+                                rootPath="/content/televisa"
+                                xtype="searchpathfield"/>
+                        </fieldConfig>
+                    </listItems>
+                </items>
+            </stadiums>
+            <devices
+                jcr:primaryType="cq:Panel"
+                title="commons.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.devices.hidedevices.description"
+                        fieldLabel="commons.devices.hidedevices.label"
+                        name="./hideDevice"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.devices.item.do-nothing"
+                                value=""/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.devices.item.hide-tablet-mobile"
+                                value="hide-tablet"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.devices.item.hide-mobile"
+                                value="hide-mobile"/>
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

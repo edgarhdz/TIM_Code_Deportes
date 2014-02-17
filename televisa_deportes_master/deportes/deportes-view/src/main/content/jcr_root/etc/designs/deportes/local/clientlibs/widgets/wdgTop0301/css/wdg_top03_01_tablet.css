@@ -1,0 +1,47 @@
+/*
+unused styles
+.wdg_twitt_02 .bullets
+*/
+
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    .wdg_top03_01{
+        margin-bottom: 36px;
+        width:300px;
+    }
+    .wdg_top03_01 .wdg_carousa {
+        overflow: hidden;
+    }
+    div.wdg_top03_01_title {
+        margin-bottom: 24px;
+        zoom: 1;
+    }
+    div.wdg_top03_01_title:before,
+    div.wdg_top03_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.wdg_top03_01_title:after {
+        clear: both;
+    }
+    .wdg_top03_01 .wdg_carousa {
+        padding-left: 0;
+    }
+    .wdg_top03_01 .wdg_carousa div.wdg_top03_01_title ul li a {
+        display: block;
+    }
+    .wdg_top03_01 .wdg_top03_01_title em{
+        width:165px;
+    }
+    .wdg_top03_01 .wdg_carousa ul {
+        margin: 25px 0 auto;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul {
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div a img{
+        padding: 0 12px 0 0px;
+    }
+    /* END: carouseltype1a (Medium) */
+}

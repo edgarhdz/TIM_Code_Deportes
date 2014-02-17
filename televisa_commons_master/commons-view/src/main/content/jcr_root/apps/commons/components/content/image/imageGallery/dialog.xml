@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="600"
+    title="commons.imagegallery.title"
+    width="800"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+	    <inheritanceTab
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/inheritance/inheritanceTab.infinity.json"
+                xtype="cqinclude"/>
+            <firstcarrousel
+                jcr:primaryType="cq:Panel"
+                title="commons.imagegallery.firstcarrousel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listItems
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.imagegallery.firstcarrousel.listitems.description"
+                        fieldLabel="commons.imagegallery.firstcarrousel.listitems.label"
+                        genericmultifieldname="./listItems"
+                        maxItems="50"
+                        name="./listItems"
+                        xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <internallink
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                fieldLabel="commons.imagegallery.firstcarrousel.link.label"
+                                hidden="{Boolean}false"
+                                name="./internallink"
+                                rootPath="/content/televisa"
+                                rootTitle="Televisa"
+                                xtype="photogallerysearch"/>
+                        </fieldConfig>
+                    </listItems>
+                </items>
+            </firstcarrousel>
+            <generalsettings
+                jcr:primaryType="cq:Panel"
+                title="commons.photogalleryfull01.generalsettings">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <showgalleries
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.imagegallery.showgallery.description"
+                        fieldLabel="commons.imagegallery.showgallery.label"
+                        name="./showgalleries"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showinfo
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.imagegallery.showinfo.description"
+                        fieldLabel="commons.imagegallery.showinfo.label"
+                        name="./showinfo"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </generalsettings>
+            <devices
+                jcr:primaryType="cq:Panel"
+                title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="deportes.devices.hidedevices.description"
+                        fieldLabel="deportes.devices.hidedevices.label"
+                        name="./hideDevice"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.do-nothing"
+                                value=""/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-tablet-mobile"
+                                value="hide-tablet"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-mobile"
+                                value="hide-mobile"/>
+                        </options>
+                    </hideDevices>
+                    <resType1
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image1/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                    <resType2
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image2/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

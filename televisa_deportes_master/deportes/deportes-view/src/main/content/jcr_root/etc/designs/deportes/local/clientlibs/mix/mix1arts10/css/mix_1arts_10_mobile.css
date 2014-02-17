@@ -1,0 +1,68 @@
+@media screen{  
+    .mix_1arts_10 {
+        width: 100%;
+        height: 70px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .mix_1arts_10 .articleMedium img{
+        width: 84px;
+        height: 69px;
+        padding-right: 12px;
+        border-right: 1px solid #d3d3d3;
+    }
+    .mix_1arts_10 .articleMedium a .sprite{
+        display: none;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_imagecontainer{
+        float: left;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer{
+        float: left;
+        margin-left: 12px;
+        width: 65%;
+
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h2{
+        font-size: 13px;
+        font-style: italic;
+        margin-top: 6px;
+        display: none;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h3{
+        display: none;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h5{
+        display: none;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h4{
+        line-height: 15px;
+        margin-bottom: 0px;
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h4 a{
+        font-size: 14px;
+
+    }
+    .mix_1arts_10 .articleMedium .mix_1arts_10_textcontainer h1 a{
+        font-size: 14px;
+        font-style: italic;
+    }
+    /*Title*/
+
+    .mix_1arts_10 .mix_1arts_10_title {
+        display: none;
+    }
+
+
+    /* SPRITES */
+    .mix_1arts_10 .articleMedium #videobtn {
+        height: 1.75em;
+        display: block;
+        left: 0px;
+        position: relative;
+        width: 1.75em ;	
+        margin-top: -32px;
+
+    }
+} 

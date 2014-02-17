@@ -1,0 +1,21 @@
+@media screen{
+
+.art_quote_03{
+        clear: both;
+	max-width:100%;
+	border-bottom: 1px solid #CCC; 
+	margin:24px 24px 24px 0;
+        padding-bottom: 10px;
+}
+
+.art_quote_03 h3,
+.art_quote_03 a h3{
+	
+	font-size: 1.17em;
+	font-weight:bold; 
+	line-height:22px;
+	font-style:italic;
+	color:#000;
+}
+
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="nt:unstructured"
+        title="Comments"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <props
+                jcr:primaryType="cq:Panel"
+                title="Comments">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Optional description text displayed in the comment field"
+                        fieldLabel="Default message"
+                        name="./defaultMessage"
+                        xtype="textfield"/>
+                    <signedInText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Text to display at the top of the component indicating the currently signed in user."
+                        fieldLabel="Signed In Text"
+                        name="./signedInText"
+                        xtype="textfield"/>
+                    <allowReplies
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Allow replies"
+                        fieldLabel_commentI18n="Allow replies to comments"
+                        name="./allowRepliesToComments"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <allowRepliesHint
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="true"
+                        name="./allowRepliesToComments@TypeHint"
+                        value="Boolean"
+                        xtype="hidden"/>
+                    <displayAsTree
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Display as tree"
+                        fieldLabel_commentI18n="Display comments as tree"
+                        name="./displayCommentsAsTree"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <displayAsTreeHint
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="true"
+                        name="./displayCommentsAsTree@TypeHint"
+                        value="Boolean"
+                        xtype="hidden"/>
+                    <moderate
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Moderated"
+                        fieldLabel_commentI18n="Moderate comments"
+                        name="./moderateComments"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <requireLogin
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Requires Login"
+                        fieldLabel_commentI18n="Requires login to add comments"
+                        name="./requireLogin"
+                        type="checkbox"
+                        xtype="hidden"/>
+                    <closed
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Closed"
+                        fieldLabel_commentI18n="No more comments accepted"
+                        name="./closed"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <allowFileUploads
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Allow File Uploads"
+                        fieldLabel_commentI18n="Allow file uploads to comments"
+                        name="./allowFileUploads"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <maxFileSize
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Long}104857600"
+                        fieldDescription="Maximum number of bytes a file may have. Default: 104857600 (10 Mb)."
+                        fieldLabel="Max File Size"
+                        name="./maxFileSize"
+                        xtype="numberfield"/>
+                    <acceptFileTypes
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Comma seperated file extensions with dots, ex .jpg, .jpeg, .png, .doc, .docx, .ppt, .zip, .rar&#xa;Default: allow all file types."
+                        fieldLabel="Allowed File Types"
+                        name="./acceptFileTypes"
+                        xtype="textfield"/>
+                    <richTextEditor
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Rich Text Editor"
+                        name="./rteEnabled"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <allowDeleteComments
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldLabel="Allow Users to Delete Comments"
+                        name="./allowDeleteComments"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </props>
+            <dateFormatTab
+                jcr:primaryType="cq:Panel"
+                title="Date Format">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <dateFormat
+                        jcr:primaryType="cq:Widget"
+                        emptyText_noI18n="MMMMM dd, yyyy hh:mm a"
+                        fieldDescription="&lt;a href=&quot;http://download.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html&quot; target=&quot;_blank&quot; style=&quot;cursor: pointer;&quot;>Date format&lt;/a> used to display comments' publish date.&lt;br/>Sample: MMM dd, yyyy HH:mm for Aug 31, 2010 10:37"
+                        fieldLabel="Date format"
+                        name="./dateFormat"
+                        xtype="textfield"/>
+                </items>
+            </dateFormatTab>
+            <prop1
+                jcr:primaryType="cq:Panel"
+                border="false"
+                height=""
+                title="Forms"
+                width=""
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <editquestionform
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="true"
+                        fieldLabel="Edit Comment Form"
+                        name="./editform"
+                        validator="function(value) {var returnVal;$CQ.ajax(value + '.json', {async: false,success: function() {returnVal = true;},error: function() {returnVal = 'Page Not Found';}});return returnVal;}"
+                        xtype="pathfield"/>
+                </items>
+            </prop1>
+        </items>
+    </items>
+</jcr:root>

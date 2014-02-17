@@ -1,0 +1,29 @@
+@media screen { 
+    .td_concacaf_f1_01{
+        overflow: hidden;
+    }
+	/* Encabezado */ 
+    .td_concacaf_f1_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_concacaf_f1_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_concacaf_f1_01 .main > div{
+		width:100%;
+	}
+	/*Requerido para llenado completo mobile*/
+    .td_concacaf_f1_01 .main .c3_1{
+        width:100%;
+    }    
+    .td_concacaf_f1_01 .main .c3_2{
+        width:100%;
+    }
+	.td_concacaf_f1_01 .c2 .c2_1 .c2_1o,
+    .td_concacaf_f1_01 .mix_4arts_05 .str_pleca_01{
+        display: none;
+    }
+}

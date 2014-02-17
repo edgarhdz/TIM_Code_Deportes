@@ -1,0 +1,5 @@
+#base=css
+
+wdg_categories_01_mobile.css
+wdg_categories_01_tablet.css
+wdg_categories_01.css

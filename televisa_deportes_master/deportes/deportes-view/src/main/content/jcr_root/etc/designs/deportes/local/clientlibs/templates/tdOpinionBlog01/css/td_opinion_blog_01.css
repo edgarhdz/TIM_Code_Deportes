@@ -1,0 +1,21 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_opinion_blog_01 .main{
+        width: 948px;
+    }
+    /* Contenedor izquierdo */
+    .td_opinion_blog_01 .main .c1{
+		float:left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_opinion_blog_01 .main .c2{
+		float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	.ie7 .td_opinion_blog_01 .bannerTopNews{
+		margin-bottom: 0px;
+	}
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+	    <inheritanceTab
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/inheritance/inheritanceTab.infinity.json"
+                xtype="cqinclude"/>
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <message
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.newsletter.message.description"
+                        fieldLabel="commons.newsletter.message.label"
+                        name="./message"
+                        xtype="textfield"/>
+                    <emailText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.newsletter.emailText.description"
+                        fieldLabel="commons.newsletter.emailText.label"
+                        name="./emailText"
+                        xtype="textfield"/>
+                    <buttonText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.newsletter.buttonText.description"
+                        fieldLabel="commons.newsletter.buttonText.label"
+                        name="./buttonText"
+                        xtype="textfield"/>
+                    <messageWorking
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.newsletter.messageWorking.description"
+                        fieldLabel="commons.newsletter.messageWorking.label"
+                        name="./messageWorking"
+                        xtype="textfield"/>
+                    <thanksText
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.newsletter.thanksText.description"
+                        fieldLabel="commons.newsletter.thanksText.label"
+                        name="./thanksText"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,31 @@
+@media screen and (min-width: 39em){
+    .str_expertcmt_01 {
+        width: 650px;
+        margin-bottom: 24px;
+    }
+    .str_expertcmt_01 .expert_container {
+    	position: relative;
+    	float: left;
+        width: 313px;
+        padding: 0 5px 24px;
+    }
+
+    .str_expertcmt_01 .expert_container_block {
+    	position: relative;
+    	float: left;
+        width: 313px;
+        display: block;
+        padding: 0 5px 24px;
+        border-bottom: 0;
+
+    }
+    .str_expertcmt_01_separator{
+        border-right: 2px dotted #B1B1B1;
+	    float: left;
+	    height: 180px;
+	    margin-top: 7px;
+    }
+    .str_expertcmt_01 .more {
+        display: none;
+    }
+}

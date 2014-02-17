@@ -1,0 +1,107 @@
+@media screen and (min-width: 624px){
+    .btn_6prog_02{
+        margin-bottom: 36px;
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a {
+        padding-left: 0;
+    }
+    .btn_6prog_02 .type1a .title .flechas{
+        display: none !important;
+    }
+    .btn_6prog_02 .type1a ul {
+        margin: 25px 0 auto;
+    }
+   
+    .btn_6prog_02 .type1a .carrusel {
+        overflow: hidden !important;
+    }
+    .btn_6prog_02 .type1a .carrusel ul {
+        margin-top: 0;
+        overflow: hidden !important;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li {        
+        margin: 0 0 6px 25px;
+    }
+    .btn_6prog_02 div.title {
+        margin-bottom: 24px;
+    }
+    .btn_6prog_02 div.title:before,
+    .btn_6prog_02 div.title:after {
+        content: "";
+        display: table;
+    }
+    .btn_6prog_02 div.title:after {
+        clear: both;
+    }
+    .btn_6prog_02 div.title {
+        zoom: 1;
+    }
+    .btn_6prog_02 div.title h2 {
+        width: 48%;
+        min-width:165px;
+        float: left;
+        height: 32px;
+		max-width: 300px;
+    }
+    .btn_6prog_02 div.title h2 a {
+        background-image: none !important;
+        padding: 7px 16px 5px 22px;
+        line-height: 24px !important;
+		line-height:32px;
+    }
+	.btn_6prog_02 .type1a .title h2 a {
+		margin-top:-2px;
+	}
+    .btn_6prog_02 div.title h2 a span.icon {
+        display: none;
+    }
+
+    .btn_6prog_02 .bullets ul li:nth-of-type(4),
+    .btn_6prog_02 .bullets ul li:nth-of-type(5),
+    .btn_6prog_02 .bullets ul li:nth-of-type(6){
+        display: none;
+    }
+    .btn_6prog_02 .bullets ul {
+        width: 53px;
+        margin-top: 10px;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li a img{
+        width: 136px;
+        height: 102px;
+        background-color: #666;
+        margin-bottom: 2px !important;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li h2{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .btn_6prog_02 .type1a div ul li a{
+        padding-right: 0 !important;
+    }
+    .btn_6prog_02 .type1a .carrusel ul{
+        height: 156px !important;
+    }
+	.btn_6prog_02 .type1a .carrusel ul li:first-child {
+        margin: 0;
+    }
+	.btn_6prog_02 .bullets ul{
+		margin-right:0;
+	}
+	
+	.btn_6prog_02 .title h2{
+        width: 100%;
+        font-size: 13px;
+        float: left;
+        text-align: left;
+    }
+}
+@media only screen and (device-width: 768px) {
+        .btn_6prog_02 .type1a div ul li a{
+            padding-right: 0 !important;
+            background-color: red;
+        }
+        .btn_6prog_02 .type1a .carrusel ul{
+            height: 165px !important;
+        }
+    }

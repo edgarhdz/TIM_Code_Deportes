@@ -1,0 +1,4 @@
+#base=css
+wdg_otherpost_01_mobile.css
+wdg_otherpost_01_tablet.css
+wdg_otherpost_01.css

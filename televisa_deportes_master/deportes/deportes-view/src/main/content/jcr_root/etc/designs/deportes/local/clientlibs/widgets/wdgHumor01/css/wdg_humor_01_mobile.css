@@ -1,0 +1,160 @@
+@media screen{  
+    .wdg_humor_01 {
+        text-align: left;
+        display: none;
+    }
+
+    .wdg_humor_01 .articleMobile {
+        height: auto;
+        padding-top: 10px;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+    }
+    .wdg_humor_01 .articleMedium {
+        padding: 0;
+        position: relative;
+        height: auto;
+        /*overflow: hidden;*/
+        
+    }
+    .ie8 .wdg_humor_01 .articleMedium {
+        z-index:1000 !important;
+    }
+    .wdg_humor_01 .articleMedium ul,
+    .wdg_humor_01 .articleMedium h2,
+    .wdg_humor_01 .articleMedium p {
+        /*display: none;*/
+    }
+    .wdg_humor_01 .articleMedium h4 {
+        /*padding: 1.250em 2.5em;*/
+        padding: 2% 6%;
+        margin-left: 3%;
+    }
+    .wdg_humor_01 .articleMedium img {
+        width: 100%;
+    }
+    .wdg_humor_01 .articleMedium div {
+        background: none repeat scroll 0 0 #FFFFFF;
+        position: relative;
+        left: 9%;
+        margin-top: -70px;
+        width: 85%;
+        height: 65px;
+        padding: 0% 1% 0% 5%;
+        overflow: hidden;
+        opacity: 0.80;
+    }
+    
+    .ie8 .wdg_humor_01 .articleMedium div {
+        z-index:2000 !important;
+    }
+    .wdg_humor_01 .articleMedium div h4 {
+        padding-left: 0;
+        height: auto;
+        margin-top: -1%;
+    }
+    
+    .wdg_humor_01 .articlesThumbList {
+        width: 100%;
+    }
+    .wdg_humor_01 .articlesThumbList li {
+        height: auto;
+        /*min-height: 3.438em;*/
+
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+    }
+    .wdg_humor_01 .articlesThumbList li a {
+        width: 96.8%;
+        text-decoration: none;
+        display: block;
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
+
+
+    .wdg_humor_01 .articlesThumbList li a:before,
+    .wdg_humor_01 .articlesThumbList li a:after {
+        content: "";
+        display: table;
+    }
+    .wdg_humor_01 .articlesThumbList li a:after {
+        clear: both;
+    }
+    .wdg_humor_01 .articlesThumbList li a {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+
+    }
+    .wdg_humor_01 .articlesThumbList li a p {
+        width: 66%;
+        padding-left: 1em;
+        line-height: 1.5em;
+    }
+    .wdg_humor_01 .articlesThumbList li a span.icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 10px 14px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.5em;
+        right: 0.5em;
+    }
+    .wdg_humor_01 .articlesThumbList li a img {
+        display: none;
+    }
+    .wdg_humor_01 .articlesThumbList li a h3 {
+
+        display: none;
+    }
+    .wdg_humor_01 ul li div.wdg_humor_01_text {
+        height: auto;
+        margin: -1.5em 0 0 1.5em;
+        position: relative;
+        padding: 1em;
+        width: auto;
+        z-index: 11;
+    }
+    .wdg_humor_01 div .articleMedium div h2 a{
+        display:block;
+    }
+    .wdg_humor_01 div .articleMedium div h3{
+        padding-top: 8px;
+        font-size: 15px;
+        font-style: italic;
+        padding-left: 30px;
+    }
+    
+    .wdg_humor_01 div .articleMedium div h4{
+        /* margin-top: -20px;*/
+        /*font-size: 105%;
+        line-height: 13pt;*/
+    }
+    .wdg_humor_01 div .articleMedium div h4{
+        /* margin-top: -20px;*/
+        font-size: 105%;
+        line-height: 16pt;
+    }
+    .wdg_humor_01 div .articleMedium div h2{
+        line-height: 1.8em;
+
+        font-style: italic;
+        font-weight: 800;
+        font-size: 0.9em;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    .wdg_humor_01 div .articleMedium a .sprite{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: inline;
+    }
+    .wdg_humor_01 {
+        padding-bottom: 24px;
+    }
+} 

@@ -1,0 +1,136 @@
+@media screen and (min-width: 624px){
+
+	/*Contenedor*/
+    .vid_player_01{
+        position: relative;
+        width: 625px;
+        background-color: transparent;
+        margin-bottom: 36px;
+        /*padding-bottom: 24px;*/
+        /*background-image:url(../../img/ajax-loader.gif);*/
+    }
+	.vid_player_01 .txt1 h3{
+        font-size:22px;
+    }
+    
+    /*Modulo TExto inferior*/
+	.vid_player_01 .overlay {
+		/*margin-bottom: 36px;*/
+	}
+	
+	.vid_player_01 .overlay .txt1 .introtxt,
+	.vid_player_01 .overlay .txt2 {
+        display:block;
+    }
+
+    .vid_player_01 .txt1{
+        float: left;
+        width: 240px;
+        height: auto;
+        background: url(../img/dotted-vertical.png) repeat-y right;
+        /*border-right: 1px dotted #CCC;*/
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .vid_player_01 .txt2{
+        /*padding-bottom:40px;*/
+        margin-bottom:10px;
+        background: url(../img/dotted-horizontal.png) repeat-x bottom;
+        /*border-bottom:1px dotted #CCC;*/
+    }
+	
+	.vid_player_01 .txt3{
+        background: none;
+		margin-top:0;
+    }
+
+    .vid_player_01 .overlay {    
+        padding: 7px 16px 20px 35px;
+		position: relative;
+    }
+	
+    .ie8 .vid_player_01 .txt2{
+        margin-bottom: 0px;
+    }
+
+    .vid_player_01 .txt2,
+    .vid_player_01 .txt3{
+        float:right;
+        width:280px;
+        padding:-15px;
+    }
+
+    .vid_player_01 .txt2 h3{
+        font-size:14px;
+        font-weight:bold;
+        font-style:italic;
+        color:#A41D21;
+    }
+	.vid_player_01 .txt2 h4{
+        margin-bottom: 27px;
+    }
+    .vid_player_01 .txt2 h4, 
+    .vid_player_01 .txt3{
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+        color:#999;
+    }
+
+    .vid_player_01 .txt3 li{
+        margin-left:0px !important;
+    }
+
+    .vid_player_01 #vid_player_01_txts{
+        position: relative;
+        height: auto;
+        display: inline-block;
+        padding-top: 2px;
+    }
+    
+    /* Texto del Overlay */
+    .vid_player_01 .vid_player_01_black {
+        display: block;
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 0.8em;
+        font-size: 0.8em\9;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .vid_player_01 .vid_player_01_gray {
+        display: block;
+        left: 60px;
+        top: 320px;
+        font-style: italic;
+        margin-right: 40px;
+        color: #666666;
+        font-weight: bold;
+        font-size: 0.7em;
+        *font-size: 0.8em;
+        font-size: 0.8em\9;
+    }
+	
+    .vid_player_01 div.vid_player_01_image{
+        display: block;
+		height: 358px;
+		position: relative;
+		width: 624px;
+    }
+
+    .vid_player_01 div.vid_player_01_image img{
+        width: 624px;
+        height:351px;
+    }
+
+    .vid_player_01 .vid_player_01_txtdetail.topspace{
+        margin-top: 10px;
+    }
+	.vid_player_01 div.vid_player_01_whtbkg {
+        padding:10px 36px;	
+		height:44px;	
+    }
+
+}

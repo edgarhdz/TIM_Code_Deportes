@@ -1,0 +1,13 @@
+@media screen and (min-width: 948px){
+	#main {margin:0 24px 24px 24px;}
+	#col1 { width: auto; margin: 0 324px 0 0;}
+	#col2 { float:right; width: 300px; display:block; position:relative;}
+	div.related-social { width:300px;position:absolute; bottom:0; padding:12px 0 0 0;}
+	div.related-social strong {color: #A70A0B; font-style:italic; font-size:13px; font-weight:bold;}
+	div.related-social p,
+	div.related-social p a {color:#8c8c8c}
+	div.related-social p {padding-bottom:24px;}
+	div.related-social img.social {padding-top:24px;}
+	div.img_fotogalfull_01 div.details {display:none;}
+	.related-container {display:none;}
+}

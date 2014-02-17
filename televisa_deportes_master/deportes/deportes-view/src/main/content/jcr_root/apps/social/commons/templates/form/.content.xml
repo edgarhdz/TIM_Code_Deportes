@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Allows to create custom plain forms for editing resources."
+    jcr:primaryType="cq:Template"
+    jcr:title="Form Template"
+    allowedPaths="[/content(/.*)?]">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="social/comments/components/formpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <form_start
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Form"
+                sling:resourceType="foundation/components/form/start"
+                actionType="foundation/components/form/actions/edit"
+                formid="formpage_form_DO_NOT_CHANGE"/>
+            <form_end
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Save"
+                sling:resourceType="foundation/components/form/end"
+                submit="false"/>
+        </par>
+    </jcr:content>
+</jcr:root>

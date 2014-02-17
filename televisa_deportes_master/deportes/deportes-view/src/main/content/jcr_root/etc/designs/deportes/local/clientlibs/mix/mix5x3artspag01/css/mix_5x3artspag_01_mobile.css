@@ -1,0 +1,57 @@
+.mix_5x3artspag_01{
+	
+	max-width: 650px;
+}
+
+.mix_5x3artspag_01 .separador{
+	
+	display: none !important;
+}
+
+
+
+/*Paginacion*/
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion{
+	
+	border-top: 2px dotted #CCC;
+	padding-top:5px;
+	float:left;
+	width:100%;
+	
+	margin-bottom:0px;
+}
+	
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion ul{
+  margin: 0;
+  padding-bottom: 0.5em;
+  min-width: 3.438em;
+  float: right;
+  max-width:250px
+}
+
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion ul li{
+	float: right;
+	height: auto;
+	margin: 0.625em 0 0 0;
+	width: 25px;
+	padding: 0px 10px;
+	border:none;
+	font-style:italic;
+}
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion ul li .sprite{
+	width: 0.95em;
+}
+
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion ul li.pags{
+	border-left: 2px dotted #CCC;
+	border-right: 2px dotted #CCC;
+	width: auto;
+}
+
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion ul li.pags .selected{
+	color:#39C;
+}
+
+.mix_5x3artspag_01 .mix_3arts_02 div:last-child .mix_1arts_09 {
+        border-right: none !important;
+}

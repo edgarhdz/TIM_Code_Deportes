@@ -1,0 +1,56 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_home_main_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_home_main_01 .main .c1,
+	.td_home_main_01 .main .c2,
+	.td_home_main_01 .main .c3,
+	.td_home_main_01 .main .c3_,
+	.td_home_main_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	/*Fijo Tamaño*/
+	.td_home_main_01 .main .c3_1,
+	.td_home_main_01 .main .c3_2,
+	.td_home_main_01 .main .c5_1,
+	.td_home_main_01 .main .c5_2,
+	.td_home_main_01 .main .c5_3,
+	.td_home_main_01 .main .c5_4,
+	.td_home_main_01 .main .c6_3,
+	.td_home_main_01 .main .c6_4,
+	.td_home_main_01 .main .c7_1,
+	.td_home_main_01 .main .c7_2,
+	.td_home_main_01 .main .c7_5{
+		width: 300px;
+	}
+	
+	.td_home_main_01 .main .c3,
+	.td_home_main_01 .main .c5 {
+		float: none;
+	}
+	.td_home_main_01 .main .c3_1
+	{
+		width:300px;
+	}
+	.td_home_main_01 .separator_component{
+	    border-right: 1px solid #CCCCCC;
+	    height: 291px;
+	    margin-left: 12px;
+		margin-top:0px;
+	}
+	.td_home_main_01 .main .c5_5{
+		display:none;
+	}
+}
+	@media only screen and (device-width: 768px) {
+	.td_home_main_01 .btn_carru_prog_02 .typecarruse .carrusel{
+		margin-top: 12px!important;
+	}
+
+}

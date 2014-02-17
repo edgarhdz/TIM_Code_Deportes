@@ -1,0 +1,89 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    .wdg_twitt_02{
+        width:300px;
+        margin-bottom: 36px;
+        display:block;
+    }
+    .wdg_twitt_02 .wdg_carousa .wdg_twitt_02_title{
+        width: 300px;
+    }
+    .wdg_twitt_02 .wdg_carousa {
+        overflow: hidden;
+    }
+    div.wdg_twitt_02_title {
+        margin-bottom: 17px;
+    }
+    div.wdg_twitt_02_title:before,
+    div.wdg_twitt_02_title:after {
+        content: "";
+        display: table;
+    }
+    div.wdg_twitt_02_title:after {
+        clear: both;
+    }
+    div.wdg_twitt_02_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    div.wdg_twitt_02_title strong {
+        width: 55%;
+        max-width: 300px;
+        float: left;
+    }
+    div.wdg_twitt_02_title strong a {
+        background-image: none;
+        background-position: right 2px;
+        *background-position: right 2px;
+    }
+    div.wdg_twitt_02_title strong a span.icon {
+        display: none;
+    }
+    /* END: Global (Medium) */
+    /* START: carouseltype1a (Medium) */
+    .wdg_twitt_02 .wdg_carousa {
+        padding-left: 0;
+    }
+    .wdg_twitt_02 .wdg_carousa div.wdg_twitt_02_title ul li a {
+        display: block;
+    }
+    .wdg_twitt_02 .wdg_carousa ul {
+        margin: 24px 0 auto;
+    }
+    .wdg_twitt_02 .wdg_carousa.showArrows div:first-child h1 {
+        width: 300px;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul {
+        margin-top: 0;
+    }
+    .wdg_twitt_02 .wdg_twitt_02_title h3 {
+        float: left;
+        height: 32px;
+        max-width: 300px;
+        min-width: 165px;
+    }
+    .wdg_twitt_02 .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: -5px;
+        padding-top: 7px;
+        margin-bottom: 0;
+    }
+    .wdg_twitt_02 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #CCC;
+        margin-right: 5px;
+    }
+    .wdg_twitt_02 .bullets div:last-child{
+        margin-right: 0;
+    }
+    .wdg_twitt_02 .wt2_arrows{
+        display:none;
+    }
+    /* END: carouseltype1a (Medium) */
+
+}

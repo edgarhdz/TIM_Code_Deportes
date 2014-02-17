@@ -1,0 +1,4 @@
+#base=css
+
+nav_paginator_01_mobile.css
+nav_paginator_01_tablet.css

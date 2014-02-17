@@ -1,0 +1,53 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_video_detalle_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+    .td_video_detalle_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}	
+	/* Flotan a la izq */
+	.td_video_detalle_01 .main .c2,
+	.td_video_detalle_01 .main .c4,
+	.td_video_detalle_01 .main .c6{ 
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_video_detalle_01 .main .c3,
+	.td_video_detalle_01 .main .c5,
+	.td_video_detalle_01 .main .c7{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_video_detalle_01 .main .c3_1,
+	.td_video_detalle_01 .main .c3_2,
+	.td_video_detalle_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	/*Ajuste especial*/
+	.td_video_detalle_01 .vid_player_02 .txt1,
+	.td_video_detalle_01 .vid_player_02 .txt2,
+	.td_video_detalle_01 .vid_player_02 .txt3,
+	.td_video_detalle_01 .vid_player_02 .content_text{
+		height:auto;
+		width:239px;
+	}
+	.td_video_detalle_01 .vid_player_02 .wdg_social_01 .social-icons li.social_icon:first-child{
+		width:0px;
+	}
+	.td_video_detalle_01 .vid_player_02 div.vid_player_02_image{
+		height:392px;
+	}
+	.td_video_detalle_01 .vid_player_02 div.vid_player_02_image img{
+		height:350px;
+	}
+}

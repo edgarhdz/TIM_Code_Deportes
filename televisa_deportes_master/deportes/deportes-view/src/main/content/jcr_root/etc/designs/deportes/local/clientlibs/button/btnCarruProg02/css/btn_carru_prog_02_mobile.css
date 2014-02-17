@@ -1,0 +1,383 @@
+@media screen { /*START: carouseltypecarruse (Small)*/
+    .btn_carru_prog_02 {
+        margin-bottom: 10px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .btn_carru_prog_02 .title {
+        margin:12px 0 12px 0;
+    }
+    .btn_carru_prog_02 .text_prin {
+        position: absolute;
+        z-index: 8;
+        padding-left: 24px;
+        width:150px;
+        display:block;
+        bottom:20px;
+    }
+    
+    .btn_carru_prog_02 .text_prin hr {
+       margin:10px 0 8px 0;
+       padding:0;
+       height:1px;
+       border:0;
+       background:#FFF;
+       width:20px;
+       opacity:.25;
+    }
+    
+    .btn_carru_prog_02 .text_prin span.title {
+       font-style:italic;
+       font-size:18px;
+       line-height:24px;
+    }
+    
+    .btn_carru_prog_02 .main .pleca {
+        position: absolute;
+        z-index: 30;
+        width: 100%;
+    }
+    .btn_carru_prog_02 .typecarruse {
+        overflow: hidden;
+		height:145px;
+        width: 100%;
+    }
+    .btn_carru_prog_02 .typecarruse div {
+        width: 100%;
+        height: auto;
+    }
+    .btn_carru_prog_02 .typecarruse div ul {
+    }
+    .btn_carru_prog_02 .typecarruse .title .flechas {
+        display: none;
+    }
+    
+    .btn_carru_prog_02 .typecarruse .title .flechas {
+       text-align:right;
+       margin:0;
+       padding:0;
+    }
+    .btn_carru_prog_02 .typecarruse .title .flechas li {
+        display:inline;
+    }
+    .btn_carru_prog_02 .typecarruse .title .flechas li a {
+        display:inline;
+        line-height:24px;
+        padding:0 10px;
+    }
+    
+    .btn_carru_prog_02 .typecarruse .title .flechas li a.left,
+    .btn_carru_prog_02 .typecarruse .title .flechas li a.right {
+        float:none;
+    }
+    
+    .btn_carru_prog_02 .typecarruse.showArrows .title ul li a
+    
+    .btn_carru_prog_02 .typecarruse div ul li {
+    }
+    .btn_carru_prog_02 .typecarruse div ul li a {
+       vertical-align:top;
+    }
+    .btn_carru_prog_02 .typecarruse div ul li:first-child {
+    }
+    .btn_carru_prog_02 .typecarruse div ul li:last-child {
+        background:url(../img/dotted-vertical.png) repeat-y 0 0;
+    }
+    .btn_carru_prog_02 .typecarruse.showArrows .title h1 {
+        width: 50%;
+    }
+    .btn_carru_prog_02 .typecarruse.showArrows .title h1 a span.icon {
+        display: none;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul {
+        float: none;
+        overflow:hidden;
+        height:120px!important;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul:before,.btn_carru_prog_02 .typecarruse .carrusel ul:after
+        {
+        content: "";
+        display: table;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul:after {
+        clear: both;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li {
+        display:inline-block;
+        float:left;
+        width: 311px;
+        height: 120px;
+        border-right: 1px solid #CCC;
+        margin-right:11px;
+        position:relative;
+    }
+	.btn_carru_prog_02 .typecarruse .carrusel ul li:last-child {
+        border-right: none;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li span.title {
+       margin:0;
+       padding:0;
+       display:block;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li span.desc {
+       display:block;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li h2 {
+        font-size: 0.8em;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li h2 a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li span.desc {
+        font-style: italic;
+        color: #FFF;
+        font-size: 0.70em;
+        font-weight: bold;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li a {
+        width: 300px;
+        height: 120px;
+        background: none;
+        display: block;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel ul li a img.img {
+        width: 300px;
+        height: 120px;
+        background-color: #666;
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:1;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel.iOS {
+        overflow: scroll;
+        height: 200px;
+    }
+    .btn_carru_prog_02 .typecarruse .carrusel.iOS ul {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    /*END: carouseltypecarruse (Small)*/
+    .btn_carru_prog_02 div.title h3 {
+        background-color: #A70A0B;
+    }
+    .btn_carru_prog_02 .typecarruse .title h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 1.5em;
+        display: block;
+        padding: 0.313em 0 0.313em 1.375em;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+    }
+    .btn_carru_prog_02 .bullets {
+        display: block;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .btn_carru_prog_02 .bullets ul {
+        width: 180px;
+        float: right;
+        margin-top: 5px;
+    }
+    .btn_carru_prog_02 .bullets ul li {
+        width: 15px;
+        height: 15px;
+        background-color: #CCC;
+        margin-left: 5px;
+        float: right;
+    }
+    .btn_carru_prog_02 .bullets ul li.selected {
+        background-color: #09C;
+    }
+    /*Style Contenido del div carrousel */
+    .btn_carru_prog_02 div:last-child ul li {
+       position:relative;
+    }
+    
+    .btn_carru_prog_02 div:last-child ul li span.bg {
+        background-color: #A41D21;
+        opacity: 0.8;
+        filter: alpha(opacity = 80);
+        width: 200px;
+        height:120px;
+        display:block;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:2;
+    }
+
+    .btn_carru_prog_02 div:last-child ul li a {
+        color: white;
+        display: block;
+        height: 99.9%;
+        position: relative;
+        text-decoration: none;
+        width: 100%;
+    }
+    .btn_carru_prog_02 div:last-child ul li {
+        position: relative;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .btn_carru_prog_02 div:first-child:before,.carouseltype2 div:first-child:after
+        {
+        content: "";
+        display: table;
+    }
+    .btn_carru_prog_02 div:first-child:after {
+        clear: both;
+    }
+    .btn_carru_prog_02 div:first-child:before,.carouseltype2 div:first-child:after
+        {
+        content: "";
+        display: table;
+    }
+    .btn_carru_prog_02 div:last-child ul li a div:first-child {
+        height: 120px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 66%;
+        z-index: 10;
+    }
+    .btn_carru_prog_02 div:first-child {
+        
+    }
+    .btn_carru_prog_02 div:last-child ul li a div:first-child span.title {
+        font-size: 1.2em;
+        font-style: italic;
+        font-weight: normal;
+        line-height: 1em;
+        padding: 0 1.5em 0 0;
+        top: 1.2em;
+    }
+    .btn_carru_prog_02 #b_tablet {
+        display: none;
+    }
+    .btn_carru_prog_02 #b_mobile {
+        display: block;
+    }
+	
+	/*Dropdown*/
+	.btn_carru_prog_02 .wdg_scroll_dropdown{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown{
+        height: 32px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_tennisresult_01_pleca p{
+        margin-left: 24px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_list {
+        cursor: pointer;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_value{
+        /*position: relative;*/
+        float: left;
+        margin-left: 24px;
+        width: 78%;
+        z-index: 1;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_tennisresult_01_click{
+        /*position: relative;*/
+		width: 44px;
+		height: 40px;
+		float: right;
+		z-index: 200;
+		top: 1px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_tennisresult_01_click span{
+        margin-left: 14px;
+        color: #ffffff;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events{
+        width: 100%;
+		margin-top:33px;
+        position:absolute;
+        clear: both;
+        height: 0px;
+        background-color: #d3d3d3;
+        visibility: hidden;
+        overflow: hidden;
+		z-index:100;
+    }
+	.ie7 .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events{
+		margin-top:0px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events ul li{
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events ul li:hover{
+        background-color: rgba(235,235,235,0.9);  
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events ul li p{
+        padding-left: 24px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown > div{
+        float: left;
+        width: 100%;
+        height: 40px;
+        line-height: 35px;
+    }
+	.btn_carru_prog_02 .title{
+		 border:none;
+	 }
+}
+
+@media screen and (max-width:623px) {
+    .btn_carru_prog_02 .typecarruse div ul li a {
+        width: 0.95em;
+        height: 0.563em;
+        display: none;
+        padding: 0;
+    }
+    
+    .btn_carru_prog_02 .typecarruse div ul {
+        width: 3.438em;
+        margin: 0;
+        float: right;
+        padding-bottom: 0.5em;
+    }
+    .btn_carru_prog_02 .typecarruse.showArrows .title ul li a {
+        display: block;
+    }
+}

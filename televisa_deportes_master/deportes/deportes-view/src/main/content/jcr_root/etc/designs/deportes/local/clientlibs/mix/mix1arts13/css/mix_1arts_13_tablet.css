@@ -1,0 +1,84 @@
+@media screen and (min-width: 624px){
+    /* BEGIN:mix_1arts_13 (Medium)*/
+    .mix_1arts_13 {
+        width: 192px;
+        margin-bottom: 24px;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb {
+        display: block;
+        width: 100%;
+        text-align: left;
+        overflow: hidden;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li {
+        overflow: hidden;
+        border: 0;
+        padding: 0 0.8em 0.3em;
+        /* margin: 16px 0; */
+        float: left;
+        /* width: 29.45%; */
+        border-left: 1px solid #ccc;
+        background: transparent;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li img {
+        display: block;
+        margin-bottom: 14px;
+		width:100%;
+		height: auto;		
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a {
+        padding: 0;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a h4,
+    .mix_1arts_13 .mix_1arts_13_thumb li a p {
+        width: 100%;
+        float: none;
+        font-size: 16px;
+		line-height: 1.2em;
+		padding-left:0px;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a h2 {
+        display: block;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 1.8em; 
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li .background-color-pleca1 {
+        display: none;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li {
+        padding-left: 0;
+        border: 0;
+        margin-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .mix_1arts_13_sprite  {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display:inline;
+
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a h2 {
+        /*display: none;*/
+        padding-left:0px;
+        padding-top:0px;
+    }
+	.mix_1arts_13 .mix_1arts_13_thumb li a h6{
+		font-size:13px;
+		margin-bottom: 5px;
+		padding-top:0;
+		padding-left:0;
+    }
+ 
+    .mix_1arts_13 .image {		
+		min-width: 115px;		
+		width: 100%;
+		height:auto;		
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a {      			
+		overflow: initial;     
+    }
+    /* END:mix_1arts_13 (Medium)*/
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 624px) {
+    .art_title_01 {
+        margin-left: 0px;
+        margin-right: 0%;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .art_title_01 h1 {
+        font-size: 28px;
+        line-height: 31px;
+    }
+    div.art_title_01_title {
+        background: url(../img/dotted-horizontal.png) repeat-x bottom;
+    }
+    div.art_title_01_title:before,  div.art_title_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.art_title_01_title:after {
+        clear: both;
+    }
+    div.art_title_01_title {
+        zoom: 1;
+    }
+    div.art_title_01_title h1 {
+        margin-bottom: 17px;
+        margin-top: -7px;
+    }
+    div.art_title_01 div h1 a span {
+        margin-top: 10px;
+        font-size: 26px;
+    }
+    div.art_title_01_title p {
+        margin-bottom: 15px;
+    }
+    /*estilo para internet explorer*/
+    .ie7 div.art_title_01_title p {
+        margin-bottom: 0px;
+    }
+}

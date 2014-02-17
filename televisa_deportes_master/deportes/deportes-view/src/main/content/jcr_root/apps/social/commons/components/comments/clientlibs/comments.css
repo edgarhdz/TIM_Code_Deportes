@@ -1,0 +1,200 @@
+.comments-count {
+    font-size:16px;
+    margin:20px 0;
+    color:#666;
+    font-weight:bold;
+}
+
+.comments-count.replies {
+    font-size:1em;
+}
+
+.comment {
+    margin-top:10px;
+}
+
+.comment-header {
+    border-bottom:solid 1px #dddddd;
+    height:24px;
+    line-height:24px;
+    vertical-align:bottom;
+    clear:both;
+}
+
+.comment-header a {
+    color:#006699;
+    text-decoration:none;
+}
+
+.comment-header a:hover {
+    text-decoration:underline;
+}
+
+.comment-header cite {
+    font-style:normal;
+    font-weight:bold;
+    font-size:1em;
+}
+
+.comment-header-avatar {
+    float:left;
+}
+
+.comment-header-avatar img {
+    width:24px;
+    height:24px;
+    margin:0;
+}
+
+.comment-header-meta {
+    margin-top:6px;
+    font-size:11px;
+    line-height:normal;
+    float:left;
+}
+
+.comment-header-time {
+}
+
+.comment-header cite {
+    float:left;
+    margin:0 10px 0 10px;
+}
+
+.comment-header cite a {
+    font-weight:bold;
+}
+
+.comment-body {
+    color:#666666;
+    clear:left;
+    margin-top:5px;
+}
+
+.comment-replies {
+    margin-top:5px;
+    color:#666666;
+}
+
+.comment-replies.tree {
+    padding-left:35px;
+    overflow-x: auto;
+}
+
+form.comment {
+    margin: 0;
+    padding: 0;
+}
+
+.comment-error {
+    font-weight:bold;
+}
+
+.comment-info{
+    width: 190px;
+    margin-bottom:10px;
+}
+
+.comment-block {
+    margin-bottom:10px;
+}
+
+.comment-block-author {
+    display: none;
+}
+
+.comment-block-publish {
+    display: none;
+}
+
+.comment-block input[type="submit"] {
+    margin-top:10px;
+}
+
+.comment-text-label {
+    color: #666;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+div.comment-signed-in-text{
+    color: #666;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+    display:none;
+}
+
+span.comment-signed-in-user{
+    color: #666;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-left: 5px
+}
+
+.comment-text {
+    background:url("/etc/designs/default/images/collab/fieldbg.gif") repeat-x scroll center top #FFFFFF;
+    border-color:#7C7C7C #C3C3C3 #DDDDDD;
+    border-style:solid;
+    border-width:1px;
+    color:#333333;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+    font-size:100%;
+    margin:0;
+    padding:2px;
+}
+
+input.comment-text{
+    margin: 0 10px 7px 0;
+    font-size: 95%;
+    display: block;
+    width:334px;
+}
+
+textarea.comment-text {
+    margin:0;
+    margin-bottom:10px;
+    width: 698px;
+    height: 100px;
+}
+
+.comment-text-label {
+}
+
+.comment-spam,
+.comment-denied,
+.comment-moderate {
+    font-weight:bold;
+    padding:2px;
+    padding-left:5px;
+    color:#fff
+}
+
+.comment-spam {
+    background-color:#ab5c58;
+}
+
+.comment-denied {
+    background-color:#d8c267;
+}
+
+.comment-moderate {
+    background-color:#6aa3ec;
+}
+
+.comment-attachment {
+    display:inline-block;
+    padding-left: 5px;
+    display: block;
+}
+
+.comment-attachment img{
+     height: 30px;
+     width: 25px;
+     padding-left: 10px;
+     padding-right: 5px;
+     float: left;
+     display: block;
+}

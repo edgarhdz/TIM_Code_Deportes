@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="600"
+    width="950"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="commons.link.description"
+                        fieldLabel="commons.link.title"
+                        name="./textMain"
+                        xtype="textfield"/>
+                    <linkType
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.linktype-description"
+                        fieldLabel="commons.link.linktype-label"
+                        name="./linkTypeMain"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.internallink-label"
+                                value="internal"/>
+                            <external
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.externallink-label"
+                                value="external"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function() { &#xa;&#x9;if(this.getValue() =='undefined'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#xa;&#x9;}else if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function() { &#x9;&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#xa;&#x9;if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#x9;&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#xa;&#x9;}&#xa;}"/>
+                    </linkType>
+                    <pathlink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.path.description"
+                        fieldLabel="commons.link.path.label"
+                        hidden="{Boolean}true"
+                        name="./pathMain"
+                        rootPath="/content"
+                        xtype="pathfield"/>
+                    <externallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.externallink-description"
+                        fieldLabel="commons.link.externallink-label"
+                        hidden="{Boolean}true"
+                        name="./externalLinkMain"
+                        xtype="textfield"/>
+                    <target
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.target-description"
+                        fieldLabel="commons.link.target-label"
+                        name="./targetMain"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-blank-text"
+                                value="_blank"/>
+                            <self
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-self-text"
+                                value="_self"/>
+                        </options>
+                    </target>
+                    <textTitle
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.title-description"
+                        fieldLabel="commons.link.title-label"
+                        name="./titleMain"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/linklist/dialog/items/items/linkstab.infinity.json"
+                xtype="cqinclude"/>
+        </items>
+    </items>
+</jcr:root>

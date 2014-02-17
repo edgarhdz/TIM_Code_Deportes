@@ -1,0 +1,30 @@
+@media screen and (min-width: 60em){
+    .wdg_mostread_01 .wdg_mostread_01_container{
+        width: 260px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wdg_mostread_01 .wdg_mostread_01_container{
+        width: 260px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .wdg_mostread_01 .wdg_mostread_01_container li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .wdg_mostread_01 .wdg_mostread_01_container .wdg_mostread_01_text{
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .wdg_mostread_01 div.str_pleca_01{
+        margin-bottom: 10px !important;
+    }
+    .wdg_mostread_01 li.wdg_mostread_01_hide{
+        display: block;
+    }
+    
+}

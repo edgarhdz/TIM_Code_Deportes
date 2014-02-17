@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Deportes Sub Home template"
+    jcr:primaryType="cq:Template"
+    jcr:title="td.subhome.title"
+    allowedPaths="/content(/.*)?"
+    allowedChildren="[/apps/deportes/local/templates/article/genericNote,/apps/deportes/local/templates/articleIndex,/apps/deportes/local/templates/video/cameraSelection,/apps/deportes/local/templates/video/multiSignal]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:designPath="/etc/designs/deportes/local"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/deportes/local/components/page/subHome"/>
+</jcr:root>

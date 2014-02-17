@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="800"
+    title="commons.imagegallery.title"
+    width="1000">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <gallery
+                jcr:primaryType="cq:Panel"
+                title="Gallery">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <galleryitems
+                        jcr:primaryType="cq:Widget"
+                        cls="galleryitems-container"
+                        hideLabel="true"
+                        id="galleryitems"
+                        name="./galleryitems"
+                        xtype="gallerymultifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="galleryitem"/>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            beforeloadcontent="function(field, record, path){ImageGallery.Gallery.Multifield.beforeloadcontent(field, record, path);}"/>
+                    </galleryitems>
+                </items>
+            </gallery>
+            <textcontent
+                jcr:primaryType="cq:Panel"
+                title="commons.imagegallery.descriptiontopic.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <short
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.photogalleryfull01.short.description"
+                        fieldLabel="commons.photogalleryfull01.short.label"
+                        id="shortDescription"
+                        name="./shortDescription"
+                        xtype="textarea"/>
+                    <topic
+                        jcr:primaryType="cq:Widget"
+                        cls="cq-propsdialog-tags"
+                        fieldDescription="commons.article.topic.description"
+                        fieldLabel="commons.imagegallery.topic.label"
+                        fieldSubLabel="Tags/Keywords"
+                        id="topic"
+                        name="./topic"
+                        xtype="tags"/>
+                </items>
+            </textcontent>
+            <devices
+                jcr:primaryType="cq:Panel"
+                title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="deportes.devices.hidedevices.description"
+                        fieldLabel="deportes.devices.hidedevices.label"
+                        id="hideDevice"
+                        name="./hideDevice"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.do-nothing"
+                                value=""/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-tablet-mobile"
+                                value="hide-tablet"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-mobile"
+                                value="hide-mobile"/>
+                        </options>
+                    </hideDevices>
+                    <resType1
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image1/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                    <resType2
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image2/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </devices>
+        </items>
+    </items>
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        beforesubmit="function(t){return ImageGallery.Gallery.beforesubmit(t);}"
+        loadcontent="function(t,recs, opts,success){ImageGallery.Gallery.loadcontent(t);}"/>
+</jcr:root>

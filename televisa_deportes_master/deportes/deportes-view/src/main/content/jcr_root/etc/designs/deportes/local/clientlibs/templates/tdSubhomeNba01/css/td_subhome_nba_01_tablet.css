@@ -1,0 +1,54 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_subhome_nba_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_subhome_nba_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}
+	.td_subhome_nba_01 .c7  .mix_1arts_09{
+		width:191px !important;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_subhome_nba_01 .main .c1,
+	.td_subhome_nba_01 .main .c2,
+	.td_subhome_nba_01 .main .c3,
+	.td_subhome_nba_01 .main .c4,
+	.td_subhome_nba_01 .main .c7,
+	.td_subhome_nba_01 .main .c8,
+	.td_subhome_nba_01 .main .c9{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	/*Tamaño Fijo Contenedores Secundarios*/
+	.td_subhome_nba_01 .main .c3_1,
+	.td_subhome_nba_01 .main .c3_2,
+	.td_subhome_nba_01 .main .c5_1,
+	.td_subhome_nba_01 .main .c5_2{
+		width: 300px;
+	}
+	.td_subhome_nba_01 .main .c3_2{
+		display: block;
+	}
+	.td_subhome_nba_01 .main .c2_2{
+		overflow:hidden;
+	}
+	.td_subhome_nba_01 .main .c2_3{
+		overflow:hidden;
+	}
+	.td_subhome_nba_01 .main .c2_4{
+		clear:both;
+	}
+	.td_subhome_nba_01 .header1 .banner_mobile{
+		display:none;
+	}
+	
+	.td_subhome_nba_01 .main .c3_1_especial{
+		display:none;
+	}
+	
+}

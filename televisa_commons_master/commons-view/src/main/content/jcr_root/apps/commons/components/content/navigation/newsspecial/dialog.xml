@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <linkstab
+                    jcr:primaryType="cq:Panel"
+                    title="commons.navheader01.linksnewspecial.title"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <links
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="commons.link.title-description"
+                            fieldLabel="commons.link.title-label"
+                            name="genericmultifield"
+                            title="commons.link.title"
+                            xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <textLink
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    fieldDescription="commons.link.description"
+                                    fieldLabel="commons.link.title"
+                                    name="./text"
+                                    xtype="textfield"/>
+                            <linkType
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="commons.link.linktype-description"
+                                    boxMaxWidth="{Decimal}390"
+                                    fieldLabel="commons.link.linktype-label"
+                                    name="./linkType"
+                                    type="select"
+                                    xtype="selection">
+                                <options jcr:primaryType="cq:WidgetCollection">
+                                    <internal
+                                            jcr:primaryType="nt:unstructured"
+                                            text="commons.link.internallink-label"
+                                            value="internal"/>
+                                    <external
+                                            jcr:primaryType="nt:unstructured"
+                                            text="commons.link.externallink-label"
+                                            value="external"/>
+                                </options>
+                                <listeners
+                                        jcr:primaryType="nt:unstructured"
+                                        loadcontent="function() { &#xa;&#x9;if(this.getValue() =='undefined'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#xa;&#x9;}else if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#x9;&#xa;&#x9;}&#xa;}"
+                                        selectionchanged="function() { &#x9;&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#xa;&#x9;if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#x9;&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#xa;&#x9;}&#xa;}"/>
+                            </linkType>
+                            <pathlink
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="commons.link.path.description"
+                                    fieldLabel="commons.link.path.label"
+                                    hidden="{Boolean}true"
+                                    name="./path"
+                                    rootPath="/content"
+                                    rootTitle="Televisa"
+                                    xtype="pathfield"/>
+                            <externallink
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="commons.link.externallink-description"
+                                    fieldLabel="commons.link.externallink-label"
+                                    hidden="{Boolean}true"
+                                    name="./externalLink"
+                                    xtype="textfield"/>
+                            <target
+                                    jcr:primaryType="cq:Widget"
+                                    boxMaxWidth="{Decimal}390"
+                                    defaultValue="_blank"
+                                    fieldDescription="commons.link.target-description"
+                                    fieldLabel="commons.link.target-label"
+                                    name="./target"
+                                    type="select"
+                                    xtype="selection">
+                                <options jcr:primaryType="cq:WidgetCollection">
+                                    <blank
+                                            jcr:primaryType="nt:unstructured"
+                                            text="commons.link.target-option-blank-text"
+                                            value="_blank"/>
+                                    <self
+                                            jcr:primaryType="nt:unstructured"
+                                            text="commons.link.target-option-self-text"
+                                            value="_self"/>
+                                </options>
+                            </target>
+                            <textTitle
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="commons.link.title-description"
+                                    fieldLabel="commons.link.title-label"
+                                    name="./title"
+                                    xtype="textfield"/>
+                        </fieldConfig>
+                    </links>
+                </items>
+            </linkstab>
+        </items>
+    </items>
+</jcr:root>

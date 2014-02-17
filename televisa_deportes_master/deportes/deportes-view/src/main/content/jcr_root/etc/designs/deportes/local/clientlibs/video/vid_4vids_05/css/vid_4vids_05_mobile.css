@@ -1,0 +1,106 @@
+@media screen and (max-width: 623px) {
+	div.vid_4vids_05 .carruselcontainer span.overlay {display:none;}
+	div.vid_4vids_05 {
+		position: relative;
+		margin-bottom: 30px;
+	}
+    div.vid_4vids_05 div.image-container {border:2px solid red;}
+    div.vid_4vids_05 div.arrowLeft,
+    div.vid_4vids_05 div.arrowRight,
+    div.vid_4vids_05 div.carrusel1,
+    div.vid_4vids_05 div.image-container {display:none;}
+    
+    div.vid_4vids_05 div.carruselcontainer {
+        padding:0 0 0 0;
+		height: 210px;
+		overflow: hidden;
+		width:105%;
+		overflow-y:scroll;
+    }
+    
+    div.vid_4vids_05 ul.ulcarrusel {
+        border:0;
+		overflow: hidden;
+		height: auto;
+    }
+    
+    div.vid_4vids_05 a.album img {
+        width: 77px;
+        height: 63px;
+    }
+	
+	div.vid_4vids_05 a.album .overlay,
+	div.vid_4vids_05 a.album .description .topic{
+		/* display:none; */
+	}
+    
+    div.vid_4vids_05 a.album img {float:left;}
+    div.vid_4vids_05 a.album span.title {
+        height:42px;
+        border-left:1px solid #d1d1d1;
+        display:block;
+        margin:0 0 0 89px;
+        padding:12px;
+        max-width:80%;
+        vertical-align:middle;
+        font-size:14px;
+    }
+    
+    div.vid_4vids_05 a.album {
+        margin-bottom:9px;
+        position:relative;
+        display:block;
+        float:left;
+    }
+	
+	div.vid_4vids_05 div.carruselcontainer ul li:last-child .album{
+		margin-bottom: 0;
+	}
+	
+    
+    div.vid_4vids_05 div.carruselcontainer ul li {
+        clear:left;
+		overflow: hidden;
+    } 
+    
+    div.vid_4vids_05 a.album span.icon {
+        color:#FFF;
+        line-height:30px;
+        display:block;
+        background:rgba(167, 10, 11, 0.6);
+        width:30px;
+        height:30px;
+        position:absolute;
+        top:33px;
+    }
+    
+    div.vid_4vids_05 a.album span.icon i {
+        padding-left:4px;
+    }
+    div.vid_4vids_05 .dotted-bottom {background:transparent none!important;
+	}
+	div.vid_4vids_05 .back_overlay{
+		background:rgba(167,10,11,.6);
+		background-color:transparent;
+	}
+	
+	.vid_4vids_05 .degradado{
+		border-top:none;
+		display:block;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:12px;
+		background-image:url(../global/img/degradado_horizontal.png);
+		background-repeat:repeat-x;
+		background-position:10px;
+        bottom: 0px;
+	}
+	
+	.vid_4vids_05 .gallery-controls{
+		overflow: hidden;
+	}
+}
+
+/* All devices */
+div.vid_4vids_05 span.data {display:none;}

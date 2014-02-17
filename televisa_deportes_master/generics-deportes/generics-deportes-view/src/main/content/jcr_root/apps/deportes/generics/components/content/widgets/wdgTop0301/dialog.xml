@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        jcr:primaryType="cq:Dialog"
+          manageTabs="function(tab,noSwitch){&#xa;    var tabs=['settings','manual', 'automatic','devices'];&#xa;&#x9;var index=tabs.indexOf(tab);&#xa;    if(tab=='manual') {&#xa;&#x9;    this.unhideTabStripItem(1);&#xa;&#x9;    this.hideTabStripItem(2);&#xa;&#xa;&#x9;}else if(tab=='automatic'){&#xa;&#x9;    this.unhideTabStripItem(2);&#xa;&#x9;    this.hideTabStripItem(1);&#xa;    }&#xa;  &#x9;this.doLayout();&#xa;  &#x9;if(!noSwitch)this.activate(index); &#xa;}"
+          height="500"
+          title="genericsdeportes.wdgTop0301.title"
+          width="900"
+          xtype="tabpanel">
+
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                    jcr:primaryType="cq:Widget"
+                    title="genericsdeportes.label.setting.modes"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <modelist
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="genericsdeportes.label.modes"
+                            name="./mode"
+                            type="radio"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <manual
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.label.manual"
+                                    value="manual"/>
+                            <automatic
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.label.automatic"
+                                    value="automatic"/>
+                        </options>
+                        <listeners
+                                jcr:primaryType="nt:unstructured"
+                                selectionchanged="function(selection, value, checked) {&#xa;&#x9;if(selection.getValue() == &quot;manual&quot;){&#xa;&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}else if(selection.getValue() == &quot;automatic&quot;){&#xa;&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}&#xa;}&#xa;"/>
+                    </modelist>
+                </items>
+            </settings>
+            <manual
+                    jcr:primaryType="cq:Panel"
+                    title="genericsdeportes.label.manual">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listItems
+                            jcr:primaryType="cq:Widget"
+                            genericmultifieldname="./listItems"
+                            name="./listItems"
+                            xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <patharticle
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="genericsdeportes.wdgTop0301.patharticle.description"
+                                    fieldLabel="genericsdeportes.wdgTop0301.patharticle.title"
+                                    name="./path"
+                                    rootPath="/content/televisa"
+                                    xtype="searchpathfield"/>
+                        </fieldConfig>
+                    </listItems>
+                </items>
+            </manual>
+            <automatic
+                    jcr:primaryType="cq:Panel"
+                    title="genericsdeportes.label.automatic">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <parentPath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.wdgTop0301.patharticle.description"
+                            fieldLabel="genericsdeportes.wdgTop0301.patharticle.label"
+                            name="./parentPath"
+                            rootPath="/content/televisa"
+                            xtype="searchpathfield"/>
+                    <topic
+                            jcr:primaryType="cq:Widget"
+                            cls="cq-propsdialog-tags"
+                            fieldDescription="commons.article.topic.description"
+                            fieldLabel="commons.article.topic.label"
+                            fieldSubLabel="Tags/Keywords"
+                            name="./topic"
+                            xtype="tags"/>
+                    <limit
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.wdgTop0301.totalnotes.description"
+                            fieldLabel="genericsdeportes.wdgTop0301.totalnotes"
+                            defaultValue="3"
+                            name="./limit"
+                            xtype="textfield"/>
+                </items>
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function() { this.findParentByType('tabpanel').hideTabStripItem(2); }"/>
+            </automatic>
+
+            <titlesettings
+                    jcr:primaryType="cq:Panel"
+                    title="genericsdeportes.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.link.description"
+                            fieldLabel="genericsdeportes.link.title"
+                            name="./linkText"
+                            xtype="textfield"/>
+                    <numberDisplay
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.wdgTop0301.displaynotes.description"
+                            fieldLabel="genericsdeportes.wdgTop0301.displaynotes"
+                            defaultValue="3"
+                            name="./numberDisplay"
+                            xtype="textfield"/>
+                    <linktype
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="genericsdeportes.link.linktype-label"
+                            name="./linkType"
+                            type="radio"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.link.internallink-label"
+                                    value="internal"/>
+                            <external
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.link.externallink-label"
+                                    value="external"/>
+                        </options>
+                        <listeners
+                                jcr:primaryType="nt:unstructured"
+                                loadcontent="function(field, record, path) {  linkLoadContent(field, record, path);}"
+                                selectionchanged="function(selection,value, checked){ linkSelectionChanged(selection,value, checked); }"/>
+                    </linktype>
+                    <internallink
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.link.internallink-description"
+                            fieldLabel="genericsdeportes.link.internallink-label"
+                            name="./internalLink"
+                            rootPath="/content/televisa"
+                            rootTitle="Televisa"
+                            xtype="pathfield"/>
+                    <externallink
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.link.externallink-description"
+                            fieldLabel="genericsdeportes.link.externallink-label"
+                            name="./externalLink"
+                            xtype="textfield"/>
+                    <title
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.link.title-description"
+                            fieldLabel="genericsdeportes.title"
+                            name="./linkTitle"
+                            xtype="textfield"/>
+                    <target
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="_self"
+                            fieldDescription="genericsdeportes.wdgTop0301.titlesettings.target.description"
+                            fieldLabel="genericsdeportes.link.target-label"
+                            name="./linkTarget"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.link.target-option-blank-text"
+                                    value="_blank"/>
+                            <self
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.link.target-option-self-text"
+                                    value="_self"/>
+                        </options>
+                    </target>
+                </items>
+            </titlesettings>
+            <devices
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.devices.hidedevices.description"
+                            fieldLabel="deportes.devices.hidedevices.label"
+                            defaultValue=""
+                            name="./hideDevice"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.do-nothing"
+                                    value=""/>
+                            <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-tablet-mobile"
+                                    value="hide-tablet"/>
+                            <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-mobile"
+                                    value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+</jcr:root>

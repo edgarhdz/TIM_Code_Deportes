@@ -1,0 +1,2 @@
+#base=js
+mix_6arts_04.js

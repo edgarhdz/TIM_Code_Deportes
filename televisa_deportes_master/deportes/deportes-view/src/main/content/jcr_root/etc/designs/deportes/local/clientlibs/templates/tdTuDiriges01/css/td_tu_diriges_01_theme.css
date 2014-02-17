@@ -1,0 +1,224 @@
+/* TEMA EN FONDO NEGRO */
+
+body .td_tu_diriges_01 {
+    color: #E2E2E2 !important;    
+	background-color: #232323 !important;
+}
+.td_tu_diriges_01 .nav_smnu_sports_01 a span i.active{
+	color: #8f8f8f !important;
+}
+.td_tu_diriges_01 .nav_smnu_sports_01 a span i.inactive{
+	color: #373737 !important;
+}
+.degraded{
+	background-image: url(../../global/img/degradadonegro.png) !important;
+}
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_01_comments li {
+	background: url(../../img/dotted-horizontal-white.png) repeat-x top;
+}
+.td_tu_diriges_01 .wdg_comen_01 .degraded{
+	bottom: 12px;	
+}
+
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_01_comments li:first-child {
+	background: none;
+}
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_fb_tw,
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_aviso{
+	color:#fff;
+}
+
+.td_tu_diriges_01 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul{
+	border-bottom: 1px solid #555555;
+}
+.td_tu_diriges_01 .vid_4vids_03 .wdg_mix_carrousa{
+	border-bottom: 1px solid #555555;
+}
+.td_tu_diriges_01 .vid_4vids_03 .bullets{
+	border-top: 0px solid #555555 !important;
+	margin-right: 13px;
+}
+.td_tu_diriges_01 .bullets{
+	border-top: 1px solid #555555 !important;
+}
+.td_tu_diriges_01 .background-color-pleca1 {
+	background-color: #555555 !important;
+}
+/*cambiar color del texto a la encuesta*/
+.td_tu_diriges_01 .wdg_poll_01 form  .wdg_poll_01_results li div p{
+	color: #fff;
+}
+
+
+/* Se cambia de rojo a amarillo */
+.td_tu_diriges_01 .textcolor-title1,
+.td_tu_diriges_01 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li .textcolor-title1,
+.td_tu_diriges_01 .nav_paginator_01 ul li .selected,
+.td_tu_diriges_01 .nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.current a {
+	color: #D9A961 !important;
+}
+
+.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.current,
+.nav_smnu_sports_01 .nav_smnu_sports_01_bar ul li.border-top1{
+	border-bottom: 2px solid #D9A961 !important;	
+}
+
+
+/* Flechas de carruseles a gris */
+.td_tu_diriges_01 .tvsa-double-caret-left,
+.td_tu_diriges_01 .tvsa-double-caret-right{
+	/*color: #8f8f8f !important;*/
+}
+.td_tu_diriges_01 .tvsa-double-caret-right{
+	
+}
+
+/* Se quita el overlay del player de video */
+.td_tu_diriges_01 .vid_player_01 .overlay{
+	background-color: transparent !important;
+}
+
+/* Links a gris */
+.td_tu_diriges_01 > .main ul li a,
+.td_tu_diriges_01 > .main h2 a,
+.td_tu_diriges_01 > .main .vid_4vids_03 .general a{
+	color: #E2E2E2 !important;
+}
+
+/* Color amarillo en comentarios de FB */
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .media_user{
+	color: #D9A961 !important;
+}
+
+
+/*cambia de color la letra de facebook*/
+	.td_tu_diriges_01 .main .c2_4 .wdg_comen_01 .wdg_comen_01_form .wdg_comen_fb_tw .socialMedia .iconFacebook .colorIconFacebook{
+		background-color: #fff;
+		border:none;
+	}
+
+/*color de las lineas superior e inferior del boton de comentar*/
+	.td_tu_diriges_01 .main .c2_4 .wdg_comen_01 .wdg_comen_01_comments,
+	.td_tu_diriges_01 .main .c2_4 .wdg_comen_01 .wdg_comen_line{
+		border-top: 1px solid #555;
+	}
+	.td_tu_diriges_01 .main .c2_4 .wdg_comen_01 .wdg_comen_01_comments ul li:first-child{
+		background: none !important;
+	}
+	.td_tu_diriges_01 .main .c2_4 .wdg_comen_01 .wdg_comen_01_comments{
+			
+		margin: 0;
+	}
+	
+/* Componente de encuesta */
+.td_tu_diriges_01 .wdg_poll_01 div h4,
+.td_tu_diriges_01 .wdg_poll_01 ul li label{
+	color: #E2E2E2 !important;
+}
+
+.td_tu_diriges_01 .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:last-child{
+	color: #E2E2E2 !important;
+}
+/*color de las letras del componente "wdg_comen_01"*/
+.td_tu_diriges_01 .wdg_comen_01 label{
+	color: #E2E2E2;
+}
+.td_tu_diriges_01 .vid_player_01c #videobtn{
+	background-color: #555555 !important;
+}
+.td_tu_diriges_01 .vid_player_01c div.vid_player_01c_whtbkg{
+	background-color: rgba(111, 111, 111, .70);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90555555,endColorstr=#90555555);
+}
+
+/* Borde inferior de las plecas */
+.td_tu_diriges_01 .btn_6prog_02 .type1a .title,
+.td_tu_diriges_01 .str_pleca_01,
+.td_tu_diriges_01 .wdg_twitt_02_title,
+.td_tu_diriges_01 .wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel ul li .wdg_twitt_02_block,
+.td_tu_diriges_01 .wdg_poll_01 form .wdg_poll_01_options,
+.td_tu_diriges_01 .vid_4vids_02_title,
+.td_tu_diriges_01 .vid_4vids_03_title{
+	border-bottom: 1px solid #555555;
+}
+
+.wdg_comen_line{
+	border-top: 1px solid #555555;	
+}
+
+
+/* Banners flotantes */
+.td_tu_diriges_01 .left_banner,
+.td_tu_diriges_01 .right_banner{
+	display:none;
+}
+
+/* Overlay player */
+.vid_player_01b div.vid_player_01b_whtbkg,
+.vid_player_01b #videobtn {
+	background-color: rgba(111, 111, 111, .70);	
+}
+
+/* Mobile y tablet */
+@media screen and (min-width: 948px){
+	.td_tu_diriges_01 .btn_6prog_02{
+		border-bottom: 1px solid #555555;
+	}
+}
+
+
+@media (min-width: 625px){
+	.td_tu_diriges_01 .main .c2{
+		background-image: url("../../global/img/video_bg624.jpg");
+		background-repeat:no-repeat;
+		background-position:left top;
+	}
+	
+	
+}
+
+@media (min-width: 625px) and (max-width: 948px){
+	.td_tu_diriges_01 .main .c2 .c2_1 .nav_smnu_video_02{
+		float: right;
+	}
+}
+
+/* Bullets en mobile y tablet */
+@media screen and (max-width: 948px){
+	.td_tu_diriges_01 .bullets{
+		border-top: 1px solid #DADADA;
+	}
+	
+	.td_tu_diriges_01 .bullets .background-color1{
+		background-color: #565656 !important;
+	}
+
+	.td_tu_diriges_01 .bullets div{
+		background-color: #ccc !important;
+	}
+}
+
+/* banners flotantes - solo web */
+@media screen and (min-width: 948px){
+	
+	.td_tu_diriges_01  {
+		overflow: hidden;
+	}
+
+	.td_tu_diriges_01 .left_banner{
+		position: absolute;
+		left:-200px;
+		top: 270px;
+		display:block;
+	}
+	.td_tu_diriges_01 .right_banner{
+		position: absolute;
+		right:-190px;
+		top: 270px;
+		display:block;
+	}
+	
+	
+	
+		
+}

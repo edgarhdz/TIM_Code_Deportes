@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    manageTabs="function(tab,noSwitch){ var tabs=['props','external','internal','props2','external2','internal2','props3','external3','internal3']; var index=tabs.indexOf(tab); if(index==-1) return; if( index == 1 ){ this.hideTabStripItem( 2 ); this.unhideTabStripItem(1); } if( index == 2 ){ this.hideTabStripItem( 1 ); this.unhideTabStripItem(2); } if( index == 4 ){ this.hideTabStripItem( 5 ); this.unhideTabStripItem(4); } if( index == 5 ){ this.hideTabStripItem( 4 ); this.unhideTabStripItem(5); }if( index == 7 ){ this.hideTabStripItem( 8 ); this.unhideTabStripItem(7); } if( index == 8 ){ this.hideTabStripItem( 7 ); this.unhideTabStripItem(8); } this.doLayout(); if(!noSwitch) this.activate(index); }"
+    title="GSATest"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <list
+            jcr:primaryType="cq:Widget"
+            title="Teaser 1"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <listFrom
+                    jcr:primaryType="cq:Widget"
+                    defaultValue=""
+                    fieldLabel="commons.gsatriplesecondaryteasercontainer.listform.label"
+                    name="./searchOption"
+                    type="select"
+                    xtype="selection">
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        loadcontent="function(){this.findParentByType('tabpanel').manageTabs(this.getValue(),true);}"
+                        selectionchanged="function(box,value){box.findParentByType('tabpanel').manageTabs(value);}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <external
+                            jcr:primaryType="nt:unstructured"
+                            text="External Search (GSA)"
+                            value="external"/>
+                        <internal
+                            jcr:primaryType="nt:unstructured"
+                            text="Internal Search"
+                            value="internal"/>
+                    </options>
+                </listFrom>
+                <image_url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch_image_url"
+                    name="./externalSearch_image_url"
+                    xtype="hidden"/>
+                <url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch_url"
+                    name="./externalSearch_url"
+                    xtype="hidden"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch_title"
+                    name="./externalSearch_title"
+                    xtype="hidden"/>
+            </items>
+        </list>
+        <external
+            jcr:primaryType="cq:Widget"
+            title="commons.gsatriplesecondaryteasercontainer.external.title"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(1); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.gsatriplesecondaryteasercontainer.external.field.description"
+                    fieldLabel="commons.gsatriplesecondaryteasercontainer.external.field.label"
+                    name="./externalSearch"
+                    xtype="gsasearch"/>
+            </items>
+        </external>
+        <internal
+            jcr:primaryType="cq:Widget"
+            title="commons.gsatriplesecondaryteasercontainer.internal.title"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(2); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.gsatriplesecondaryteasercontainer.internal.field.description"
+                    fieldLabel="commons.gsatriplesecondaryteasercontainer.internal.field.label"
+                    name="./internalSearch"
+                    xtype="searchpathfield"/>
+            </items>
+        </internal>
+        <list2
+            jcr:primaryType="cq:Widget"
+            title="commons.gsatriplesecondaryteasercontainer.list2.title"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <listFrom
+                    jcr:primaryType="cq:Widget"
+                    defaultValue=""
+                    fieldLabel="commons.gsatriplesecondaryteasercontainer.listform.label"
+                    name="./searchOption2"
+                    type="select"
+                    xtype="selection">
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        loadcontent="function(){this.findParentByType('tabpanel').manageTabs(this.getValue(),true);}"
+                        selectionchanged="function(box,value){box.findParentByType('tabpanel').manageTabs(value);}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <external2
+                            jcr:primaryType="nt:unstructured"
+                            text="External Search (GSA)"
+                            value="external2"/>
+                        <internal2
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.gsatriplesecondaryteasercontainer.internal.title"
+                            value="internal2"/>
+                    </options>
+                </listFrom>
+                <image_url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch2_image_url"
+                    name="./externalSearch2_image_url"
+                    xtype="hidden"/>
+                <url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch2_url"
+                    name="./externalSearch2_url"
+                    xtype="hidden"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch2_title"
+                    name="./externalSearch2_title"
+                    xtype="hidden"/>
+            </items>
+        </list2>
+        <external2
+            jcr:primaryType="cq:Widget"
+            title="commons.gsatriplesecondaryteasercontainer.external.title"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(4); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.gsatriplesecondaryteasercontainer.external.field.description"
+                    fieldLabel="commons.gsatriplesecondaryteasercontainer.external.field.label"
+                    name="./externalSearch2"
+                    xtype="gsasearch"/>
+            </items>
+        </external2>
+        <internal2
+            jcr:primaryType="cq:Widget"
+            title="Internal Search 2"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(5); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Look for content in this current server"
+                    fieldLabel="Search"
+                    name="./internalSearch2"
+                    xtype="searchpathfield"/>
+            </items>
+        </internal2>
+        <list3
+            jcr:primaryType="cq:Widget"
+            title="Teaser 3"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <listFrom
+                    jcr:primaryType="cq:Widget"
+                    defaultValue=""
+                    fieldLabel="Perform Search Using"
+                    name="./searchOption3"
+                    type="select"
+                    xtype="selection">
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        loadcontent="function(){this.findParentByType('tabpanel').manageTabs(this.getValue(),true);}"
+                        selectionchanged="function(box,value){box.findParentByType('tabpanel').manageTabs(value);}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <external3
+                            jcr:primaryType="nt:unstructured"
+                            text="External Search (GSA)"
+                            value="external3"/>
+                        <internal3
+                            jcr:primaryType="nt:unstructured"
+                            text="Internal Search"
+                            value="internal3"/>
+                    </options>
+                </listFrom>
+                <image_url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch3_image_url"
+                    name="./externalSearch3_image_url"
+                    xtype="hidden"/>
+                <url
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch3_url"
+                    name="./externalSearch3_url"
+                    xtype="hidden"/>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    itemId="externalSearch3_title"
+                    name="./externalSearch3_title"
+                    xtype="hidden"/>
+            </items>
+        </list3>
+        <external3
+            jcr:primaryType="cq:Widget"
+            title="External Search 3"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(7); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Look for content in GSA server, click in the search bottom to perform the query"
+                    fieldLabel="Search (GSA)"
+                    name="./externalSearch3"
+                    xtype="gsasearch"/>
+            </items>
+        </external3>
+        <internal3
+            jcr:primaryType="cq:Widget"
+            title="Internal Search 3"
+            xtype="panel">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(8); }"/>
+            <items jcr:primaryType="cq:WidgetCollection">
+                <search
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Look for content in this current server"
+                    fieldLabel="Search"
+                    name="./internalSearch3"
+                    xtype="searchpathfield"/>
+            </items>
+        </internal3>
+    </items>
+</jcr:root>

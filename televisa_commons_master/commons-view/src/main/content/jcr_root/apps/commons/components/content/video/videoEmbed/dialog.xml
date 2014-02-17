@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    title="commons.videoembed.title"
+    width="1000"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <video
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <videoPath
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.videoEmbed.path.description"
+                        fieldLabel="commons.videoEmbed.path.label"
+                        name="./path"
+                        xtype="videogallerysearch"/>
+                    <overlay
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.videoEmbed.overlay.description"
+                        fieldLabel="commons.videoEmbed.overlay.label"
+                        name="./overlay"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </video>
+        </items>
+    </items>
+</jcr:root>

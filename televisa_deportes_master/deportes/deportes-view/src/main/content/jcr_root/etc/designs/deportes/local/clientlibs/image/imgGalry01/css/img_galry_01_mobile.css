@@ -1,0 +1,143 @@
+@media screen and (max-width: 623px) {
+	
+	div.img_galry_01 {
+		position: relative;
+		margin-bottom: 30px;
+	}
+    div.img_galry_01 div.image-container {border:2px solid red;}
+    div.img_galry_01 div.arrowLeft,
+    div.img_galry_01 div.arrowRight,
+    div.img_galry_01 div.carrusel1,
+    div.img_galry_01 div.image-container {display:none;}
+    
+    div.img_galry_01 div.carruselcontainer {
+        padding:0 0 0 0;
+		height: 210px;
+		overflow: hidden;
+		width:105%;
+		overflow-y:scroll;
+    }
+    
+    div.img_galry_01 ul.ulcarrusel {
+        border:0;
+		overflow: hidden;
+		height: auto;
+    }
+    
+    div.img_galry_01 a.album img {
+        width: 77px;
+        height: 63px;
+    }
+	
+	div.img_galry_01 a.album .overlay,
+	div.img_galry_01 a.album .description .topic{
+		display:none;
+	}
+    
+    div.img_galry_01 a.album img {float:left;}
+    div.img_galry_01 a.album span.title {
+        height:42px;
+        border-left:1px solid #d1d1d1;
+        display:block;
+        margin:0 0 0 89px;
+        padding:12px;
+        max-width:80%;
+        vertical-align:middle;
+        font-size:14px;
+    }
+    
+    div.img_galry_01 a.album {
+        margin-bottom:9px;
+        position:relative;
+        display:block;
+        float:left;
+    }
+	
+	div.img_galry_01 div.carruselcontainer ul li:last-child .album{
+		margin-bottom: 0;
+	}
+	
+    
+    div.img_galry_01 div.carruselcontainer ul li {
+        clear:left;
+		overflow: hidden;
+    } 
+    
+    div.img_galry_01 a.album span.icon {
+        color:#FFF;
+        line-height:30px;
+        display:block;
+        background:rgba(167, 10, 11, 0.6);
+        width:30px;
+        height:30px;
+        position:absolute;
+        top:33px;
+    }
+    
+    div.img_galry_01 a.album span.icon i {
+        padding-left:4px;
+    }
+    div.img_galry_01 .dotted-bottom {background:transparent none!important;
+	}
+	div.img_galry_01 .back_overlay{
+		background:rgba(167,10,11,.6);
+		background-color:transparent;
+	}
+	
+	.img_galry_01 .degradado{
+		border-top:none;
+		display:block;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:12px;
+		background-image:url(../global/img/degradado_horizontal.png);
+		background-repeat:repeat-x;
+		background-position:10px;
+        bottom: 0px;
+	}
+	
+	.img_galry_01 .gallery-controls{
+		overflow: hidden;
+	}
+	
+	div.img_galry_01 .txt1{
+        display: block;
+    }
+
+	.img_galry_01 #img_galry_01_txts
+    {
+        position: relative;
+        display:inline-block;
+        overflow: visible;
+    }
+
+	.img_galry_01 #img_galry_01_txts{
+        background-color: #fff;
+        margin-left: 24px;
+        padding-bottom: 24px;
+    }
+    .img_galry_01 .txt1{
+        height: auto;
+        margin-right: 24px;
+        padding-bottom: 12px;
+        margin-left: 24px;
+        margin-bottom: 12px;
+        padding-top: 4px;
+    }
+    .img_galry_01 .txt1 p{
+        font-size: 11px;
+        margin-top: 2px;
+    }
+    .img_galry_01 .txt2 {
+        display: none;
+    }
+    .img_galry_01 .txt3 {
+        height: auto;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+/* All devices */
+div.img_galry_01 span.data {display:none;}

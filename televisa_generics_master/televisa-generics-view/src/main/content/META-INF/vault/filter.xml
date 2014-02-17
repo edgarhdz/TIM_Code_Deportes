@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/televisa-generics">
+        <exclude pattern="/apps/televisa-generics/install.*"/>
+        <exclude pattern="/apps/televisa-generics/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/televisa-generics"/>
+	<filter root="/etc/designs/televisa-generics">
+        <exclude pattern="/etc/designs/televisa-generics/jcr:content.*"/>
+    </filter>
+</workspaceFilter>

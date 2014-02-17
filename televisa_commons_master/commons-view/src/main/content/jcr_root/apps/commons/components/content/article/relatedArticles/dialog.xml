@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    title="commons.artreltd01.title"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <settings
+            jcr:primaryType="cq:Widget"
+            title="commons.settings.title"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <showtotaltags
+                    jcr:primaryType="cq:Widget"
+                    defaultValue=""
+                    fieldDescription="commons.artreltd01.showtotaltags.description"
+                    fieldLabel="commons.artreltd01.showtotaltags.label"
+                    name="./totalarticlerelated"
+                    optionsProvider="function(path, record) {return CQ.Util.formatData(CQ.Util.eval(path + '.tags.json')); }"
+                    type="select"
+                    xtype="selection"/>
+                <target
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="_blank"
+                    fieldDescription="commons.link.target-description"
+                    fieldLabel="commons.link.target-label"
+                    name="./linkTarget"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <blank
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.target-option-blank-text"
+                            value="_blank"/>
+                        <self
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.target-option-self-text"
+                            value="_self"/>
+                    </options>
+                </target>
+                <label
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.artreltd01.label.description"
+                    fieldLabel="&lt;br>"
+                    xtype="label"/>
+            </items>
+        </settings>
+    </items>
+</jcr:root>

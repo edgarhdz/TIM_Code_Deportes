@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	jcr:primaryType="cq:Dialog" title="deportes.navTeamHeader01.title" width="1000" xtype="dialog">
+	<items jcr:primaryType="cq:Widget" xtype="tabpanel">
+		<items jcr:primaryType="cq:WidgetCollection">
+			<settings
+                jcr:primaryType="cq:Panel"
+                title="deportes.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">                   
+                    <teamName
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="deportes.navTeamHeader01.teamName.description"
+                        fieldLabel="deportes.navTeamHeader01.teamName.label"
+                        name="./teamName"
+                        xtype="textfield"/>
+                </items>
+            </settings>
+             <linkstab
+                jcr:primaryType="cq:Panel"
+                title="deportes.navTeamHeader01.links.title"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <links
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="deportes.link.title-description"
+                        fieldLabel="deportes.link.title-label"
+                        name="genericmultifield"
+                        title="deportes.link.title"
+                        xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <textLink
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                fieldDescription="deportes.link.description"
+                                fieldLabel="deportes.link.title"
+                                name="./text"
+                                xtype="textfield"/>
+                            <linkType
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="deportes.link.linktype-description"
+                                boxMaxWidth="{Decimal}390"
+                                fieldLabel="deportes.link.linktype-label"
+                                name="./linkType"
+                                type="select"
+                                xtype="selection">
+                                <options jcr:primaryType="cq:WidgetCollection">
+                                    <internal
+                                        jcr:primaryType="nt:unstructured"
+                                        text="deportes.link.internallink-label"
+                                        value="internal"/>
+                                    <external
+                                        jcr:primaryType="nt:unstructured"
+                                        text="deportes.link.externallink-label"
+                                        value="external"/>
+                                </options>
+                                <listeners
+                                    jcr:primaryType="nt:unstructured"
+                                    loadcontent="function() { &#xa;&#x9;if(this.getValue() =='undefined'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#xa;&#x9;}else if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#x9;&#xa;&#x9;}&#xa;}"
+                                    selectionchanged="function() { &#x9;&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#xa;&#x9;if(this.getValue() == 'internal'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(true);&#x9;&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(false);&#x9;&#x9;&#x9;&#xa;&#x9;}else if(this.getValue() == 'external'){&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(2).setVisible(false);&#xa;&#x9;&#x9;this.findParentByType(&quot;panel&quot;).getComponent(3).setVisible(true);&#xa;&#x9;}&#xa;}"/>
+                            </linkType>
+                            <pathlink
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="deportes.link.path.description"
+                                fieldLabel="deportes.link.path.label"
+                                hidden="{Boolean}true"
+                                name="./path"
+                                rootPath="/content"
+                                rootTitle="Televisa"
+                                xtype="pathfield"/>
+                            <externallink
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="deportes.link.externallink-description"
+                                fieldLabel="deportes.link.externallink-label"
+                                hidden="{Boolean}true"
+                                name="./externalLink"
+                                xtype="textfield"/>
+                            <target
+                                jcr:primaryType="cq:Widget"
+                                boxMaxWidth="{Decimal}390"
+                                defaultValue="_blank"
+                                fieldDescription="deportes.link.target-description"
+                                fieldLabel="deportes.link.target-label"
+                                name="./target"
+                                type="select"
+                                xtype="selection">
+                                <options jcr:primaryType="cq:WidgetCollection">
+                                    <blank
+                                        jcr:primaryType="nt:unstructured"
+                                        text="deportes.link.target-option-blank-text"
+                                        value="_blank"/>
+                                    <self
+                                        jcr:primaryType="nt:unstructured"
+                                        text="deportes.link.target-option-self-text"
+                                        value="_self"/>
+                                </options>
+                            </target>
+                            <textTitle
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="deportes.link.title-description"
+                                fieldLabel="deportes.link.title-label"
+                                name="./title"
+                                xtype="textfield"/>                                
+                        </fieldConfig>
+                    </links>
+                </items>
+            </linkstab>
+            <image
+                jcr:primaryType="cq:Widget"
+                cropParameter=""
+                ddGroups="[media]"
+                fileNameParameter="./fileName"
+                fileReferenceParameter="./fileReference"
+                mapParameter=""
+                name="./file"
+                requestSuffix=".img.png"
+                rotateParameter=""
+                title="deportes.navTeamHeader01.image.title"
+                xtype="html5smartimage"
+                allowUpload="false" />      
+			<devices jcr:primaryType="cq:Panel" title="deportes.devices.tabtitle.label">
+				<items jcr:primaryType="cq:WidgetCollection">
+					<hideDevices jcr:primaryType="cq:Widget"
+						fieldDescription="deportes.devices.hidedevices.description"
+						fieldLabel="deportes.devices.hidedevices.label" name="./hideDevice"
+						type="select" xtype="selection">
+						<options jcr:primaryType="cq:WidgetCollection">
+							<item1 jcr:primaryType="nt:unstructured" text="deportes.devices.item.do-nothing"
+								value="" />
+							<item2 jcr:primaryType="nt:unstructured"
+								text="deportes.devices.item.hide-tablet-mobile" value="hide-tablet" />
+							<item3 jcr:primaryType="nt:unstructured" text="deportes.devices.item.hide-mobile"
+								value="hide-mobile" />
+						</options>
+					</hideDevices>
+				</items>
+			</devices>
+		</items>
+	</items>
+</jcr:root>

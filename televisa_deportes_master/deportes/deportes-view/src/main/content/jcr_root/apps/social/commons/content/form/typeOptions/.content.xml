@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <journal
+        jcr:primaryType="nt:unstructured"
+        deleteEndpoint="social.deletejournalentry"
+        editEndpoint="social.editjournalentry"
+        endpoint="social.createjournalentry"
+        parentResourceType=" "
+        text="Journal Entry"
+        value="journal"/>
+    <forum
+        jcr:primaryType="nt:unstructured"
+        deleteEndpoint="social.deletecomment"
+        editEndpoint="social.editcomment"
+        endpoint="social.createcomment"
+        parentResourceType="social/forum/components/forum"
+        text="Forum Thread"
+        value="forum"/>
+    <question
+        jcr:primaryType="nt:unstructured"
+        deleteEndpoint="social.deleteqnapost"
+        editEndpoint="social.editqnapost"
+        endpoint="social.createqnapost"
+        parentResourceType="social/qna/components/qnaforum"
+        text="Q &amp; A"
+        value="question"/>
+    <other
+        jcr:primaryType="nt:unstructured"
+        deleteEndpoint=" "
+        editEndpoint=" "
+        endpoint=""
+        parentResourceType=" "
+        text="Other"
+        value="other"/>
+    <comment
+        jcr:primaryType="nt:unstructured"
+        deleteEndpoint="social.deletecomment"
+        editEndpoint="social.editcomment"
+        endpoint="social.createcomment"
+        parentResourceType="social/commons/components/comments"
+        text="Comment Thread"
+        value="comment"/>
+</jcr:root>

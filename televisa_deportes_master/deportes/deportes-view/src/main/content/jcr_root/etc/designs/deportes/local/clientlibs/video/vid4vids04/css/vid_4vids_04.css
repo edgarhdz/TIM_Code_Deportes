@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){
+    .vid_4vids_04{
+		margin-bottom: 12px;
+    }
+    .vid_4vids_04 .bullets{
+        display: none;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows .vid_4vids_04_title ul{
+        display: block;
+    }
+	.vid_4vids_04 .bullets{
+    	display: none;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows .vid_4vids_04_title ul.arrows{
+		 display:block;		
+    }
+
+    .vid_4vids_04 .carrusel-sizes > div{
+        margin-bottom: 2px;
+    }
+	.vid_4vids_04 .wdg_mix_carrousa div:last-child .two {
+		margin-bottom: 18px;
+	}
+}

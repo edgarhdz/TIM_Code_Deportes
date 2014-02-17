@@ -1,0 +1,79 @@
+@media screen and (min-width: 948px){
+    .vid_player_01c{
+        border-bottom: 1px solid #555;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .ie8 .vid_player_01c{
+        padding-bottom: 40px;
+    }
+
+    .vid_player_01c .vid_player_01c_whtbkg
+    {
+        z-index: 1500!important;
+    }
+
+    .ie8.vid_player_01c .vid_player_01c_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    .ie7.vid_player_01c .vid_player_01c_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    .vid_player_01c .overlay .txt1,
+    .vid_player_01c .overlay .txt2,
+    .vid_player_01c .overlay .txt3{
+        display: block;
+    }
+    .vid_player_01c .overlay .txt4{
+        display:none;
+    }
+
+    .vid_player_01c .overlay .txt1{
+        float: left;
+        width: 230px;
+        height: auto;
+        margin-right:10px;
+    }
+    .vid_player_01c #vid_player_01c_txts{
+        background: url("../img/dotted-vertical.png") repeat-y left !important;
+        padding-left: 26px;
+    }
+
+    .vid_player_01c .overlay {
+        padding: 24px 0 0px 60px;
+
+    }
+
+    .vid_player_01c .vid_player_01c_image .openbtn_td{
+        display: none;
+    }
+
+    .vid_player_01c .cameras{
+        width: 300px;
+        float: right;
+        position: relative;
+        display:block;
+        margin-top: 17px;
+    }
+
+    .vid_player_01c .cameras .cameras_field{
+        width:269px;
+        margin:auto;
+        position:relative;
+        overflow: hidden;
+        display: block;
+    }
+
+    .vid_player_01c .cameras .cameras_index{
+        display: block;
+    }
+
+
+    .ie7 .vid_player_01c{
+        height:540px;
+    }
+
+}

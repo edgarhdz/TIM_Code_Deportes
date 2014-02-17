@@ -1,0 +1,175 @@
+@media screen {
+    .btn_6prog_02{
+        margin-bottom: 16px;
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a {
+        overflow: hidden;
+        width: 100%;
+    }
+     .btn_6prog_02 .type1a .carrusel{
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a .carrusel ul{
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a div {
+        width: 100%;
+        height: auto;
+    }
+    .btn_6prog_02 .type1a .title {
+        border-bottom: 1px solid #CCC;
+    }
+    .btn_6prog_02 .type1a .title .flechas{
+        display: none;
+    }
+    .btn_6prog_02 .type1a div ul {
+        width: 62px;
+        margin: 0;
+        float: right;
+    }
+    .btn_6prog_02 .type1a div ul li {
+        width: 33px;
+		height:21px;
+        float: left;
+        margin: 0;
+        margin-top: 5px;
+    }
+	
+	.btn_6prog_02 .type1a div .flechas li:nth-child(2) {
+		width: 21px;
+	}
+    .btn_6prog_02 .type1a div ul li a {
+        width: 15px;
+        height: 16px;
+        padding-right: 1px !important;
+    }
+	.btn_6prog_02 .type1a div ul li .carouselArrowRight {
+		padding-right: 0px;
+	}
+    .btn_6prog_02 .type1a div ul li:first-child {
+        margin: 6px 8px 0 0;
+    }
+   
+    .btn_6prog_02 .type1a.showArrows .title h1 {
+        width: 50%;
+    }
+    .btn_6prog_02 .type1a.showArrows .title h1 a span.icon {
+        display: none;
+    }
+    .btn_6prog_02 .type1a .carrusel {
+        width: 100%;
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a .carrusel ul {
+        float: none;
+        margin: 0;
+        margin-top: 12px;
+        width: 16000px;
+        height: 156px;
+    }
+    .btn_6prog_02 .type1a .carrusel ul:before,
+    .btn_6prog_02 .type1a .carrusel ul:after {
+        content: "";
+        display: table;
+    }
+    .btn_6prog_02 .type1a .carrusel ul:after {
+        clear: both;
+    }
+    .btn_6prog_02 .type1a .carrusel ul {
+        zoom: 1;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li {
+        display: block;
+        float: left;
+        width: 137px;
+        height: auto;
+        margin: 0 0 24px 25px;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li h3 {
+        font-size: 14px;
+        line-height: 16px;
+        width: 136px;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li h3 a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li p {
+        font-style: italic;
+        font-size: 11px;
+        font-weight:normal;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: block;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li a img {
+        width: 136px;
+        height: 102px;
+        background-color: #666;
+        margin-bottom: 1px !important;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li:first-child {
+        margin: 0 0 0 12px;
+    }
+    .btn_6prog_02 .type1a .carrusel ul li:last-child {
+        margin-right: 0;
+        border: none;
+    }
+    .btn_6prog_02 div.title h2 {
+        height: 40px;
+        background-color: #666;
+    }
+    .btn_6prog_02 .type1a .title h2 a {
+        font-size: 14px;
+        padding-left:24px;
+        text-decoration: none;
+        color: #fff;
+        height: 32px;
+        display: block;
+        line-height: 40px;
+        background: none;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;
+		margin-top: 0px;
+    }
+    .btn_6prog_02 .bullets{
+        display: block;
+        width: 100%;
+        border-top: 1px solid #CCC;
+        margin-bottom: 0px;
+        height: 20px;
+    }
+    .btn_6prog_02 .bullets ul{
+        width:102px;
+        float: right;
+        margin-top:10px;
+		margin-right:12px;
+    }
+    .btn_6prog_02 .bullets ul li{
+
+        width:12px;
+        height: 12px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+    .btn_6prog_02 .bullets ul li.selected{
+        background-color:#A70A0B;
+    }
+	.btn_6prog_02 .carouselArrowLeft{
+		margin-top:-2px;
+	}
+    .btn_6prog_02 .inactive{
+        color: #BABABA;
+    }
+}

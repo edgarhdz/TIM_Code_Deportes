@@ -1,0 +1,29 @@
+@media screen and (min-width: 39em){
+
+    .mix_2arts_05{
+        width: 625px;
+        margin-bottom: 24px;
+        overflow: hidden;
+    }
+
+    .mozilla .mix_2arts_05{
+        overflow: visible;
+    }
+
+    .mix_2arts_05 .cont-left{
+        width: 300px;
+        margin-left: 24px;
+        float: left;
+    }
+    .mix_2arts_05 .cont-left:first-child{
+        width: 300px;
+        margin-left: 0px;
+        float: left
+    }
+
+    .ie8 .mix_2arts_05 .cont-left:first-child{
+        margin-left: 0;
+    }
+
+
+}

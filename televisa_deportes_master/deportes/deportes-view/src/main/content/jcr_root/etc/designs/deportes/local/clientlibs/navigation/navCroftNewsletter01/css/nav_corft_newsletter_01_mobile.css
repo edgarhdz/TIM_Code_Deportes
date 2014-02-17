@@ -1,0 +1,179 @@
+@media screen{ 
+
+    .nav_corft_newsletter_01_sprite {
+        background: url(../img/global-sprites.png) no-repeat 0 0;
+        display: inline-block;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -99em;
+        width: 10px;
+    }
+    .nav_corft_newsletter_01_sprite.logo {
+        background-position: -270px -40px;
+        height: 21px;
+        width: 33px;
+        margin-right: 10px;
+    }
+    .nav_corft_newsletter_01 .noticias {
+        background-color: green;
+    }
+    .nav_corft_newsletter_01 .deportes {
+        background-color: #a41d21;
+    }
+    .nav_corft_newsletter_01 .entretenimiento {
+        background-color: #edba1f;
+    }
+    .nav_corft_newsletter_01 .ninos {
+        background-color: #3eb9b6;
+    }
+    .nav_corft_newsletter_01 .estilo {
+        background-color: #6daa49;
+    }
+    .nav_corft_newsletter_01 .television {
+        background-color: #f78429;
+    }
+    .nav_corft_newsletter_01 footer {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+    }
+
+    .nav_corft_newsletter_01 footer div.shortcut-home{
+        display: none;
+    }
+
+    .nav_corft_newsletter_01 footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav_corft_newsletter_01 footer ul li {
+        color: #fff;
+        padding: 0.813em;
+        padding-left: 1.313em;
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer ul li span {
+        float: right;
+        margin: 0.313em 0.313em 0 0;
+        padding: 0;
+    }
+    .nav_corft_newsletter_01 footer ul li a {
+        text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        color: #fff;
+    }
+    .nav_corft_newsletter_01 footer ul li > ul {
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer .icon {
+        display: inline-block;
+        height: 16px;
+        overflow: hidden;
+        text-indent: -99em;
+        width: 12px;
+        background: transparent url(../img/footer/sprites-mobile.png) no-repeat -23px -265px;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        /* For IE8 and earlier */
+
+    }
+    .nav_corft_newsletter_01 footer div .legal {
+        padding-top: 118px;
+        position: relative;
+    }
+    .nav_corft_newsletter_01 footer div.row {
+        padding-bottom: 1.3em;
+        font-style: italic;
+        overflow: hidden;
+        float: none;
+        width: auto;
+        margin-left: 5em;
+        border-left: solid 1px #ccc;
+        padding-left: 10px;
+        max-height: 10px;
+    }
+    .nav_corft_newsletter_01 footer div.row nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    .nav_corft_newsletter_01 footer div.row nav ul {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .nav_corft_newsletter_01 footer div.row nav ul li {
+        color: #5D5D5D;
+        display: block;
+        padding: 0.250em 0;
+    }
+    .nav_corft_newsletter_01 footer div.row nav ul li a {
+        text-shadow: none;
+        border-top: 1px solid #CCC;
+        display: block;
+        font: italic 1em/21px "Trebuchet MS", sans-serif; 
+        /*Trebuchet 18pt traking -25*/ 
+        /*font: italic 1em/21px "Trebuchet MS";  */
+        padding: 0 0 0 2.3em;
+        color: #5D5D5D;  
+        font-weight: bold;
+        font-size: 11px;
+    }
+    .nav_corft_newsletter_01 footer div.row nav ul li a span {
+        float: right;
+        margin: 0.313em 1.4em;
+    }
+    .nav_corft_newsletter_01 footer div.row nav ul li a .icon {
+        background: transparent url(../img/footer/sprites-mobile.png) no-repeat -28px -5px;
+    }
+    .nav_corft_newsletter_01 footer .dark-row {
+        background-color: #e2e2e2;
+    }
+    /*.nav_corft_newsletter_01 footer .dark-row div a span {
+        top: 128px;
+        left: 30px;
+    }*/
+
+    div.dark-row div a span.nav_corft_newsletter_01_sprite{
+        /*border-right: 1px solid #D5D5D5;
+                top: 128px;
+        left: 30px;*/
+        /*border-right: 1px solid #D5D5D5;*/
+        float: left;
+        margin-left: 23px;
+        margin-top: 5px;
+        position: relative;
+        display: inline-block;
+        *left: 30px;
+    }
+    .ie7 div.dark-row div.nav_corft_newsletter_01_wrapper div.row div.left{
+        margin-left: 30px; 
+        height: 10px;
+    }
+    .ie7 div.nav_corft_newsletter_01_sprite_trade{
+        margin-left: 30px;
+    }
+
+    .nav_corft_newsletter_01 footer .white-row {
+        background-color: white;
+    }
+    
+    
+    .nav_corft_newsletter_01 footer div .right,
+    .nav_corft_newsletter_01 footer div .left {
+        /*padding: 0 1em;*/
+        color: #666;
+        font-size: 0.625em;
+        display: block;
+        float: none;
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    .ie7 .nav_corft_newsletter_01 footer div .right span.icon.mobile.arrow{
+        margin-top: -12px;
+
+    }
+}

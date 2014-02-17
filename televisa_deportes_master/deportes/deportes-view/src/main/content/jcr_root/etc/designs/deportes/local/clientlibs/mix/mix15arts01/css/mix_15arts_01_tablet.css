@@ -1,0 +1,62 @@
+@media screen and (min-width: 39em){
+	/* BEGIN: mix-15arts_01 */
+	.mix_15arts_01{
+		margin-bottom: 36px;
+		width: 624px;
+		overflow: hidden;
+	}
+	.mix_15arts_01 .divisor{
+		border-left: 1px solid #CCCCCC;
+		height: 170px;
+		margin-left: 205px;
+		margin-top: 0px;
+		position: absolute;
+		width: 10px;
+		z-index: 10;
+	}	
+	.mix_15arts_01 .list_container{
+		display: block;
+		width: 624px;
+		height: auto;
+	}
+	.mix_15arts_01 .list_container {
+		display: block;
+		width: 624px;
+		float: left;
+	}
+	.mix_15arts_01 .list_container .mix_1arts_12{
+		display:block;
+		float: left;
+		padding-right: 11px;
+		border-right: 1px solid #CCCCCC;
+		margin-right: 11px;	
+		margin-bottom: 36px;	
+	}
+	.mix_15arts_01 .list_container  div:first-child {
+		padding-left: 0px;
+	}
+	.mix_15arts_01 .nav_paginator_01{
+		display: inherit;
+	}
+	.mix_15arts_01 .mix_15arts_01_ver_mas{
+        display: none;
+    }
+    .mix_15arts_01 .list_container div:nth-child(3n+2){
+    	padding-right: 12px;
+		margin-right: 12px;	
+    }
+    .mix_15arts_01 .list_container div:nth-child(3n+3){
+    	padding-right: 0px;
+    	border-right: 0px solid #8D8D8D;
+    	margin-right: 0px;
+    }
+
+	.mix_15arts_01 .list_container  .mix_1arts_12 .mix_1arts_12_thumb li a h6{
+		display: inherit;
+	}
+	
+	.mix_1arts_12 .mix_1arts_12_thumb li a .background-color-pleca1{
+		display:none;
+	}
+   
+}

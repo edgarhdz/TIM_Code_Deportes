@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="300"
+    title="commons.externalHTMLSource.title"
+    width="150"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <externalPath
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.externalHTMLSource.searchurl.labelDescription"
+                        fieldLabel="noticieros.footer.homepathlogo.title"
+                        name="./externalPath"
+                        vtype="url"
+                        xtype="textfield"/>
+                </items>
+            </settings>
+        </items>
+    </items>
+</jcr:root>

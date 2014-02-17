@@ -1,0 +1,32 @@
+@media screen and (min-width: 948px){
+    
+    .btn_6prog_02 {
+        border-bottom: 1px solid #CCC;
+    }
+    .btn_6prog_02 .bullets{
+        display: none;
+    }
+    .btn_6prog_02 .type1a .title .flechas{
+        display: block !important;
+    }
+      .btn_6prog_02 .type1a .carrusel ul li {        
+        margin: 0 0 24px 25px;
+    }
+    .btn_6prog_02 div.title h3 {
+        width: 31%;
+    }
+
+    .btn_6prog_02 .carouselArrowLeft{
+        width: 34px !important;
+    }
+    
+    .btn_6prog_02 .carouselArrowRight{
+        width: 14px !important;
+    }
+    .btn_6prog_02 .arrow_inactive{
+        color: #8f8f8e !important; 
+    }
+    .btn_6prog_02 .arrow_active{
+        color: #232323 !important; 
+    }
+}

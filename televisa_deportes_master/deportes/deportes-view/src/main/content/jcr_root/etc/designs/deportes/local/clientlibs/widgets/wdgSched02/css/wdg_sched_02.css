@@ -1,0 +1,37 @@
+@media screen and (min-width: 948px){
+	.wdg_sched_02{		
+	    height: auto;
+	}
+	.wdg_sched_02 > ul {
+		height: 690px;
+		margin-bottom:17px;
+	}
+	.wdg_sched_02 > ul {
+      background-image:none;
+    }
+	.wdg_sched_02 .nav {
+		display:block;
+    }
+	.wdg_sched_02 > div .prev, 
+    .wdg_sched_02 > div .next {
+        display: block;
+    }
+	.wdg_sched_02 .degraded,
+	.wdg_sched_02 .seemore,
+	.wdg_sched_02 .seemore a{
+		display:none;
+	}
+	.wdg_sched_02 > div .full-timetable {
+		display:block;
+	}
+	
+	.ie7 .wdg_sched_02 > ul li{
+		height: 52px;
+		overflow: hidden;
+	}
+	
+
+	.ie7 .wdg_sched_02 > ul{
+		height: 760px;
+	}
+}

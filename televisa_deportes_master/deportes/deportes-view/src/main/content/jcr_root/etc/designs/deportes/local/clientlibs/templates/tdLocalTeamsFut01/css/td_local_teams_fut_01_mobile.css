@@ -1,0 +1,24 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_local_teams_fut_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_local_teams_fut_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_local_teams_fut_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_local_teams_fut_01 .main .c7_1{
+		width:100%;
+	}
+	.td_local_teams_fut_01 .c3 .c3_1{
+		width: 100%;
+	}
+	
+}

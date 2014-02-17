@@ -1,0 +1,15 @@
+@media screen and (min-width: 948px){ 
+	.ie7 .nav_paginator_01 {
+		border-top: none;
+		clear: both;
+		overflow: hidden;
+		text-align: right;
+		width: 100%;
+	} 
+
+	.ie7 .nav_paginator_01 ul li a {
+		line-height: 16px; 
+		height: 20px; 
+		vertical-align: bottom; 
+	}     
+}

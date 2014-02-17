@@ -1,0 +1,2 @@
+#base=js
+wdg_gmap_01.js

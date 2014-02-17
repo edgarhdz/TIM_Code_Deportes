@@ -1,0 +1,2944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+          jcr:language="en"
+          jcr:mixinTypes="[mix:language]"
+          jcr:primaryType="sling:Folder">
+    <!-- Component Groups -->
+    <commons.componentgroup.structure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.structure"
+            sling:message="Stucture Commons"/>
+    <commons.componentgroup.article
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.article"
+            sling:message="Article Commons"/>
+    <commons.componentgroup.navigation
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.navigation"
+            sling:message="Navigation Commons"/>
+    <commons.componentgroup.video
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.video"
+            sling:message="Generic video components"/>
+    <commons.componentgroup.button
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.button"
+            sling:message="Generic Button Components"/>
+    <commons.componentgroup.widget
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.widget"
+            sling:message="Generic Widget Components"/>
+    <commons.componentgroup.mix
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.mix"
+            sling:message="Generic Mix Components"/>
+
+    <commons.componentgroup.image
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.componentgroup.image"
+            sling:message="Generic Image Components"/>
+
+    <!--  Generic SocialNetworks Component  -->
+    <commons.socialnetworks.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.socialnetworks.title"
+            sling:message="socialNetworks"/>
+
+    <!-- generic messages -->
+
+    <commons.configure.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.configure.message"
+            sling:message="Click to configure component."/>
+
+    <commons.message.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.message.placeholder"
+            sling:message="Settings"/>
+    <commons.component.message.titleboxes.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.component.message.titleboxes.placeholder"
+            sling:message="Edit the"/>
+    <commons.singletitlebox.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.singletitlebox.title"
+            sling:message="Single Title Box"/>
+    <commons.message.placeholdercomponent
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.message.placeholdercomponent"
+            sling:message="Component"/>
+    <commons.devices.title.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.title.dialog"
+            sling:message="Devices dialog"/>
+    <commons.devices.tabtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.tabtitle.label"
+            sling:message="Devices properties"/>
+    <commons.devices.hidedevices.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.hidedevices.label"
+            sling:message="Hide devices"/>
+    <commons.devices.hidedevices.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.hidedevices.description"
+            sling:message="If selected 'Hide on tablet and mobile', this component will be hidden on tablets and mobiles, and if checked 'Hide on mobiles' will be hidden only on mobiles."/>
+    <commons.devices.item.do-nothing
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.item.do-nothing"
+            sling:message="Do nothing"/>
+    <commons.devices.item.hide-tablet-mobile
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.item.hide-tablet-mobile"
+            sling:message="Hide on tablet and mobiles"/>
+    <commons.devices.item.hide-mobile
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.devices.item.hide-mobile"
+            sling:message="Hide on mobiles"/>
+    <!-- Structure Components -->
+    <commons.strpleca01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.strpleca01.title"
+            sling:message="Single Title Box"/>
+    <commons.strpleca01.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.strpleca01.placeholder"
+            sling:message="Edit "/>
+    <commons.strpleca01.hide-text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.strpleca01.hide-text"
+            sling:message="Single Title Box component is hidden, double clic to edit."/>
+
+    <!-- Base Components -->
+    <commons.link.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.text"
+            sling:message="Link"/>
+    <commons.link.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.title"
+            sling:message="Title"/>
+
+    <commons.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.description"
+            sling:message="Insert Link Text"/>
+
+    <commons.link.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.path.label"
+            sling:message="Path"/>
+
+    <commons.link.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.path.description"
+            sling:message="Insert Path for the Link"/>
+
+    <commons.link.text.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.text.description"
+            sling:message="Please enter the link's text."/>
+
+    <commons.link.linktype-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.linktype-label"
+            sling:message="Link type"/>
+
+    <commons.link.linktype-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.linktype-description"
+            sling:message="Insert Link Type"/>
+
+    <commons.link.imagesize
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.imagesize"
+            sling:message="Image Size"/>
+
+    <commons.link.imagesize.small
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.imagesize.small"
+            sling:message="Small"/>
+
+    <commons.link.imagesize.large
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.imagesize.large"
+            sling:message="Large"/>
+
+    <commons.link.externallink-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.externallink-label"
+            sling:message="External link"/>
+    <commons.link.externallink-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.externallink-description"
+            sling:message="Please enter an external link. &lt;br>E.g http://www.televisa.com"/>
+    <commons.link.internallink-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.internallink-description"
+            sling:message="Please select the link's path."/>
+    <commons.link.internallink-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.internallink-label"
+            sling:message="Internal link"/>
+    <commons.link.target-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.target-label"
+            sling:message="Target"/>
+            
+     <commons.link.hide-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.hide-description"
+            sling:message="Hides pleca component from the view"/>
+  
+  <commons.link.hide-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.hide-label"
+            sling:message="Hide title"/>
+        
+    
+    <commons.link.target-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.target-description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link."/>
+    <commons.link.target-option-blank-text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.target-option-blank-text"
+            sling:message="Open in a new window"/>
+    <commons.link.target-option-self-text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.target-option-self-text"
+            sling:message="Open in the same window"/>
+    <commons.link.title-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.title-description"
+            sling:message="Please enter the link's 'title' attribute."/>
+    <commons.link.title-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.title-label"
+            sling:message="Title Text"/>
+    <commons.link.text-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.text-description"
+            sling:message="Please enter the text."/>
+    <commons.link.text-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.text-label"
+            sling:message="Text"/>
+    <commons.link.select.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.link.select.text"
+            sling:message="Select target"/>
+    <commons.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.settings.title"
+            sling:message="Settings"/>
+    <commons.ajaxreference.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.ajaxreference.title&#xa;"
+            sling:message="Ajax Reference"/>
+    <commons.ajaxreference.title0
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.ajaxreference.title"
+            sling:message="Ajax Reference"/>
+
+    <!-- LatestNews -->
+    <commons.latestnews.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.title"
+            sling:message="Latest News"/>
+    <!-- Latest News Component -->
+    <commons.latestnews.minutes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.minutes"
+            sling:message="Last Time"/>
+    <commons.latestnews.moreRead
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.moreRead"
+            sling:message="Most Read"/>
+    <commons.latestnews.label.most-read
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.label.most-read"
+            sling:message="Most Read text"/>
+    <commons.latestnews.label-last-time
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.label-last-time"
+            sling:message="Last Time text"/>
+    <commons.latestnews.title-attribute
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.title-attribute"
+            sling:message="Please enter the 'title' attribute."/>
+    <commons.latestnews.label.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.latestnews.label.description"
+            sling:message="Please enter the label text."/>
+    <!-- Article Components -->
+    <commons.artitle.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artitle.title"
+            sling:message="Article"/>
+    <commons.artreltd01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artreltd01.title"
+            sling:message="Releted Articles"/>
+
+    <commons.artreltd01.showtotaltags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artreltd01.showtotaltags.label"
+            sling:message="Items to display"/>
+
+    <commons.artreltd01.showtotaltags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artreltd01.showtotaltags.description"
+            sling:message="Select the numbers of items related to the page you want to display."/>
+
+    <commons.artreltd01.label.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artreltd01.label.description"
+            sling:message="The amount of related items will be updated with the number of tags assigned to the page."/>
+
+    <commons.artbranch01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbranch01.title"
+            sling:message="Article Branch Title"/>
+
+    <commons.artbullet01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.title"
+            sling:message="Article Short Description"/>
+
+    <commons.artbullet01.description.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.description.description"
+            sling:message="Enter a short description for the article"/>
+
+    <commons.artbullet01.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.description.label"
+            sling:message="Bullet"/>
+
+
+    <commons.arttitle01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.title"
+            sling:message="Article Title"/>
+    <commons.arttitle01.author-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.author-description"
+            sling:message="Enter a author for the article."/>
+    <commons.artitle01.author-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttile01.author-label"
+            sling:message="Author"/>
+
+    <commons.arttitle01.author-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.author-label"
+            sling:message="Author"/>
+    <commons.arttitle01.source-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.source-label"
+            sling:message="Source"/>
+
+    <commons.arttile01.source-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.source-description"
+            sling:message="Enter the source for the article."/>
+    <commons.arttitle01.label-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle01.label-description"
+            sling:message="&lt;br>&lt;br>&lt;br>Note:&lt;br>By default this component use the  page title like content.&lt;br>You can change this value  in the page properties of the sidekick in the widget &quot;Title&quot; of the Basic Tab.&#xa;&#x9;&#x9;*Por defecto utiliza el título de la página como contenido, usted puede cambiarlo en las propiedades de la página en el widget &quot;Título&quot; del sidekick&lt;br>&lt;br>You can see the date published of this article doing click in the option &quot;Activate Page&quot; of the sidekick."/>
+    <commons.artnote01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artnote01.title"
+            sling:message="Article Note"/>
+    <commons.artquote01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.title"
+            sling:message="Article Quote"/>
+    <commons.artquote01.quotelist-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.quotelist-description"
+            sling:message="Select quote kind, and add the properties."/>
+    <commons.artquote01.quotelist-artquote01text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.quotelist-artquote01text"
+            sling:message="Quote without image"/>
+    <commons.artquote01.quotelist-artquote02text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.quotelist-artquote02text"
+            sling:message="Quote with image"/>
+    <commons.artquote01.quotelist-artquote03text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.quotelist-artquote03text"
+            sling:message="Complete Quote"/>
+    <commons.artquote01.title-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.title-label"
+            sling:message="Title"/>
+    <commons.artquote01.title-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.title-description"
+            sling:message="Enter the main title for the quote."/>
+    <commons.artquote01.author-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.author-label"
+            sling:message="Author"/>
+    <commons.artquote01.author-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artquote01.author-description"
+            sling:message="Enter the author for the quote."/>
+    <commons.artbullet01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.title"
+            sling:message="Article Bullet"/>
+    <commons.artbullet01.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.description.label"
+            sling:message="Description"/>
+    <commons.artbullet01.description.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artbullet01.description.description"
+            sling:message="Enter a short description for the article."/>
+    <commons.columns.one.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.columns.one.text"
+            sling:message="One"/>
+    <commons.article.topic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.topic.label"
+            sling:message="Topic"/>
+    <commons.article.topic.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.topic.description"
+            sling:message="Select a tag or enter a new tag for the article."/>
+
+    <commons.articleprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.articleprogram.title"
+            sling:message="Program Article"/>
+
+    <commons.article.showcomponents.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.showcomponents.description"
+            sling:message="Select a component to show in the page. &lt;br> By default it will show the component &quot;Stage Image&quot;."/>
+
+    <commons.article.topic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.topic.label"
+            sling:message="Topic"/>
+    <commons.article.social.related.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.social.related.label"
+            sling:message="Show Related Articles and Social Components"/>
+    <commons.article.social.related.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.social.related.description"
+            sling:message="Enable the display of the Social and Related Article Components."/>
+    <commons.article.topic.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.topic.description"
+            sling:message="Select a tag or enter a new tag for the article."/>
+    <commons.article.showcomponents.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.article.showcomponents.label"
+            sling:message="Display Component"/>
+    <commons.articlestage.dialog.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.articlestage.dialog.settings.title"
+            sling:message="Settings"/>
+    <commons.articlestage.dialog.settings.stage.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.articlestage.dialog.settings.stage.description"
+            sling:message="Check to enable the stage status of the article."/>
+    <commons.articlestage.dialog.settings.stage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.articlestage.dialog.settings.stage.label"
+            sling:message="Stage"/>
+
+
+    <!-- Image Components -->
+    <commons.stageimage.alt-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.stageimage.alt-description"
+            sling:message="Enter some text alternative for the image. &lt;br> It will use like image property."/>
+    <commons.imagegallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.title"
+            sling:message="Image Gallery"/>
+    <commons.imagegallery.firstcarrousel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.firstcarrousel"
+            sling:message="Gallery"/>
+    <commons.imagegallery.firstcarrousel.listitems.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.firstcarrousel.listitems.description"
+            sling:message="Press the button &quot;Add Element&quot; to add a new image file."/>
+    <commons.imagegallery.firstcarrousel.listitems.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.firstcarrousel.listitems.label"
+            sling:message="Image Gallery Content"/>
+    <commons.imagegallery.firstcarrousel.link.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.firstcarrousel.link.label"
+            sling:message="Path Photogallery"/>
+    <commons.imagegallery.showgallery.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.showgallery.label"
+            sling:message="Show Galleries"/>
+    <commons.imagegallery.showgallery.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.showgallery.description"
+            sling:message="Check box if you need include other galleries on the component."/>
+    <commons.imagegallery.showinfo.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.showinfo.description"
+            sling:message="Check box if need show the main title and description of the first photogallery, the related note, and social comments."/>
+    <commons.imagegallery.showinfo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.showinfo.label"
+            sling:message="Show Information"/>
+    <commons.imagegallery.descriptiontopic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.descriptiontopic.label"
+            sling:message="Description &amp; topic"/>
+    <commons.imagegallery.item.delete.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.item.delete.message"
+            sling:message="Do you really want to delete the selected component?"/>
+    <commons.imagegallery.item.imagealt.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.item.imagealt.description"
+            sling:message="Image alternative text."/>
+    <commons.imagegallery.imagealt.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.imagealt.label"
+            sling:message="Alt"/>
+    <commons.imagegallery.topic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.topic.label"
+            sling:message="Topic"/>
+    <commons.imagegallery.item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imagegallery.item.title"
+            sling:message="Image gallery element"/>
+    <commons.columns.two.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.columns.two.text"
+            sling:message="Two"/>
+    <commons.columns.three.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.columns.three.text"
+            sling:message="Three"/>
+    <commons.columns.four.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.columns.four.text"
+            sling:message="Four"/>
+    <commons.confpage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confpage.label"
+            sling:message="Configuration Page"/>
+    <commons.confpage.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confpage.description"
+            sling:message="Insert the configuration page"/>
+    <commons.photogalleryfull01.carrousel.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.carrousel.title"
+            sling:message="Images"/>
+    <commons.photogalleryfull01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.description"
+            sling:message="You can replace this content, in the dialog of this component, selecting the tab &quot;Text Content&quot; in the widget &quot;Description&quot;."/>
+    <commons.photogalleryfull01.firstimage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.firstimage.label"
+            sling:message="First Image"/>
+    <commons.photogalleryfull01.generalsettings
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.generalsettings"
+            sling:message="General settings"/>
+    <commons.photogalleryfull01.imagedescription.descri
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagedescription.description"
+            sling:message="Image description"/>
+    <commons.photogalleryfull01.imagedescription.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagedescription.label"
+            sling:message="Image description"/>
+    <commons.photogalleryfull01.imagefile.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagefile.description"
+            sling:message="Select the image that you need adding."/>
+    <commons.photogalleryfull01.imagefile.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagefile.label"
+            sling:message="Image"/>
+    <commons.photogalleryfull01.imagespath.listitems.de
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagespath.listitems.description"
+            sling:message="Press the button &quot;Add Element&quot; to add image content, after select the image path and enter the image description for each element."/>
+    <commons.photogalleryfull01.imagespath.listitems.la
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.imagespath.listitems.label"
+            sling:message="Images"/>
+    <commons.photogalleryfull01.short.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.short.description"
+            sling:message="Enter some content for the description of  Photo Gallery Full."/>
+    <commons.photogalleryfull01.short.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.short.label"
+            sling:message="Description"/>
+    <commons.photogalleryfull01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.title"
+            sling:message="Photo Gallery Full"/>
+    <commons.photogalleryfull01.titlemessage.descriptio
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.titlemessage.description"
+            sling:message="If you need change the title, select the option &quot;properties page&quot; of the sidekick and replace  the content of the widget &quot;Title&quot; of the tab &quot;Basic&quot;."/>
+    <commons.photogalleryfull01.topic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.topic"
+            sling:message="Text Content"/>
+    <commons.photogalleryfull01.topic.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.topic.description"
+            sling:message="Photo gallery topic"/>
+    <commons.photogalleryfull01.topic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfull01.topic.label"
+            sling:message="Topic"/>
+    <commons.photogalleryfullitem01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfullitem01.title"
+            sling:message="Photo Gallery Full Item"/>
+    <commons.photogalleryfullitem01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.photogalleryfullitem01.title"
+            sling:message="Photo Gallery Full Item"/>
+    <commons.imgstage01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.title"
+            sling:message="Stage Image"/>
+    <commons.imgstage01.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.description.label"
+            sling:message="Description"/>
+    <commons.imgstage01.description.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.description.description"
+            sling:message="Enter a short description for stage image."/>
+    <commons.imgstage01.author.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.author.label"
+            sling:message="Author"/>
+    <commons.imgstage01.author.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.author.description"
+            sling:message="Enter a author for the stage image."/>
+    <commons.imgstage01.alt.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.imgstage01.alt.description"
+            sling:message="Enter some text alternative for the image. &lt;br> It will use like image property."/>
+
+    <!-- Navigation Components -->
+    <commons.navfooter01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.title"
+            sling:message="Footer Title"/>
+
+    <commons.navfooter01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.description"
+            sling:message="Enter the title for the footer"/>
+
+    <commons.navfooter01.footeritem.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.footeritem.title"
+            sling:message="Footer Item Title"/>
+
+    <commons.navfooter01.footeritem.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.footeritem.description"
+            sling:message="Enter the title for the footer item"/>
+
+    <commons.navcorft01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.title"
+            sling:message="Corporate Title"/>
+
+    <commons.navcorft01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.description"
+            sling:message="Enter the title for the corporate footer"/>
+
+    <commons.navcorft01.footercenter.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.footercenter.title"
+            sling:message="Corporate Column Title"/>
+
+    <commons.navcorft01.footercenter.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.footercenter.description"
+            sling:message="Enter the title for the corporate column footer"/>
+
+    <commons.navheader01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.title"
+            sling:message="Header Title"/>
+
+    <commons.navheader01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.description"
+            sling:message="Enter the title for the header"/>
+
+    <commons.navheader01.headeritem.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.headeritem.title"
+            sling:message="Header Item Title"/>
+
+    <commons.navheader01.headeritem.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.headeritem.description"
+            sling:message="Enter the title for the header item footer"/>
+
+    <commons.navheader01.subsections.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.title"
+            sling:message="Header Subsections"/>
+    <commons.navheader01.subsections.sections
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.sections"
+            sling:message="Sections"/>
+    <commons.navheader01.subsections.path
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.path"
+            sling:message="Path"/>
+    <commons.navheader01.subsections.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.path.description"
+            sling:message="Enter path for the subsection"/>
+    <commons.navheader01.subsections.item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.item.title"
+            sling:message="Title"/>
+    <commons.navheader01.subsections.item.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.item.title.description"
+            sling:message="Enter title for the subsection, if this field is empty, the title of the page will be used."/>
+    <commons.navheader01.subsections.items
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.subsections.items"
+            sling:message="Subsection items"/>
+    <commons.externalHTMLSource.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.externalHTMLSource.title"
+            sling:message="External HTML "/>
+    <commons.externalHTMLSource.searchurl.labelDescription
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.externalHTMLSource.searchurl.labelDescription"
+            sling:message="Insert the complete URL for the search"/>
+    <commons.externalHTMLSource.homepathlogo.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.externalHTMLSource.path.title"
+            sling:message="Link"/>
+    <commons.externalHTMLSource.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.externalHTMLSource.path.description"
+            sling:message="Select the path where the content is going to be recovered"/>
+
+    <commons.linklistnews.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.linklistnews.title"
+            sling:message="List Title"/>
+
+    <commons.reference.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.reference.title"
+            sling:message="Reference"/>
+
+    <commons.directReference.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.directReference.title"
+            sling:message="Direct Reference to Page Component"/>
+
+
+    <commons.reference.error.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.reference.error.placeholder"
+            sling:message="Reference Error"/>
+
+    <commons.navbookmark.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navbookmark.label"
+            sling:message="Show navigation bookmark?"/>
+
+    <commons.navbookmark.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navbookmark.description"
+            sling:message="Click to Show navigation bookmark"/>
+
+    <commons.navfooter01.columns.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.columns.description"
+            sling:message="Columns to display"/>
+
+    <commons.navfooter01.columns.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.columns.label"
+            sling:message="Columns"/>
+
+    <commons.navfooter01.gobacktext.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.gobacktext.description"
+            sling:message="Text to display on go back button"/>
+
+    <commons.navfooter01.gobacktext.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.gobacktext.label"
+            sling:message="Go back button text"/>
+
+    <commons.navcorft01.rightsreserved.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.rightsreserved.title"
+            sling:message="Rights Reserved Text"/>
+
+    <commons.navcorft01.rightsreserved.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.rightsreserved.description"
+            sling:message="Enter text for rights reserved"/>
+
+    <commons.navcorft01.trademark.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.trademark.title"
+            sling:message="Trademark text description"/>
+
+    <commons.navcorft01.button.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.button.title"
+            sling:message="Button Settings"/>
+
+    <commons.navcorft01.showmessage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.showmessage.label"
+            sling:message="Text on show button"/>
+
+    <commons.navcorft01.showmessage.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.showmessage.description"
+            sling:message="Enter text for the show button"/>
+
+    <commons.navcorft01.showtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.showtitle.label"
+            sling:message="Text on show button title"/>
+
+    <commons.navcorft01.showtitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.showtitle.description"
+            sling:message="Enter text for the show button title"/>
+
+    <commons.navcorft01.hidemessage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.hidemessage.label"
+            sling:message="Text on hide button"/>
+
+    <commons.navcorft01.hidemessage.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.hidemessage.description"
+            sling:message="Enter text for the hide button"/>
+
+    <commons.navcorft01.hidetitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.hidetitle.label"
+            sling:message="Text on hide button title"/>
+
+    <commons.navcorft01.hidetitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navcorft01.hidetitle.description"
+            sling:message="Enter text for the hide button title"/>
+
+    <commons.navfooter01.footeritem.class.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.footeritem.class.label"
+            sling:message="Footer Item Class"/>
+
+    <commons.navfooter01.footeritem.class.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navfooter01.footeritem.class.description"
+            sling:message="Enter the class for the footeritem"/>
+
+    <commons.navheader01.searchLabel.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.searchLabel.label"
+            sling:message="Search Text"/>
+
+    <commons.navheader01.searchLabel.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.searchLabel.description"
+            sling:message="Enter text for the search component"/>
+
+    <commons.navheader01.searchurl.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.searchurl.label"
+            sling:message="Search URL"/>
+
+    <commons.navheader01.searchurl.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.searchurl.description"
+            sling:message="Enter URL for the search component"/>
+
+    <commons.navheader01.globalconfiguration.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.globalconfiguration.label"
+            sling:message="Global configuration path"/>
+
+    <commons.navheader01.globalconfiguration.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.globalconfiguration.description"
+            sling:message="Enter the global configuration path"/>
+
+    <commons.navheader01.maintitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.maintitle.label"
+            sling:message="Main Title"/>
+
+    <commons.navheader01.maintitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.maintitle.description"
+            sling:message="Enter main title"/>
+
+    <commons.navheader01.logolink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.logolink.title"
+            sling:message="Link for logo"/>
+
+    <commons.navheader01.linksnewspecial.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.linksnewspecial.title"
+            sling:message="Newspecial Link"/>
+
+    <commons.navheader01.channelType.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.title"
+            sling:message="Channel Type"/>
+
+    <commons.navheader01.channelType.news.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.news.text"
+            sling:message="News"/>
+
+    <commons.navheader01.channelType.sports.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.sports.text"
+            sling:message="Sports"/>
+
+    <commons.navheader01.channelType.entertainment.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.entertainment.text"
+            sling:message="Entertainment"/>
+
+    <commons.navheader01.channelType.lifestyle.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.lifestyle.text"
+            sling:message="Lifestyle"/>
+
+    <commons.navheader01.channelType.television.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.channelType.television.text"
+            sling:message="Television"/>
+
+    <commons.navheader01.filtering.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.filtering.title"
+            sling:message="Filtering"/>
+
+    <commons.navheader01.facebookLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.facebookLink.title"
+            sling:message="Facebook Link"/>
+
+    <commons.navheader01.twitterLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.twitterLink.title"
+            sling:message="Twitter Link"/>
+
+    <commons.navheader01.photoLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.photoLink.title"
+            sling:message="Photo Link"/>
+
+    <commons.navheader01.videoLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.videoLink.title"
+            sling:message="Video Link"/>
+
+    <commons.navheader01.homeLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.navheader01.homeLink.title"
+            sling:message="Home Link"/>
+
+
+    <commons.menulist.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.menulist.title"
+            sling:message="Menu List"/>
+
+    <commons.mainlist.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.mainlist.title"
+            sling:message="Main List"/>
+
+    <commons.alternatelist.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.alternatelist.title"
+            sling:message="Alternate List"/>
+
+    <commons.footercontent.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.footercontent.title"
+            sling:message="Footer Content"/>
+
+    <commons.headercontent.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.headercontent.title"
+            sling:message="Header Content"/>
+
+    <commons.paragraphselection.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.paragraphselection.title"
+            sling:message="Paragraph Selection"/>
+
+    <commons.headerfilter.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.headerfilter.title"
+            sling:message="Header Filter"/>
+
+    <commons.header.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.header.title"
+            sling:message="Header"/>
+
+    <commons.list.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.list.placeholder"
+            sling:message="Insert your list here"/>
+
+    <commons.editcomponent.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.editcomponent.placeholder"
+            sling:message="Double click to edit component"/>
+
+
+
+
+    <!-- Teasers -->
+
+    <commons.primaryteaser.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primaryteaser.title"
+            sling:message="Primary Teaser"/>
+    <commons.secondaryteaser.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.secondaryteaser.title"
+            sling:message="Secondary Teaser"/>
+    <commons.secondaryteaser.pathparent.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.secondaryteaser.pathparent.label"
+            sling:message="Parent Path"/>
+    <commons.secondaryteaser.pathparent.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.secondaryteaser.pathparent.description"
+            sling:message="Please select an article parent path for the automatic mode to work"/>
+    <commons.threeArticlesTeaser.first.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.threeArticlesTeaser.first.title"
+            sling:message="First Item"/>
+
+    <commons.threeArticlesTeaser.second.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.threeArticlesTeaser.second.title"
+            sling:message="Second Item"/>
+
+    <commons.threeArticlesTeaser.three.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.threeArticlesTeaser.three.title"
+            sling:message="Third Item"/>
+
+    <commons.primaryteaser.patharticle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primaryteaser.patharticle.label"
+            sling:message="Article Page"/>
+
+    <commons.primaryteaser.patharticle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primaryteaser.patharticle.description"
+            sling:message="Please select an article. *Articles can also be videos or photo galleries."/>
+    <!-- Video Components -->
+    <commons.videoembed01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoembed01.title"
+            sling:message="Video Embed"/>
+    <commons.youtubeVideoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.youtubeVideoGallery.title"
+            sling:message="YouTube videogallery"/>
+    <commons.videoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoGallery.title"
+            sling:message="Video Gallery"/>
+    <commons.videoembed.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoembed.title"
+            sling:message="Video Embed"/>
+    <commons.videoEmbed.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoEmbed.path.description"
+            sling:message="Use the autocomplete to choose a video."/>
+    <commons.videoEmbed.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoEmbed.path.label"
+            sling:message="Video"/>
+    <commons.videoEmbed.overlay.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoEmbed.overlay.label"
+            sling:message="Short Version"/>
+    <commons.videoEmbed.overlay.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoEmbed.overlay.description"
+            sling:message="Check to display the short version of the video."/>
+    <commons.videoEmbed.empty.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoEmbed.empty.label"
+            sling:message="Please select a video to display."/>
+
+
+    <commons.video.akamai.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.akamai.text"
+            sling:message="Akamai"/>
+    <commons.video.akamaiproperties.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.akamaiproperties.label"
+            sling:message="Akamai video properties"/>
+    <commons.video.author.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.author.label"
+            sling:message="Author"/>
+    <commons.video.autostart.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.autostart.description"
+            sling:message="Enable to make the video start playing automatically. Enabled by default."/>
+    <commons.video.autostart.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.autostart.label"
+            sling:message="Auto start"/>
+    <commons.video.autostrart.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.autostrart.label"
+            sling:message="Auto Start"/>
+    <commons.video.bgcolor.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.bgcolor.label"
+            sling:message="Background color"/>
+    <commons.video.brightcove.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcove.text"
+            sling:message="Brightcove"/>
+    <commons.video.brightcove1.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcove1.title"
+            sling:message="BrightCove 1"/>
+    <commons.video.brightcove2.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcove2.title"
+            sling:message="BrightCove 2"/>
+    <commons.video.brightcove3.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcove3.title"
+            sling:message="BrightCove 3"/>
+    <commons.video.brightcoveduration.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcoveduration.label"
+            sling:message="Duration"/>
+    <commons.video.brightcoveproperties.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.brightcoveproperties.label"
+            sling:message="Brightcove video properties"/>
+    <commons.video.cast.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.cast.label"
+            sling:message="Cast"/>
+    <commons.video.chapter.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.chapter.label"
+            sling:message="Chapter"/>
+    <commons.video.clip.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.clip.text"
+            sling:message="Clip"/>
+    <commons.video.duration.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.duration.label"
+            sling:message="Duration"/>
+    <commons.video.emptygallery.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.emptygallery.label"
+            sling:message="Please select a video."/>
+    <commons.video.extras.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.extras.label"
+            sling:message="Extras"/>
+    <commons.video.fullEpisode.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.fullEpisode.text"
+            sling:message="Full episode"/>
+    <commons.video.geoFilter.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.geoFilter.label"
+            sling:message="Geo Filter"/>
+    <commons.video.geofilterDescription.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.geofilterDescription.text"
+            sling:message="Add the name of the filter in the first column and its MD5 hash in the second column. &#xa;"/>
+    <commons.video.imageAlt.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.imageAlt.description"
+            sling:message="The 'alt' attribute of the thumbnail image."/>
+    <commons.video.imageAlt.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.imageAlt.label"
+            sling:message="Thumbnail alt"/>
+    <commons.video.m3u8.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.m3u8.label"
+            sling:message="HLS URL"/>
+    <commons.video.name
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.name"
+            sling:message="Video"/>
+    <commons.video.playerid.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.playerid.label"
+            sling:message="Player ID"/>
+    <commons.video.program.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.program.description"
+            sling:message="GSA property"/>
+    <commons.video.program.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.program.label"
+            sling:message="Program"/>
+    <commons.video.programName.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.programName.description"
+            sling:message="GSA property"/>
+    <commons.video.programName.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.programName.label"
+            sling:message="Program Name"/>
+    <commons.video.releaseDate.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.releaseDate.description"
+            sling:message="GSA property"/>
+    <commons.video.releaseDate.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.releaseDate.label"
+            sling:message="Release Date"/>
+    <commons.video.season.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.season.label"
+            sling:message="Season"/>
+    <commons.video.settings1.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.settings1.title"
+            sling:message="Settings 1"/>
+    <commons.video.settings2.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.settings2.title"
+            sling:message="Settings 2"/>
+    <commons.video.settings3.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.settings3.title"
+            sling:message="Settings 3"/>
+    <commons.video.showExpand.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showExpand.label"
+            sling:message="Show expand"/>
+    <commons.video.showFacebook.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showFacebook.label"
+            sling:message="Show Facebook button"/>
+    <commons.video.showPopOut.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showPopOut.label"
+            sling:message="Show pop out"/>
+    <commons.video.showRepeatVideo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showRepeatVideo.label"
+            sling:message="Show repeat video"/>
+    <commons.video.showTwitter
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showTwitter"
+            sling:message="Show Twitter button"/>
+    <commons.video.ShowTwitter.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.ShowTwitter.label"
+            sling:message="Show Twitter button"/>
+    <commons.video.socialIcons.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.socialIcons.label"
+            sling:message="Social Icons"/>
+    <commons.video.socialText.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.socialText.description"
+            sling:message="This text will appear when the user shares the video."/>
+    <commons.video.socialText.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.socialText.label"
+            sling:message="Social Text"/>
+    <commons.video.source.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.source.label"
+            sling:message="Source"/>
+    <commons.video.summary.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.summary.description"
+            sling:message="GSA property"/>
+    <commons.video.summary.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.summary.label"
+            sling:message="Summary"/>
+    <commons.video.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.title"
+            sling:message="Video Component"/>
+    <commons.video.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.title.description"
+            sling:message="This title will override the page title."/>
+    <commons.video.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.title.label"
+            sling:message="Editorial Title"/>
+    <commons.video.tooltip.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.tooltip.label"
+            sling:message="Tooltip"/>
+    <commons.video.videoid.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoid.description"
+            sling:message="Enter the video ID."/>
+    <commons.video.videoid.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoid.label"
+            sling:message="ID"/>
+    <commons.video.videoname.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoname.label"
+            sling:message="Name"/>
+    <commons.video.videoplayer.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoplayer.description"
+            sling:message="Select the video origin. &lt;br> Note: the available players are: BrightCove and YouTube"/>
+    <commons.video.videoplayer.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoplayer.label"
+            sling:message="Origin"/>
+    <commons.video.videoType.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoType.label"
+            sling:message="Video Type"/>
+    <commons.video.videourl.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videourl.label"
+            sling:message="Video Low"/>
+    <commons.video.youtube.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.youtube.label"
+            sling:message="YouTube"/>
+    <commons.video.youtube.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.youtube.text"
+            sling:message="Youtube"/>
+    <commons.video.youtube.validation
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.youtube.validation"
+            sling:message="Invalid Youtube ID."/>
+    <commons.video.youtubeproperties.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.youtubeproperties.label"
+            sling:message="Youtube video properties"/>
+    <commons.youtube.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.youtube.title"
+            sling:message="YouTube Player"/>
+    <commons.youtubeVideoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.youtubeVideoGallery.title"
+            sling:message="YouTube videogallery"/>
+    <commons.video.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.title.description"
+            sling:message="This title will override the page title."/>
+    <commons.video.m3u8.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.m3u8.label"
+            sling:message="HLS URL"/>
+    <commons.video.playerid.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.playerid.label"
+            sling:message="Player ID"/>
+    <commons.video.showExpand
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showExpand"
+            sling:message="Show expand button"/>
+    <commons.video.showPopOut
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.showPopOut"
+            sling:message="Show Pop Out"/>
+
+    <commons.video.import.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.import.text"
+            sling:message="Import video"/>
+    <commons.video.clear.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.clear.text"
+            sling:message="Clear video"/>
+    <commons.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.image.title"
+            sling:message="Image"/>
+    <commons.video.videoMedium.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoMedium.label"
+            sling:message="Video Medium"/>
+    <commons.video.videoHigh.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.videoHigh.label"
+            sling:message="Video High"/>
+    <commons.video.f4m.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.f4m.label"
+            sling:message="HDS URL"/>
+    <commons.video.thumbnail.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.thumbnail.label"
+            sling:message="Thumbnail URL"/>
+    <commons.video.imageUrl.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.imageUrl.label"
+            sling:message="Image URL"/>
+    <commons.video.referenceId.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.referenceId.label"
+            sling:message="Reference ID"/>
+    <commons.video.assetPath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.video.assetPath.label"
+            sling:message="Asset Path"/>
+
+    <!-- Recent Videos Component -->
+    <commons.recentVideos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.recentVideos.description"
+            sling:message="Recent Video Component"/>
+    <commons.recentVideos.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.recentVideos.title"
+            sling:message="Recent Videos"/>
+    <commons.recentVideos.editMessage
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.recentVideos.editMessage"
+            sling:message="Please edit the 'Recent Videos' component."/>
+    <commons.recentVideos.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.recentVideos.settings.title"
+            sling:message="Video Settings"/>
+
+    <commons.brightcoveVideoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.brightcoveVideoGallery.title"
+            sling:message="Brightcove Video Gallery"/>
+
+    <!-- Video Carousel Component -->
+    <commons.videoCarousel.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.title"
+            sling:message="Video Carousel"/>
+    <commons.videoCarousel.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.placeholder"
+            sling:message="Open the dialog to modify the Video Carousel."/>
+    <commons.videoCarousel.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.settings.title"
+            sling:message="Settings"/>
+    <commons.videoCarousel.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.path.label"
+            sling:message="Path: "/>
+    <commons.videoCarousel.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.path.description"
+            sling:message="Select the path where the video notes is going to be recovered."/>
+    <commons.videoCarousel.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.tags.label"
+            sling:message="Tags: "/>
+    <commons.videoCarousel.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.tags.description"
+            sling:message="Enter the tags you want to have the video notes."/>
+    <commons.videoCarousel.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.title.label"
+            sling:message="Title: "/>
+    <commons.videoCarousel.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.title.description"
+            sling:message="Input the title you want to have the video notes."/>
+    <commons.videoCarousel.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.description.label"
+            sling:message="Description: "/>
+    <commons.videoCarousel.description.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.description.description"
+            sling:message="Input the description you want to have the notes to recover."/>
+    <commons.videoCarousel.target.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.target.label"
+            sling:message="Target: "/>
+    <commons.videoCarousel.target.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.target.description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link."/>
+    <commons.videoCarousel.titleLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoCarousel.titleLink.title"
+            sling:message="Title"/>
+
+
+    <!-- Show main image, image context and topic -->
+
+    <commons.showcontext.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showcontext.description"
+            sling:message="Select the check box if you need show the image context. &lt;br> It will show the image context in the main image depending of  the template."/>
+
+    <commons.showcontext.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showcontext.label"
+            sling:message="Show Image Context"/>
+
+    <commons.showimage.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showimage.description"
+            sling:message="Select the check box if you need show the main image."/>
+
+    <commons.showimage.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showimage.label"
+            sling:message="Show Image"/>
+
+    <commons.showtopic.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showtopic.description"
+            sling:message="Select the check box if you need show the topic."/>
+
+    <commons.showtopic.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showtopic.label"
+            sling:message="Show Topic"/>
+
+    <commons.showtitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showtitle.description"
+            sling:message="Select the check box if you nees show the title."/>
+
+    <commons.showtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.showtitle.label"
+            sling:message="Show Title"/>
+
+    <!-- Configuration Page -->
+
+    <commons.confglobal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confglobal.title"
+            sling:message="Global Configuration"/>
+
+    <commons.confglobal.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confglobal.description"
+            sling:message="Simple template containing two parsys for include the footer and header components."/>
+
+    <commons.confcanal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confcanal.title"
+            sling:message="Channel Configuration"/>
+
+    <commons.confcanal.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.confcanal.description"
+            sling:message="Simple template containing two parsys for include the footer and header components."/>
+
+
+
+    <!-- Button Components -->
+    <commons.buttonprogram.image.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.image.label"
+            sling:message="Drag and Drop the Channel Image from the Content Finder"/>
+    <commons.buttonprogram.dialog.settings.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.image.title"
+            sling:message="Image Channel"/>
+    <commons.buttonprogram.dialog.settings.teasertext.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.teasertext.label"
+            sling:message="Program Article Teaser Text"/>
+    <commons.buttonprogram.dialog.settings.teasertext.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.teasertext.description"
+            sling:message="Write a program article teaser text."/>
+    <commons.buttonprogram.dialog.settings.pathprogram.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.pathprogram.label"
+            sling:message="Program Article Page"/>
+    <commons.buttonprogram.dialog.settings.pathprogram.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.pathprogram.description"
+            sling:message="Select a program article page."/>
+    <commons.buttonprogram.dialog.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.settings.title"
+            sling:message="Settings"/>
+    <commons.buttonprogram.message.notfound
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.message.notfound"
+            sling:message="The note selected doesn't exist."/>
+    <commons.buttonprogram.message.invalid
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.message.invalid"
+            sling:message="The note selected is not a valid program article note."/>
+    <commons.buttonprogram.message.configure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.message.configure"
+            sling:message="Select a program article page in the configuration dialog."/>
+    <commons.buttonprogram.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.dialog.title"
+            sling:message="Generic Program Button Dialog"/>
+    <commons.buttonprogram.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.description"
+            sling:message="Display a generic program button"/>
+    <commons.buttonprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.buttonprogram.title"
+            sling:message="Generic Program Button"/>
+    <commons.carouselprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.title"
+            sling:message="Generic Program Carousel Button"/>
+    <commons.carouselprogram.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.description"
+            sling:message="Display a generic program carousel button"/>
+    <commons.carouselprogram.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.dialog.title"
+            sling:message="Generic Program Carousel Button Dialog"/>
+    <commons.carouselprogram.dialog.contents.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.dialog.contents.title"
+            sling:message="Contents"/>
+    <commons.carouselprogram.dialog.contents.pages.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.dialog.contents.pages.description"
+            sling:message="Select only pages of  program article  (If you need add more elements then click the button  '+' or 'Add element')."/>
+
+    <commons.carouselprogram.dialog.contents.pages.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.dialog.contents.pages.label"
+            sling:message="Program Article Pages"/>
+    <commons.carouselprogram.message.configure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.message.configure"
+            sling:message="Select some program article pages in the configuration dialog."/>
+    <commons.carouselprogram.message.invalid
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.message.invalid"
+            sling:message="The note selected is not a valid program article note."/>
+    <commons.carouselprogram.message.notfound
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.message.notfound"
+            sling:message="The note selected doesn't exist."/>
+    <commons.carouselprogram.message.left
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.message.left"
+            sling:message="Move left"/>
+    <commons.carouselprogram.message.right
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carouselprogram.message.right"
+            sling:message="Move right"/>
+    <!-- Widgets components -->
+    <commons.topTen.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.topTen.title"
+            sling:message="Top Ten"/>
+    <commons.topTen.titlesettings.target.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.topTen.titlesettings.target.description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link.&lt;br>This will be applied too for the items."/>
+    <commons.topten.patharticle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.topten.patharticle.description"
+            sling:message="Select a page of note generic like Article | Photo gallery | Video."/>
+    <commons.topten.patharticle.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.topten.patharticle.title"
+            sling:message="Generic Note Path"/>
+    <commons.videoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.videoGallery.title"
+            sling:message="Video Gallery"/>
+    <commons.wdgHumor01.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.image.title"
+            sling:message="Image" />
+    <commons.wdgHumor01.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.description.label"
+            sling:message="Description" />
+
+    <commons.wdgHumor01.description.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.description.description"
+            sling:message="A short description for the displayed image" />
+
+    <commons.wdgHumor01.reference.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.reference.label"
+            sling:message="Reference" />
+    <commons.wdgHumor01.reference.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.reference.description"
+            sling:message="Reference for the image e.g. by Picasso" />
+
+    <commons.wdgSched02Item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgSched02Item.title"
+            sling:message="Schedule Item" />
+
+    <commons.wdgSched02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgSched02.title"
+            sling:message="Schedule" />
+
+    <commons.wdgSched02.program.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgSched02.program.label"
+            sling:message="Show" />
+
+    <commons.wdgSched02.channel.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgSched02.channel.label"
+            sling:message="Channel" />
+
+    <!-- mix components -->
+    <!-- Gallery History Component -->
+    <commons.galleryHistory.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.title"
+            sling:message="Gallery History"/>
+    <commons.galleryHistory.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.placeholder"
+            sling:message="Open the dialog to modify the Gallery History."/>
+    <commons.galleryHistory.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.settings.title"
+            sling:message="Settings"/>
+    <commons.galleryHistory.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.path.label"
+            sling:message="Path: "/>
+    <commons.galleryHistory.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.path.description"
+            sling:message="Select the path where the notes is going to be recovered"/>
+    <commons.galleryHistory.year.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.year.label"
+            sling:message="Year: "/>
+    <commons.galleryHistory.year.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.year.description"
+            sling:message="Select the year of publish date you want to have the notes to recover."/>
+    <commons.galleryHistory.typeOfNote.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.typeOfNote.label"
+            sling:message="Type of Notes: "/>
+    <commons.galleryHistory.typeOfNote.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.typeOfNote.description"
+            sling:message="Select the type of note."/>
+    <commons.galleryHistory.showarticles
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showarticles"
+            sling:message="Article"/>
+    <commons.galleryHistory.showvideos
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showvideos"
+            sling:message="Video"/>
+    <commons.galleryHistory.showphotogalleries
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showphotogalleries"
+            sling:message="Photo Gallery"/>
+    <commons.galleryHistory.target.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.target.label"
+            sling:message="Target: "/>
+    <commons.galleryHistory.target.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.target.description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link."/>
+    <commons.galleryHistory.titleLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.titleLink.title"
+            sling:message="Title"/>
+    <commons.galleryHistory.buttons.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.buttons.title"
+            sling:message="Buttons"/>
+    <commons.galleryHistory.show.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.show.label"
+            sling:message="Text of Button 'Show'"/>
+    <commons.galleryHistory.show.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.show.description"
+            sling:message="Please input the text for show in the button."/>
+    <commons.galleryHistory.showtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showtitle.label"
+            sling:message="Title of Button 'Show'"/>
+    <commons.galleryHistory.showtitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showtitle.description"
+            sling:message="Please input the attribute 'title' for the link."/>
+    <commons.galleryHistory.hide.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hide.label"
+            sling:message="Text of Button 'Hide'"/>
+    <commons.galleryHistory.hide.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hide.description"
+            sling:message="Please input the text to show in the button."/>
+    <commons.galleryHistory.hidetitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hidetitle.label"
+            sling:message="Title of Button 'Hide'"/>
+    <commons.galleryHistory.hidetitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hidetitle.description"
+            sling:message="Please input the attribute 'title' for the link."/>
+    <!-- GSA triple secondary teaser component -->
+    <commons.gsatriplesecondaryteasercontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.title"
+            sling:message="Triple GSA primary teaser"/>
+    <commons.gsatriplesecondaryteasercontainer.placeho
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.placeholder"
+            sling:message="Edite el componente"/>
+    <commons.gsatriplesecondaryteasercontainer.listform.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.listform.label"
+            sling:message="Perform Search Using"/>
+    <commons.gsatriplesecondaryteasercontainer.external.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.external.title"
+            sling:message="External Search"/>
+    <commons.gsatriplesecondaryteasercontainer.external.field.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.external.field.description"
+            sling:message="Look for content in GSA server, click in the search bottom to perform the query"/>
+    <commons.gsatriplesecondaryteasercontainer.external.field.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.external.field.label"
+            sling:message="Search (GSA)"/>
+    <commons.gsatriplesecondaryteasercontainer.internal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.internal.title"
+            sling:message="Internal Search"/>
+    <commons.gsatriplesecondaryteasercontainer.internal.field.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.internal.field.description"
+            sling:message="Look for content in this current server"/>
+    <commons.gsatriplesecondaryteasercontainer.internal.field.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.internal.field.label"
+            sling:message="Search"/>
+    <commons.gsatriplesecondaryteasercontainer.list2.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.gsatriplesecondaryteasercontainer.list2.title"
+            sling:message="Teaser 2"/>
+    <commons.shortteaser.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.shortteaser.title"
+            sling:message="Short Teaser"/>
+    <commons.primarythreeshortsteasercontainer.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primarythreeshortsteasercontainer.dialog.title"
+            sling:message="Primary Teaser and Tree Shorts Teaser Container"/>
+    <commons.primarythreeshortsteasercontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primarythreeshortsteasercontainer.title"
+            sling:message="Primary Teaser and Three Shorts Teaser Container"/>
+    <!--Standout teaser component -->
+    <commons.standoutteaser.patharticle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.patharticle.label"
+            sling:message="Article Page"/>
+    <commons.standoutTeaser.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutTeaser.title"
+            sling:message="Standout Teaser"/>
+    <commons.standoutTeaser.patharticle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutTeaser.patharticle.label"
+            sling:message="Article Page"/>
+    <commons.standoutteaser.patharticle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.patharticle.description"
+            sling:message="Please select an article. *Articles can also be videos or photo galleries."/>
+    <commons.standoutteaser.settings.relatedarticle.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.settings.relatedarticle.title"
+            sling:message="Related article page"/>
+    <commons.standoutteaser.settings.relatedvideo.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.settings.relatedvideo.title"
+            sling:message="Related video article page"/>
+    <commons.standoutteaser.path.video.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.path.video.description"
+            sling:message="Select the path of a video note."/>
+    <commons.standoutteaser.settings.relatedvideo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.standoutteaser.settings.relatedvideo.label"
+            sling:message="Related video"/>
+
+    <commons.twoprimarysixshortscontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twoprimarysixshortscontainer.title"
+            sling:message="Two Primary and Six Shorts Container"/>
+    <commons.twoprimarysixshortscontainer.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twoprimarysixshortscontainer.description"
+            sling:message="Display a two primary six shorts container"/>
+    <commons.twoprimarysixshortscontainer.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twoprimarysixshortscontainer.dialog.title"
+            sling:message="Generic Two Primary Six Shorts Container Dialog"/>
+    <commons.twoprimarysixshortscontainer.dialog.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twoprimarysixshortscontainer.dialog.settings.title"
+            sling:message="Settings"/>
+    <commons.primaryfourshortsteasercontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.primaryfourshortsteasercontainer.title"
+            sling:message="Primary Teaser and Four Short Teaser Container"/>
+    <commons.tripletagsecondaryteasercontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.tripletagsecondaryteasercontainer.title"
+            sling:message="Triple Tag Secondary Teaser Container"/>
+
+    <commons.triplesecondaryteasercontainer.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.triplesecondaryteasercontainer.title"
+            sling:message="Triple Secondary Teaser container"/>
+
+
+    <commons.triplesecondaryteaser.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.triplesecondaryteaser.settings.title"
+            sling:message="Article Configuration"/>
+
+    <commons.searchfieldvalidation.youtube
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.searchfieldvalidation.youtube"
+            sling:message="Invalid Youtube video."/>
+
+    <commons.secondaryteaser.messageuser
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.secondaryteaser.messageuser"
+            sling:message="Select one of the boxes."/>
+
+    <!-- button -->
+    <commons.btnprog01.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.tab.title"
+            sling:message="Basic"/>
+    <commons.btnprog01.prog.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.prog.title.description"
+            sling:message="The title of program to promote."/>
+    <commons.btnprog01.prog.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.prog.title.label"
+            sling:message="Program title"/>
+    <commons.btnprog01.invitetext.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.invitetext.description"
+            sling:message="Text to invite users to watch it."/>
+    <commons.btnprog01.invitetext.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.invitetext.label"
+            sling:message="Invite Text"/>
+    <commons.btnprog01.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.link.description"
+            sling:message="Link's path."/>
+    <commons.btnprog01.link.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.link.label"
+            sling:message="Link"/>
+
+    <commons.btnprog01.logo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.logo.label"
+            sling:message="Logo"/>
+    <commons.btnprog01.background.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01.background.label"
+            sling:message="Background"/>
+    <!-- component names -->
+    <commons.btnprog01
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.btnprog01"
+            sling:message="Programs Button"/>
+
+
+
+    <commons.wdgHumor01.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.image.title"
+            sling:message="Image" />
+    <commons.wdgHumor01.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.description.label"
+            sling:message="Description" />
+    <commons.wdgHumor01.reference.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.reference.label"
+            sling:message="Reference" />
+    <commons.wdgHumor01.reference.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgHumor01.reference.description"
+            sling:message="Reference for the image" />
+    <!-- Widget Components -->
+
+
+    <commons.arttitle03.jcr.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.jcr.description"
+            sling:message="Article Title 03" />
+    <commons.arttitle03.jcr.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.jcr.title"
+            sling:message="Article Title 03" />
+    <commons.arttitle03.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.title.label"
+            sling:message="Article Title" />
+    <commons.arttitle03.description.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.description.label"
+            sling:message="Article Description Text" />
+    <commons.arttitle03.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.dialog.title"
+            sling:message="Article Title 03 Settings" />
+    <commons.arttitle03.tab.basic.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.arttitle03.tab.basic.title"
+            sling:message="Article Basic Settings" />
+
+    <!-- Carrousel Component -->
+    <commons.carrousel.generalsettings
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.generalsettings"
+            sling:message="General Settings"/>
+    <commons.bullet.link
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.bullet.link"
+            sling:message="Title url"/>
+    <commons.bullet.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.bullet.title"
+            sling:message="Title title"/>
+    <commons.bullet.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.bullet.title.description"
+            sling:message="Enter the carrousel title"/>
+    <commons.bullet.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.bullet.title.label"
+            sling:message="Title"/>
+    <commons.carrousel.first.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.first.article.dialog"
+            sling:message="First article"/>
+    <commons.carrousel.fourth.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.fourth.article.dialog"
+            sling:message="Fourth article"/>
+    <commons.carrousel.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.page.description"
+            sling:message="Select article page"/>
+    <commons.carrousel.page.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.page.label"
+            sling:message="Page"/>
+    <commons.carrousel.second.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.second.article.dialog"
+            sling:message="Second article"/>
+    <commons.carrousel.fifth.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.fifth.article.dialog"
+            sling:message="Fifth article"/>
+    <commons.carrousel.sixth.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.sixth.article.dialog"
+            sling:message="Sixth article"/>
+    <commons.carrousel.third.article.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.third.article.dialog"
+            sling:message="Third article"/>
+    <commons.carrousel.type.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.type.description"
+            sling:message="Select the article type"/>
+    <commons.carrousel.type.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.type.label"
+            sling:message="Type"/>
+    <commons.carrousel.type.option.text.article
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.type.option.text.article"
+            sling:message="Article"/>
+    <commons.carrousel.type.option.text.photogallery
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.type.option.text.photogallery"
+            sling:message="Photo Gallery"/>
+    <commons.carrousel.type.option.text.video
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.type.option.text.video"
+            sling:message="Video"/>
+    <commons.carrousel.bullet
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.bullet"
+            sling:message="Title"/>
+    <commons.carrousel.bullet.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.bullet.link.description"
+            sling:message="Enter the title url"/>
+    <commons.carrousel.bullet.link.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.bullet.link.label"
+            sling:message="Title url"/>
+    <commons.carrousel.bullet.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.bullet.title.description"
+            sling:message="Enter the carrousel title"/>
+    <commons.carrousel.bullet.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.bullet.title.label"
+            sling:message="Title"/>
+    <commons.carrousel.patharticle.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.patharticle.placeholder"
+            sling:message="Open the dialog and add the content in the tab Settings."/>
+    <commons.carrousel.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.title"
+            sling:message="Carrousel"/>
+
+
+
+    <!-- Index By Tags 53 Component -->
+    <commons.indexByTags.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.title"
+            sling:message="Index By Tags"/>
+    <commons.indexByTags.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.settings.title"
+            sling:message="Settings"/>
+    <commons.indexByTags.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.placeholder"
+            sling:message="Open the dialog to modify the Index By Tags component."/>
+    <commons.indexByTags.noResults.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.noResults.placeholder"
+            sling:message="Not find any note"/>
+    <commons.indexByTags.type.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.label"
+            sling:message="Type"/>
+    <commons.indexByTags.type.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.description"
+            sling:message="Type of functionality of the component"/>
+    <commons.indexByTags.type.automatic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.automatic"
+            sling:message="Automatic"/>
+    <commons.indexByTags.type.manual
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.manual"
+            sling:message="Manual"/>
+    <commons.indexByTags.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.label"
+            sling:message="Path"/>
+    <commons.indexByTags.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.description"
+            sling:message="Select the path where the notes is going to be recovered"/>
+    <commons.indexByTags.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.label"
+            sling:message="Tags"/>
+    <commons.indexByTags.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.description"
+            sling:message="Enter the tags you want to have the notes to recover."/>
+    <commons.indexByTags.showarticles.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.label"
+            sling:message="Show the notes type 'Article'"/>
+    <commons.indexByTags.showarticles.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.description"
+            sling:message="If is checked, is include in the list the notes of type 'Article'"/>
+    <commons.indexByTags.showvideos.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.label"
+            sling:message="Show the notes type 'Video'"/>
+    <commons.indexByTags.showvideos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.description"
+            sling:message="If is checked, is include in the list the notes of type 'Video'"/>
+    <commons.indexByTags.showphotogalleries.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.label"
+            sling:message="Show the notes type 'Photo Gallery'"/>
+    <commons.indexByTags.showphotogalleries.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.description"
+            sling:message="If is checked, is include in the list the notes of type 'Photo Gallery'"/>
+            
+    <commons.indexByTags.showpartidos.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showpartidos.label"
+            sling:message="Show the notes type 'Partidos'"/>
+    <commons.indexByTags.showpartidos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showpartidos.description"
+            sling:message="If is checked, is include in the list the notes of type 'Partidos'"/>
+
+    <commons.carrousel.first.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.first.article.description"
+            sling:message="Select the path for first article.&lt;br>&lt;br>"/>
+    <commons.carrousel.second.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.second.article.description"
+            sling:message="Select the path for second article.&lt;br>&lt;br>"/>
+    <commons.carrousel.third.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.third.article.description"
+            sling:message="Select the path for third article.&lt;br>&lt;br>"/>
+    <commons.carrousel.fourth.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.fourth.article.description"
+            sling:message="Select the path for fourth article.&lt;br>&lt;br>"/>
+    <commons.carrousel.fifth.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.fifth.article.description"
+            sling:message="Select the path for fifth article.&lt;br>&lt;br>"/>
+    <commons.carrousel.sixth.article.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.carrousel.sixth.article.description"
+            sling:message="Select the path for sixth article.&lt;br>&lt;br>"/>
+
+
+    <commons.wdgcomment01.comments.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgcomment01.comments.label"
+            sling:message="Comments"/>
+
+    <commons.wdggmap01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.title"
+            sling:message="Generic Map"/>
+
+    <commons.wdgscrolldropdown.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.title"
+            sling:message="Scroll Down Widget"/>
+
+    <commons.wdgscrolldropdown.pleca.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.pleca.label"
+            sling:message="Title"/>
+
+    <commons.wdgscrolldropdown.pleca.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.pleca.description"
+            sling:message="Insert the title show in the component"/>
+
+    <commons.wdgscrolldropdown.stadiums.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.stadiums.title"
+            sling:message="Stadiums"/>
+
+    <commons.wdgscrolldropdown.stadiumnote.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.stadiumnote.label"
+            sling:message="Stadium Note Path"/>
+
+    <commons.wdgscrolldropdown.stadiumnote.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdgscrolldropdown.stadiumnote.description"
+            sling:message="Select a page of note generic stadium"/>
+
+
+    <commons.wdggmap01.address.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.address.label"
+            sling:message="Address"/>
+
+    <commons.wdggmap01.address.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.address.description"
+            sling:message="Select a page of note generic stadium"/>
+
+    <commons.wdggmap01.latitude.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.latitude.label"
+            sling:message="Latitude"/>
+
+    <commons.wdggmap01.latitude.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.latitude.description"
+            sling:message="Latitude to display on map"/>
+
+    <commons.wdggmap01.longitude.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.longitude.label"
+            sling:message="Longitude"/>
+
+    <commons.wdggmap01.longitude.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.wdggmap01.longitude.description"
+            sling:message="Longitude to display on map"/>
+
+    <commons.newsletter.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.title"
+            sling:message="Newsletter"/>
+    <commons.newsletter.message.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.message.label"
+            sling:message="Message"/>
+    <commons.newsletter.message.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.message.description"
+            sling:message="Enter a message to display on the component."/>
+    <commons.newsletter.emailText.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.emailText.label"
+            sling:message="Email Text"/>
+    <commons.newsletter.emailText.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.emailText.description"
+            sling:message="Enter text to display on email box."/>
+    <commons.newsletter.buttonText.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.buttonText.label"
+            sling:message="Button Text"/>
+    <commons.newsletter.buttonText.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.buttonText.description"
+            sling:message="Enter text to display as button text."/>
+    <commons.newsletter.messageWorking.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.messageWorking.label"
+            sling:message="Working Message"/>
+    <commons.newsletter.messageWorking.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.messageWorking.description"
+            sling:message="Enter the working message to display on the component."/>
+    <commons.newsletter.thanksText.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.thanksText.label"
+            sling:message="Thanks Text"/>
+    <commons.newsletter.thanksText.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.newsletter.thanksText.description"
+            sling:message="Enter a message to display of gratitude."/>
+
+    <commons.banner.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.title"
+            sling:message="Banner"/>
+
+    <commons.twitterBox.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.title"
+            sling:message="Twitter Box"/>
+    <commons.twitter.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitter.title"
+            sling:message="Twitter"/>
+    <commons.twitterBox.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.settings.title"
+            sling:message="Settings"/>
+    <commons.twitterBox.type.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.type.label"
+            sling:message="Type: "/>
+    <commons.twitterBox.type.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.type.description"
+            sling:message="Select the type of functionality of the component."/>
+    <commons.twitterBox.type.accounts
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.type.accounts"
+            sling:message="List of users with order"/>
+    <commons.twitterBox.type.list
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.type.list"
+            sling:message="List of users without order"/>
+    <commons.twitterBox.titleLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.titleLink.title"
+            sling:message="Title"/>
+    <commons.twitterBox.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterBox.placeholder"
+            sling:message="Double click to configure Twitter component"/>
+    <commons.twitterAccount.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterAccount.settings.title"
+            sling:message="Settings"/>
+    <commons.twitterAccount.userids.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterAccount.userids.label"
+            sling:message="Users of Twitter: "/>
+    <commons.twitterAccount.userids.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterAccount.userids.description"
+            sling:message="Enter Twitter users."/>
+    <commons.twitterAccount.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterAccount.placeholder"
+            sling:message="Select 'Edit' to configure the component."/>
+    <commons.twitterAccount.id
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterAccount.id"
+            sling:message="Account ID"/>
+    <commons.twitterList.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.settings.title"
+            sling:message="Settings"/>
+    <commons.twitterList.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.placeholder"
+            sling:message="Select 'Edit' to configure the component."/>
+    <commons.twitterList.numberOfTweets.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.numberOfTweets.label"
+            sling:message="Number Of Tweets: "/>
+    <commons.twitterList.numberOfTweets.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.numberOfTweets.description"
+            sling:message="Number of Tweets to show."/>
+    <commons.twitterList.list.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.list.label"
+            sling:message="Users of Twitter: "/>
+    <commons.twitterList.list.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.twitterList.list.description"
+            sling:message="Enter Twitter users."/>
+
+    <commons.banner.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.title"
+            sling:message="Banner"/>
+
+    <commons.banner.desktop.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.desktop.label"
+            sling:message="Desktop"/>
+
+    <commons.banner.hasDesktop.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.hasDesktop.description"
+            sling:message="Select if you want to be display the banners in the desktop version of the template."/>
+
+    <commons.banner.hasDesktop.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.hasDesktop.label"
+            sling:message="Banners for Desktop?"/>
+
+    <commons.banner.false
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.false"
+            sling:message="No"/>
+
+    <commons.banner.false
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.false"
+            sling:message="No"/>
+
+    <commons.banner.true
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.true"
+            sling:message="Yes"/>
+
+    <commons.banner.networkCode.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.networkCode.label"
+            sling:message="Network Code"/>
+
+    <commons.banner.site.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.site.label"
+            sling:message="Site"/>
+
+    <commons.banner.size.hasPleca.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.size.hasPleca.label"
+            sling:message="Display Pleca Banner?"/>
+
+    <commons.banner.pleca.size.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.pleca.size.label"
+            sling:message="Size for Pleca"/>
+
+    <commons.banner.size.hasBox.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.size.hasBox.label"
+            sling:message="Display Box Banner?"/>
+
+    <commons.banner.box.size.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.box.size.label"
+            sling:message="Size for Box"/>
+
+    <commons.banner.size.hasCombo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.size.hasCombo.label"
+            sling:message="Display Combo Banners?"/>
+
+    <commons.banner.super.size.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.super.size.label"
+            sling:message="Size for Super"/>
+
+    <commons.banner.banner.size.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.banner.size.label"
+            sling:message="Size for Banner"/>
+
+    <commons.banner.tablet.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.tablet.label"
+            sling:message="Tablet"/>
+
+    <commons.banner.hasTablet.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.hasTablet.description"
+            sling:message="Select if you want to be display the banners in the tablet version of the template."/>
+
+    <commons.banner.hasTablet.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.hasTablet.label"
+            sling:message="Banners for Tablet?"/>
+
+    <commons.banner.hasTablet.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.banner.hasTablet.label"
+            sling:message="Banners for Tablet?"/>
+    <commons.indexByTags.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.placeholder"
+            sling:message="Index By Tags"/>
+
+    <!-- Index By Tags 53 Component -->
+    <commons.indexByTags.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.title"
+            sling:message="Index By Tags"/>
+    <commons.indexByTags.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.placeholder"
+            sling:message="Open the dialog to modify the Index By Tags component."/>
+    <commons.indexByTags.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.settings.title"
+            sling:message="Settings"/>
+    <genercis.indexByTags.type.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genercis.indexByTags.type.label"
+            sling:message="Type"/>
+    <commons.indexByTags.type.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.description"
+            sling:message="Type of functionality of the component"/>
+    <commons.indexByTags.type.automatic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.automatic"
+            sling:message="Automatic"/>
+    <commons.indexByTags.type.manual
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.manual"
+            sling:message="Manual"/>
+    <commons.indexByTags.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.label"
+            sling:message="Path"/>
+    <commons.indexByTags.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.description"
+            sling:message="Select the path where the notes is going to be recovered"/>
+    <commons.indexByTags.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.label"
+            sling:message="Tags"/>
+    <commons.indexByTags.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.description"
+            sling:message="Enter the tags you want to have the notes to recover."/>
+    <commons.indexByTags.showarticles.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.label"
+            sling:message="Show the notes type 'Article'"/>
+    <commons.indexByTags.showarticles.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.description"
+            sling:message="If is checked, is include in the list the notes of type 'Article'"/>
+    <commons.indexByTags.showvideos.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.label"
+            sling:message="Show the notes type 'Video'"/>
+    <commons.indexByTags.showvideos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.description"
+            sling:message="If is checked, is include in the list the notes of type 'Video'"/>
+    <commons.indexByTags.showphotogalleries.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.label"
+            sling:message="Show the notes type 'Photo Gallery'"/>
+    <commons.indexByTags.showphotogalleries.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.description"
+            sling:message="If is checked, is include in the list the notes of type 'Photo Gallery'"/>
+
+    <commons.poll.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.poll.title"
+            sling:message="Poll Component"/>
+
+    <commons.poll.id.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.poll.id.description"
+            sling:message="Insert the id for the poll"/>
+
+    <commons.poll.id.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.poll.id.label"
+            sling:message="Id"/>
+
+
+
+
+
+    <!-- Index By Tags 53 Component -->
+    <commons.indexByTags.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.title"
+            sling:message="Indice por Tags"/>
+    <commons.indexByTags.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.placeholder"
+            sling:message="Abra el cuadro de diálogo para modificar el componente Índice por Tags."/>
+    <commons.indexByTags.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.settings.title"
+            sling:message="Configuración"/>
+    <genercis.indexByTags.type.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genercis.indexByTags.type.label"
+            sling:message="Tipo"/>
+    <commons.indexByTags.type.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.description"
+            sling:message="Tipo de funcionalidad del componente"/>
+    <commons.indexByTags.type.automatic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.automatic"
+            sling:message="Automatico"/>
+    <commons.indexByTags.type.manual
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.type.manual"
+            sling:message="Manual"/>
+    <commons.indexByTags.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.label"
+            sling:message="Ruta URL"/>
+    <commons.indexByTags.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.path.description"
+            sling:message="Seleccione la ruta URL donde quiere que se recupere las notas"/>
+    <commons.indexByTags.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.label"
+            sling:message="Tags"/>
+    <commons.indexByTags.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.tags.description"
+            sling:message="Ingresar los tags que se quiere tengan las notas a recuperar."/>
+    <commons.indexByTags.showarticles.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.label"
+            sling:message="Incluir las notas tipo 'Artículo'"/>
+    <commons.indexByTags.showarticles.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showarticles.description"
+            sling:message="Si este es marcado, se incluira a la lista las notas tipo tipo 'Artículo'"/>
+    <commons.indexByTags.showvideos.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.label"
+            sling:message="Incluir las notas tipo 'Video'"/>
+    <commons.indexByTags.showvideos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showvideos.description"
+            sling:message="Si este es marcado, se incluira a la lista las notas tipo tipo 'Video'"/>
+    <commons.indexByTags.showphotogalleries.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.label"
+            sling:message="Incluir las notas tipo 'Galería de Fotos'"/>
+    <commons.indexByTags.showphotogalleries.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.indexByTags.showphotogalleries.description"
+            sling:message="Si este es marcado, se incluira a la lista las notas tipo tipo 'Galería de Fotos'"/>
+
+    <!-- Index By Tags 53 Component -->
+    <commons.galleryHistory.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.title"
+            sling:message="Historial de Galería"/>
+    <commons.galleryHistory.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.placeholder"
+            sling:message="Abra el cuadro de diálogo para modificar el componente Historial de Galería."/>
+    <commons.galleryHistory.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.settings.title"
+            sling:message="Configuración"/>
+    <commons.galleryHistory.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.path.label"
+            sling:message="Ruta URL"/>
+    <commons.galleryHistory.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.path.description"
+            sling:message="Seleccione la ruta URL donde quiere que se recupere las notas"/>
+    <commons.galleryHistory.year.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.year.label"
+            sling:message="Año"/>
+    <commons.galleryHistory.year.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.year.description"
+            sling:message="Seleccione el año de publicación por el cual serán buscadas las notas"/>
+    <commons.galleryHistory.typeOfNote.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.typeOfNote.label"
+            sling:message="Tipo de Notas: "/>
+    <commons.galleryHistory.typeOfNote.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.typeOfNote.description"
+            sling:message="Seleccione el tipo de Nota."/>
+    <commons.galleryHistory.showarticles
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showarticles"
+            sling:message="Artículo"/>
+    <commons.galleryHistory.showvideos
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showvideos"
+            sling:message="Video"/>
+    <commons.galleryHistory.showphotogalleries
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showphotogalleries"
+            sling:message="Galería de Fotos"/>
+    <commons.galleryHistory.target.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.target.label"
+            sling:message="Destino"/>
+    <commons.galleryHistory.target.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.target.description"
+            sling:message="Seleccione un valor para el atributo &quot;target&quot; para las ligas."/>
+    <commons.galleryHistory.titleLink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.titleLink.title"
+            sling:message="Título"/>
+    <commons.galleryHistory.buttons.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.buttons.title"
+            sling:message="Botones"/>
+    <commons.galleryHistory.show.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.show.label"
+            sling:message="Texto de Botón 'Mostrar'"/>
+    <commons.galleryHistory.show.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.show.description"
+            sling:message="Por favor ingrese el texto a mostrar del boton."/>
+    <commons.galleryHistory.showtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showtitle.label"
+            sling:message="Título de Botón 'Mostrar'"/>
+    <commons.galleryHistory.showtitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.showtitle.description"
+            sling:message="Por favor ingrese el atributo 'title' de la liga."/>
+    <commons.galleryHistory.hide.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hide.label"
+            sling:message="Texto de Botón 'Ocultar'"/>
+    <commons.galleryHistory.hide.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hide.description"
+            sling:message="Por favor ingrese el texto a mostrar del boton."/>
+    <commons.galleryHistory.hidetitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hidetitle.label"
+            sling:message="Título de Botón 'Ocultar'"/>
+    <commons.galleryHistory.hidetitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.galleryHistory.hidetitle.description"
+            sling:message="Por favor ingrese el atributo 'title' de la liga."/>
+
+  
+    <!-- Inheritance Component -->
+    <commons.inheritance.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.title"
+            sling:message="Inheritance Generic"/>
+    <commons.inheritance.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.description"
+            sling:message="This component inherits from another in a given page."/>
+    <commons.inheritance.settings
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.settings"
+            sling:message="Inheritance Settings"/>
+    <commons.inheritance.resourcePath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.resourcePath.label"
+            sling:message="Inheritance"/>
+    <commons.inheritance.resourcePath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.resourcePath.description"
+            sling:message="Select the component related to a page."/>
+    <commons.inheritance.inheritanceType.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.inheritanceType.label"
+            sling:message="Inheritance"/>
+    <commons.inheritance.inheritanceType.options.normal
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.inheritanceType.options.normal"
+            sling:message="No Inheritance (Normal behavior)"/>
+    <commons.inheritance.inheritanceType.options.inheritance
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.inheritanceType.options.inheritance"
+            sling:message="Inheritance"/>
+    <commons.inheritance.inheritancePath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.inheritancePath.label"
+            sling:message="Inheritance page path"/>
+    <commons.inheritance.empty.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.inheritance.empty.label"
+            sling:message="Fill the information required to inherit."/>
+            
+    <commons.artTitle05.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.title"
+            sling:message="Article Title 05"/>
+            
+    <commons.artTitle05.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.title"
+            sling:message="Generic Program Article Dialog"/>
+            
+    <commons.artTitle05.dialog.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.title"
+            sling:message="Settings"/>
+            
+    <commons.artTitle05.dialog.settings.programname.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programname.description"
+            sling:message="Write a program article name."/>
+            
+    <commons.artTitle05.dialog.settings.programname.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programname.label"
+            sling:message="Name"/>
+            
+    <commons.artTitle05.dialog.settings.programchannel.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programchannel.description"
+            sling:message="Write a program article channel."/>
+            
+    <commons.artTitle05.dialog.settings.programchannel.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programchannel.label"
+            sling:message="Channel"/>
+            
+    <commons.artTitle05.dialog.settings.programschedule.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programschedule.description"
+            sling:message="Write a program article schedule."/>            
+            
+    <commons.artTitle05.dialog.settings.programschedule.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.settings.programschedule.label"
+            sling:message="Schedule"/>  
+            
+    <commons.artTitle05.dialog.synopsis.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.artTitle05.dialog.synopsis.title"
+            sling:message="Synopsis"/>              
+
+
+</jcr:root>

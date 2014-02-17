@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-03-06T15:00:05.823Z"
+        cq:lastModifiedBy="admin"
+        cq:tags="[workflow:dam]"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:description="This workflow manages the update of assets"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DAM Update Asset"
+        sling:resourceType="cq/workflow/components/pages/model">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <process/>
+            <process0/>
+            <process1/>
+            <process2/>
+            <process3/>
+            <process4/>
+            <process5/>
+            <process_0/>
+            <process6/>
+            <cropimageprocessDeportes
+                jcr:created="{Date}2013-03-06T14:56:16.734Z"
+                jcr:createdBy="admin"
+                jcr:description="This process will create one or more cropped images for the asset to be processed."
+                jcr:lastModified="{Date}2013-03-06T15:00:05.819Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Deportes Crop Image"
+                sling:resourceType="/apps/deportes/local/components/workflow/cropimageprocess"
+                PROCESS="com.local.deportes.services.workflow.CropImageWorkflowProcess"
+                PROCESS_AUTO_ADVANCE="true">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    aspectRatio11="[63:63,110:110]"
+                    aspectRatio169="[624:351,300:169,300:225,194:109,192:107,136:77,210:120,67:38]"
+                    aspectRatio43="[1024:768,624:468,408:306,136:104,136:102,84:63,84:47]"
+                    dimension11="768:768"
+                    dimension169="1024:576"
+                    dimension43="1024:768"
+                    grayFor11="true"
+                    PROCESS="com.local.deportes.services.workflow.CropImageWorkflowProcess"
+                    PROCESS_AUTO_ADVANCE="true"/>
+            </cropimageprocessDeportes>
+        </flow>
+        <model/>
+    </jcr:content>
+</jcr:root>

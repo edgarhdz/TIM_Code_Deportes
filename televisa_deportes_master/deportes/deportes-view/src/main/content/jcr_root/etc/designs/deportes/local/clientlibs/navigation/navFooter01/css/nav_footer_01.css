@@ -1,0 +1,201 @@
+@media screen and (min-width: 948px){  
+    .nav_footer_01 .makeBookmark span {
+        width: 955px;
+    }
+    
+    .nav_footer_01 div.wrapper {
+        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2sAAAAXCAIAAAAa30DgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4NDdFN0Q3M0VDQzkxMUUyQUUxRkZBODNBNEQ0MkU0RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4NDdFN0Q3NEVDQzkxMUUyQUUxRkZBODNBNEQ0MkU0RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjg0N0U3RDcxRUNDOTExRTJBRTFGRkE4M0E0RDQyRTREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjg0N0U3RDcyRUNDOTExRTJBRTFGRkE4M0E0RDQyRTREIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+okCbNAAAAIpJREFUeNrs10ENACAMBEHAz/kXUkFFBZCQGQmXPrazuwecVFVJ7IBTBPjGMgEAXH5mjICCBABAQQIAgIIEAEBBAgCgIAEAUJAAAChIAAAUJAAAKEgAABQkAAAKEgAABQkAgIIEAAAFCQCAggQAQEECAKAgAQBQkAAAKEgAAFCQAAAoSAAA3toCDADG7guk5CNceQAAAABJRU5ErkJggg==) repeat-y 0 0;
+        margin:24px auto 60px auto;
+    }
+    
+    .nav_footer_01 div .wrapper,
+    .nav_footer_01 .blue-row .wrapper,
+    .nav_footer_01 .dark-row .wrapper {
+        width: 1014px;
+    }
+    .nav_footer_01 .leftBorder {
+        border-left: 1px solid #dadada;
+    }
+    .nav_footer_01 .blue-row ul a {
+        float: none;
+    }
+    .nav_footer_01 .blue-row a {
+        float: right;
+    }
+    .nav_footer_01 .blue-row a .text {
+        display: block;
+        font-size: 10px;
+        color: #f39040;
+        margin: 0;
+        float: left;
+        padding: 0 5px;
+    }
+	.nav_footer_01 .desktopNav {
+        padding-top:47px;
+   }
+   .nav_footer_01 .white-row .wrapper {
+      height:314px;
+    }
+    .nav_footer_01 .white-row .wrapper,
+    .nav_footer_01 .desktopNav ul {
+        width: 955px;   
+    }
+    .nav_footer_01 div.legal div.row div.left {
+        width: auto;
+    }
+    .nav_footer_01 div.legal div.row {
+        width: 90%;
+    }
+    .nav_footer_01 .white-row .wrapper {     
+        margin-top:25px;
+    }
+    .nav_footer_01 .white-row .column.blogs {
+        margin-top:0;
+        float: left;
+    }
+    .nav_footer_01 .white-row .column.movil {
+        margin-left:0;
+        float:left;
+    }
+
+    .nav_footer_01 .apps,
+    .nav_footer_01 .podcast,
+    .nav_footer_01 .videoPodcasts,
+    .nav_footer_01 .ipadApps,
+    .nav_footer_01 .otherApps{
+        display: none !important;
+    }
+    /*BEGIN: adiaz 06/09/2013*/
+    .nav_footer_01 .white-row ul {
+        text-align: left;
+        width: 157px;
+        padding-left: 10px;
+        position: relative;
+        overflow: visible;
+        float: none;
+    }
+    .nav_footer_01 .white-row ul.items-white-row li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 3px 0;
+    }
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(2){
+    	padding: 6px 0;
+    }
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(4),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(6),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(7),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(8),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(9),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(10),
+    .nav_footer_01 .white-row ul.items-white-row li:nth-child(11){
+    	padding: 4px 0;
+    }
+     .nav_footer_01 .white-row ul.twitter{
+       padding-bottom:20px;
+    }
+    .nav_footer_01 .white-row ul.twitter li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+    .nav_footer_01 .white-row ul.twitter li:last-child ul li{        
+        padding: 1px 0;
+    }
+    .nav_footer_01 .white-row ul.facebook li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.forums{
+    	padding-bottom:16px;
+    }
+    .nav_footer_01 .white-row ul.forums li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.apps li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }	
+    .nav_footer_01 .white-row ul.blogs li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.podcast li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.videoPodcasts {
+        padding-bottom:57px;
+    }
+    .nav_footer_01 .white-row ul.videoPodcasts li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+     .nav_footer_01 .white-row ul.iphoneApps{
+     	padding-bottom:57px;
+     }
+    .nav_footer_01 .white-row ul.iphoneApps li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.ipadApps li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.icon-social li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+     .nav_footer_01 .white-row ul.androidApps li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+     .nav_footer_01 .white-row ul.icon-social li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    .nav_footer_01 .white-row ul.otherApps li {
+    	border: 0;
+        width: auto;
+        height: auto;
+        padding: 1px;
+    }
+    /*END: adiaz 06/09/2013*/
+	
+	.ie7 .nav_footer_01 ul li {
+	  color: #fff;
+	  padding: 0.813em;
+	  padding-left: 1.313em;
+	  display: none;
+	  overflow: hidden;
+	}   
+	
+	.ie7 .nav_footer_01 .items-white-row{ 
+		width: 180px!important;
+	} 
+}

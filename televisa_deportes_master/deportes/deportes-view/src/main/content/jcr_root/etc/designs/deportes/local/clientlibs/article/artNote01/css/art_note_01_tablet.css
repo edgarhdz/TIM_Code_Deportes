@@ -1,0 +1,10 @@
+@media screen and (min-width: 624px){
+    .art_note_01{
+        /* margin-bottom:36px;   Se quitÃ³ el margen inferior por el espacio que deja entre un componente de texto y el siguiente del mismo tipo */
+        font-size:14px;
+        padding: 0 24px;
+    }
+    .art_note_01 p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,3 @@
+#base=js
+
+btn_6prog_02.js

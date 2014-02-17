@@ -1,0 +1,75 @@
+@media screen and (min-width: 948px){
+    .art_latestnews_01 {
+        width: 18.644em;
+    }
+    .art_latestnews_01 > ul > li {
+        border-bottom: 1px solid #ccc;
+    }
+    div.art_latestnews_01 ul.art_latestnews_01_list2 li .mix_1arts_07 {
+        border-bottom: none;
+    }
+    .art_latestnews_01_lia,.art_latestnews_01_lib,.art_latestnews_01_lic{
+        display: block;
+    }
+    div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
+        background-color: rgba(235,235,235,0.6);
+    }
+    .ie7 div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB);
+    }
+    .ie8 div.art_latestnews_01 ul.art_latestnews_01_list1 li .art_latestnews_01_elements a p:hover{
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#60EBEBEB,endColorstr=#60EBEBEB);
+    }
+    .art_latestnews_01 .art_latestnews_01_over{
+        position: absolute;
+        width: 324px;
+        height: auto;
+        display: none;
+        left: 39.1%;
+    }
+    .ie8 .art_latestnews_01 .art_latestnews_01_over{
+        z-index: 1000 !important;
+    }
+    .art_latestnews_01 .art_latestnews_01_over .art_latestnews_01_boxbg1 {
+        background-image: url(../img/overMinXminTop.png) ;
+        width:324px;
+        height:40px;
+        top:0px;
+        right:0px;
+    }
+    .art_latestnews_01 .art_latestnews_01_over .art_latestnews_01_boxbg2 {
+        background-image: url(../img/overMinXminCenter.png);
+        background-repeat: repeat-y;
+        width:324px;
+        top:0px;
+        right:0px;
+        overflow: hidden;
+    }
+
+    .art_latestnews_01 .art_latestnews_01_over .art_latestnews_01_boxbg2 a p.art_latestnews_01_text {
+        padding: 0px 20px 15px 20px;
+        width: 270px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #5a5959;
+    }
+    .art_latestnews_01 .art_latestnews_01_over .art_latestnews_01_boxbg2 a p.art_latestnews_01_link {
+        padding: 0px 20px 10px 20px;
+        width: 270px;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        color: #D9A961;
+    }
+    .art_latestnews_01 .art_latestnews_01_over .art_latestnews_01_boxbg3 {
+        background-image: url(../img/overMinXminBottom.png) ;
+        width:310px;
+        height:10px;
+        top:0px;
+        right:0px;
+    }
+    .ie7 .art_latestnews_01_list2 .art_latestnews_01_liz{
+        margin-top: -200px;
+    }
+
+}

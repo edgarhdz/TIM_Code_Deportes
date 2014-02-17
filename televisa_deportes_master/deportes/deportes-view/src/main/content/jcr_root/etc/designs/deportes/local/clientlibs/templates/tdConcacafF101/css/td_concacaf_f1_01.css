@@ -1,0 +1,31 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_concacaf_f1_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+    .td_concacaf_f1_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}	
+	/* Flotan a la izq */
+	.td_concacaf_f1_01 .main .c2{
+		width:624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_concacaf_f1_01 .main .c3{
+		width:300px;
+		clear:none;
+		float:right;
+	} 
+	/*bloques*/	
+	.td_concacaf_f1_01 .main .c3_1,
+	.td_concacaf_f1_01 .main .c3_2,
+	.td_concacaf_f1_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+}

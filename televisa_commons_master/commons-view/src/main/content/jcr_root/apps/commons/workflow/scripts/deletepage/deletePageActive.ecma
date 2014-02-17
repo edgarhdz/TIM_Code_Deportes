@@ -1,0 +1,29 @@
+var ACTIVATE = "Activate";
+var LAST_REPLICATION_ACTION = "cq:lastReplicationAction";
+
+function check(){
+
+    var path = workflowData.getPayload().toString();
+    var session = workflowSession.getSession();
+    var resourceResolverFactory = sling.getService(Packages.org.apache.sling.jcr.resource.JcrResourceResolverFactory);
+    var resolver = resourceResolverFactory.getResourceResolver(session);
+    var pageManager = resolver.adaptTo(Packages.com.day.cq.wcm.api.PageManager);
+    var page = pageManager.getPage(path);
+    if(page != null){
+        var pageStatus = getPageStatus(page);
+        if(pageStatus == ACTIVATE){
+            return true;
+        }
+    }
+    return false;
+
+}
+
+function getPageStatus(page){
+    var node = page.getContentResource().adaptTo(Packages.javax.jcr.Node);
+    var lastReplicationAction = "";
+    if(node.hasProperty(LAST_REPLICATION_ACTION)){
+        lastReplicationAction = node.getProperty(LAST_REPLICATION_ACTION);
+    }
+    return lastReplicationAction;
+}

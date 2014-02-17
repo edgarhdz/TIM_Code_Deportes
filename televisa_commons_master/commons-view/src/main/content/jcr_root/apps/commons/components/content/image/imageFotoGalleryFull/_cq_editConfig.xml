@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:actions="[text:commons.imagegallery.title,-,copymove,delete,insert]"
+    cq:dialogMode="floating"
+    cq:disableTargeting="true"
+    cq:layout="editbar"
+    jcr:primaryType="cq:EditConfig">
+    <cq:actionConfigs jcr:primaryType="nt:unstructured">
+        <separator0
+            jcr:primaryType="nt:unstructured"
+            xtype="tbseparator"/>
+        <edit
+            jcr:primaryType="nt:unstructured"
+            handler="function(){ImageGallery.Gallery.edit(this); }"
+            text="Edit"/>
+    </cq:actionConfigs>
+    <cq:dropTargets jcr:primaryType="nt:unstructured">
+        <image
+            jcr:primaryType="cq:DropTargetConfig"
+            accept="[image/.*]"
+            groups="[media]"
+            propertyName="./droppedImage">
+            <parameters
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="/apps/commons/components/content/image/imageFotoGalleryFull"/>
+        </image>
+    </cq:dropTargets>
+    <cq:listeners
+        jcr:primaryType="cq:EditListenersConfig"
+        afteredit="function(){ImageGallery.Gallery.afteredit(this);}"/>
+</jcr:root>

@@ -1,0 +1,18 @@
+@media screen and (min-width: 948px){ 
+	.wdg_video_search_01 .mix_1arts_13:nth-child(-n+13){
+		display:block;
+	}
+	
+	.wdg_video_search_01 .contenFilter .filterResultado,
+	.ie7 .wdg_video_search_01 .contenFilter .filterResultado,
+	.ie8 .wdg_video_search_01 .contenFilter .filterResultado {
+		display: block;
+		float: none;
+	}
+	
+	.ie7 .wdg_video_search_01 .nav_paginator_01 ul li a{
+		height: 20px;
+		line-height: 20px;
+	}
+
+}

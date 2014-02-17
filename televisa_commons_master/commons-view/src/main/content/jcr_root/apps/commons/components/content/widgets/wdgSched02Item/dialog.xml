@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	jcr:primaryType="cq:Dialog" title="commons.wdgSched02Item.title" xtype="dialog">
+	<items jcr:primaryType="cq:Widget" xtype="tabpanel">
+		<items jcr:primaryType="cq:WidgetCollection">	
+            <settings
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                  <date
+                  	jcr:primaryType="cq:Widget"
+                  	xtype="datefield"
+                  	fieldLabel="Date"
+                  	name="./date"
+                  	format="d. M" 
+                  	/>
+                  <time
+                  	jcr:primaryType="cq:Widget"
+                  	xtype="timefield"
+                  	fieldLabel="Time"
+                  	name="./time"
+                  	format="H:i" 
+                  	/>
+                  <program
+                  	jcr:primaryType="cq:Widget"
+                  	xtype="textfield"
+                  	fieldLabel="commons.wdgSched02.program.label"
+                  	name="./program"
+                  	 />
+                  <chanel
+                  	jcr:primaryType="cq:Widget"
+                  	xtype="textfield"
+                  	fieldLabel="commons.wdgSched02.channel.label" 
+                  	name="./chanel"
+                  	/>  
+                </items>
+            </settings> 
+            <link
+	         	jcr:primaryType="cq:Widget"
+	            path="/apps/commons/components/content/base/imageLink/dialog/items/items/link.infinity.json"
+	            xtype="cqinclude">                
+            </link> 
+		</items>
+	</items>
+</jcr:root>

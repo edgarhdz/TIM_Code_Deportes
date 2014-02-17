@@ -1,0 +1,38 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_tdn_quienes_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+    .td_tdn_quienes_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}	
+	/* Flotan a la izq */
+	.td_tdn_quienes_01 .main .c2{
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_tdn_quienes_01 .main .c3,
+	.td_tdn_quienes_01 .main .c3bis{
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_tdn_quienes_01 .main .c3_1,
+	.td_tdn_quienes_01 .main .c3_2,
+	.td_tdn_quienes_01 .main .c3_3,
+	.td_tdn_quienes_01 .main .c3_3,
+	.td_tdn_quienes_01 .main .c3_4,
+	.td_tdn_quienes_01 .main .c3_5,
+	.td_tdn_quienes_01 .main .c3_6,
+	.td_tdn_quienes_01 .main .c3_7,
+	.td_tdn_quienes_01 .main .c3_8{
+		clear:both;
+		overflow:hidden;
+		float:none;
+	}
+}

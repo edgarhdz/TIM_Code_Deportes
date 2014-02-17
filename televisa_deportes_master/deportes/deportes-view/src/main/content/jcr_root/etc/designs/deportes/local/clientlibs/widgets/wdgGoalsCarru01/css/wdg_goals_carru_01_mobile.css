@@ -1,0 +1,572 @@
+@media screen{
+    .wdg_goals_carru_01{
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0px;
+    }
+
+    .wdg_goals_carru_01 > ul {
+        height: 141px;
+        display: block;
+        overflow: auto;
+        position: relative;
+        width: 110%;
+        overflow-x: hidden;
+        margin-bottom: 18px;
+    }
+
+    .wdg_goals_carru_01 > ul li {
+        display: block;
+        height: 45px;
+        overflow: hidden;
+        position: relative;
+        border-bottom:1px solid #CCC;
+    }
+@-moz-document url-prefix() {
+	  		.wdg_goals_carru_01 > ul li{
+	    		height: 45px;
+	  		}
+ 	}
+    ::made-up-pseudo-element, .wdg_goals_carru_01 > ul li{
+        height: 48px;
+    }
+
+    .wdg_goals_carru_01 > ul li div:first-child {
+        position: absolute;
+        width: 84px;
+        height:47px;
+        border-bottom:1px solid #D1D1D1;
+    }
+
+    .wdg_goals_carru_01 > ul li i{
+        position: absolute;
+        left: 59px;
+        color:#FFF;
+    }
+
+    .wdg_goals_carru_01 ul li div:first-child span.date,
+    .wdg_goals_carru_01 ul li div:first-child span,
+    .wdg_goals_carru_01 ul li div:first-child span.date + span {
+        display: block;
+        margin: 0;
+        position: static;
+        text-align: center;
+        width: auto;
+    }
+
+    .wdg_goals_carru_01 > ul li div:first-child span.active {
+        color: #DEB476;
+        font-weight: bold;
+        left: 0;
+        position: absolute;
+        text-align: right;
+        top: 0;
+        width: 51px;
+    }
+
+    .wdg_goals_carru_01 > ul li div:first-child span.date {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 25px 0 0;
+        text-align: right;
+    }
+
+    .wdg_goals_carru_01 ul li span.date,
+    .wdg_goals_carru_01 ul li span.active {
+        color: #DEB476;
+    }
+
+    .wdg_goals_carru_01 ul li div:first-child span.date,
+    .wdg_goals_carru_01 ul li div:first-child span,
+    .wdg_goals_carru_01 ul li div:first-child span.date + span {
+        display: block;
+        margin: 0;
+        position: static;
+        text-align: center;
+        width: auto;
+    }
+    .wdg_goals_carru_01 > ul li.color a {
+        padding: 7px 27px;
+        width: 100%;
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+@-moz-document url-prefix() {
+	  		.wdg_goals_carru_01 > ul li.color a{
+	    		padding: 6px 27px;
+	  		}
+ 	}
+    ::made-up-pseudo-element, .wdg_goals_carru_01 > ul li.color a{
+        padding: 6px 27px;
+    }
+
+    .wdg_goals_carru_01 > ul li a {
+        display: block;
+        margin-left: 83px;
+        padding: 0;
+        transition: all 0.2s ease-out 0s;
+    }
+
+    .wdg_goals_carru_01 > ul li a .program {
+        color: #000000;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        top: 8px;
+        margin-bottom: 2px;
+    }
+    .wdg_goals_carru_01 > ul li.color a .textcolor-title4 {
+        font-style: italic;
+    }
+    .wdg_goals_carru_01 > ul li.color a .textcolor-title2 {
+        font-style: normal;
+    }
+    .wdg_goals_carru_01 > ul li.color a .channel {
+        font-style: italic;
+    }
+
+    .wdg_goals_carru_01 > ul li a .channel {
+        color: #948F8F;
+        display: block;
+        font-size: 12px;
+        top: 24px;
+    }
+
+    .wdg_goals_carru_01 > ul li a:hover {
+        -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+        -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+        -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+        background-color: #E6E6E6;
+    }
+    .wdg_goals_carru_01 > div {
+        position: relative;
+    }
+    .wdg_goals_carru_01 .controls {
+        border-top:1px solid #D1D1D1;
+    }
+
+    .wdg_goals_carru_01 a.next {
+        background-color: #A41D21;
+    }
+
+    .wdg_goals_carru_01 > div .prev,
+    .wdg_goals_carru_01 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        display: none;
+        height: 28px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 29px;
+    }
+
+    .wdg_goals_carru_01 > div .next {
+        left: 29px;
+        margin-left: 1px;
+    }
+
+    .wdg_goals_carru_01 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .wdg_goals_carru_01 > div .full-timetable span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .wdg_goals_carru_01 a.prev,
+    .wdg_goals_carru_01 a.next {
+        background-color: #A41D21;
+    }
+    .wdg_goals_carru_01 > div .tvsa-caret-up{
+        color: #fff;
+        line-height:25px;
+        margin: 2px 0 0 10px;
+    }
+    .wdg_goals_carru_01 > div .tvsa-caret-down{
+        color: #fff;
+        line-height:25px;
+        margin: 2px 0 0 10px;
+    }
+
+    .wdg_goals_carru_01 .degraded{
+        background-repeat:repeat-x;
+        background-position:10px;
+        border-top:none;
+        display:block;
+        position:absolute;
+        bottom:58px;
+        width:100%;
+    }
+    /************************************************List box***************************************************+*/
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer{
+        clear: both;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul{
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .wdg_goals_carru_01 .result_champion{
+        display:none;
+    }
+    .wdg_goals_carru_01 .result_champion:nth-child(-n+9) {
+        display:block;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li{
+        width: 100%;
+        height: 34px;
+        /*background-color: rgba(235,235,235,0.6);*/
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li:hover{
+        background-color: rgba(235,235,235,0.9);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_listcontainer ul li p{
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer{
+        clear: both;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul{
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        -webkit-border-radius: 1ex;
+        -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul::-webkit-scrollbar {
+        height: 12px;
+        width: 12px;
+        background: #f5f5f5;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul li{
+        width: 100%;
+        height: 34px;
+        /*background-color: rgba(235,235,235,0.6);*/
+        background-color: rgba(235,235,235,0.6);
+        border-bottom: 1px solid #d3d3d3;
+        box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul li:hover{
+        background-color: rgba(235,235,235,0.9);
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul li p{
+        margin-left: 20px;
+        line-height: 34px;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdowncontent > span
+    {
+        float: right;
+        margin-top: 14px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdowncontent > span
+    {
+        float: right;
+        margin-top: 14px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #d3d3d3;
+        box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer
+    {
+        clear: both;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul
+    {
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+
+    .wdg_goals_carru_01 .wdg_goals_carru_012_dropdowncontent > span
+    {
+        float: right;
+        margin-top: 2px;
+        margin-right: 12px;
+        cursor: pointer;
+        color: black;
+    }
+
+
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #E1E1E1;
+        box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdowncontent > span
+    {
+        float: right;
+        margin-top: 14px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+
+    .wdg_goals_carru_01 .wdg_goals_carru_012_dropdown {
+        clear: both;
+        width: 100%;
+        height: 100%;
+        background-color: #E1E1E1;
+        box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+        cursor: pointer;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer
+    {
+        clear: both;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_listcontainer ul
+    {
+        background-color: #f5f5f5;
+        z-index: 1000 !important;
+        position: relative;
+        visibility: hidden;
+        cursor: pointer;
+
+    }
+
+    .wdg_goals_carru_01 .color .carrera,
+    .wdg_goals_carru_01 .color .circuito
+    {
+        color:black !important;
+        float: left;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_dropdowncontent > p
+    {
+        float: left;
+        padding-left: 24px;
+        padding-top: 8px;
+        font-size:13px;
+        font-weight:bold;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_dropdowncontent > p
+    {
+        float: left;
+        padding-left: 15px;
+        padding-top: 6px;
+    }
+    .wdg_goals_carru_01 .color .carrera
+    {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        width: 32% !important;
+    }
+    .wdg_goals_carru_01 .color .circuito
+    {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        width: 21% !important;
+        display: none;
+    }
+    .wdg_goals_carru_01 .color .ganador
+    {
+        padding-top: 3px;
+        padding-bottom: 8px;
+        width: 32% !important;
+    }
+    .wdg_goals_carru_01 .color2 > div
+    {
+        float: left;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .wdg_goals_carru_01 .fechaDesplegada
+    {
+        width: 10% !important;
+        font-size: 12px;
+        float: left !important;
+        position: relative;
+        text-align: right !important;
+        padding-right: 18px;
+    }
+    .wdg_goals_carru_01 .ganador
+    {
+        width: 22%;
+        font-style: normal !important;
+        font-weight: bold;
+        padding-left: 12px;
+        text-align: left;
+    }
+    .wdg_goals_carru_01 .circuito
+    {
+        width: 22%;
+        font-style: normal !important;
+        font-weight: bold;
+        padding-left: 12px;
+        text-align: left;
+    }
+    .wdg_goals_carru_01 .carrera
+    {
+
+        width: 34%;
+        font-style: normal !important;
+        font-weight: bold;
+        padding-left: 12px;
+        text-align: left;
+    }
+    .wdg_goals_carru_01 .fecha
+    {
+        width: 13%;
+        position: relative;
+        font-weight: bold;
+        font-style: normal !important;
+        text-align: center;
+    }
+    .wdg_goals_carru_01 .color2
+    {
+        width: 100%;
+        padding-top: 17px;
+        height: 15px;
+        padding-bottom: 11px;
+        position: relative;
+    }
+    .wdg_goals_carru_01 .filter
+    {
+        width: 74%;
+        position: relative;
+        float: right;
+        height: 31px;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_012_dropdowncontent
+    {
+        background-color: #E1E1E1;
+        box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+        clear: both;
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+    .wdg_goals_carru_01 .filterResultado
+    {
+        width: 100%;
+        position: relative;
+        height: auto;
+        margin-top: 24px;
+    }
+    .wdg_goals_carru_01 .lineaResultado > h3
+    {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 13px;
+        padding: 7px 0px;
+        padding-right:6px;
+
+    }
+    .wdg_goals_carru_01 .lineaResultado:first-child h3
+    {
+        border-top: 1px solid #CCCCCC;
+    }
+
+    .wdg_goals_carru_01 .lineaResultado
+    {
+        width: 100%;
+        position: relative;
+        height: auto;
+        clear: both;
+        border-bottom: 1px solid #CCC;
+    }
+    .wdg_goals_carru_01 .str_pleca_01
+    {
+        margin-bottom: 0px !important;
+    }
+    .wdg_goals_carru_01 .controls .bgactive{
+        background-color:#A70A0B;
+    }
+    .wdg_goals_carru_01 .controls .bginactive{
+        background-color:#BF6163;
+    }
+
+    .wdg_goals_carru_01 .controls .bgactive i{
+        color:#FFF;
+    }
+
+    .wdg_goals_carru_01 .controls .bginactive i{
+        color:#DBA5A5;
+    }
+
+    /*BEGIN: sprite*/
+    .wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
+        background: url(../img/global-sprites.png) no-repeat 0 0;
+        display:none;
+        height: 10px;
+        overflow: hidden;
+        text-indent: -1584px;
+        width: 10px;
+    }
+    .wdg_goals_carru_01 .wdg_goals_carru_01_sprite{
+        right: 0;
+        top: 0;
+        display: inline;
+    }
+    .wdg_goals_carru_01  .wdg_goals_carru_01_sprite.video-corner {
+        background-position: -131px -40px;
+        height: 43px;
+        width: 43px;
+        position: absolute;
+    }
+    /*END: sprite*/
+
+}
+/*Style Retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .wdg_goals_carru_01 .wdg_goals_carru_01_sprite {
+        background: url(../global/img/global-sprites@2x.png) no-repeat 0 0;
+        background-size:640px 224px;
+    }
+}

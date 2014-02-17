@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:language="es"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder">
+    <!-- Global keys -->
+    <deportes.devices.title.dialog
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.title.dialog"
+            sling:message="Dialogo de dispositivos"/>
+    <deportes.devices.tabtitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.tabtitle.label"
+            sling:message="Dispositivos"/>
+    <deportes.devices.hidedevices.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.hidedevices.label"
+            sling:message="Ocultar dispositivos"/>
+    <deportes.devices.hidedevices.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.hidedevices.description"
+            sling:message="Si selecciona 'Ocultar en tablet y moviles', este componente no se mostrara en tablets y moviles, si selecciona 'Ocultar en moviles' se ocultara solo en moviles."/>
+    <deportes.devices.item.do-nothing
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.item.do-nothing"
+            sling:message="No hacer nada"/>
+    <deportes.devices.item.hide-tablet-mobile
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.item.hide-tablet-mobile"
+            sling:message="Ocultar en tablet y moviles"/>
+    <deportes.devices.item.hide-mobile
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.devices.item.hide-mobile"
+            sling:message="Ocultar en moviles"/>
+    <deportes.settings
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.settings"
+            sling:message="Ajustes"/>
+    <deportes.ntphotogallerydetail01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.photogallerydetail01.title"
+            sling:message="Deportes Foto Galeria"/>
+	<deportes.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.settings.title"
+            sling:message="Configuración"/>
+    <deportes.link.text
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.text"
+        sling:message="Liga"/>
+    <deportes.component.message.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.component.message.placeholder"
+            sling:message="Configure el"/>
+    <deportes.component.message.placeholdercomponent
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.component.message.placeholdercomponent"
+            sling:message="componente"/>
+    <deportes.showPleca.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.showPleca.title.label"
+            sling:message="Mostrar Pleca"/>
+    <deportes.showPleca.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.showPleca.title.description"
+            sling:message="Seleccione si desea ver o no la pleca"/>
+    <deportes.showPleca.show.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.showPleca.show.text"
+            sling:message="Mostrar Pleca"/>
+    <deportes.showPleca.hide.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.showPleca.hide.text"
+            sling:message="Ocultar Pleca"/>
+
+    <deportes.link.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.title"
+            sling:message="Liga"/>
+
+    <deportes.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.description"
+            sling:message="Ingrese Texto de Liga"/>
+
+    <deportes.link.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.path.label"
+            sling:message="Ruta"/>
+
+    <deportes.link.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.path.description"
+            sling:message="Ingrese Ruta de Liga"/>
+
+    <deportes.link.text.description
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.text.description"
+        sling:message="Por favor ingrese el texto de la liga."/>
+
+    <deportes.link.linktype-label
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.linktype-label"
+        sling:message="Tipo de liga"/>
+
+    <deportes.link.linktype-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.linktype-description"
+            sling:message="Ingrese el Tipo de liga"/>
+
+    <deportes.link.externallink-label
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.externallink-label"
+        sling:message="Liga externa"/>
+    <deportes.link.externallink-description
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.externallink-description"
+        sling:message="Por favor ingrese una liga externa. &lt;br> Ejemplo: http://www.televisa.com"/>
+    <deportes.link.internallink-description
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.internallink-description"
+        sling:message="Por favor seleccione la ruta de la liga."/>
+    <deportes.link.internallink-label
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.internallink-label"
+        sling:message="Liga interna"/>
+    <deportes.link.target-label
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.target-label"
+        sling:message="Destino"/>
+    <deportes.link.target-description
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.target-description"
+        sling:message="Seleccione un valor para el atributo &quot;target&quot; para la liga."/>
+    <deportes.link.target-option-blank-text
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="deportes.link.target-option-blank-text"
+           sling:message="Abrir en una nueva ventana"/>
+    <deportes.link.target-option-self-text
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="deportes.link.target-option-self-text"
+           sling:message="Abrir en la misma ventana"/>
+    <deportes.link.title-description
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="deportes.link.title-description"
+        sling:message="Por favor ingrese el atributo 'title' de la liga."/>
+        
+ 	<deportes.link.title-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.link.title-label"
+            sling:message="Título"/>
+
+	 <deportes.localTeamsThemeMapping.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.localTeamsThemeMapping.title"
+            sling:message="Mapeo de temas de equipo"/> 
+            
+     <deportes.localTeamsThemeMapping.themeMapping.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.localTeamsThemeMapping.themeMapping.description"
+            sling:message="Agregue un equipo y la clase CSS que representa su tema"/> 
+    
+    <deportes.localTeams.page.themeTitle
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.localTeams.page.themeTitle"
+            sling:message="Equipo"/>
+            
+     <deportes.localTeams.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.localTeams.page.description"
+            sling:message="Seleccione un equipo para aplicar su tema CSS"/> 
+
+
+    <deportes.navnewsletter01.date.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navnewsletter01.date.label"
+            sling:message="Fecha"/>
+    <deportes.navnewsletter01.date.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navnewsletter01.date.description"
+            sling:message="Seleccione la fecha a ser mostrada en el header."/>
+    <deportes.navcorftnewsletter01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navcorftnewsletter01.title"
+            sling:message="Newsletter Footer Corporativo"/>
+    <deportes.navcorftnewsletter01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navcorftnewsletter01.description"
+            sling:message="Newsletter Footer Corporativo"/>
+    <deportes.navheadernewsletter01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navheadernewsletter01.title"
+            sling:message="Newsletter Header"/>
+    <deportes.navheadernewsletter01.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navheadernewsletter01.description"
+            sling:message="Newsletter Header"/>
+    <deportes.headerNav.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.headerNav.title"
+            sling:message="Encabezado"/>
+
+
+    <!-- templates -->
+    <deportes.note.index
+          jcr:primaryType="sling:MessageEntry"
+          sling:key="deportes.note.index"
+          sling:message="Deportes Indice Notas"/>
+    <deportes.newsletter.title
+             jcr:primaryType="sling:MessageEntry"
+             sling:key="deportes.newsletter.title"
+             sling:message="Deportes Newsletter"/>
+    <deportes.newsletter.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.newsletter.description"
+            sling:message="Deportes Plantilla Newsletter"/>
+    <deportes.newsletter.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.newsletter.page.description"
+            sling:message="Deportes Newsletter"/>
+    <deportes.videohome.title
+             jcr:primaryType="sling:MessageEntry"
+             sling:key="deportes.videohome.title"
+             sling:message="Deportes Video Home"/>
+    <td.concacaf.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.concacaf.title"
+            sling:message="Deportes Concacaf"/>
+    <td.concacaf.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.concacaf.description"
+            sling:message="Deportes Plantilla Concacaf"/>
+    <td.concacaf.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.concacaf.page.description"
+            sling:message="Deportes Concacaf"/>
+    <td.localteams.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.localteams.title"
+            sling:message="Deportes Equipos locales"/>
+    <td.localteams.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.localteams.description"
+            sling:message="Deportes Plantilla de Equipos Locales"/>
+    <td.localteams.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.localteams.page.description"
+            sling:message="Deportes Equipos Locales"/>
+    <td.subhome.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhome.title"
+            sling:message="Deportes Sub Home"/>
+    <td.subhome.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhome.description"
+            sling:message="Deportes Plantilla de Sub Home"/>
+    <td.subhome.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhome.page.description"
+            sling:message="Deportes Sub Home"/>
+    <td.genericnote.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.genericnote.title"
+            sling:message="Deportes Nota Generica"/>
+    <td.genericnote.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.genericnote.description"
+            sling:message="Deportes Plantilla de Nota Generica"/>
+    <td.genericnote.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.genericnote.page.description"
+            sling:message="Deportes Nota Generica"/>
+    <td.event.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.event.title"
+            sling:message="Deportes Eventos"/>
+    <td.event.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.event.description"
+            sling:message="Deportes Plantilla de Eventos"/>
+    <td.event.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.event.page.description"
+            sling:message="Deportes Eventos"/>
+    <td.partidonote.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.partidonote.title"
+            sling:message="Deportes Nota Partido"/>
+    <td.partidonote.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.partidonote.description"
+            sling:message="Deportes Plantilla de Nota Partido"/>
+    <td.partidonote.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.partidonote.page.description"
+            sling:message="Deportes Nota Partido"/>
+    <td.tdnTdwContent.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwContent.title"
+            sling:message="Deportes Contenido de TDN y TDW"/>
+    <td.tdnTdwContent.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwContent.description"
+            sling:message="Deportes Plantilla de Contenido de TDN y TDW Content"/>
+    <td.tdnTdwContent.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwContent.page.description"
+            sling:message="Deportes Contenido de DN y TDW"/>
+    <td.tdnTdwHome.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwHome.title"
+            sling:message="Deportes TDN y TDW Home"/>
+    <td.tdnTdwHome.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwHome.description"
+            sling:message="Deportes plantilla de TDN y TDW Home"/>
+    <td.tdnTdwHome.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.tdnTdwHome.page.description"
+            sling:message="Deportes TDN and TDW Home"/>
+    <td.subhomeleagues.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhomeleagues.title"
+            sling:message="Deportes Sub Home Ligas"/>
+    <td.subhomeleagues.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhomeleagues.description"
+            sling:message="Deportes Plantilla de Sub Home Ligas"/>
+    <td.subhomeleagues.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.subhomeleagues.page.description"
+            sling:message="Deportes Sub Home Ligas"/>
+    <td.twocolumn.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.twocolumn.title"
+            sling:message="Deportes Dos columnas"/>
+    <td.twocolumn.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.twocolumn.description"
+            sling:message="Deportes Plantilla de dos columnas"/>
+    <td.twocolumn.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.twocolumn.page.description"
+            sling:message="Deportes Dos columnas"/>
+    <td.home.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.home.title"
+            sling:message="Deportes Home"/>
+    <td.home.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.home.description"
+            sling:message="Deportes Plantilla Home"/>
+    <td.home.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.home.page.description"
+            sling:message="Deportes Home"/>
+    <td.history.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.history.title"
+            sling:message="Deportes Historial"/>
+    <td.history.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.history.description"
+            sling:message="Deportes Plantilla de historial"/>
+    <td.history.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.history.page.description"
+            sling:message="Componente de renderizado de página que contiene los componentes de historia"/>
+    <deportes.video.template
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.video.template"
+            sling:message="Deportes Video"/>
+    <deportes.cameraselection.component.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.title"
+            sling:message="Selección de Cámara"/>
+   <deportes.cameraselection.component.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.dialog.title"
+            sling:message="Configurar Cámara"/>
+   <deportes.cameraselection.component.index.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.index.title"
+            sling:message="Índice"/>
+   <deportes.cameraselection.component.m3u8.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.m3u8.title"
+            sling:message="m3u8"/>
+   <deportes.cameraselection.component.video.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.video.title"
+            sling:message="video"/>
+   <deportes.cameraselection.component.label.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.label.title"
+            sling:message="Etiqueta"/>
+   <deportes.cameraselection.component.savebtn.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.savebtn.title"
+            sling:message="Guardar"/>
+   <deportes.cameraselection.component.camerabtn.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.component.camerabtn.title"
+            sling:message="Cámara"/>
+    <deportes.cameraselection.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.title"
+            sling:message="Deportes Tú Diriges"/>
+    <deportes.cameraselection.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.description"
+            sling:message="Deportes Plantilla Tú Diriges"/>
+    <deportes.cameraselection.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.cameraselection.page.description"
+            sling:message="Deportes Tú Diriges"/>
+    <deportes.multisignal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multisignal.title"
+            sling:message="Deportes Multiseñal"/>
+    <deportes.multisignal.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multisignal.description"
+            sling:message="Deportes Plantilla Multiseñal"/>
+    <deportes.multisignal.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multisignal.page.description"
+            sling:message="Deportes Multiseñal"/>
+   <td.deportesblog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.deportesblog.title"
+            sling:message="Deportes Blog"/>
+   <td.deportesblog.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.deportesblog.description"
+            sling:message="Deportes Plantilla de Blog"/>
+   <deportes.multistream.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.title"
+            sling:message="Deportes Multistream"/>
+   <deportes.multistream.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.description"
+            sling:message="Deportes Plantilla Multistream"/>
+   <deportes.multistream.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.page.description"
+            sling:message="Deportes Multistream"/>
+   <td.videochat.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.videochat.title"
+            sling:message="Deportes Video chat"/>
+   <td.videochat.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.videochat.description"
+            sling:message="Deportes Plantilla de Video chat"/>
+   <td.videochat.page.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.videochat.page.description"
+            sling:message="Deportes Video chat"/>
+
+   <!-- multistream vid4vids01b -->
+   <deportes.vid4vids01b.component.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.vid4vids01b.component.title"
+            sling:message="Multistream"/>
+   <deportes.vid4vids01b.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.vid4vids01b.title"
+            sling:message="Multistream"/>
+   <deportes.vid4vids01b.data.play
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.vid4vids01b.data.play"
+            sling:message="Datos"/>
+   <deportes.multistream.url1.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.url1.label"
+            sling:message="Ruta"/>
+   <deportes.multistream.status.off
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.off"
+            sling:message="off"/>
+   <deportes.multistream.status.prev
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.prev"
+            sling:message="prev"/>
+   <deportes.multistream.status.on
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.on"
+            sling:message="on"/>
+   <deportes.multistream.status.post
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.post"
+            sling:message="post"/>
+   <deportes.multistream.status.error
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.error"
+            sling:message="error"/>
+   <deportes.multistream.initialdate.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.initialdate.label"
+            sling:message="Fecha Inicial"/>
+   <deportes.multistream.finishdate.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.finishdate.label"
+            sling:message="Fecha Final"/>
+   <deportes.multistream.signals.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signals.label"
+            sling:message="Señales"/>
+   <deportes.multistream.status.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.status.label"
+            sling:message="Estado"/>
+   <deportes.multistream.signal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.title"
+            sling:message="Título"/>
+   <deportes.multistream.signal.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.title.description"
+            sling:message="Ingrese el título de la señal"/>
+   <deportes.multistream.signal.url
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.url"
+            sling:message="Ruta"/>
+   <deportes.multistream.signal.url.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.url.description"
+            sling:message="Ingrese la ruta de la señal"/>
+   <deportes.multistream.signal.status
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.status"
+            sling:message="Estado"/>
+   <deportes.multistream.signal.status.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.signal.status.description"
+            sling:message="Ingrese el estado de la señal"/>
+   <deportes.multistream.multipanel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.multipanel"
+            sling:message="Multi panel de imagenes"/>
+   <deportes.multistream.multipanel.image1
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.multipanel.image1"
+            sling:message="Imagen 1"/>
+   <deportes.multistream.multipanel.image2
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.multipanel.image2"
+            sling:message="Imagen 2"/>
+   <deportes.multistream.multipanel.image3
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.multipanel.image3"
+            sling:message="Imagen 3"/>
+   <deportes.multistream.multipanel.image4
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.multistream.multipanel.image4"
+            sling:message="Imagen 4"/>
+
+    <!-- containers to templates -->
+    <td.container.label.one
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.container.label.one"
+            sling:message="Contenedor central 1"/>
+    <td.container.label.two
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.container.label.two"
+            sling:message="Contenedor central 2"/>
+    <td.container.label.three
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.container.label.three"
+            sling:message="Contenedor central 3"/>
+    <td.container.label.Four
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.container.label.four"
+            sling:message="Contenedor central 4"/>
+    <td.sidecontainer.label.one.left
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.one.left"
+            sling:message="Contenedor lateral 1: izquierda"/>
+    <td.sidecontainer.label.one.right
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.one.right"
+            sling:message="Contenedor lateral 1: derecha"/>
+    <td.sidecontainer.label.two.left
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.two.left"
+            sling:message="Contenedor lateral 2: izquierda"/>
+    <td.sidecontainer.label.two.right
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.two.right"
+            sling:message="Contenedor lateral 2: derecha"/>
+    <td.sidecontainer.label.three.left
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.three.left"
+            sling:message="Contenedor lateral 3: izquierda"/>
+    <td.sidecontainer.label.three.right
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="td.sidecontainer.label.three.right"
+            sling:message="Contenedor lateral 3: derecha"/>
+
+   <!-- Component Groups -->
+   <deportes.componentgroup.navigation
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.componentgroup.navigation"
+            sling:message="Deportes Navegación"   />
+   <deportes.componentgroup.widgets
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.componentgroup.widgets"
+            sling:message="Deportes Widgets"   />
+   <deportes.componentgroup.button
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.componentgroup.button"
+            sling:message="Deportes Botón"/>
+   <deportes.componentgroup.structure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.componentgroup.structure"
+            sling:message="Deportes Estructura"/>
+    
+    <!-- Navigation Components -->
+    <deportes.navTeamHeader01.title
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.title"
+            sling:message="Barra de equipos"   />
+    <deportes.navTeamHeader01.description
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.description"
+            sling:message="Permite navegar a travez de la información disponible para un equipo"   />
+     <deportes.navTeamHeader01.teamName.description
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.teamName.description"
+            sling:message="Nombre a desplegar para el equipo"   />
+     <deportes.navTeamHeader01.teamName.label
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.teamName.label"
+            sling:message="Nombre del equipo"   />
+	<deportes.navTeamHeader01.links.title
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.links.title"
+            sling:message="Ligas"   />
+    <deportes.navTeamHeader01.image.title
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.navTeamHeader01.image.title"
+            sling:message="Logo"   />
+
+    <!-- Structure Components -->
+    <deportes.strexpertcmt.item.number.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.number.description"
+            sling:message="Número a desplegarse para el párrafo."   />
+    <deportes.strexpertcmt.item.number.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.number.label"
+            sling:message="Numero de párrafo"   />
+    <deportes.strexpertcmt.item.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.title.description"
+            sling:message="Titulo del párrafo."   />
+    <deportes.strexpertcmt.item.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.title.label"
+            sling:message="Titulo"   />
+    <deportes.strexpertcmt.item.body.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.body.description"
+            sling:message="El comentario del experto."   />
+    <deportes.strexpertcmt.item.body.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt.item.body.label"
+            sling:message="Comentario"   />
+    <deportes.strexpertcmt02.altnumber
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.altnumber"
+            sling:message="Número"   />
+    <deportes.strexpertcmt02.alttitletext
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.alttitletext"
+            sling:message="Titulo"   />
+    <deportes.strexpertcmt02.altbodytext
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.altbodytext"
+            sling:message="Comentario"   />
+    <deportes.strexpertcmt02.maintitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.maintitle.description"
+            sling:message="Titulo principal del componente."   />
+    <deportes.strexpertcmt02.maintitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.maintitle.label"
+            sling:message="Titulo Principal"   />
+    <deportes.strexpertcmt02.altmaintitle
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.altmaintitle"
+            sling:message="Titulo Principal"   />
+    <deportes.strexpertcmt02.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.tab.title"
+            sling:message="Configuracion ExprtComent"   />
+
+    <deportes.strexpertcmt02.jcr.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.strexpertcmt02.jcr.title"
+            sling:message="Comentario Experto 02"   />
+
+	<!-- Widget Components -->
+   <deportes.wdgopinion01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgopinion01.title"
+            sling:message="Opinión Widget"/>
+    <deportes.wdgopinion01.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgopinion01.placeholder"
+            sling:message="La ruta es invalida."/>
+   <deportes.wdgmostread01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmostread01.title"
+            sling:message="Mas Leídos"/>
+   <deportes.wdgfacebook01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgfacebook01.title"
+            sling:message="Facebook Widget"/>
+   <deportes.wdgfacebook01.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgfacebook01.message"
+            sling:message="Configure el componente facebook widget"/>
+   <deportes.wdgfacebook01.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgfacebook01.path.description"
+            sling:message="Ruta del perfil de Facebook a mostrar en el componente."/>
+   <deportes.wdgfacebook01.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgfacebook01.path.label"
+            sling:message="Ruta hacia el perfil"/>
+   <deportes.wdgcustomewidget01.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgcustomewidget01.message"
+            sling:message="Click para configurar un script a medida."/>
+    <deportes.wdgcustomewidget01.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgcustomewidget01.message"
+            sling:message="Click para configurar."/>
+    <deportes.customewidget.showpleca-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.customewidget.showpleca-description"
+            sling:message="Seleccionar si el componente de pleca es mostrado."/>
+
+    <deportes.customewidget.showpleca-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.customewidget.showpleca-label"
+            sling:message="Visibilidad de la Pleca"/>
+    <deportes.customewidget.show
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.customewidget.show"
+            sling:message="Mostrar Pleca"/>
+    <deportes.customewidget.hide
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.customewidget.hide"
+            sling:message="Ocultar Pleca"/>
+    <deportes.wdgopinion01.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgopinion01.path.description"
+            sling:message="Ruta hacia el Blog."/>
+    <deportes.wdgopinion01.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgopinion01.path.label"
+            sling:message="Ruta del Blog"/>
+
+    <deportes.wdgmosread01.firstpath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.firstpath.description"
+            sling:message="Primer entrada de blog a mostrar."/>
+    <deportes.wdgmosread01.firstpath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.firstpath.label"
+            sling:message="Primer ruta"/>
+    <deportes.wdgmosread01.secondpath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.secondpath.description"
+            sling:message="Segunda entrada de blog a mostrar."/>
+    <deportes.wdgmosread01.secondpath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.secondpath.label"
+            sling:message="Segunda ruta"/>
+    <deportes.wdgmosread01.thirthpath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.thirthpath.description"
+            sling:message="Tercer entrada de blog a mostrar."/>
+    <deportes.wdgmosread01.thirthpath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.thirthpath.label"
+            sling:message="Tercera ruta"/>
+    <deportes.wdgmosread01.fourthpath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.fourthpath.description"
+            sling:message="Cuarta entrada de blog a mostrar."/>
+    <deportes.wdgmosread01.fourthpath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.fourthpath.label"
+            sling:message="Cuarta ruta"/>
+    <deportes.wdgmosread01.fifthpath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.fifthpath.description"
+            sling:message="Quinta entrada de blog a mostrar."/>
+    <deportes.wdgmosread01.fifthpath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.fifthpath.label"
+            sling:message="Quinta ruta"/>
+    <deportes.wdgmosread01.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgmosread01.tab.title"
+            sling:message="Rutas"/>
+    <deportes.wdgotherpost01.form.search.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgotherpost01.form.search.placeholder"
+            sling:message="Tema"/>
+
+
+    <deportes.wdgteamscarru02.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.tab.title"
+            sling:message="Básico"/>
+    <deportes.wdgteamscarru02.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.title.label"
+            sling:message="Titulo"/>
+
+    <deportes.wdgteamscarru02.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.tab.title"
+            sling:message="Aparecerá en la esquina superior izquierda."/>
+    <deportes.wdgteamscarru02.league.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.league.description"
+            sling:message="Nombre de la Liga."/>
+    <deportes.wdgteamscarru02.title.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.title.sublabel"
+            sling:message="Ej: Equipos de Futbol Mexicano"/>
+    <deportes.wdgteamscarru02.league.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.league.label"
+            sling:message="Liga"/>
+    <deportes.wdgteamscarru02.league.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.league.sublabel"
+            sling:message="Ej: Liga MX."/>
+    <deportes.wdgteamscarru02.btn.text.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.btn.text.description"
+            sling:message="Texto del botón para ocultar íconos."/>
+    <deportes.wdgteamscarru02.btn.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.btn.text"
+            sling:message="Texto Botón"/>
+    <deportes.wdgteamscarru02.btn.text2.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.btn.text2.description"
+            sling:message="Texto del botón para mostrar íconos."/>
+    <deportes.wdgteamscarru02.btn.text2
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru02.btn.text2"
+            sling:message="Texto Botón alt."/>
+            
+    <deportes.wdgSched02DirectReference.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgSched02DirectReference.title"
+            sling:message="Referencia a agenda"/>
+
+
+    <deportes.carru.widget.item
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.carru.widget.item"
+            sling:message="Mini Logo Equipos"/>
+
+    <deportes.carru.item.title.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.carru.item.title.text"
+            sling:message="Acrónimo"/>
+    <deportes.carru.item.adv.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.carru.item.adv.title"
+            sling:message="General"/>
+    <deportes.wdgteamscarru01.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tab.title"
+            sling:message="Básico"/>
+    <deportes.teams.carru03.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.teams.carru03.settings.title"
+            sling:message="Ajustes Carrusel de equipos"/>
+    <deportes.wdgteamscarru01.tab2.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tab2.title"
+            sling:message="Liga 1"/>
+    <deportes.wdgteamscarru01.tab3.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tab3.title"
+            sling:message="Liga 2"/>
+    <deportes.wdgteamscarru01.league1.name.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.league1.name.description"
+            sling:message="Nombre de la Liga."/>
+    <deportes.wdgteamscarru01.league1.name.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.league1.name.sublabel"
+            sling:message="E.g. Liga Americana."/>
+    <deportes.wdgteamscarru01.tag1.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag1.description"
+            sling:message="Sub groupo tag."/>
+    <deportes.wdgteamscarru01.tag1.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag1.label"
+            sling:message="Sub groupo 1"/>
+    <deportes.wdgteamscarru01.tag2.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag2.label"
+            sling:message="Sub groupo 2"/>
+
+    <deportes.wdgteamscarru01.tag3.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag3.label"
+            sling:message="Sub groupo 3"/>
+
+    <deportes.wdgteamscarru03.tag4.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru03.tag4.label"
+            sling:message="Sub groupo 4"/>
+
+
+    <deportes.wdgteamscarru03.tag4.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru03.tag4.sublabel"
+            sling:message="E.j. extra"/>
+
+    <deportes.wdgteamscarru01.tag1.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag1.sublabel"
+            sling:message="E.j. este"/>
+    <deportes.wdgteamscarru01.tag2.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag2.sublabel"
+            sling:message="E.j. central"/>
+    <deportes.wdgteamscarru01.tag3.sublabel
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgteamscarru01.tag3.sublabel"
+            sling:message="E.j. oeste"/>
+   <deportes.btnCarruProg02Item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.title"
+            sling:message="Elemento de evento"/>
+   <deportes.btnCarruProg02Item.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.description"
+            sling:message="Componente de elemento de evento"/>
+   <deportes.btnCarruProg02Item.label.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.label.text"
+            sling:message="Nombre del evento"/>
+   <deportes.btnCarruProg02Item.text.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.text.description"
+            sling:message="Ingrese el nombre del evento"/>
+   <deportes.btnCarruProg02Item.label.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.label.description"
+            sling:message="Descripción"/>
+   <deportes.btnCarruProg02Item.description.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.description.text"
+            sling:message="Ingrese la descripción del evento"/>
+   <deportes.btnCarruProg02Item.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Item.image.title"
+            sling:message="Imagen"/>
+   <deportes.btnCarruProg02Config.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Config.description"
+            sling:message="Conponente de configuración de eventos"/>
+   <deportes.btnCarruProg02Config.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Config.title"
+            sling:message="Configuración de eventos"/>
+   <deportes.btnCarruProg02Config.label-title.descripcion
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Config.label-title.descripcion"
+            sling:message="Ingrese el título del componente"/>
+   <deportes.btnCarruProg02Config.label.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02Config.label.title"
+            sling:message="Título"/>
+   <deportes.btnCarruProg02.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.placeholder"
+            sling:message="Doble click para editar el componente de Eventos"/>
+   <deportes.btnReferenceCarruProg02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnReferenceCarruProg02.title"
+            sling:message="Componente de referencia de eventos"/>
+   <deportes.btnCarruProg02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.title"
+            sling:message="Eventos"/>
+   <deportes.btnCarruProg02.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.description"
+            sling:message="Componente de eventos"/>
+   <deportes.btnCarruProg02.label.title-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.label.title-description"
+            sling:message="Ingrese el título del componente"/>
+   <deportes.btnCarruProg02.label.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.label.title"
+            sling:message="Título"/>
+   <deportes.btnCarruProg02.event.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.event.description"
+            sling:message="Seleccione una página de eventos"/>
+   <deportes.btnCarruProg02.event.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnCarruProg02.event.label"
+            sling:message="Página de eventos"/>
+   <deportes.reference.error.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnReferenceCarruProg02.error.placeholder"
+            sling:message="Error en referencia"/>
+   
+
+    <deportes.btnprog01.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.tab.title"
+            sling:message="Básico"/>
+    <deportes.btnprog01.logo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.logo.label"
+            sling:message="Logo"/>
+    <deportes.btnprog01.background.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.background.label"
+            sling:message="Fondo"/>
+    <!-- button -->
+    <deportes.btnprog01.tab.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.tab.title"
+            sling:message="Basico."/>
+
+    <deportes.btnprog01.prog.title.description
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="deportes.btnprog01.prog.title.description"
+           sling:message="Titulo del programa a promocionar."/>           
+            
+    <deportes.wdgHumor01.image.title
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgHumor01.image.title"
+            sling:message="Imagen" />    
+     <deportes.wdgHumor01.description.label
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgHumor01.description.label"            
+            sling:message="Descripción" />      
+    <deportes.wdgHumor01.reference.label
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgHumor01.reference.label"
+            sling:message="Referencia" />            
+    <deportes.wdgHumor01.reference.description
+    		jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgHumor01.reference.description"
+            sling:message="Referencia para la imagen" />  
+
+          
+    <deportes.btnprog01.prog.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.prog.title.label"
+            sling:message="Titulo del programa"/>
+    <deportes.btnprog01.invitetext.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.invitetext.description"
+            sling:message="Texto para invitar usuarios a verlo."/>
+    <deportes.btnprog01.invitetext.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.invitetext.label"
+            sling:message="Texto de invitación"/>
+    <deportes.btnprog01.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.link.description"
+            sling:message="Dirección de liga."/>
+    <deportes.btnprog01.link.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01.link.label"
+            sling:message="Liga"/>
+    <deportes.btnprog01
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01"
+            sling:message="Botón de programas"/>
+
+
+    <!-- component names -->
+    <deportes.btnprog01
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.btnprog01"
+            sling:message="Botón de programas"/>
+    <deportes.teams.carru01
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.teams.carru01"
+            sling:message="Widget Carrusel de equipos 01"/>
+    <deportes.teams.carru02
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.teams.carru02"
+            sling:message="Widget Carrusel de equipos 02"/>
+
+    <deportes.teams.carru03
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.teams.carru03"
+            sling:message="Widget Carrusel de equipos 03"/>
+
+    <wdg.teams.item
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="wdg.teams.item"
+            sling:message="Equipos mini logo"/>
+	 <wdg.teamscarru.title.alt
+            jcr:primaryType="sling:MessageEntry"
+      		sling:key="wdg.teamscarru.title.alt"
+            sling:message="\[Titulo\]"/>
+
+    <deportes.referenceStadium.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.referenceStadium.title"
+            sling:message="Componente de Referencia de Estadio"/>
+
+    <deportes.message.referenceStadium.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.message.referenceStadium.placeholder"
+            sling:message="Add a Stadium Note on DropDown Component above to display information"/>
+    
+    <deportes.wdgGoalsCarru01.titlesTab
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.titlesTab"
+            sling:message="Títulos"/>
+    <deportes.wdgGoalsCarru01.settings
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.settings"
+            sling:message="Configuración"/>
+    <deportes.wdgGoalsCarru01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.title"
+            sling:message="Goles"/>
+
+    <deportes.wdgGoalsCarru01.tournament.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tournament.label"
+            sling:message="Torneo"/>
+
+    <deportes.wdgGoalsCarru01.tournament.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tournament.description"
+            sling:message="Inserte texto para torneo."/>
+
+    <deportes.wdgGoalsCarru01.team.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.team.label"
+            sling:message="Equipo"/>
+
+    <deportes.wdgGoalsCarru01.team.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.team.description"
+            sling:message="Inserte texto para equipo."/>
+
+    <deportes.wdgGoalsCarru01.matchday.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.matchday.label"
+            sling:message="Jornada"/>
+
+    <deportes.wdgGoalsCarru01.matchday.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.matchday.description"
+            sling:message="Inserte texto para jornada."/>
+
+    <deportes.wdgGoalsCarru01.seeall.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.seeall.label"
+            sling:message="Ver Todo"/>
+
+    <deportes.wdgGoalsCarru01.seeall.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.seeall.description"
+            sling:message="Inserte texto para ver todo."/>
+
+    <deportes.wdgGoalsCarru01.matchday.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.matchday.placeholder"
+            sling:message="Jornada"/>
+
+    <deportes.wdgGoalsCarru01.tournament.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tournament.placeholder"
+            sling:message="Torneo"/>
+
+    <deportes.wdgGoalsCarru01.team.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.team.placeholder"
+            sling:message="Equipo"/>
+
+    <deportes.wdgGoalsCarru01.seeall.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.seeall.placeholder"
+            sling:message="Ver Todo"/>
+
+    <deportes.wdgGoalsCarru01.tags.tourntag.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tags.tourntag.label"
+            sling:message="Tags de Torneo"/>
+
+    <deportes.wdgGoalsCarru01.tags.tourntag.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tags.tourntag.description"
+            sling:message="Ingrese tags para torneos"/>
+
+    <deportes.wdgGoalsCarru01.tags.currentTourn.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tags.currentTourn.label"
+            sling:message="Torneo Actual"/>
+
+    <deportes.wdgGoalsCarru01.tags.currentTourn.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgGoalsCarru01.tags.currentTourn.description"
+            sling:message="Ingrese tag del torneo actual"/>
+
+    <deportes.wdgVideoSearch01.tags.tourntag.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.tourntag.label"
+            sling:message="Tags de Torneo"/>
+
+    <deportes.wdgVideoSearch01.tags.tourntag.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.tourntag.description"
+            sling:message="Ingrese tags para torneos"/>
+
+    <deportes.wdgVideoSearch01.tags.currentTourn.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.currentTourn.label"
+            sling:message="Torneo Actual"/>
+
+    <deportes.wdgVideoSearch01.tags.currentTourn.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.currentTourn.description"
+            sling:message="Ingrese tag del torneo actual"/>
+    <deportes.wdgVideoSearch01.tags.types
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.currentTourn"
+            sling:message="Tipos"/>
+    <deportes.wdgVideoSearch01.tags.types.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.types.description"
+            sling:message="Ingrese las tags para los tipos de notas de video a buscar."/>
+
+    <deportes.wdgVideoSearch01.tags.types.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.tags.types.label"
+            sling:message="Tags"/>
+
+    <deportes.wdgVideoSearch01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.wdgVideoSearch01.title"
+            sling:message="Componente Búsqueda de Vídeo"/>
+
+    <deportes.akamai.id.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.id.description"
+            sling:message="Ingrese el ID de la transmisión. Ejemplo: 163226 para 'Foro tv'"/>
+    <deportes.akamai.id.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.id.label"
+            sling:message="ID de la Transmisión"/>
+
+    <deportes.akamai.smavp.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.smavp.description"
+            sling:message="Ancho y alto del player de Akamai"/>
+    <deportes.akamai.smavp.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.smavp.label"
+            sling:message="SMAVP"/>
+
+    <deportes.akamai.size.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.size.description"
+            sling:message="Ancho y alto del player de Akamai"/>
+    <deportes.akamai.size.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.size.label"
+            sling:message="Medidas del player"/>
+
+    <deportes.akamai.empty.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.empty.label"
+            sling:message="Porfavor seleccione un video de Livestream para desplegar."/>
+
+    <deportes.akamai.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.title"
+            sling:message="Livestream"/>
+
+    <deportes.akamai.textcontent
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.textcontent"
+            sling:message="Contenido Texto"/>
+
+    <deportes.akamai.short.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.short.description"
+            sling:message="Introduzca algún contenido para la descripción de Livestream"/>
+    <deportes.akamai.short.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.short.label"
+            sling:message="Descripción"/>
+
+    <deportes.akamai.title.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.title.description"
+            sling:message="Este título sobreescribe el título por defecto."/>
+    <deportes.akamai.title.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.title.label"
+            sling:message="Título Editorial"/>
+
+    <deportes.akamai.navSmnu.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.navSmnu.label"
+            sling:message="Navegación de Vídeo"/>
+    <deportes.akamai.navSmnu.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.navSmnu.description"
+            sling:message="Tipo de navegación de vídeo a configurar y desplegar"/>
+
+    <deportes.akamai.navSmnu01.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.navSmnu01.text"
+            sling:message="Navegador 01"/>
+    <deportes.akamai.navSmnu02.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.akamai.navSmnu02.text"
+            sling:message="Navegador 02"/>
+
+    <!-- Video On Demand -->
+    <commons.onDemand.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.title"
+            sling:message="Video on Demand"/>
+    <commons.onDemand.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.description"
+            sling:message="Video on Demand"/>
+    <commons.onDemand.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.settings.title"
+            sling:message="Configuración de Video"/>
+    <commons.onDemand.path.blanktext
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.path.blanktext"
+            sling:message="Introduzca el campo de ruta."/>
+    <commons.onDemand.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.path.description"
+            sling:message="Seleccione la ruta de donde las notas de video se van a traer."/>
+    <commons.onDemand.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.path.label"
+            sling:message="Ruta"/>
+    <commons.onDemand.tags.blanktext
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.tags.blanktext"
+            sling:message="Llenar el campo de tags."/>
+    <commons.onDemand.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.tags.description"
+            sling:message="Tags que contengan las notas de video."/>
+    <commons.onDemand.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.tags.label"
+            sling:message="Tags"/>
+    <commons.onDemand.playVideo.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.playVideo.label"
+            sling:message="Reproducir Video"/>
+    <commons.onDemand.playVideo.options.play
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.playVideo.options.play"
+            sling:message="Reproducir"/>
+    <commons.onDemand.playVideo.options.goToPage
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.playVideo.options.goToPage"
+            sling:message="Ir a página"/>
+
+    <commons.onDemand.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="commons.onDemand.placeholder"
+            sling:message="Doble click para editar el componente Video on demand"/>
+
+    <deportes.gallerydetail.items.addItem
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.gallerydetail.items.addItem"
+            sling:message="Agregar Elemento"/>
+
+    <deportes.gallerydetail.component.delete
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.gallerydetail.component.delete"
+            sling:message="Eliminar Componente"/>
+
+    <deportes.gallerydetail.empty.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.gallerydetail.empty.message"
+            sling:message="Gallería está vacía. Agrega un nuevo elemento."/>
+
+    <deportes.gallerydetail.description.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.gallerydetail.description.message"
+            sling:message="Descripción"/>
+
+    <deportes.gallerydetail.imagepath.message
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="deportes.gallerydetail.imagepath.message"
+            sling:message="Ruta de la imagen"/>
+
+</jcr:root>

@@ -1,0 +1,84 @@
+@media screen and (min-width: 39em){
+        .wdg_comen_01{
+            margin-bottom:36px;
+            margin-right:30px;
+        }        
+       .wdg_comen_01 .wdg_comen_01_form{
+            display:block;
+        }
+        .wdg_comen_01 .nav_paginator_01{
+            display: inline-block !important;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments {
+
+            width: 100%;
+            overflow: hidden;
+            display:block !important;
+        }
+        .wdg_comen_01 .wdg_comen_01_verMas{
+            display:none;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments li{
+            display:block;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments li:first-child{
+            border-top:none;
+            /*_padding-bottom: 15px;*/
+            padding-top: 1px;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments .reply1,
+        .wdg_comen_01 .wdg_comen_01_comments .reply_form{
+            margin-left:74px;
+            border-top:none;
+            padding-bottom: 5px;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments .reply_form{
+
+            width: 83%;
+        }
+
+        .ie7 .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p{
+            padding-top: 8px;
+        }
+        /*
+        .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p{
+            padding-top: 23px;
+        }
+        */
+
+        /*.wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p .comment_time{
+            float: left;
+        }*/
+        .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment p:first-child .comment_time {
+            display: inline
+        }
+        .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment .answer {
+            width: 200px;
+            float:right;
+            text-align:right;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments li .wdg_comen_01_comment .answerlnk {
+            font-style:italic;
+            font-size:12px;
+            color:#A70A0B;
+        }
+
+        .ie7 .wdg_comen_01 .wdg_comen_01_comments li{
+        	height: auto;
+            background: url(../img/dotted-horizontal.png) repeat-x top;
+            float: left;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments .reply1{
+    		background: none;
+    	}            
+        .ie7 .wdg_comen_01 .wdg_comen_01_comments .reply1 > div:first-child {
+            background: none;
+        }
+        .wdg_comen_01 .wdg_comen_01_comments li:first-child{    
+    		background: url(../img/dotted-horizontal.png) repeat-x bottom;
+    	}
+        
+        html[xmlns*=""] .wdg_comen_01 {background: blue;} 		
+        
+        
+}

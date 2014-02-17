@@ -1,0 +1,137 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Prueba multi multi multi</title>
+<atom:link href="" rel="self" type="application/rss+xml"/>
+<link/>
+<description/>
+<image>
+<link/>
+<title>Channel List</title>
+<url/>
+<description/>
+<height>97</height>
+<width>86</width>
+</image>
+<itunes:image href=""/>
+<itunes:explicit>clean</itunes:explicit>
+<category>Rama prueba</category>
+<itunes:category text="Category"/>
+<pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+<dc:date>1969-12-31T19:00:00-05:00</dc:date>
+<language>en</language>
+<dc:language>en</dc:language>
+<ttl>10</ttl>
+<item>
+<matchName>Prueba multi multi multi-238404</matchName>
+<cameraAngle>VOD Trailer</cameraAngle>
+<title>VOD Trailer</title>
+<IDGALAXY>238404</IDGALAXY>
+<idtv>VOD Trailer-238404</idtv>
+<link/>
+<description>VOD Trailer</description>
+<category>live_stream</category>
+<pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+<guid isPermaLink="false">1241186546001</guid>
+<dc:date>1969-12-31T19:00:00-05:00</dc:date>
+<dc:source>VOD Trailer</dc:source>
+<dc:creator/>
+<dc:contributor/>
+<itunes:author>VOD Trailer</itunes:author>
+<itunes:summary>VOD Trailer</itunes:summary>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:duration>00:00</itunes:duration>
+<enclosure url="" length="0" type="video/mp4"/>
+<media:group>
+<media:content isDefault="true" framerate="0" medium="video" url="http://mediapm.edgesuite.net/edgeflash/public/debug/assets/smil/tron.smil" type="application/smil+xml" expression="full" bitrate="0" lang="en-us" height="268" duration="1887" width="480"/>
+<media:title type="plain">VOD Trailer</media:title>
+<media:description type="plain">VOD Trailer</media:description>
+<media:player url="" width="640" height="360"/>
+<media:thumbnail url="" width="320" height="240"/>
+</media:group>
+</item>
+<item>
+<matchName>Prueba multi multi multi-238404</matchName>
+<cameraAngle>HDN2 LIVE</cameraAngle>
+<title>HDN2 LIVE</title>
+<IDGALAXY>238404</IDGALAXY>
+<idtv>HDN2 LIVE-238404</idtv>
+<link/>
+<description>HDN2 LIVE</description>
+<category>live_stream</category>
+<pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+<guid isPermaLink="false">1241186546002</guid>
+<dc:date>1969-12-31T19:00:00-05:00</dc:date>
+<dc:source>HDN2 LIVE</dc:source>
+<dc:creator/>
+<dc:contributor/>
+<itunes:author>HDN2 LIVE</itunes:author>
+<itunes:summary>HDN2 LIVE</itunes:summary>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:duration>00:00</itunes:duration>
+<enclosure url="" length="0" type="video/mp4"/>
+<media:group>
+<media:content isDefault="true" framerate="0" medium="video" url="http://multiformatlive-f.akamaihd.net/z/demostream_1@2131/manifest.f4m" type="application/smil+xml" expression="full" bitrate="0" lang="en-us" height="268" duration="1887" width="480"/>
+<media:title type="plain">HDN2 LIVE</media:title>
+<media:description type="plain">HDN2 LIVE</media:description>
+<media:player url="" width="640" height="360"/>
+<media:thumbnail url="" width="320" height="240"/>
+</media:group>
+</item>
+<item>
+<matchName>Prueba multi multi multi-238404</matchName>
+<cameraAngle>HDN2 VOD</cameraAngle>
+<title>HDN2 VOD</title>
+<IDGALAXY>238404</IDGALAXY>
+<idtv>HDN2 VOD-238404</idtv>
+<link/>
+<description>HDN2 VOD</description>
+<category>live_stream</category>
+<pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+<guid isPermaLink="false">1241186546003</guid>
+<dc:date>1969-12-31T19:00:00-05:00</dc:date>
+<dc:source>HDN2 VOD</dc:source>
+<dc:creator/>
+<dc:contributor/>
+<itunes:author>HDN2 VOD</itunes:author>
+<itunes:summary>HDN2 VOD</itunes:summary>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:duration>00:00</itunes:duration>
+<enclosure url="" length="0" type="video/mp4"/>
+<media:group>
+<media:content isDefault="true" framerate="0" medium="video" url="http://multiplatform-f.akamaihd.net/z/multi/april11/hdworld/hdworld_,512x288_450_b,640x360_700_b,768x432_1000_b,1024x576_1400_m,1280x720_1900_m,1280x720_2500_m,1280x720_3500_m,.mp4.csmil/manifest.f4m" type="application/smil+xml" expression="full" bitrate="0" lang="en-us" height="268" duration="1887" width="480"/>
+<media:title type="plain">HDN2 VOD</media:title>
+<media:description type="plain">HDN2 VOD</media:description>
+<media:player url="" width="640" height="360"/>
+<media:thumbnail url="" width="320" height="240"/>
+</media:group>
+</item>
+<item>
+<matchName>Prueba multi multi multi-238404</matchName>
+<cameraAngle>PDL Space Alone</cameraAngle>
+<title>PDL Space Alone</title>
+<IDGALAXY>238404</IDGALAXY>
+<idtv>PDL Space Alone-238404</idtv>
+<link/>
+<description>PDL Space Alone</description>
+<category>live_stream</category>
+<pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+<guid isPermaLink="false">1241186546004</guid>
+<dc:date>1969-12-31T19:00:00-05:00</dc:date>
+<dc:source>PDL Space Alone</dc:source>
+<dc:creator/>
+<dc:contributor/>
+<itunes:author>PDL Space Alone</itunes:author>
+<itunes:summary>PDL Space Alone</itunes:summary>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:duration>00:00</itunes:duration>
+<enclosure url="" length="0" type="video/mp4"/>
+<media:group>
+<media:content isDefault="true" framerate="0" medium="video" url="http://mediapm.edgesuite.net/osmf/content/test/spacealonehd_sounas_640_700.mp4" type="application/smil+xml" expression="full" bitrate="0" lang="en-us" height="268" duration="1887" width="480"/>
+<media:title type="plain">PDL Space Alone</media:title>
+<media:description type="plain">PDL Space Alone</media:description>
+<media:player url="" width="640" height="360"/>
+<media:thumbnail url="" width="320" height="240"/>
+</media:group>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,37 @@
+@media screen and (min-width: 624px){
+
+    .nav_smnu_video_01{
+        margin-bottom: 5px;
+        width: 624px;
+    }
+    .nav_smnu_video_01 .sings {
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: -15px;
+        overflow: hidden;
+        margin-top: -2px;
+        margin-left: 135px;
+    }
+    .nav_smnu_video_01 .tdlogo{
+        bottom: 0px;
+        position:absolute;
+        margin-left: 0px;
+    }
+    .nav_smnu_video_01 .navarrowleft,
+    .nav_smnu_video_01 .navarrowright{
+        display:block;
+    }
+
+    .nav_smnu_video_01 .cont{
+        padding-left: 103px;
+    }
+
+    .nav_smnu_video_01 .container{
+        width:470px;
+    }
+    .nav_smnu_video_01 .degraded_darked_right,
+    .nav_smnu_video_01 .degraded_darked_left{
+        display: none;
+    }
+
+}

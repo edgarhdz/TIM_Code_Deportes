@@ -1,0 +1,469 @@
+/*Dispositivos vista retina------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:
+        948px) , ( min-resolution : 192dpi) and (min-width: 948px) {
+    /* Logo Deportes */
+    header.nav_header_01 div.topnav a.televisa.deportes span {
+        background: url(../global/img/sprite_logos_televisa@2x.png) no-repeat
+            1px -79px;
+        background-size: 145px 222px;
+    }
+    .ie8  header.nav_header_01 div.topnav a.deportes span {
+        background: url(../global/img/sprite_logos_televisa.png) no-repeat 0
+            -77px;
+        height: 78px;
+    }
+    .ie8 header.nav_header_01 div.mainnav nav.social>a.vivafut span.vivafut
+        {
+        background: url(../global/img/mainnav2_hover.png) no-repeat 0 0
+            !important;
+        background-size: 174px 32px;
+    }
+    .ie8 header.nav_header_01 div.mainnav nav.social ul li.station a span.vivafut
+        {
+        background: url(../global/img/mainnav2_hover.png) no-repeat 0 0;
+        background-size: 174px 32px;
+    }
+    .ie8 header.nav_header_01 div.mainnav nav.social ul li.station a span.nba
+        {
+        background: url(../global/img/mainnav2_hover.png) no-repeat -51px 0;
+        background-size: 174px 32px;
+    }
+    .ie8 header.nav_header_01 div.mainnav nav.social ul li.station a span.tdtv
+        {
+        background: url(../global/img/mainnav2_hover.png) no-repeat -87px 0;
+        background-size: 174px 32px;
+    }
+    .ie8 header.nav_header_01 div.mainnav nav.social ul li.station a span.tdn
+        {
+        background: url(../global/img/mainnav2_hover.png) no-repeat -135px 0;
+        background-size: 174px 32px;
+    }
+
+    .ie7 header.nav_header_01 div.mainnav div.inner nav.main ul li{
+        position: relative;
+        min-width: 30px;
+        max-width: 150px;
+        float: left;
+    }
+    .ie7 header.nav_header_01 div.mainnav div.inner nav.main ul li.mas-deportes ul.dropdown li{
+        border: none;
+    }
+    .ie7 header.nav_header_01 div.mainnav div.inner nav.main ul li.mas-deportes ul.dropdown li a{
+        position: relative;
+        width: 130px;
+    }
+    .ie7 header.nav_header_01 div.mainnav nav.social ul{
+        width: 380px;
+    } 
+    .ie7 header.nav_header_01 div.mainnav nav.social ul li{
+        position: relative;
+        min-width: 30px;
+        max-width: 150px;
+        float: left;
+    }
+    .ie7 header.nav_header_01 .title .inner strong{
+        top:20px;
+        line-height: 35px;
+    }
+
+    .ie7 header.nav_header_01 div.collapsable-mainnav > div div.inner nav.tabs ul li{
+        position: relative;
+        float: left;
+    }
+    .ie7 header.nav_header_01 div.topnav span.date {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        color: #FFF;
+        position: absolute;
+        top: 1px;
+        right: 60px;
+    }
+    .ie7 header.nav_header_01 div.topnav a.televisa{
+        display: inline;
+        z-index: 1000;
+        width: 144px;
+        height: 112px;
+    }
+    .ie7 header.nav_header_01 div.topnav a.televisa.deportes span{
+        display: block;
+        z-index: 1000;
+        height: 78px;
+        width: 81px;
+        position: relative;
+    }
+    .ie7 header.nav_header_01 div.topnav a.televisa.deportes span.mobile-logo{
+        display: none;
+    }
+    .ie7 header.nav_header_01 div.collapsable-verticals div.inner > div{
+        display: inline;
+        position: relative;
+        z-index: 1;
+        zoom:0 !important;
+    }
+    .ie7 header.nav_header_01 div.collapsable-verticals div.inner>div div.filtering{
+        position: absolute;
+        display: inline;
+        width: 145px;
+        top: 28px;
+        left: 800px;
+    }
+
+    .ie7 header.nav_header_01 .dropdown-content.tdn div.inner div.subtab ul{
+        position: relative;
+        float: left;
+    }
+    .ie7 header.nav_header_01 .dropdown-content.tdn div.inner div.subtab ul li{
+        position: relative;
+        float: left;
+        height: 95px;
+        width: 300px;
+    }
+}
+
+
+/* desktop only */
+@media screen and (min-width: 948px) {
+	/* Layout */
+	header.nav_header_01 div.inner {
+		width: 948px;
+		position: relative;
+	}
+
+	/* Televisa Logo */
+	header.nav_header_01 div.topnav a.televisa {
+		box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+		height: 112px;
+		width: 144px;
+	}
+	header.nav_header_01 div.topnav a.televisa span {
+		width: 81px;
+	}
+	header.nav_header_01 div.topnav a.televisa span {
+		height: 77px;
+		margin: 16px auto 0 auto;
+	}
+
+	/* Logo Noticieros */
+	header.nav_header_01 div.topnav a.televisa.noticieros span {
+		background: url(../global/img/sprite_logos_televisa.png) no-repeat 0 0;
+		height: 77px;
+	}
+
+	/* Logo Deportes */
+	header.nav_header_01 div.topnav a.televisa.deportes span {
+		background: url(../global/img/sprite_logos_televisa.png) no-repeat 0
+			-77px;
+		height: 78px;
+	}
+
+	/* Logo Resto */
+	header.nav_header_01 div.topnav a.televisa span {
+		background: url(../global/img/sprite_logos_televisa.png) no-repeat 0
+			-155px;
+		height: 78px;
+	}
+
+	/* Top Navigation */
+	header.nav_header_01 div.topnav nav ul {
+		left: 215px;
+	}
+	header.nav_header_01 div.topnav span.date {
+		display: block;
+		height: 35px;
+		line-height: 35px;
+		color: #FFF;
+		position: absolute;
+		top: 1px;
+		right: 50px;
+	}
+	header.nav_header_01 div.topnav nav ul li a {
+		font-size: 12px;
+		padding: 0 15px;
+	}
+
+	/* Main Navigation */
+	header.nav_header_01 div.title {
+		height: 73px;
+	}
+	header.nav_header_01 div.title strong {
+		left: 215px;
+	}
+	header.nav_header_01 div.mainnav nav.social ul {
+		top: 0;
+		border-bottom: 0px none;
+		background: transparent;
+		filter: none;
+		display: block !important;
+		border-left: none;
+	}
+	/* Main Navigation */
+	header.nav_header_01 div.mainnav nav.main ul {
+		margin-left: 23px;
+	}
+	header.nav_header_01 div.mainnav nav.social ul li.station:first-child {
+		display: inline-block;
+	}
+	header.nav_header_01 div.mainnav nav.social ul li.station:last-child {
+		border-right: 1px solid #dadada !important;
+	}
+	header.nav_header_01 div.mainnav nav.social a.vivafut {
+		display: none;
+	}
+	header.nav_header_01 div.mainnav nav.social a.toggle {
+		display: none;
+	}
+	header.nav_header_01 div.mainnav nav.social a.toggle {
+		display: none;
+	}
+	.hide-tablet {
+		display: block !important;
+	}
+
+	/* Bootstrap columns */
+	.row-fluid {
+		width: 100%;
+		*zoom: 1;
+	}
+	.row-fluid:before,.row-fluid:after {
+		display: table;
+		line-height: 0;
+		content: "";
+	}
+	.row-fluid:after {
+		clear: both;
+	}
+	.row-fluid [class^="span"] {
+		/* display: block; */
+		float: left;
+		width: 100%;
+		min-height: 30px;
+		margin-left: 2.127659574468085%;
+		*margin-left: 2.074468085106383%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.row-fluid [class^="span"]:first-child {
+		margin-left: 0;
+	}
+	.row-fluid .controls-row [class^="span"] {
+		margin-left: 2.127659574468085%;
+	}
+	.row-fluid .span12 {
+		width: 100%;
+		*width: 99.94680851063829%;
+	}
+	.row-fluid .span11 {
+		width: 91.48936170212765%;
+		*width: 91.43617021276594%;
+	}
+	.row-fluid .span10 {
+		width: 82.97872340425532%;
+		*width: 82.92553191489361%;
+	}
+	.row-fluid .span9 {
+		width: 74.46808510638297%;
+		*width: 74.41489361702126%;
+	}
+	.row-fluid .span8 {
+		width: 65.95744680851064%;
+		*width: 65.90425531914893%;
+	}
+	.row-fluid .span7 {
+		width: 57.44680851063829%;
+		*width: 57.39361702127659%;
+	}
+	.row-fluid .span6 {
+		width: 48.93617021276595%;
+		*width: 48.88297872340425%;
+	}
+	.row-fluid .span5 {
+		width: 40.42553191489362%;
+		*width: 40.37234042553192%;
+	}
+	.row-fluid .span4 {
+		width: 31.914893617021278%;
+		*width: 31.861702127659576%;
+	}
+	.row-fluid .span3 {
+		width: 23.404255319148934%;
+		*width: 23.351063829787233%;
+	}
+	.row-fluid .span2 {
+		width: 14.893617021276595%;
+		*width: 14.840425531914894%;
+	}
+	.row-fluid .span1 {
+		width: 6.382978723404255%;
+		*width: 6.329787234042553%;
+	}
+	.row {
+		margin-left: -24px;
+		*zoom: 1;
+	}
+	.row:before,.row:after {
+		display: table;
+		line-height: 0;
+		content: "";
+	}
+	.row:after {
+		clear: both;
+	}
+	[class^="span"] {
+		float: left;
+		min-height: 1px;
+		margin-left: 24px;
+	}
+	.span12 {
+		width: 948px;
+		background: green;
+	}
+	.span11 {
+		width: 860px;
+		/* background:cornsilk; */
+	}
+	.span10 {
+		width: 780px;
+		/* background:cornsilk; */
+	}
+	.span9 {
+		width: 724px;
+		/* background:orange; */
+	}
+	.span8 {
+		width: 620px;
+		/* background:mauve; */
+	}
+	.span7 {
+		width: 540px;
+		/* background:slategrey; */
+	}
+	.span6 {
+		width: 460px;
+		/* background:grey; */
+	}
+	.span5 {
+		width: 380px;
+		/* background:blue; */
+	}
+	.span4 {
+		width: 300px;
+		/* background:#708090; */
+	}
+	.span3 {
+		width: 192px;
+		/* background:#708090; */
+	}
+	.span2 {
+		width: 140px;
+	}
+	.span1 {
+		width: 60px;
+	}
+	.row-fluid .offset1 {
+		margin-left: 8.382978723%;
+	}
+	.row-fluid .offset2 {
+		margin-left: 16.89361702%;
+	}
+	.row-fluid .offset3 {
+		margin-left: 25.404255317%;
+	}
+	.row-fluid .offset4 {
+		margin-left: 33.914893614%;
+	}
+	.row-fluid .offset5 {
+		margin-left: 42.425531911%;
+	}
+	.row-fluid .offset6 {
+		margin-left: 50.93617020799999%;
+	}
+	.row-fluid .offset7 {
+		margin-left: 59.446808505%;
+	}
+	.row-fluid .offset8 {
+		margin-left: 67.95744680199999%;
+	}
+	.row-fluid .offset9 {
+		margin-left: 76.468085099%;
+	}
+	.row-fluid .offset10 {
+		margin-left: 84.97872339599999%;
+	}
+	.row-fluid .offset11 {
+		margin-left: 91.489361693%;
+	}
+	.offset12 {
+		margin-left: 980px;
+	}
+	.offset11 {
+		margin-left: 900px;
+	}
+	.offset10 {
+		margin-left: 820px;
+	}
+	.offset9 {
+		margin-left: 740px;
+	}
+	.offset8 {
+		margin-left: 660px;
+	}
+	.offset7 {
+		margin-left: 580px;
+	}
+	.offset6 {
+		margin-left: 500px;
+	}
+	.offset5 {
+		margin-left: 420px;
+	}
+	.offset4 {
+		margin-left: 340px;
+	}
+	.offset3 {
+		margin-left: 260px;
+	}
+	.offset2 {
+		margin-left: 180px;
+	}
+	.offset1 {
+		margin-left: 72px;
+	}
+	header.nav_header_01 div.collapsable-verticals div.inner>div strong.maintitle
+		{
+		margin-left: 215px;
+	}
+	header.nav_header_01 div.collapsable-verticals div.inner>div div.featured
+		{
+		margin-left: 215px;
+	}
+	header.nav_header_01 div.collapsable-verticals div.inner>div div.big-news
+		{
+		width: 300px;
+		position: relative;
+		float: left;
+		display: block;
+	}
+	header.nav_header_01 div.collapsable-verticals div.inner>div div.small-news
+		{
+		margin-left: 324px;
+		float: none !important;
+	}
+	header.nav_header_01 div.collapsable-verticals div.inner div.deportes div.small-news
+		{
+		margin-left: 0;
+		float: left !important;
+	}
+	header.nav_header_01 div.collapsable-verticals div.collapsable-content.deportes div.mxm
+		{
+		margin-left: 324px;
+		margin-top: 0;
+		/* width:248px; */
+		width: 300px;
+	}
+	header.nav_header_01 div.dropdown-content div.desktoponly {
+	display:block;
+	}
+	.dropdown-content .span8 .span6 {width: 48.93617021276595%;}
+}

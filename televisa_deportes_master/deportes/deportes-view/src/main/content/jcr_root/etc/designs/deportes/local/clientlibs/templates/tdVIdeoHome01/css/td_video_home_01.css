@@ -1,0 +1,51 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_video_home_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+	.td_video_home_01 .main .c9{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}	
+	/* Flotan a la izq */
+	.td_video_home_01 .main .c2,
+	.td_video_home_01 .main .c4,
+	.td_video_home_01 .main .c7{
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_video_home_01 .main .c3,
+	.td_video_home_01 .main .c5,
+	.td_video_home_01 .main .c8{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	
+	/*bloques*/	
+	.td_video_home_01 .main .c3_1,
+	.td_video_home_01 .main .c3_2,
+	.td_video_home_01 .main .c3_3,
+	.td_video_home_01 .main .c5_1,
+	.td_video_home_01 .main .c5_2,
+	.td_video_home_01 .main .c8_1,
+	.td_video_home_01 .main .c8_2,
+	.td_video_home_01 .main .c8_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	
+	.td_video_home_01 .main .c7{
+		clear: both;
+		overflow: hidden;
+	}
+	.td_video_home_01 .main .c3 .c3_3{
+		display: none;
+	}
+
+}

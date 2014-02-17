@@ -1,0 +1,38 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_multistream_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+	.td_multistream_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}	
+	/* Flotan a la izq */
+	.td_multistream_01 .main .c2{
+		float:left;
+		width: 624px;
+		clear:none;
+		
+	}
+	/* Flotan a la der */
+	.td_multistream_01 .main .c3{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	
+	/*bloques*/	
+	.td_multistream_01 .main .c3_1,
+	.td_multistream_01 .main .c3_2,
+	.td_multistream_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	
+	.td_multistream_01 .main .c2 .c2_2{
+		display: none;
+	}
+}

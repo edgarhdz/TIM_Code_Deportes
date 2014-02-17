@@ -1,0 +1,80 @@
+@media screen and (min-width: 624px){
+	/****BEGIN HEADER****/
+	 header.nav_header_newsletter_01 {
+        margin-bottom: 24px;
+        display: block;
+        position: relative;
+        height: 115px;
+    }
+	header.nav_header_newsletter_01 div.nav_header_newsletter_01_section {
+        height: 70px;
+        position: relative;
+        border-top: 1px solid #B33B44;
+        background-color: #A70A0B;
+        margin: 0;
+    	font: 100% Trebuchet MS,Arial,sans-serif;
+    }
+    header.nav_header_newsletter_01 div.nav_header_newsletter_01_top {
+        height: 50px;
+        position: relative;
+    }
+    header.nav_header_newsletter_01 .nav_header_newsletter_01_content{
+    	display:block;
+    	width: 624px;
+    	height: 112px;
+    	margin: auto;	
+    }
+    header.nav_header_newsletter_01 div.nav_header_newsletter_01_section .nav_header_newsletter_01_top h2 a {
+    	font-family: Trebuchet MS,Georgia;
+	    font-size: 20pt;
+	    display: block;	    
+	    letter-spacing: -1px;
+	    line-height: 0;	    
+	    margin-left: 182px;   
+	    color: white;
+	    font-weight: bold;
+	    padding: 33px 0 14px;;
+    	position: relative;
+    	text-decoration: none;
+    	transition: all 0.2s ease-out 0s;
+    	cursor: default;
+    
+    }
+    .nav_header_newsletter_01_sprite {
+	    /*background: url("../../global/img/logo_televisa-deportes.png") no-repeat scroll 0 0 transparent;*/
+	    background: url("../global/img/logo_televisa-deportes.png") no-repeat scroll 0 0 transparent;
+	    display: inline-block;
+	    width: 126px;
+	    height: 112px;
+	    overflow: hidden;
+	    text-indent: -99em;
+	    padding: 0 24px 0 24px;
+	}
+    header.nav_header_newsletter_01 div.nav_header_newsletter_01_top a {
+        display: block;
+        position: absolute;
+    }
+    header.nav_header_newsletter_01 div.nav_header_newsletter_01_top a.nav_header_newsletter_01_logotv {
+        left: 0px;
+    }
+    header.nav_header_newsletter_01 div.nav_header_newsletter_01_top .nav_header_newsletter_01_date {
+        color: #fff;
+        display: block;
+        font-size: 0.75em;
+        line-height: 6em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+   	header.nav_header_newsletter_01 div.nav_header_newsletter_01_top a.nav_header_01_logotv {
+	    display: block;
+    	position: absolute;
+	    background-color: #0F4A7B;
+	    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	    left: 1em;
+	    margin-left: 10px;
+	    padding: 1.5em 1.85em;
+	    top: 0;
+   	}
+	/****END...****/
+}

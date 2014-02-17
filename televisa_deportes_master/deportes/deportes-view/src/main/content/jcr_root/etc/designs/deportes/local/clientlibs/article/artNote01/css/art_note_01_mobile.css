@@ -1,0 +1,23 @@
+@media screen {
+    .art_note_01{
+        padding: 15px;
+        padding-top: 0px;
+        font-size:12px;
+        line-height: 16px;
+        color:#333;
+        /*border-bottom:1px dashed #A1A1A1;*/
+    }
+    .art_note_01 p{
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .art_note_01 a{
+        text-decoration:none;
+        color: #A70A0B;
+    }
+    .art_note_01 .block_p{
+        margin-bottom: 15px
+    }
+}

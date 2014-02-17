@@ -1,0 +1,17 @@
+@media screen and (min-width: 39em){
+    .mix_2arts_04{
+        width: 624px;
+    }
+    .mix_2arts_04 .mix_2arts_04_line{
+        clear: both;
+    }
+    .mix_2arts_04 .mix_2arts_04_line .mix_2arts_04_left{
+        float: left;
+    }
+    .mix_2arts_04 .mix_2arts_04_line .mix_2arts_04_right{
+        float: right;
+    }
+    .mix_1arts_10 .articleMedium #videobtn2 {
+        display: none;
+    }
+}

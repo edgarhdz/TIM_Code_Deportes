@@ -1,0 +1,181 @@
+@media screen{	
+	/*BEGIN: wdg_video_search_01 */
+	.wdg_video_search_01{
+		display: block;
+		width: 100%;
+		position:relative;
+		margin-bottom:12px;
+		overflow: hidden;
+	}
+	
+	/*BEGIN: filterResultado */
+	.contenFilter{
+		display: block;
+		width: 100%;
+		height: 65px;
+		margin-bottom: 28px;		
+	}
+	.wdg_video_search_01 .contenFilter .filterResultado {
+		float: left;
+		width: 100%;
+		position: relative;
+		height: auto;
+	}
+	.wdg_video_search_01 .contenFilter .filterResultado2 {
+		display: none;
+	}
+	.wdg_video_search_01 .contenFilter .lineaResultado {
+		width: 100%;
+		position: relative;
+		height: auto;
+		border-bottom: 1px solid #CCC;
+		border-top: 1px solid #ccc;
+		float: left;
+		clear: both;
+		margin-top:-1px;
+	}
+	.wdg_video_search_01 .contenFilter .result1,
+	.wdg_video_search_01 .contenFilter .result3 {
+		margin-right: 24px;	
+	}
+	.wdg_video_search_01 .contenFilter .filter {
+		width: 73%;
+		position: relative;
+		float: right;
+		height: 31px;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_dropdown {
+		clear: both;
+		width: 100%;
+		height: 100%;
+		background-color: #E1E1E1;
+		box-shadow: inset 0px 0px 12px 4px rgba(0,0,0,0.1);
+		cursor: pointer;
+		padding-bottom: 0;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_dropdowncontent {
+		background-color: #E1E1E1;
+		box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1) inset;
+		clear: both;
+		cursor: pointer;
+		height: 35px;
+		width: 100%;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_listcontainer {
+		clear: both;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_dropdowncontent > p {
+		float: left;
+		padding-left: 15px;
+		padding-top: 10px;
+		font-size: 13px;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_dropdowncontent > span {
+		float: right;
+		margin-top: 10px;
+		margin-right: 12px;
+		cursor: pointer;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_listcontainer ul {
+		background-color: #f5f5f5;
+		z-index: 1000 !important;
+		position: relative;
+		visibility: hidden;
+		cursor: pointer;
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_listcontainer ul li {
+		width: 100%;
+		height: 34px;
+		background-color: rgba(235,235,235,0.6);
+		background-color: rgba(235,235,235,0.6);
+		border-bottom: 1px solid #d3d3d3;
+		box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.1);
+	}
+	.wdg_video_search_01 .contenFilter .wdg_video_search_01_listcontainer ul li p {
+		margin-left: 20px;
+		line-height: 34px;
+		font-style: italic;
+		font-weight: bold;
+	}
+	.wdg_video_search_01 .contenFilter .lineaResultado > h3 {
+		position: relative;
+		text-align: center;
+		color: black;
+		font-size: 13px;
+		padding: 10px 0px;
+		padding-right: 6px;
+	}
+	/*END: filterResultado */
+	
+	/*BEGIN: wdg_video_search_01_ver_mas */
+	.wdg_video_search_01 .wdg_video_search_01_ver_mas {
+        display:block;
+        background:#CCC;
+        color:#666;
+        text-align:center;
+        padding:10px;
+		font-size:12px;
+    }
+	.wdg_video_search_01 .see_less{
+		display:none;
+		width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        padding:10px;
+        cursor: pointer;
+	}
+    /*END: wdg_video_search_01_ver_mas*/
+    /*hide-paginator*/
+    .wdg_video_search_01 .nav_paginator_01{
+    	display: none;
+    }
+    
+    /*Mostrar solo los primeros 6 en movil por altura*/
+    .wdg_video_search_01 .mix_1arts_13{
+		margin-bottom:9px;
+    }
+    .wdg_video_search_01 .last{
+    	height: 62px;
+		float: left;
+		overflow: hidden;
+    }
+	.wdg_video_search_01 .scroll{
+		clear: both;
+		display: block;
+		height: 450px;
+		overflow-y: scroll;
+		width: 104%;
+	}
+	.wdg_video_search_01 .degraded{
+		display: block;
+		bottom: 0;
+		width: 100%;
+	}
+	.wdg_video_search_01 .scroll .mix_1arts_13 .image{
+		margin-right: 0;
+		padding-right: 12px;
+	}
+	.wdg_video_search_01 .scroll  .mix_1arts_13 .mix_1arts_13_thumb li a h6{
+		padding-top: 11px;
+	}
+	.wdg_video_search_01 .scroll  .mix_1arts_13 .mix_1arts_13_thumb li a p{
+		margin-bottom: 0;
+	}
+	.wdg_video_search_01 .wdg_video_search_01_listcontainer ul::-webkit-scrollbar {
+		height: 12px;
+		width: 12px;
+		background: #f5f5f5;
+	}
+	.wdg_video_search_01 .wdg_video_search_01_listcontainer  ul::-webkit-scrollbar-thumb {
+		background: #d3d3d3;
+		-webkit-border-radius: 1px;
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+	}    
+}
+/* Portrait */
+@media screen and (orientation:portrait) and (max-width: 320px) {
+.wdg_video_search_01 .scroll{		
+		height: 466px;		
+	}
+}

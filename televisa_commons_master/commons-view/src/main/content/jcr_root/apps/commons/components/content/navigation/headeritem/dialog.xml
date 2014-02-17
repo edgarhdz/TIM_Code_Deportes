@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.description"
+                        fieldLabel="commons.link.title"
+                        name="./textMain"
+                        xtype="textfield"/>
+                    <pathlink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.path.description"
+                        fieldLabel="commons.link.path.label"
+                        name="./pathMain"
+                        xtype="pathfield"/>
+                    <textTitle
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.title-description"
+                        fieldLabel="commons.link.title-label"
+                        name="./titleMain"
+                        xtype="textfield"/>
+                    <linkType
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.linktype-description"
+                        fieldLabel="commons.link.linktype-label"
+                        name="./linkTypeMain"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.internallink-label"
+                                value="internal"/>
+                            <external
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.externallink-label"
+                                value="external"/>
+                        </options>
+                    </linkType>
+                    <target
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.target-description"
+                        fieldLabel="commons.link.target-label"
+                        name="./targetMain"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-blank-text"
+                                value="_blank"/>
+                            <self
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-self-text"
+                                value="_self"/>
+                        </options>
+                    </target>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/linklist/dialog/items/items/linkstab.infinity.json"
+                xtype="cqinclude"/>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,178 @@
+@media screen { 
+	.wdg_poll_video_01{
+		position: relative;
+		max-width:624px;
+		margin-bottom:24px;
+		display:none;
+	}
+	.wdg_poll_video_01 .title{
+		font-size: 18px;
+		padding-bottom: 9px;
+		margin-bottom: 7px;
+	}
+	.wdg_poll_video_01 .subtitle{
+		border-bottom: 1px solid #CCCCCC;
+	    font-weight: bolder;
+	    padding-bottom: 15px;
+		font-size:16px;
+	}
+	.wdg_poll_video_01 .order_by{
+		font-size: 12px;
+	    font-style: italic;
+	    float: right;
+		margin-right: 15px;
+	    margin-top: -10px;
+		background-color: #F5F5F5;
+		width: 160px;
+		text-align:center;
+	}
+	
+	
+	.wdg_poll_video_01 .poll{
+		margin-top:9px;
+		margin-bottom:24px;
+	}
+	.wdg_poll_video_01 .poll .videoimg{
+		padding-right:18px;
+		width:344px;
+		vertical-align:top;
+	}
+	
+	.wdg_poll_video_01 .poll .videoimg .overlayPlay{
+		background-color: #A41D21;
+		
+		opacity: 0.75;
+		position: absolute;
+		width: 20px;
+		height: 25px;
+		bottom:30px;
+		padding-left:10px;
+		padding-top:5px;
+	}
+	
+	.wdg_poll_video_01 .poll .videoimg .overlayPlay i{
+		color:#FFF;
+	}
+	
+	.wdg_poll_video_01 .poll  .col1 .overlay{
+		background-color: #A41D21;
+		height: 67px;
+		opacity: 0.75;
+		position: absolute;
+		width: 84px;
+	}
+	
+	.wdg_poll_video_01 .poll  .col1 .overlay i{
+		color: #FFFFFF;
+		left: 59px;
+		position: absolute;
+	}
+	
+	.wdg_poll_video_01 .poll tr:nth-child(2) .col1{
+		width:84px;
+		padding: 5px 0;
+		border-bottom: 1px dotted #515151;
+		border-top: 1px dotted #515151;
+	}
+	.wdg_poll_video_01 .poll tr:first-child .col1{
+		
+		padding-top: 0px;
+	}
+	
+	.wdg_poll_video_01 .poll tr:last-child .col1{
+		
+		padding-top: 4px;
+		border-bottom: none;
+		
+	}
+	
+	.wdg_poll_video_01 .poll tr:nth-child(2) .col2{
+		padding: 5px 0;
+		border-bottom: 1px dotted #515151;
+		border-top: 1px dotted #515151;
+		padding-left:18px;
+		padding-top:10px;
+	}
+	
+	.wdg_poll_video_01 .poll .col2{
+		padding-left:18px;
+		padding-top:10px;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .nombre{
+		color:#232323;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .equipo{
+		font-size:12px;
+		font-style:italic;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .rating{
+		font-size:16px;
+		margin-right: 15px;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 label.focused
+    {
+        color:#A70A0B !important;
+    }
+	
+	.wdg_poll_video_01 .linetop{
+		width:100%;
+		border-top: 1px solid #CCC;
+	}
+	
+	.wdg_poll_video_01 .linetop .buttonVotar{
+		width:92px;
+		float:right;
+		text-align:center;
+		font-style:italic;
+		padding:5px 0;
+	}
+	
+	.wdg_poll_video_01 .linetop .buttonVotado{
+		width:175px;
+		float:right;
+		text-align:center;
+		font-style:italic;
+		padding:5px 0;
+		background-color:#CCC;
+	}
+	
+	.wdg_poll_video_01 .poll .col1 .score{
+		display:none;
+		margin: 5px 10px 10px 10px;
+		border-bottom: 1px solid #CCC;
+		font-size:28px;
+		width:30px;
+		text-align:center;
+		font-style:italic;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .rate1{
+		color:#a70a0b;
+		font-weight:bold;
+		font-size:14px;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .rate2{
+		color:#6f0707;
+		font-weight:bold;
+		font-size:14px;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .graph{
+		height:9px;
+		margin-top: 10px;
+		display: none;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .graph1{
+		background-color:#a70a0b;
+	}
+	
+	.wdg_poll_video_01 .poll .col2 .graph2{
+		background-color:#6f0707;
+	}
+}

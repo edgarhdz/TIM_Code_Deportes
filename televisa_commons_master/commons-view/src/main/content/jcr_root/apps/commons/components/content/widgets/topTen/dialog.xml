@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="500"
+    title="commons.topTen.title"
+    width="900"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+	    <inheritanceTab
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/inheritance/inheritanceTab.infinity.json"
+                xtype="cqinclude"/>
+            <imagesettings
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <listItems
+                        jcr:primaryType="cq:Widget"
+                        genericmultifieldname="./listItems"
+                        maxItems="15"
+                        name="./listItems"
+                        xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <patharticle
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="commons.topten.patharticle.description"
+                                fieldLabel="commons.topten.patharticle.title"
+                                name="./path"
+                                rootPath="/content/televisa"
+                                xtype="searchpathfield"/>
+                        </fieldConfig>
+                    </listItems>
+                </items>
+            </imagesettings>
+            <titlesettings
+                jcr:primaryType="cq:Panel"
+                title="Title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.text-description"
+                        fieldLabel="commons.link.text-label"
+                        name="./linkText"
+                        xtype="textfield"/>
+                    <linktype
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.link.linktype-label"
+                        name="./linkType"
+                        type="radio"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.internallink-label"
+                                value="internal"/>
+                            <external
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.externallink-label"
+                                value="external"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field, record, path) {  linkLoadContent(field, record, path);}"
+                            selectionchanged="function(selection,value, checked){ linkSelectionChanged(selection,value, checked); }"/>
+                    </linktype>
+                    <internallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.internallink-description"
+                        fieldLabel="commons.link.internallink-label"
+                        name="./internalLink"
+                        rootPath="/content/televisa"
+                        rootTitle="Televisa"
+                        xtype="pathfield"/>
+                    <externallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.externallink-description"
+                        fieldLabel="commons.link.externallink-label"
+                        name="./externalLink"
+                        xtype="textfield"/>
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.title-description"
+                        fieldLabel="commons.link.title-label"
+                        name="./linkTitle"
+                        xtype="textfield"/>
+                    <target
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="_blank"
+                        fieldDescription="commons.topTen.titlesettings.target.description"
+                        fieldLabel="commons.link.target-label"
+                        name="./linkTarget"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-blank-text"
+                                value="_blank"/>
+                            <self
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-self-text"
+                                value="_self"/>
+                        </options>
+                    </target>
+                </items>
+            </titlesettings>
+        </items>
+    </items>
+</jcr:root>

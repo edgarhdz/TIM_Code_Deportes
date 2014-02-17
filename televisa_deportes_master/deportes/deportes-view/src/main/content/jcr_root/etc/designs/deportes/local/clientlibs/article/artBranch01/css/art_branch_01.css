@@ -1,0 +1,7 @@
+@media screen and (min-width: 60em){
+    /* BEGIN: Global (Large) */
+    div.art_branch_01 {
+        margin-bottom: 24px;
+    }
+    /* END: Global (Large) */
+}

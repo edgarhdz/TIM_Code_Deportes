@@ -1,0 +1,174 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: verticalhero (Medium)*/
+
+    .mix_1arts_03 .sprite{
+        margin-left: -42px;
+        display: inline-block;
+    }
+    .mix_1arts_03 .resize{
+        float: left;
+        width: auto;
+        overflow: visible;
+        position: relative;
+    }
+    .mix_1arts_03,
+    .ie8 .mix_1arts_03,
+    .ie7 .mix_1arts_03 {
+        width: 625px;
+        margin-bottom:9px;
+    }
+    .mix_1arts_03 .type2b {
+        margin-bottom: 16px;
+        position: relative;
+    }
+    .mix_1arts_03 .articleBigModule ul {
+        width: 100%;
+        /*position: absolute;*/
+        bottom: 0;
+    }
+    /*Sprites*/
+    .mix_1arts_03 .iconArticle,
+    .mix_1arts_03 .iconVideo {
+        width: 27px;
+        height: 35px;
+        display: block;
+        float: left;
+        margin-right: 5px;
+    }
+    .mix_1arts_03 .iconArticle {
+        /*background: url(../img/desktop-sprites.png) no-repeat -5px 0;*/
+        height: 15px;
+    }
+    .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        /*display: table-cell;*/
+        margin:11px 0px;
+
+    }
+    .mix_1arts_03 .iconVideo {
+        /*background: url(../img/desktop-sprites.png) no-repeat 0 -35px;*/
+    }
+    /*Titulo*/
+    .mix_1arts_03 .type2b .articleBigModule h4 {
+        font-size: 17px;
+        margin: 3px 0 15px;
+        padding: 0;
+        line-height: 21px;
+    }
+    .mix_1arts_03 .type2b .articleBigModule {
+        font-size: 14px;
+        height: 307px;
+        position: relative;
+        top: 0;
+        width: 624px;
+    }
+    .mix_1arts_03 .type2b .articleBigModule li,
+    .mix_1arts_03 .type2b .articleBigModule li a{
+        color:#D9A961;
+        font-style:italic;
+        font-size: 11px;
+    }
+    .mix_1arts_03 .type2b .articleBigModule li a p{
+        width: 150px;
+    }
+    .mix_1arts_03 .floatRight {
+        float: right;
+        height: 100%;
+        padding: 0 !important;
+        position: relative;
+        top: 0 !important;
+        margin-top: -4px !important;
+        width: 29.5% !important;
+        background-color:transparent !important;
+    }
+    /*Categoria*/
+    .mix_1arts_03 .floatRight h2 {
+        font-size: 16px;
+        font-style: italic;
+        color: #D9A961;
+    }
+    /*Imagen*/
+    .mix_1arts_03 .type2b img,
+    .ie8 .mix_1arts_03 .type2b img,
+    .ie7 .mix_1arts_03 .type2b img  {
+        float: left;
+        height: auto;
+        width: auto;
+    }
+    .mix_1arts_03 .type2b .articleBigModule h2,
+    .mix_1arts_03 .type2b .articleBigModule h4,
+    .mix_1arts_03 .type2b .articleBigModule p,
+    .mix_1arts_03 .type2b .articleBigModule ul {
+        display: inline-block;
+    }
+    /* Topico*/
+    .mix_1arts_03 .floatRight h2,
+    .mix_1arts_03 .type2b h2{
+
+        font-size: 16px;
+        font-style: italic;
+        color: #D9A961;
+        margin-bottom: 15px;
+    }
+    /*CategorÃ­a*/
+    .mix_1arts_03 .floatRight h2 a {
+        font-size: 14px;
+        font-style: italic;
+        color: #D9A961;
+    }
+
+    .mix_1arts_03 .floatRight h2, .mix_1arts_03 .type2b h2 {
+        font-size: 16px;
+        font-style: italic;
+        color: #D9A961;
+        margin-bottom: 0px;
+    }
+
+
+
+
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li{
+        /*display: table-cell;*/
+        padding: 0px;
+        margin: 0px !important;
+    }
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li p{
+        margin-top:-15px;
+    }
+    .ie7 .mix_1arts_03 .articleBigModule ul {
+        width: 100%;
+        bottom: 0;
+    }
+
+    /*Sprites*/
+    .ie7 .mix_1arts_03 .iconArticle,
+    .ie7 .mix_1arts_03 .iconVideo {
+        width: 27px;
+        display: block;
+        float: left;
+        margin-right: 8px;
+    }
+    .ie7 .mix_1arts_03 .sprite{
+        float:left;
+        margin-left: -42px !important;
+    }
+
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        margin-bottom: 2px !important;
+    }
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        margin-top: 10px !important;
+        margin-bottom: 7px !important;
+    }
+    .ie7 .mix_1arts_03 .type2b .articleBigModule h4 {
+        font-size: 17px !important;
+        margin: 3px 0 15px;
+        padding: 0;
+        line-height: 21px;
+    }
+    .mix_1arts_03 .tvsa-double-caret-right{
+        font-size: 16px;
+    }
+    .mix_1arts_03 .tvsa-videocamera{
+        font-size: 16px;
+    }
+}

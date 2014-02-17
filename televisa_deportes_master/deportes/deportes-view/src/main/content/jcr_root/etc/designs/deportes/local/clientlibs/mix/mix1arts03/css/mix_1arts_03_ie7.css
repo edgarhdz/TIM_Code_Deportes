@@ -1,0 +1,41 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: verticalhero (Medium)*/
+
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li{
+        /*display: table-cell;*/
+        padding: 0px;
+        margin: 0px !important;
+    }
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li p{
+        margin-top:-15px;
+    }
+    .ie7 .mix_1arts_03 .articleBigModule ul {
+        width: 100%;
+        bottom: 0;
+    }
+
+    /*Sprites*/
+    .ie7 .mix_1arts_03 .iconArticle,
+    .ie7 .mix_1arts_03 .iconVideo {
+        width: 27px;
+        display: block;
+        float: left;
+        margin-right: 0.5em;
+    }
+    .ie7 .mix_1arts_03 .sprite{
+        float:left;
+        margin-left: -2.7em !important;
+    }
+
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        margin-bottom: 2px !important;
+    }
+    .ie7 .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        margin-top: 10px !important;
+        margin-bottom: 7px !important;
+    }
+}
+
+
+
+

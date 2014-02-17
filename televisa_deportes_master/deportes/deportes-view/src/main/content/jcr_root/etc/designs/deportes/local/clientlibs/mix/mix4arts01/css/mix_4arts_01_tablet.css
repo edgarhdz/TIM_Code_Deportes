@@ -1,0 +1,28 @@
+@media screen and (min-width: 624px){
+    .mix_4arts_01{
+        width: 308px;
+        margin-bottom: 36px;
+    }
+    .mix_4arts_01 .mix_4arts_01_top{
+        width: 100%;
+        margin: 0;
+    }
+    .mix_4arts_01 .mix_4arts_01_bottom .mix_1arts_07{
+        margin-bottom: 12px;
+        margin-left: 0px;
+    }
+    .ie7 .mix_4arts_01 .mix_4arts_01_bottom .mix_1arts_07{
+        margin-bottom: 7px;
+        margin-left: -5px;
+    }
+    .ie7 .mix_4arts_01 .mix_4arts_01_bottom .mix_1arts_07 ul li a h3{
+        padding-top: 0px;
+    }
+    .mix_4arts_01 .mix_4arts_01_bottom div:last-child{
+        display:block;
+    }
+    .mix_4arts_01 .mix_1arts_08,
+    .mix_4arts_01 .mix_1arts_08b{
+        margin-bottom:24px;
+    }
+}

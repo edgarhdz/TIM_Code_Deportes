@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	jcr:primaryType="cq:Dialog" title="Dialog" xtype="dialog">
+	<items jcr:primaryType="cq:Widget" xtype="tabpanel">
+		<items jcr:primaryType="cq:WidgetCollection">
+			<tab1 jcr:primaryType="cq:Panel" title="deportes.wdgmosread01.tab.title" >
+                <items jcr:primaryType="cq:WidgetCollection" >
+                    <firstpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.firstpath.description"
+                            fieldLabel="deportes.wdgmosread01.firstpath.label"
+                            name="./firstpath"
+                            rootPath="/content/televisa"
+                            xtype="pathfield"/>
+                    <secondpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.secondpath.description"
+                            fieldLabel="deportes.wdgmosread01.secondpath.label"
+                            name="./secondpath"
+                            rootPath="/content/televisa"
+                            xtype="pathfield"/>
+                    <thirthpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.thirthpath.description"
+                            fieldLabel="deportes.wdgmosread01.thirthpath.label"
+                            name="./thirthpath"
+                            rootPath="/content/televisa"
+                            xtype="pathfield"/>
+                    <fourthpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.fourthpath.description"
+                            fieldLabel="deportes.wdgmosread01.fourthpath.label"
+                            name="./fourthpath"
+                            rootPath="/content/televisa"
+                            xtype="pathfield"/>
+                    <fifthpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.fifthpath.description"
+                            fieldLabel="deportes.wdgmosread01.fifthpath.label"
+                            name="./fifthpath"
+                            rootPath="/content/televisa"
+                            xtype="pathfield"/>
+                </items>
+			</tab1>
+
+
+
+
+
+			<devices jcr:primaryType="cq:Panel" title="deportes.devices.tabtitle.label">
+				<items jcr:primaryType="cq:WidgetCollection">
+					<hideDevices jcr:primaryType="cq:Widget"
+						fieldDescription="deportes.devices.hidedevices.description"
+						fieldLabel="deportes.devices.hidedevices.label" name="./hideDevice"
+						type="select" xtype="selection">
+						<options jcr:primaryType="cq:WidgetCollection">
+							<item1 jcr:primaryType="nt:unstructured" text="deportes.devices.item.do-nothing"
+								value="" />
+							<item2 jcr:primaryType="nt:unstructured"
+								text="deportes.devices.item.hide-tablet-mobile" value="hide-tablet" />
+							<item3 jcr:primaryType="nt:unstructured" text="deportes.devices.item.hide-mobile"
+								value="hide-mobile" />
+						</options>
+					</hideDevices>
+				</items>
+			</devices>
+		</items>
+	</items>
+</jcr:root>

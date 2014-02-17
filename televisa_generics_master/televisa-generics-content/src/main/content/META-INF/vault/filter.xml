@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/content/televisa-generics"/>
+    <filter root="/content/dam/televisa-generics">
+        <!-- exclude pattern=".*/renditions.*"/ -->
+    </filter>
+    <filter root="/etc/designs/televisa-generics/jcr:content">
+        <include pattern="/etc/designs/televisa-generics/jcr:content(/.*)+"/>
+    </filter>
+</workspaceFilter>

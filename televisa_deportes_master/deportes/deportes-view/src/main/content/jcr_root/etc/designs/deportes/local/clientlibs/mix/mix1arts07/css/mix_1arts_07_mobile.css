@@ -1,0 +1,118 @@
+@media screen {
+    .mix_1arts_07 {
+        /*width:100%;*/
+        background-color: #F5F5F5;
+        margin-bottom: 0px;
+        /*padding: 10px;*/
+        border-top: 1px solid #CCC;
+        padding-bottom: 6px;
+        /*border-bottom: 1px solid #CCC;*/
+    }
+    .mix_1arts_07 ul li a h4 {
+        color: #000000;
+        font-size: 0.8em;
+        font-weight: 800;
+        padding-bottom: 0.5em;
+        line-height: 1.2em;
+    }
+    /* BEGIN: thumbnaillistbloggers (Small) */
+    .mix_1arts_07 div.title:before,
+    .mix_1arts_07 div.title:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_07 div.title:after {
+        clear: both;
+    }
+    .mix_1arts_07 div.title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .mix_1arts_07 div.title ul {
+        width: 3.438em;
+        margin: 0;
+        float: right;
+        padding-bottom: 0.5em;
+    }
+    .mix_1arts_07 div.title ul li {
+        border-top: none;
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;
+        margin-top: 0.625em;
+    }
+    .mix_1arts_07 div.title ul li a {
+        width: 0.95em;
+        height: 0.563em;
+        display: block;
+        padding: 0;
+    }
+    .mix_1arts_07 div.title ul li:first-child {
+        margin: 0.625em 0.625em 0 0;
+    }
+    .mix_1arts_07 div.title ul li:last-child {
+        border-left: 1px dotted #666;
+        padding-left: 0.8em;
+    }
+    .mix_1arts_07 ul.articles li:first-child {
+        border-top: none;
+        /*padding-top: 0px;
+        padding-bottom: 0px;*/
+    }
+    /* END: thumbnaillistbloggers (Small) */
+    .mix_1arts_07 ul li a p {
+        /*color: #666666;*/
+        color: #000000;
+        font-size: .9em;
+        font-weight: bold;
+        width: 72%;
+        margin-left: 20px;
+    }
+    .mix_1arts_07 ul li a h3 {
+        font-size: 0.8em;
+        font-style: italic;
+        font-weight: 800;
+        margin-left: 20px;
+        /*display: none;*/
+    }
+    .mix_1arts_07 ul li a img {
+        display: none;
+    }
+    .mix_1arts_07 ul li:before, .mix_1arts_07 ul li:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_07 ul li:after {
+        clear: both;
+    }
+    .mix_1arts_07 .sprite {
+        display: none;
+    }
+    .mix_1arts_07 ul li a .icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        /*background-size: 14px 16px;*/
+        background-size: 19px 29px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        margin-top: -0.5em;
+        top: 50%;
+        right: 0.5em;
+    }
+    .mix_1arts_07 ul li{
+        height: auto;
+        padding: 20px 0 10px;
+        border-top: 1px solid #ccc;
+        /*overflow: hidden;*/
+        position: relative;
+    }
+    .ie7 .mix_1arts_07 ul li a p {
+        width: 100%;
+    }
+    .ie7 .mix_1arts_07 ul li a h3 {
+        margin-top: -7%;
+    }
+}
+
+

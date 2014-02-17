@@ -1,0 +1,47 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_tu_diriges_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_tu_diriges_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}
+	
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tu_diriges_01 .main .c2,
+	.td_tu_diriges_01 .main .c3,
+	.td_tu_diriges_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_tu_diriges_01 .main .c3_1,
+	.td_tu_diriges_01 .main .c3_3{
+		width: 300px !important;
+	}
+	
+	.td_tu_diriges_01 .main .c2 .c2_2{
+		text-align:right;
+		margin: 0;
+		width:300px;
+		float: right;
+	}
+	
+	.td_tu_diriges_01 .main .c2_4{
+		width:624px;
+		float:left;
+	}
+	.td_tu_diriges_01 .nav_smnu_video_01{
+		border-bottom: 0px;
+	}
+	.td_tu_diriges_01 .nav_smnu_video_01 .sings,
+	.td_tu_diriges_01 .nav_smnu_video_01 .cont{
+		display: block;
+	}
+	.td_tu_diriges_01 .main .c2 .c2_2 img{
+		width: 300px;
+	}
+}

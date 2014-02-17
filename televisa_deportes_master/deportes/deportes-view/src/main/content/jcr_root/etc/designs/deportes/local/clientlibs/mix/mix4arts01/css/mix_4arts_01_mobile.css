@@ -1,0 +1,13 @@
+@media screen{
+    .mix_4arts_01 .mix_4arts_01_bottom{
+    }
+    .mix_4arts_01 .mix_4arts_01_top {
+        display: block;
+    }
+    .mix_4arts_01 .mix_4arts_01_bottom div:nth-child(1){
+        margin-top:15px;
+    }
+    .mix_4arts_01 .mix_4arts_01_bottom div:last-child{
+        display:none;
+    }
+} 

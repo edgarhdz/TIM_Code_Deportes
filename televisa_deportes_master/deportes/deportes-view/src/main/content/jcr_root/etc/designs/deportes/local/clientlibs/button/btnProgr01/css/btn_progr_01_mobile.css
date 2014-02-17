@@ -1,0 +1,119 @@
+@media screen {
+
+    /* BEGIN: btn_progr_01 (Small) */
+    .btn_progr_01 {
+        width: 100%;
+        text-align: left;
+        background-color: transparent;
+        overflow: hidden;
+        margin-bottom: 12px;
+        clear: both;
+    }
+    .btn_progr_01 .envivo {
+        position: relative;
+        width: 100%;
+        height: 205px;
+        overflow: hidden;
+		margin-top:7px;
+    }
+
+    .btn_progr_01 .envivo img {
+        height: auto;
+        width: 100%;
+    }
+    .btn_progr_01 .envivo .envivo_content {
+        position: absolute;
+        top: 77px;
+        left: 0.7em;
+        padding: 1em;
+        width: 20em;
+    }
+    .btn_progr_01 .envivo .envivo_content a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn_progr_01 .envivo .envivo_content a h3 {
+	 	font-size: 34px;
+	 	font-style: italic;
+	 	font-weight: 100;
+	 	overflow: hidden;
+	 	padding: 0;
+	 	text-overflow: ellipsis;
+	 	white-space: nowrap;
+	 	width: 85%;
+    }
+    .btn_progr_01 .envivo > .envivo_content a p {
+	 	font-size: 16px;
+	 	font-style: italic;
+	 	font-weight: bold;
+	 	line-height: 1.5em;
+	 	width: 100%;
+	 	overflow: hidden;
+	 	float: left;
+	 	width: 15em;
+    }
+    .btn_progr_01 .envivo .envivo_content a i {
+        font-size: 14px;
+        font-weight: normal;
+        /*padding-left: 1.5em;*/
+        line-height: 16px;
+    }
+    .btn_progr_01 .envivo .envivo_content a .line {
+        border-top: 1px solid #fff;
+        height: 0.5em;
+        width: 30px;
+        margin-top: 2em;
+		opacity:0.6;
+    }
+    /*.btn_progr_01 .envivo .envivo_content a .tvchannel1 {
+      width: 3em;
+      height: 1.5em;
+      background: transparent url(../img/channels-sprites.png) no-repeat 0 0;
+      margin: 0;
+      border: 0;
+      float: left;
+    }*/
+    .btn_progr_01 .envivo .envivo_content a div.channelImg{
+        display:inline;
+        position:relative;
+        float:left;
+        width: 35px;
+        margin-top:0px;
+    }
+
+    .btn_progr_01 .envivo .envivo_content a div.channelImg img{
+        width:26px;
+    }
+
+    .btn_progr_01 .back_overlay {
+        position: absolute;
+        top: 62px;
+        width: 300px;
+        height: 165px;
+		background: none repeat scroll 0 0 rgba(167, 10, 11, 0.6);
+        /*background-color: #A70A0B;
+        opacity: 0.8;
+        filter: alpha(opacity=80);*/
+        width: 100%;
+    }
+    /* END: btn_progr_01 (Small) */
+	
+	.btn_progr_01 .envivo > .envivo_content a p {
+		font-size: 16px;
+		font-style: italic;
+		font-weight: bold;
+		line-height: 1.5em;
+		width: 100%;
+		overflow: hidden;
+		float: left;
+		width: 13em;
+	}
+	.btn_progr_01 .envivo .channelImg img{
+		height:auto;
+		width:100%;
+	}
+
+}
+
+
+

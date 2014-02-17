@@ -1,0 +1,111 @@
+@media screen and (min-width: 39em){
+    /* BEGIN: Global (Medium) */
+    .vid_6vids_01{
+		height:auto;
+        margin-bottom: 24px;
+    }
+    .vid_6vids_01 .wdg_mix_carrousa {
+        overflow: hidden;
+        width: 300px;
+        padding-left: 0;
+    }
+    div.vid_6vids_01_title {
+        margin-bottom: 24px;
+        zoom: 1;
+		border-bottom: 1px solid #CCC;
+    }
+    div.vid_6vids_01_title:before,
+    div.vid_6vids_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.vid_6vids_01_title:after {
+        clear: both;
+    }
+    div.vid_6vids_01_title h3 {
+        width: 55%;
+        max-width: 18.75em;
+        float: left;
+        height: 32px;
+        line-height: 25px;
+    }
+    div.vid_6vids_01_title h3 a {
+        background-image: none;
+        background-position: right 2px\9;
+        *background-position: right 2px;   
+    }
+    div.vid_6vids_01_title h3 a span.icon {
+        display: none;
+    }
+
+    .vid_6vids_01 .wdg_mix_carrousa div.vid_6vids_01_title ul li a {
+        display: block;
+    }
+    .vid_6vids_01 .wdg_mix_carrousa ul {
+        margin: 1.563em 0 auto;
+    }
+    .vid_6vids_01 .wdg_mix_carrousa.showArrows .vid_6vids_01_title ul{
+        display:block;
+    }
+    
+    .vid_6vids_01 .wdg_mix_carrousa.showArrows div:first-child h1 {
+        width: 300px;
+    }
+    .vid_6vids_01 .wdg_mix_carrousa div:last-child ul {
+        margin-top: 0;
+        height: auto;
+    }
+    
+    /*Se agrego la clase*/
+    .vid_6vids_01 .wdg_mix_carrousa div:last-child ul li{
+    	margin: 0 0 0 28px; 
+    	width: 136px;
+    	height: auto;
+    }
+    /* Se agrego la clase*/
+    .vid_6vids_01 .wdg_mix_carrousa div{
+    	/*width: 100%;*/
+    	/*float: none;*/
+    }
+    .vid_6vids_01 .wdg_mix_carrousa div ul li{
+    	margin-top: 0.625em;
+    }
+    /*Se agrego la clase*/
+    .vid_6vids_01 .wdg_mix_carrousa div:last-child ul li:last-child{
+    	width: 132px;
+    	margin-right: -5.7em;
+    }
+	.vid_6vids_01 .bullets {
+		display:none;
+	}
+	
+	.vid_6vids_01 .izq {
+		margin-left:28px;
+		width:136px;
+		float:left;
+    }
+	.vid_6vids_01 .izq1 {
+		width:136px;
+		float:left;
+    }
+	.vid_6vids_01 .wdg_mix_carrousa a {
+		float:none;
+	}
+	.vid_6vids_01 a img {
+		padding-right:0px;
+		border-right: none;
+	}
+	.vid_6vids_01 .wdg_mix_carrousa div:last-child h2 a {
+		padding-left: 0px;
+    }
+	.vid_6vids_01 .vid_6vids_01_verMas{
+        display: none;
+    }
+	.vid_6vids_01 .overlay{
+		display:none;
+	}
+
+    /* END: carouseltype1a (Medium) */
+
+}
+

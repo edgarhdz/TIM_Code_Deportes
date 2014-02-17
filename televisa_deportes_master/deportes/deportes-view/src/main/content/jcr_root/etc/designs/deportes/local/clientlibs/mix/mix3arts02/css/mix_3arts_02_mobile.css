@@ -1,0 +1,16 @@
+@media screen{  
+    .mix_3arts_02{
+        clear: both;
+        margin-bottom: 0px;
+    }
+	.mix_3arts_02 .mix_1arts_09 .mix_1arts_09_thumb li img {
+		/*margin: 0 10px 0 0;*/
+	}
+	div.mix_3arts_02  div.mix_3arts_02_first{
+        margin-top: 8px;
+    }
+    .mix_1arts_09 .mix_1arts_09_thumb li a p{
+    	font-weight: bold;
+    }
+    
+}

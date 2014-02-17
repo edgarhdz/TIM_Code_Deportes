@@ -1,0 +1,16 @@
+@media screen and (min-width: 948px){
+    .mix_8arts_01{
+        width: 624px;
+    }
+    .mix_8arts_01 .cont-left{
+        width: 300px;
+        margin-left: 24px;
+        float: left
+    }
+    .mix_8arts_01 .cont-left:first-child{
+        width: 300px;
+        margin-left: 0px;
+        float: left
+    }
+
+}

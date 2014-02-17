@@ -1,0 +1,47 @@
+.ie7 .nav_header_newsletter_01_sprite {
+}
+.ie7 header.nav_header_newsletter_01 ul li a span {
+}
+.ie7 .nav_header_newsletter_01_sprite.nav_header_newsletter_01_dropdown {
+    height: 12px !important;
+    background: transparent url(../img/global-sprites.png) no-repeat -168px 0 !important;
+}
+.ie7 .nav_header_newsletter_01_sprite.schedule {
+    background: transparent url(../img/global-sprites.png) no-repeat -146px -22px !important;
+}
+.ie7 .nav_header_newsletter_01_sprite.live {
+    background: transparent url(../img/global-sprites.png) no-repeat -107px -22px !important;
+}
+.ie7 .nav_header_newsletter_01_sprite.nav_header_newsletter_01_twitter {
+    background: transparent url(../img/global-sprites.png) no-repeat -126px 0 !important;
+}
+.ie7 .nav_header_newsletter_01_sprite.nav_header_newsletter_01_facebook {
+    background: transparent url(../img/global-sprites.png) no-repeat -146px 0 !important;
+}
+.ie7 .nav_header_newsletter_01_television .nav_header_newsletter_01_sprite.nav_header_newsletter_01_video {
+    background: transparent url(../img/global-sprites.png) no-repeat -226px -80px !important;
+}
+.ie7 .nav_header_newsletter_01_television .nav_header_newsletter_01_sprite.nav_header_newsletter_01_video {
+    background: transparent url(../img/global-sprites.png) no-repeat -226px -80px !important;
+}
+.ie7 .nav_header_newsletter_01_television .nav_header_newsletter_01_sprite.nav_header_newsletter_01_photo {
+    background: transparent url(../img/global-sprites.png) no-repeat -204px -80px !important;
+}
+/*.nav_header_newsletter_01_social {
+    position: relative;
+}*/
+.ie7 .nav_header_newsletter_01_social .nav_header_newsletter_01_sprite.nav_header_newsletter_01_dropdown {
+    height: 9px !important;
+    background: transparent url(../img/global-sprites.png) no-repeat -170px -6px !important;
+}
+.ie7 .nav_header_newsletter_01_social .nav_header_newsletter_01_dropdown ul {
+    height: 34px !important;
+    top: auto !important;
+    /*bottom: -1px !important;*/
+    right: 32px !important;
+}
+
+/*//////////////////IE8/////////////////////*/
+
+
+/*//////////////////IE8/////////////////////*/

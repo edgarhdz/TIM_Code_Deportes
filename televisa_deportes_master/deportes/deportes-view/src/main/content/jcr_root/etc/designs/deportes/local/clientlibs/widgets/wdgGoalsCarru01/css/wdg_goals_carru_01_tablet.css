@@ -1,0 +1,33 @@
+@media screen and (min-width: 624px){
+    .wdg_goals_carru_01{
+        height: 100%;
+        position: relative;
+        width: 300px;
+        margin-bottom: 36px;
+        overflow: hidden;
+    }
+    .wdg_goals_carru_01 .degraded{
+        display:block;
+        bottom:50px;
+    }
+    .wdg_goals_carru_01 > ul {
+        height: 322px;
+    }
+    .wdg_goals_carru_01 > div .full-timetable {
+        background:#d6a256;
+        height: 32px;
+        line-height:32px;
+        margin-left: 200px;
+        padding-left: 0;
+        text-align: center;
+        box-shadow:none;
+    }
+    .wdg_goals_carru_01 > div .full-timetable span{
+        font-weight: bold;
+        font-style: italic;
+        color:#fff;
+    }
+    .wdg_goals_carru_01 .filter{
+        width: 72%;
+    }
+}

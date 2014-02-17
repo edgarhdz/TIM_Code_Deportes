@@ -1,0 +1,18 @@
+@media screen and (min-width: 60em){
+  .ads_combo_01{
+	width:955px;
+	margin-top: 24px;
+  }
+  
+  .ads_combo_01 .large_banner{
+	float: left;
+	width: 728px;
+  }
+  
+  .ads_combo_01 .short_banner{
+	float: left;
+	margin-left: 27px;
+	display:block;
+	width: 200px;
+  }
+}        

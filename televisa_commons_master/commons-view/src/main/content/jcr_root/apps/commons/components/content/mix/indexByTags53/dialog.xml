@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items jcr:primaryType="cq:TabPanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                jcr:primaryType="cq:Panel"
+                title="commons.indexByTags.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <type
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="commons.indexByTags.type.description"
+                        fieldLabel="genercis.indexByTags.type.label"
+                        name="./type"
+                        type="radio"
+                        xtype="selection">
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;automatic&quot; ) {&#xa;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;}else{&#xa;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;automatic&quot; ) {&#xa;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;}else{&#xa;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;}&#xa;}"/>
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <automatic
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.indexByTags.type.automatic"
+                                value="automatic"/>
+                            <manual
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.indexByTags.type.manual"
+                                value="manual"/>
+                        </options>
+                    </type>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        blankText="commons.prominentteaser.patharticle.blanktext"
+                        fieldDescription="commons.indexByTags.path.description"
+                        fieldLabel="commons.indexByTags.path.label"
+                        name="./path"
+                        rootPath="/content/televisa"
+                        rootTitle="Televisa"
+                        xtype="pathfield"/>
+                    <tags
+                        jcr:primaryType="cq:Widget"
+                        cls="cq-propsdialog-tags"
+                        fieldDescription="commons.indexByTags.tags.description"
+                        fieldLabel="commons.indexByTags.tags.label"
+                        name="./cq:tags"
+                        xtype="tags"/>
+                    <showarticles
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Boolean}true"
+                        fieldDescription="commons.indexByTags.showarticles.description"
+                        fieldLabel="commons.indexByTags.showarticles.label"
+                        inputValue="true"
+                        name="./showarticles"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showvideos
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Boolean}true"
+                        fieldDescription="commons.indexByTags.showvideos.description"
+                        fieldLabel="commons.indexByTags.showvideos.label"
+                        inputValue="true"
+                        name="./showvideos"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showphotogalleries
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Boolean}true"
+                        fieldDescription="commons.indexByTags.showphotogalleries.description"
+                        fieldLabel="commons.indexByTags.showphotogalleries.label"
+                        inputValue="true"
+                        name="./showphotogalleries"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showpartidos
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="{Boolean}true"
+                        fieldDescription="commons.indexByTags.showpartidos.description"
+                        fieldLabel="commons.indexByTags.showpartidos.label"
+                        inputValue="true"
+                        name="./showpartidos"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </settings>
+        </items>
+    </items>
+</jcr:root>

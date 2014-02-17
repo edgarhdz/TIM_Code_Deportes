@@ -1,0 +1,320 @@
+/* Dispositivos vista retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:
+        623px) , ( min-resolution : 192dpi) and (max-width: 623px) {
+    /* Logo Deportes */
+    header.nav_header_01 div.topnav div.inner>a.televisa span.mobile-logo {
+        background: url(../global/img/sprite_logos_televisa_movil@2x.png)
+            no-repeat 0 0;
+        background-size: 187px 38px;
+        background-position: 0px 1px;
+        width: 28px;
+        overflow: hidden;
+    }
+    header.nav_header_01 div.topnav a.televisa.deportes span {
+        background: none;
+    }
+    header.nav_header_01 div.topnav div.inner>a.menu {
+        background: url(../global/img/global-sprites@2x.png) no-repeat 0 0;
+        background-size: 640px 195px;
+        background-position: -271px -1px;
+    }
+    /* Logos Mobile Deportes */
+    header.nav_header_01 div.mobilenav nav ul li a span.vivafut {
+        background: url(../global/img/mainnav2_hover@2x.png) no-repeat 0 0;
+        background-size: 174px 32px;
+    }
+    header.nav_header_01 div.mobilenav nav ul li a span.tdtv {
+        background: url(../global/img/mainnav2_hover@2x.png) no-repeat -87px 0;
+        background-size: 174px 32px;
+    }
+    header.nav_header_01 div.mobilenav nav ul li a span.tdn {
+        background: url(../global/img/mainnav2_hover@2x.png) no-repeat -135px 0;
+        background-size: 174px 32px;
+    }
+}
+
+/* only mobile */
+@media screen and (max-width: 623px) {
+	header.nav_header_01 div.topnav {
+		height: 45px;
+	}
+	div.niy {
+		display: none;
+		font: inherit;
+		font-size: 13px;
+	}
+	header.nav_header_01 {
+		overflow: hidden;
+		width: 100%;
+	}
+	header.nav_header_01 div.topnav div.inner>span.date {
+		display: none;
+	}
+	header.nav_header_01 div.topnav div.inner>a.menu {
+		position: absolute;
+		top: 6px;
+		left: 8px;
+		display: block;
+		width: 41px;
+		height: 33px;
+		overflow: hidden;
+		background: url(../global/img/global-sprites.png) no-repeat 0 0;
+		background-position: -271px -1px;
+	}
+	header.nav_header_01 div.topnav div.inner>a.menu.active {
+		background-position: -313px -1px;
+	}
+	header.nav_header_01 div.topnav div.inner>a.menu span {
+		display: none;
+	}
+	header.nav_header_01 div.topnav div.inner>a.televisa {
+		display: block;
+		margin: 0 60px;
+		font-size: 17px;
+		font-weight: bold;
+		color: #FFF;
+		height: 46px;
+		line-height: 45px;
+		text-align: center;
+		letter-spacing: -0.06em;
+		font-family: 'Helvetica Neue', Helvetica, Arial;
+	}
+	header.nav_header_01 div.topnav div.inner>a.televisa span.mobile-logo {
+		display: inline-block;
+		height: 20px;
+		width: 28px;
+		background: orange;
+		margin-right: 5px;
+		vertical-align: -4px;
+		background: url(../global/img/global-sprites.png) no-repeat 0 0;
+		background-position: -271px -41px;
+	}
+	header.nav_header_01 div.topnav form.site_search {
+		
+	}
+	header.nav_header_01 div.topnav form.site_search input.search_term {
+		display: none;
+		width: 100%;
+		border: 0;
+		line-height: 36px;
+		height: 36px;
+		float: left;
+		padding: 0 10px;
+	}
+	header.nav_header_01 div.topnav form.site_search button.search_submit {
+		background: #FFF;
+		padding: 0 10px;
+		color: #898989;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 46px;
+		width: 45px;
+		border: 0;
+	}
+	header.nav_header_01 div.topnav form.site_search button.search_submit i
+		{
+		font-size: 16px;
+	}
+	header.nav_header_01 div.topnav div.inner>nav {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a {
+		display: block;
+		height: 44px;
+		line-height: 44px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+		padding-left: 24px;
+		font-size: 16px;
+		color: #FFF;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+		letter-spacing: -0.05em;
+		line-height: 43px;
+		height: 43px;
+		padding-left: 10px;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a.noticieros {
+		background: #0078bf;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a.deportes {
+		background: #A70A0B;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a.entretenimiento {
+		background: #E2B528;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a.estilo-de-vida {
+		background: #6AA845;
+	}
+	header.nav_header_01 div.topnav div.inner>nav ul li a.television {
+		background: #F68428;
+	}
+
+	/* Main Navigation */
+	header.nav_header_01 div.title {
+		border-top: 1px solid #a92e31;
+		background: #A70A0B;
+		height: 42px;
+		border-bottom: 1px solid #a11c1f;
+		float: left;
+		clear: left;
+	}
+	header.nav_header_01 div.title strong {
+		color: #FFF;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+		letter-spacing: -0.05em;
+		line-height: 43px;
+		height: 43px;
+		padding-left: 10px;
+	}
+	header.nav_header_01 div.title strong a.arrow {
+		height: 43px;
+		line-height: 43px;
+		font-size: 28px;
+		color: #FFF;
+		float: right;
+		padding: 0 12px;
+	}
+	header.nav_header_01 div.topnav nav ul li {
+		display: block;
+	}
+	header.nav_header_01 div.topnav nav ul li a {
+		display: block;
+		color: #FFF;
+		/* text-shadow: -1px -1px 4px #0b2f4f; */
+	}
+	header.nav_header_01 div.mainnav {
+		display: none;
+	}
+	header.nav_header_01 div.mobilenav {
+		float: left;
+		display: block;
+		height: 40px;
+		width: 100%;
+		text-align: center;
+		background: #efefef;
+		background: -moz-linear-gradient(top, #efefef 66%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(66%, #efefef),
+			color-stop(100%, #ffffff));
+		background: -webkit-linear-gradient(top, #efefef 66%, #ffffff 100%);
+		background: -o-linear-gradient(top, #efefef 66%, #ffffff 100%);
+		background: -ms-linear-gradient(top, #efefef 66%, #ffffff 100%);
+		background: linear-gradient(to bottom, #efefef 66%, #ffffff 100%);
+		filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef',
+			endColorstr='#ffffff', GradientType=0)";
+	}
+	header.nav_header_01 div.mobilenav nav {
+		height: 40px;
+		line-height: 40px;
+		padding: 0;
+		margin: 0;
+	}
+	header.nav_header_01 div.mobilenav nav ul {
+		height: 40px;
+		padding: 0;
+		margin: 0;
+	}
+	header.nav_header_01 div.mobilenav nav ul li {
+		display: inline-block;
+		height: 40px;
+		padding: 0;
+		margin: 0;
+		float: left;
+		width: 16.6666%;
+	}
+	header.nav_header_01 div.mobilenav nav ul li a {
+		display: inline-block;
+		width: 100%;
+		line-height: 40px;
+		height: 40px;
+		font-size: 20px;
+		text-align: center;
+	}
+	header.nav_header_01 div.mobilenav nav ul li a span.vivafut {
+	   background: url(../img/header/mainnav2_hover.png) no-repeat 0 0;
+       width: 51px;
+       height: 16px;
+       display: inline-block;
+	}
+	header.nav_header_01 div.mobilenav nav ul li a span.tdtv {
+        background: url(../img/header/mainnav2_hover.png) no-repeat -87px 0;
+        height: 16px;
+        width: 48px;
+        display: inline-block;
+    }
+    header.nav_header_01 div.mobilenav nav ul li a span.tdn {
+        background: url(../img/header/mainnav2_hover.png) no-repeat -135px 0;
+        width: 39px;
+        height: 16px;
+        display: inline-block;
+    }
+}
+
+/* all devices */
+table {
+	border-collapse: separate;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+header.nav_header_01 div.topnav nav ul li {
+	display: inline;
+}
+
+header.nav_header_01 div.topnav nav ul li a {
+	display: inline-block;
+	color: #FFF;
+}
+
+hr.clearboth {
+	clear: both;
+	height: 0;
+	border: 0;
+}
+
+header.nav_header_01 {
+	line-height: 16px !important;
+	font-family: 'Trebuchet MS' !important;
+	font-size: 12px !important;
+}
+
+header.nav_header_01>* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header.nav_header_01 div.inner {
+	margin: 0 auto;
+	/*border:1px solid green;*/
+}
+
+header.nav_header_01 div.topnav {
+	background: #154C7B;
+	border-bottom: 1px solid #0f426d;
+	background: #0d4371; /* Old browsers */
+	background: -moz-linear-gradient(top, #0d4371 0%, #0f4b7d 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0d4371),
+		color-stop(100%, #0f4b7d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0d4371 0%, #0f4b7d 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0d4371 0%, #0f4b7d 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0d4371 0%, #0f4b7d 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #0d4371 0%, #0f4b7d 100%);
+	/* W3C */
+	filter: "progid:DXImageTransform.Microsoft.gradient(  startColorstr='#0d4371',
+		endColorstr='#0f4b7d', GradientType=0)";
+}

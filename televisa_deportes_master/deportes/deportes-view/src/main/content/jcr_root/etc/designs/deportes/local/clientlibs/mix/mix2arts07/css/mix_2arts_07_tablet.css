@@ -1,0 +1,53 @@
+@media screen and (min-width: 624px){
+
+    .mix_2arts_07{
+        width: 624px;
+        overflow: hidden;
+		margin-top: 0px;
+    }
+	 .mix_2arts_07 .cont-left{
+		width:300px;
+		float:left;
+		clear:none;
+    }
+	.mix_2arts_07 .cont-right{
+		width:300px;
+		float:right;
+		clear:none;
+    }
+	.mix_2arts_07 .container{
+		width:624px;
+		margin-bottom:36px;
+	}
+	.mix_2arts_07 .separator{
+		background: url("../img/bg_cols.gif") repeat-y scroll 0 0 transparent;
+	}
+	.mix_2arts_07 img,
+	.mix_2arts_07 .mix_1arts_08 .sprite video-corner{
+		display:block;
+	}
+	.mix_2arts_07 .mix_1arts_08 .articleMedium div {
+		background-color: #FFFFFF;
+		margin: -24px 0 0 25px;
+		padding: 20px 36px 20px 32px;
+		border-top:none;
+		position: relative;
+	}
+	.mix_2arts_07 .mix_1arts_08 .articleMedium div .text1 {		
+		margin: -20px 0 0 0px;
+		padding: 20px 0px 8px 0px;
+		border-top:none;
+	}
+	.mix_2arts_07 .mix_1arts_08 .articleMedium div .text1 a{
+		font-size: 14px;
+	}
+	.mix_2arts_07 .mix_1arts_08 div .articleMedium div h4 {
+		font-size: 18px !important;
+		width:100%;
+		margin-top: -3px;
+		line-height:16pt;
+	}
+	.mix_2arts_07 .tvsa-caret-right{
+		display:none;
+	}
+}

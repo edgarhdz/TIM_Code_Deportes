@@ -1,0 +1,21 @@
+@media screen {
+
+    .mix_2arts_05{
+        width: 100%;
+    }
+
+    .mix_2arts_05 .cont-left{
+        width: 100%;
+    }
+    .mix_2arts_05 .divisor{
+        position: absolute;
+        border-left: 1px solid #CCCCCC;
+        height: 291px;
+        margin-left: 312px;
+        margin-top: 55px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;
+    }
+
+}

@@ -1,0 +1,60 @@
+@media screen and (min-width: 39em){
+    .art_title_04 {
+        margin-top: 0px;
+        width: 624px;
+        margin-bottom: 24px;
+        clear: both;
+        height:auto;
+        padding-left: 0;
+    }
+    .art_title_04_left img{
+        width:110px;
+        height: 110px;
+    }
+    .art_title_04 .art_title_04_left{
+        width: 110px;
+        margin-right: 20px;
+        margin-left: 20px;
+        float: left;
+    }
+    .art_title_04 .art_title_04_right{
+        width: 72%;
+    }
+    .art_title_04 > div {
+        float: left;
+        height: auto;
+    }
+    .art_title_04 .art_title_04_principal {
+        float: right;
+        width: 75%;
+		margin-top:-9px;
+		margin-right: 5px;
+    }
+    .art_title_04 .art_title_04_principal h1{
+        font-size: 30px;
+        font-style: italic;
+        font-weight: normal
+    }
+    .art_title_04 .art_title_04_principal > div{
+        width: 30px;
+        height: 15px;
+        border-bottom: 1px solid #d3d3d3; 
+    }
+    .art_title_04 .art_title_04_texto p{
+        line-height: 18px;
+        font-size: 14px;
+        width: 100%;
+        overflow: visible;
+		margin-left: 0px;
+    }
+	.art_title_04 .art_title_04_texto p:first-child{
+		font-size:16px;
+	}
+	
+    .td_subhome_stats_teams_01 .main .c3_1{
+        float: left;
+    }
+    .td_subhome_stats_teams_01 .main .c3_1{
+        float: right;
+    }
+}

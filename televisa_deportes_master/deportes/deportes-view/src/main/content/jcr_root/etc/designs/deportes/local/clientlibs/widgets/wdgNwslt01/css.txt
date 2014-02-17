@@ -1,0 +1,6 @@
+#base=css
+wdg_nwslt_01_mobile.css
+wdg_nwslt_01_tablet.css
+wdg_nwslt_01.css
+wdg_nwslt_01_ie7.css
+wdg_nwslt_01_ie8.css

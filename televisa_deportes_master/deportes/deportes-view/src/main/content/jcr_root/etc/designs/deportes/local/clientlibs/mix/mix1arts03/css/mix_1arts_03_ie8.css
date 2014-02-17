@@ -1,0 +1,74 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: verticalhero (Medium)*/
+    .ie8 .mix_1arts_03 {
+        width: 625px;
+    }
+
+    .ie8 .mix_1arts_03 .type2b {
+        margin-bottom: 1em;
+    }
+    .ie8.mix_1arts_03 .articleBigModule ul {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    /*Sprites*/
+    .ie8 .mix_1arts_03 .iconArticle,
+    .ie8 .mix_1arts_03 .iconVideo {
+        width: 27px;
+        display: block;
+        float: left;
+        margin-right: 0.5em;
+    }
+    .ie8 .mix_1arts_03 .iconArticle {
+        background: url(../img/desktop-sprites.png) no-repeat -5px 0;
+    }
+    .ie8 .mix_1arts_03 .iconVideo {
+        background: url(../img/desktop-sprites.png) no-repeat 0 -35px;
+    }
+    /*Titulo*/
+    .ie8 .mix_1arts_03 .floatRight {
+        float: left;
+        height: 100%;
+        padding: 0;
+        position: relative;
+        top: 0;
+        width: 33%;
+        margin-left: 10px;
+    }
+    .ie8 .mix_1arts_03 .type2b .articleBigModule h4 {
+        font-size: 17px;
+        margin: 3px 0 15px;
+        padding: 0;
+        line-height: 1.1em;
+    }
+    /*Categoria*/
+    .ie8 .mix_1arts_03 .floatRight h2 {
+        font-size: 16px;
+        font-style: italic;
+        color: #9ea31d;
+        margin-bottom: 15px;
+    }
+    .ie8 .mix_1arts_03 .type2b li:first-child {
+        margin-bottom: 0.625em;
+    }
+    /*Imagen*/
+    .ie8 .mix_1arts_03 .type2b img {
+        float: left;
+        height: auto;
+        width: auto;
+    }
+    .ie8 .mix_1arts_03 .type2b  h2,
+    .ie8 .mix_1arts_03 .type2b  h4,
+    .ie8 .mix_1arts_03 .type2b  p,
+    .ie8 .mix_1arts_03 .type2b  ul {
+        display: block;
+    }
+
+    .ie8 .mix_1arts_03 .type2b .articleBigModule li:first-child {
+        margin-top: 10px !important;
+        margin-bottom: 7px !important;
+    }
+}
+
+

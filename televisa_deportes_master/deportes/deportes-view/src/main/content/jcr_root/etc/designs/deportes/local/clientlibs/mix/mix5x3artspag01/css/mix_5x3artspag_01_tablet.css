@@ -1,0 +1,11 @@
+.mix_5x3artspag_01 .mix_5x3artspag_01_paginacion{
+	
+	margin-bottom:24px;
+}
+.mix_5x3artspag_01 .separador{
+	
+	height: 0px;
+	display:block !important;
+	width:100%;
+	float:left;
+}

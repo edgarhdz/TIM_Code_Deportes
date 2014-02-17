@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:language="en"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="sling:Folder">
+    <!-- Component Groups -->
+    <genericsdeportes.componentgroup.structure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.structure"
+            sling:message="Deportes Structure"/>
+    <genericsdeportes.componentgroup.article
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.article"
+            sling:message="Deportes Article"/>
+    <genericsdeportes.componentgroup.navigation
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.navigation"
+            sling:message="Deportes Navigation"/>
+    <genericsdeportes.componentgroup.video
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.video"
+            sling:message="Deportes Video"/>
+    <genericsdeportes.componentgroup.button
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.button"
+            sling:message="Deportes Button"/>
+    <genericsdeportes.componentgroup.mix
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.mix"
+            sling:message="Deportes Mix"/>
+    <genericsdeportes.componentgroup.image
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.image"
+            sling:message="Deportes Image"/>
+    <genericsdeportes.componentgroup.widgets
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.componentgroup.widgets"
+            sling:message="Deportes Widgets"/>
+
+    <genericsdeportes.wdgSocial01.title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="genericsdeportes.wdgSocial01.title"
+        sling:message="socialNetworks"/>
+    <!-- global -->
+    <genericsdeportes.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.settings.title"
+            sling:message="Settings"/>
+    <genericsdeportes.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.title"
+            sling:message="Title"/>
+    <genericsdeportes.label.manual
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.label.manual"
+            sling:message="Manual mode"/>
+    <genericsdeportes.label.automatic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.label.automatic"
+            sling:message="Automatic mode"/>
+    <genericsdeportes.label.modes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.label.modes"
+            sling:message="Modes"/>
+    <genericsdeportes.label.setting.modes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.label.setting.modes"
+            sling:message="Mode settings"/>
+    <genericsdeportes.modes.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.modes.description"
+            sling:message="Select Manual to retrieve the information from a specific note. Select Automatic to retrieve the information of the most recent note based on tags or under a specific path."/>
+    <genericsdeportes.component.message.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.component.message.placeholder"
+            sling:message="Settings"/>
+    <genericsdeportes.component.message.placeholdercomponent
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.component.message.placeholdercomponent"
+            sling:message="Component"/>
+    <genericsdeportes.global.pathparent.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.global.pathparent.description"
+            sling:message="Please select an article parent path for the automatic mode to work"/>
+    <genericsdeportes.global.pathparent.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.global.pathparent.label"
+            sling:message="Parent Path"/>
+    <genericsdeportes.showarticles.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showarticles.label"
+            sling:message="Show Article notes"/>
+    <genericsdeportes.showarticles.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showarticles.description"
+            sling:message="If is checked, is include in the list the notes of type 'Article'"/>
+    <genericsdeportes.showvideos.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showvideos.label"
+            sling:message="Show Video notes"/>
+    <genericsdeportes.showvideos.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showvideos.description"
+            sling:message="If is checked, is include in the list the notes of type 'Video'"/>
+    <genericsdeportes.showphotogalleries.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showphotogalleries.label"
+            sling:message="Show Photo Gallery notes"/>
+    <genericsdeportes.showphotogalleries.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.showphotogalleries.description"
+            sling:message="If is checked, is include in the list the notes of type 'Photo Gallery'"/>
+
+    <!-- link component -->
+    <genericsdeportes.link.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.title"
+            sling:message="Title"/>
+    <genericsdeportes.link.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.description"
+            sling:message="Insert Link Text"/>
+    <genericsdeportes.link.title-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.title-description"
+            sling:message="Please enter the link's 'title' attribute."/>
+    <genericsdeportes.link.linktype-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.linktype-label"
+            sling:message="Link type"/>
+    <genericsdeportes.link.internallink-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.internallink-label"
+            sling:message="Internal link"/>
+    <genericsdeportes.link.externallink-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.externallink-label"
+            sling:message="External link"/>
+    <genericsdeportes.link.target-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.target-label"
+            sling:message="Target"/>
+    <genericsdeportes.link.target-option-blank-text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.target-option-blank-text"
+            sling:message="Open in a new window"/>
+    <genericsdeportes.link.target-option-self-text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.target-option-self-text"
+            sling:message="Open in the same window"/>
+    <genericsdeportes.link.internallink-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.internallink-description"
+            sling:message="Please select the link's path."/>
+    <genericsdeportes.link.externallink-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.externallink-description"
+            sling:message="Please enter an external link. &lt;br>E.g http://www.televisa.com"/>
+    <genericsdeportes.link.title-label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.title-label"
+            sling:message="Alternative Text"/>
+    <genericsdeportes.link.target-description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.link.target-description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link."/>
+    <!-- Widgets Components -->
+    <genericsdeportes.wdgTop0301.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.title"
+            sling:message="Top three"/>
+    <genericsdeportes.wdgTop0301.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.description"
+            sling:message="Top Three component"/>
+    <genericsdeportes.wdgTop0301.patharticle.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.patharticle.title"
+            sling:message="Generic Note Path"/>
+    <genericsdeportes.wdgTop0301.titlesettings.target.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.titlesettings.target.description"
+            sling:message="Select a value for the attribute &quot;target&quot; for the link.&lt;br>This will be applied too for the items."/>
+    <genericsdeportes.wdgTop0301.patharticle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.patharticle.description"
+            sling:message="Please select an article. *Articles can also be videos or photo galleries."/>
+    <genericsdeportes.wdgTop0301.patharticle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.patharticle.label"
+            sling:message="Article page"/>
+    <genericsdeportes.wdgTop0301.totalnotes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.totalnotes"
+            sling:message="Total notes"/>
+    <genericsdeportes.wdgTop0301.totalnotes.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.totalnotes.description"
+            sling:message="Enter total number of notes"/>
+    <genericsdeportes.wdgTop0301.displaynotes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.displaynotes"
+            sling:message="Display number"/>
+    <genericsdeportes.wdgTop0301.displaynotes.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.displaynotes.description"
+            sling:message="Enter display number of notes per pagination"/>
+    <genericsdeportes.wdgTop0301.message.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop0301.message.placeholder"
+            sling:message="Please edit"/>
+    <!-- Structure Components -->
+    <genericsdeportes.strpleca01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.strpleca01.title"
+            sling:message="Single Title Box"/>
+
+    <!-- Article Components -->
+    <genericsdeportes.arttitle01.title
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="genericsdeportes.arttitle01.title"
+        sling:message="Article Title"/>
+    <genericsdeportes.arttitle03.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.arttitle03.title"
+            sling:message="Article Title 03"/>
+    <genericsdeportes.arttitle05.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.arttitle05.title"
+            sling:message="Article Title 05"/>
+    <genericsdeportes.article.social.related.label
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="genericsdeportes.article.social.related.label"
+           sling:message="Show Related Articles and Social Components"/>
+    <genericsdeportes.article.social.related.description
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="genericsdeportes.article.social.related.description"
+           sling:message="Enable the display of the Social and Related Article Components."/>
+    <genericsdeportes.artbullet01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.artbullet01.title"
+            sling:message="Article Bullet"/>
+    <genericsdeportes.art3arti01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.art3arti01.title"
+            sling:message="Three Article Teaser"/>
+    <genericsdeportes.artreltd01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.artreltd01.title"
+            sling:message="Related Articles"/>
+    <genericsdeportes.artbranch01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.artbranch01.title"
+            sling:message="Article Branch Title"/>
+    <genericsdeportes.mix1arts08.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts08.title"
+            sling:message="Primary Teaser"/>
+    <genericsdeportes.mix1arts09.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts09.title"
+            sling:message="Secundary Teaser"/>
+    <genericsdeportes.artnote01.title
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="genericsdeportes.artnote01.title"
+           sling:message="Article Note"/>
+    <genericsdeportes.artquote01.title
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="genericsdeportes.artquote01.title"
+           sling:message="Article Quote"/>
+    <genericsdeportes.artquote01.quotelist-artquote04text
+           jcr:primaryType="sling:MessageEntry"
+           sling:key="genericsdeportes.artquote01.quotelist-artquote04text"
+           sling:message="Medium Size Quote"/>
+    <!--Program Article Component (art_title_04) -->
+    <genericsdeportes.articleprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.title"
+            sling:message="Program Article"/>
+    <genericsdeportes.articleprogram.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.description"
+            sling:message="Display a program article"/>
+    <genericsdeportes.articleprogram.dialog.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.title"
+            sling:message="Program Article Dialog"/>
+    <genericsdeportes.articleprogram.dialog.settings.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.title"
+            sling:message="Settings"/>
+    <genericsdeportes.articleprogram.dialog.settings.programname.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programname.label"
+            sling:message="Name"/>
+    <genericsdeportes.articleprogram.dialog.settings.programname.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programname.description"
+            sling:message="Write a program article name."/>
+    <genericsdeportes.articleprogram.dialog.settings.programcaption.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programcaption.label"
+            sling:message="Caption"/>
+    <genericsdeportes.articleprogram.dialog.settings.programcaption.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programcaption.description"
+            sling:message="Write a program article caption."/>
+    <genericsdeportes.articleprogram.dialog.settings.programchannel.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programchannel.label"
+            sling:message="Channel"/>
+    <genericsdeportes.articleprogram.dialog.settings.programchannel.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programchannel.description"
+            sling:message="Write a program article channel."/>
+    <genericsdeportes.articleprogram.dialog.settings.programschedule.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programschedule.label"
+            sling:message="Schedule"/>
+    <genericsdeportes.articleprogram.dialog.settings.programschedule.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programschedule.description"
+            sling:message="Write a program article schedule."/>
+    <genericsdeportes.articleprogram.dialog.settings.programurl.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programurl.label"
+            sling:message="URL"/>
+    <genericsdeportes.articleprogram.dialog.settings.programurl.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programurl.description"
+            sling:message="Write a program article location."/>
+    <genericsdeportes.articleprogram.dialog.settings.programurltitle.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programurltitle.label"
+            sling:message="URL Title"/>
+    <genericsdeportes.articleprogram.dialog.settings.programurltitle.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.settings.programurltitle.description"
+            sling:message="Write a program article location title."/>
+    <genericsdeportes.articleprogram.dialog.synopsis.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.synopsis.title"
+            sling:message="Synopsis"/>
+    <genericsdeportes.articleprogram.dialog.synopsis.programsynopsis.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.synopsis.programsynopsis.label"
+            sling:message="Synopsis"/>
+    <genericsdeportes.articleprogram.dialog.synopsis.programsynopsis.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.dialog.synopsis.programsynopsis.description"
+            sling:message="Write a program article synopsis."/>
+    <genericsdeportes.articleprogram.message.configure
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.articleprogram.message.configure"
+            sling:message="Write a program article information in the configuration dialog."/>
+    <!-- config canal -->
+    <genericsdeportes.confglobal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.confglobal.title"
+            sling:message="Global Configuration"/>
+    <genericsdeportes.confglobal.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.confglobal.description"
+            sling:message="Simple template containing two parsys for include the footer and header components."/>
+    <genericsdeportes.confcanal.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.confcanal.title"
+            sling:message="Channel Configuration"/>
+
+    <genericsdeportes.confcanal.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.confcanal.description"
+            sling:message="Simple template containing two parsys for include the footer and header components."/>
+    <!-- LatestNews -->
+    <genericsdeportes.latestnews.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.latestnews.title"
+            sling:message="Latest News"/>
+    <!-- Navigation Components -->
+    <genericsdeportes.navfooter01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navfooter01.title"
+            sling:message="Footer"/>
+
+    <genericsdeportes.navcorft01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navcorft01.title"
+            sling:message="Corporate Footer"/>
+
+    <genericsdeportes.navheader01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navheader01.title"
+            sling:message="Header"/>
+
+    <genericsdeportes.navheader01small.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navheader01small.title"
+            sling:message="Small Header"/>
+
+    <genericsdeportes.navheader01.filtering.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navheader01.filtering.title"
+            sling:message="Subsections"/>
+
+    <genericsdeportes.navfooter01.item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navfooter01.item.title"
+            sling:message="Footer Item"/>
+
+    <!-- Button Components -->
+    <genericsdeportes.btn6prog02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.title"
+            sling:message="Super clic"/>
+    <genericsdeportes.btn6prog02.placeholder
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.placeholder"
+            sling:message="Double clic to edit Super clic component"/>
+    <genericsdeportes.btn6prog02.path.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.path.label"
+            sling:message="Path"/>
+    <genericsdeportes.btn6prog02.path.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.path.description"
+            sling:message="Select the path where the notes is going to be recovered."/>
+    <genericsdeportes.btn6prog02.tags.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.tags.label"
+            sling:message="Tags"/>
+    <genericsdeportes.btn6prog02.tags.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btn6prog02.tags.description"
+            sling:message="Enter the tags you want to have the notes."/>
+
+
+    <genericsdeportes.carouselprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.carouselprogram.title"
+            sling:message="buttonCarrouselProgram"/>
+
+    <genericsdeportes.buttonprogram.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.buttonprogram.title"
+            sling:message="Program Button"/>
+    <genericsdeportes.btnProgr02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.title"
+            sling:message="Devils Corner"/>
+    <genericsdeportes.btnProgr02.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.description"
+            sling:message="Devils Corner component"/>
+    <genericsdeportes.btnProgr02.text.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.text.description"
+            sling:message="Please enter the text component"/>
+    <genericsdeportes.btnProgr02.label.text
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.label.text"
+            sling:message="Text"/>
+    <genericsdeportes.btnProgr02.image.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.image.title"
+            sling:message="Image"/>
+    <genericsdeportes.btnProgr02.imageIcon.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.imageIcon.title"
+            sling:message="Channel image"/>
+    <genericsdeportes.btnProgr02.image.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.image.label"
+            sling:message="Image"/>
+    <genericsdeportes.btnProgr02.imageIcon.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.btnProgr02.imageIcon.label"
+            sling:message="Channel image"/>
+  <!-- Video Components -->
+	<genericsdeportes.vid4vids01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.vid4vids01.title"
+            sling:message="Generic Deportes Youtube Video Gallery"/>
+    <genericsdeportes.vidPlayer01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.vidPlayer01.title"
+            sling:message="Video"/>
+    <genericsdeportes.videoembed01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.videoembed01.title"
+            sling:message="Video Embed"/>
+     <genericsdeportes.brightcoveVideoGallery.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.brightcoveVideoGallery.title"
+            sling:message="Brightcove Video Gallery"/>        
+    
+
+    <genericsdeportes.wdgTop1001.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgTop1001.title"
+            sling:message="Top Ten"/>
+
+    <genericsdeportes.wdgpoll01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgpoll01.title"
+            sling:message="Poll Widget"/>
+	
+	<genericsdeportes.wdgHumor01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgHumor01.title"
+            sling:message="Widget Humor"/>
+    
+    <genericsdeportes.wdgSched02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgSched02.title"
+            sling:message="Schedule"/>
+    
+    <genericsdeportes.wdgSched02Item.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgSched02Item.title"
+            sling:message="Schedule Item"/>
+         
+	<genericsdeportes.wdgSched02DirectReference.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.wdgSched02DirectReference.title"
+            sling:message="Schedule  Reference"/>
+    
+    <genericsdeportes.directReference.pagePath.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.directReference.pagePath.label"
+            sling:message="Page path"/>
+    
+    <genericsdeportes.directReference.pagePath.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.directReference.pagePath.description"
+            sling:message="The path to the page that contains de configured Schedule component"/>
+    <genericsdeportes.mix1arts10.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.title"
+            sling:message="Detailed Primary Teaser"/>
+    <genericsdeportes.mix1arts10.fieldset.details
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.fieldset.details"
+            sling:message="Details"/>
+    <genericsdeportes.mix1arts10.noteindex.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.noteindex.label"
+            sling:message="Note Index"/>
+    <genericsdeportes.mix1arts10.noteindex.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.noteindex.description"
+            sling:message="Enter the number of the Latest note to retrieve."/>
+    <genericsdeportes.mix1arts10.modes
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.modes"
+            sling:message="Modes"/>
+    <genericsdeportes.mix1arts10.automatic
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.automatic"
+            sling:message="Automatic"/>
+    <genericsdeportes.mix1arts10.manual
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.manual"
+            sling:message="Manual"/>
+    <genericsdeportes.mix1arts10.modes.desc
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts10.modes.desc"
+            sling:message="Select Manual to retrieve the information from a specific note. Select Automatic to retrieve the information of the most recent note based on tags or under a specific path."/>
+    <genericsdeportes.mix2arts04.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix2arts04.title"
+            sling:message="Double Detailed Primary Teaser"/>
+    <genericsdeportes.mix2arts07.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix2arts07.title"
+            sling:message="Double Primary Teaser"/>
+    <genericsdeportes.mix1arts07.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts07.title"
+            sling:message="Double Short Teaser container"/>
+    <genericsdeportes.mix4arts01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix4arts01.title"
+            sling:message="Primary Teaser and Three Shorts Teaser Container"/>
+    <genericsdeportes.mix5arts01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix5arts01.title"
+            sling:message="Primary Teaser and Four Short Teaser Container"/>
+    <genericsdeportes.mix8arts01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix8arts01.title"
+            sling:message="Two Primary and Six Shorts Container"/>
+
+    <genericsdeportes.mix1arts03.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix1arts03.title"
+            sling:message="Standout Teaser"/>
+
+    <genericsdeportes.imggalry01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.imggalry01.title"
+            sling:message="Gallery"/>
+
+    <genericsdeportes.navheader01.tdlink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navheader01.tdlink.title"
+            sling:message="TD Link"/>
+
+    <genericsdeportes.navheader01.tdtvlink.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.navheader01.tdtvlink.title"
+            sling:message="TD TV Link"/>
+
+    <genericsdeportes.carrousel.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.carrousel.title"
+            sling:message="Carrousel"/>
+    <!-- Mix Components -->
+    <genericsdeportes.mix12arts02.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mix12arts02.title"
+            sling:message="Gallery History"/>
+    <genericsdeportes.mixCarru01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.title"
+            sling:message="Carrousel"/>
+    <genericsdeportes.mixCarru01.carrouselType.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.carrouselType.description"
+            sling:message="Type of carrousel to configure and display"/>   
+    <genericsdeportes.mixCarru01.carrouselType.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.carrouselType.label"
+            sling:message="Carrousel type"/>         
+    <genericsdeportes.mixCarru01.carrouselType.carru01
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.carrouselType.carru01"
+            sling:message="Carrousel 01"/>  
+    <genericsdeportes.mixCarru01.carrouselType.carru02
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.carrouselType.carru02"
+            sling:message="Carrousel 02"/>
+
+    <genericsdeportes.mixCarru01.carrouselType.carru02
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.mixCarru01.carrouselType.carru02"
+            sling:message="Carrousel 02"/>
+
+    <genericsdeportes.indexByTags.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.indexByTags.title"
+            sling:message="Index By Tags"/>
+
+    <genericsdeportes.primaryteaser.pathparent.description
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.primaryteaser.pathparent.description"
+            sling:message="Please select an article parent path for the automatic mode to work"/>
+
+    <genericsdeportes.primaryteaser.pathparent.label
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.primaryteaser.pathparent.label"
+            sling:message="Parent Path"/>
+
+    <genericsdeportes.secondaryteaser.automaticmode.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.secondaryteaser.automaticmode.title"
+            sling:message="Automatic Mode"/>
+
+    <genericsdeportes.secondaryteaser.manualmode.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.secondaryteaser.manualmode.title"
+            sling:message="Manual Mode"/>
+
+    <!-- Image Components -->
+    <genericsdeportes.imgstage01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.imgstage01.title"
+            sling:message="Stage Image"/>
+    <generics.searchfieldvalidation.photogallery
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="generics.searchfieldvalidation.photogallery"
+            sling:message="This type of template is not valid, only PhotoGallery template is allowed"/>
+    <genericsdeportes.photogalleryfull01.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.photogalleryfull01.title"
+            sling:message="Photo Gallery Full"/>
+
+    <genericsdeportes.recentVideos.title
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="genericsdeportes.recentVideos.title"
+            sling:message="Recents Videos"/>
+</jcr:root>

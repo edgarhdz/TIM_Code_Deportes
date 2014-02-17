@@ -1,0 +1,56 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_tu_diriges_01 .header01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_tu_diriges_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tu_diriges_01 .main > div{
+		/*clear:both;*/
+	}
+	.td_tu_diriges_01 .main .c2 .c2_1{		
+		overflow: hidden;
+	}
+	.td_tu_diriges_01 .main .c2 .c2_2{		
+		margin:auto;
+		margin-bottom: 8px;
+		width: 320px;
+	}
+	
+	.td_tu_diriges_01 .main .c2 .c2_3{
+		clear:both;
+	}
+	
+	.td_tu_diriges_01 .main .c4{
+		clear: both;
+	}
+	.td_tu_diriges_01 .main .c3_1{
+		width: 100%;
+	}
+	
+	/*margen inferior*/
+	.td_tu_diriges_01 .main .nav_smnu_sports_01{
+		margin-bottom: 16px;
+	}
+	
+	.td_tu_diriges_01 .nav_smnu_video_01{
+		border-bottom: #ccc solid 1px;
+		padding-bottom: 12px;
+	}
+	.td_tu_diriges_01 .nav_smnu_video_01 .sings,
+	.td_tu_diriges_01 .nav_smnu_video_01 .cont{
+		display: none;
+	}
+	.td_tu_diriges_01 .inactive{
+		color: #373737 !important;
+	}
+	/*medida para el banner*/
+	.td_tu_diriges_01 .main .c2 .c2_2 img{
+		width: 320px;
+	}
+	
+}

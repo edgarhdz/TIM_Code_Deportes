@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items 
+        jcr:primaryType="cq:Widget"
+	xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1 jcr:primaryType="cq:Panel" title="deportes.wdgGoalsCarru01.titlesTab" >
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <tourn
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.tournament.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.tournament.label"
+                            name="./tournament"
+                            xtype="textfield"/>
+                    <matchday
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.matchday.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.matchday.label"
+                            name="./matchday"
+                            xtype="textfield"/>
+                    <team
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.team.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.team.label"
+                            name="./team"
+                            xtype="textfield"/>
+                    <seeall
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.seeall.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.seeall.label"
+                            name="./seeall"
+                            xtype="textfield"/>
+                </items>
+            </tab1>
+            <tab2 jcr:primaryType="cq:Panel" title="deportes.wdgGoalsCarru01.settings" >
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstpath
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.wdgmosread01.firstpath.description"
+                            fieldLabel="deportes.wdgmosread01.firstpath.label"
+                            name="./path"
+                            rootPath="/content/televisa/deportes"
+                            xtype="pathfield"/>
+                    <tournTags
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.tags.tourntag.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.tags.tourntag.label"
+                            name="./cq:tournTags"
+                            xtype="tags"/>
+                    <currentTourn
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="deportes.wdgGoalsCarru01.tags.currentTourn.description"
+                            fieldLabel="deportes.wdgGoalsCarru01.tags.currentTourn.label"
+                            name="./cq:currentTourn"
+                            xtype="tags"/>
+                </items>
+            </tab2>
+            <devices jcr:primaryType="cq:Panel" title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices jcr:primaryType="cq:Widget"
+                                 fieldDescription="deportes.devices.hidedevices.description"
+                                 fieldLabel="deportes.devices.hidedevices.label" name="./hideDevice"
+                                 type="select" xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1 jcr:primaryType="nt:unstructured" text="deportes.devices.item.do-nothing"
+                                   value="" />
+                            <item2 jcr:primaryType="nt:unstructured"
+                                   text="deportes.devices.item.hide-tablet-mobile" value="hide-tablet" />
+                            <item3 jcr:primaryType="nt:unstructured" text="deportes.devices.item.hide-mobile"
+                                   value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

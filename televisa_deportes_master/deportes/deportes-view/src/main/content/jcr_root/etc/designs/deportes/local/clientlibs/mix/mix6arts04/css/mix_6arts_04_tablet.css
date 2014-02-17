@@ -1,0 +1,17 @@
+@media screen and (min-width: 39em){
+    .mix_6arts_04{
+        width: 624px;
+		clear: both;
+		overflow: hidden;
+		margin-bottom: 36px;
+    }
+    
+	
+	.mix_6arts_04 .nav_paginator_01{
+		display:block;
+	}
+	
+	.mix_6arts_04 .mix_6arts_04_verMas{
+        display:none;
+	}
+}

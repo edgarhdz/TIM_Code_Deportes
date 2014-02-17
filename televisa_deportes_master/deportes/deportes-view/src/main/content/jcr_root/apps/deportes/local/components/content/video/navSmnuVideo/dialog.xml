@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="deportes.akamai.title"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <linkstab
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.navTeamHeader01.links.title"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <links
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.link.title-description"
+                            fieldLabel="deportes.link.title-label"
+                            name="genericmultifield"
+                            title="deportes.link.title"
+                            xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <name
+                                    jcr:primaryType="cq:Widget"
+                                    allowBlank="{Boolean}false"
+                                    fieldDescription="Insert the name of the signal"
+                                    fieldLabel="Name"
+                                    name="./name"
+                                    xtype="textfield"/>
+                            <m3u8
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="Insert m3u8 for the video"
+                                    fieldLabel="m3u8"
+                                    name="./m3u8"
+                                    xtype="textfield"/>
+                            <videoUrl
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="Insert video url"
+                                    fieldLabel="Url"
+                                    name="./videoUrl"
+                                    xtype="textfield"/>
+                            <description
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="Insert video description"
+                                    fieldLabel="Description"
+                                    name="./description"
+                                    xtype="textfield"/>
+                        </fieldConfig>
+                    </links>
+                </items>
+            </linkstab>
+            <image
+                    jcr:primaryType="cq:Widget"
+                    allowUpload="{Boolean}false"
+                    cropParameter="./imageCrop"
+                    ddGroups="[media]"
+                    fileNameParameter="./fileName"
+                    fileReferenceParameter="./fileReference"
+                    mapParameter="./imageMap"
+                    name="./file"
+                    requestSuffix=".img.png"
+                    rotateParameter="./imageRotate"
+                    title="commons.image.title"
+                    xtype="html5smartimage"/>
+            <generalsettings
+                    jcr:primaryType="cq:Panel"
+                    title="commons.carrousel.generalsettings">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <navVideoType
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        fieldDescription="deportes.akamai.navSmnu.description"
+                        fieldLabel="deportes.akamai.navSmnu.label"
+                        name="./navVideoType"
+                        type="radio"
+                        xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <nav01
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.akamai.navSmnu01.text"
+                                value="nav01"/>
+                        <nav02
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.akamai.navSmnu02.text"
+                                value="nav02"/>
+                    </options>
+                </navVideoType>
+                </items>
+            </generalsettings>
+            <devices
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.devices.hidedevices.description"
+                            fieldLabel="deportes.devices.hidedevices.label"
+                            name="./hideDevice"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.do-nothing"
+                                    value=""/>
+                            <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-tablet-mobile"
+                                    value="hide-tablet"/>
+                            <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-mobile"
+                                    value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

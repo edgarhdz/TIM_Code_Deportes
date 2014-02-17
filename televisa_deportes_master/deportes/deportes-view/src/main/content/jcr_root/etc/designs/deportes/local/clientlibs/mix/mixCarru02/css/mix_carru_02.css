@@ -1,0 +1,9 @@
+@media screen and (min-width: 948px){ 
+	
+    .ie8 .mix_carru_02 .articleBigModule_02 > ul.galleryThumbs,
+    .ie9 .mix_carru_02 .articleBigModule_02 > ul.galleryThumbs,
+    .ie10 .mix_carru_02 .articleBigModule_02 > ul.galleryThumbs {
+        height: 81px;
+        margin-top: -29px;
+    } 
+}

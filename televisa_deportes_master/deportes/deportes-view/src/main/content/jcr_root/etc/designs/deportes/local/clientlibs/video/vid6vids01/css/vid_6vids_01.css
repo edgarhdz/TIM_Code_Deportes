@@ -1,0 +1,14 @@
+@media screen and (min-width: 60em){
+    /* BEGIN: Global (Large) */
+    .vid_6vids_01{
+        margin-bottom: 24px;
+    }
+    .vid_6vids_01 .bullets{
+        display: none;
+    }
+    .vid_6vids_01 .wdg_mix_carrousa.showArrows .vid_6vids_01_title ul{
+        display: block;
+    }
+    
+    /* END: Global (Large) */
+}

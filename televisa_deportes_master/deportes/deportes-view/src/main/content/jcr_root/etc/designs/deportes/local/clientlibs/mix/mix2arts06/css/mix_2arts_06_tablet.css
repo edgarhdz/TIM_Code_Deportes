@@ -1,0 +1,37 @@
+@media screen and (min-width: 624px){
+    /* BEGIN: Global (Medium) */
+    div.mix_2arts_06 {
+        width:624px;
+        display: block;
+		overflow:hidden;
+    }
+	.mix_2arts_06 .wdg_social_01{
+		float: left;
+		/*padding-left: 12px;*/
+		padding-top: 0px;
+    }
+    div.mix_2arts_06_title {
+		width:300px;
+        margin-bottom: 0;
+    }
+	.mix_2arts_06 .separator {
+		float:left;
+		width:300px;
+		margin-right:10px;
+    }
+    div.mix_2arts_06_title:before,
+    div.mix_2arts_06_title:after {
+        content: "";
+        display: table;
+    }
+    div.mix_2arts_06_title:after {
+        clear: both;
+    }
+    div.mix_2arts_06_title {
+        zoom: 1;
+    }
+	.mix_2arts_06 .separator{
+		display: block;
+	}
+
+}

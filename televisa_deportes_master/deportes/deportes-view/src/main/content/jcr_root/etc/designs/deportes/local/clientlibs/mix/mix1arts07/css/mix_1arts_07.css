@@ -1,0 +1,11 @@
+@media screen and (min-width: 60em){
+    .mix_1arts_07 ul li a h3 {
+        font-size: 0.8em;
+        font-style: italic;
+        font-weight: 800;
+        padding-top: 0.5em;
+        display:block;
+
+    }
+    
+}

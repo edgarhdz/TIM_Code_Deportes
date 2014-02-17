@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="commons.twitter.title"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <containers
+            jcr:primaryType="cq:Panel"
+            title="commons.twitterList.settings.title">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <numberOfTweets
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        blankText="commons.standoutteaser.patharticle.blanktext"
+                        fieldDescription="commons.twitterList.numberOfTweets.description"
+                        fieldLabel="commons.twitterList.numberOfTweets.label"
+                        name="./numberOfTweets"
+                        type="select"
+                        xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <one
+                                jcr:primaryType="nt:unstructured"
+                                text="1"
+                                value="1"/>
+                        <two
+                                jcr:primaryType="nt:unstructured"
+                                text="2"
+                                value="2"/>
+                        <three
+                                jcr:primaryType="nt:unstructured"
+                                text="3"
+                                value="3"/>
+                        <four
+                                jcr:primaryType="nt:unstructured"
+                                text="4"
+                                value="4"/>
+                        <five
+                                jcr:primaryType="nt:unstructured"
+                                text="5"
+                                value="5"/>
+                        <six
+                                jcr:primaryType="nt:unstructured"
+                                text="6"
+                                value="6"/>
+                    </options>
+                </numberOfTweets>
+                <twitterList
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.twitterList.list.description"
+                    fieldLabel="commons.twitterList.list.label"
+                    name="./twitterList"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        blankText="commons.standoutteaser.patharticle.blanktext"
+                        xtype="textfield"/>
+                </twitterList>
+            </items>
+        </containers>
+    </items>
+</jcr:root>

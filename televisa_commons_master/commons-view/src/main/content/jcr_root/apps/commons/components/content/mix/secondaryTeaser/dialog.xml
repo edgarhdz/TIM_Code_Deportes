@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="450"
+    title="commons.secondaryteaser.title"
+    width="700"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <patharticle
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.primaryteaser.patharticle.description"
+                        fieldLabel="commons.primaryteaser.patharticle.label"
+                        name="./patharticle"
+                        rootPath="/content/televisa"
+                        xtype="searchpathfield"/>
+                    <target
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="_blank"
+                        fieldDescription="commons.link.target-description"
+                        fieldLabel="commons.link.target-label"
+                        name="./linkTarget"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-blank-text"
+                                value="_blank"/>
+                            <self
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-self-text"
+                                value="_self"/>
+                        </options>
+                    </target>
+                    <showimage
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.showimage.description"
+                        fieldLabel="commons.showimage.label"
+                        name="./showimage"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showcontext
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.showcontext.description"
+                        fieldLabel="commons.showcontext.label"
+                        name="./showcontext"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showtopic
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.showtopic.description"
+                        fieldLabel="commons.showtopic.label"
+                        name="./showtopic"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <showtitle
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.showtitle.description"
+                        fieldLabel="commons.showtitle.label"
+                        name="./showtitle"
+                        type="checkbox"
+                        xtype="selection"/>
+                </items>
+            </settings>
+        </items>
+    </items>
+</jcr:root>

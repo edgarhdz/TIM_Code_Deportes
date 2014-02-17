@@ -1,0 +1,17 @@
+@media screen {
+  .ads_combo_01{
+	overflow: hidden;
+    margin-bottom: 0px;
+    margin-top: 10px;
+	width:100%;
+  }
+  
+  .ads_combo_01 .large_banner{
+	width:100%;
+  }
+  
+  .ads_combo_01 .short_banner{
+	display:none;
+  }
+	
+}

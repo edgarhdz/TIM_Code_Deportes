@@ -1,0 +1,27 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_subhome_nba_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+	.td_subhome_nba_01 .header1 .banner_mobile{
+		width:320px;
+		margin:auto;
+	}
+    /*Wrap*/
+    .td_subhome_nba_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_subhome_nba_01 .main > div{
+		clear:both;
+	}
+	.td_subhome_nba_01 .c2{
+		width:100%;
+	}
+	.td_subhome_nba_01 .main .c3_1_especial{
+		display:block;
+		text-align:center;
+		margin-bottom:7px;
+	}
+}

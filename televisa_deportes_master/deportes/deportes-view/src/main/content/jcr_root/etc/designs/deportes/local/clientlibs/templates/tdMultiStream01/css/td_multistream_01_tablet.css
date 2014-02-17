@@ -1,0 +1,31 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_multistream_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_multistream_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}
+	
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_multistream_01 .main .c2,
+	.td_multistream_01 .main .c3,
+	.td_multistream_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_multistream_01 .main .c3_1,
+	.td_multistream_01 .main .c3_3{
+		width: 300px !important;
+	}
+	
+	.td_multistream_01 .main .c2 .c2_2{
+		text-align:right;
+		margin: 0;
+		width:100%;
+	}
+}

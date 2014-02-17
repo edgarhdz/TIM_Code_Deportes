@@ -1,0 +1,6 @@
+@media screen and (min-width: 948px){
+    .nav_corft_newsletter_01 footer div .legal div.row div.left {
+        width: 130px !important;
+        float: left;
+    }
+}

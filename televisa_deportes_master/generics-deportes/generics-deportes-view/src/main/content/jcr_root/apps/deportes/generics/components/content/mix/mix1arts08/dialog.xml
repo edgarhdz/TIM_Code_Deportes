@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="450"
+    manageTabs="function(tab,noSwitch){&#xa;    var tabs=['settings','manual', 'automatic'];&#xa;&#x9;var index=tabs.indexOf(tab);&#xa;    if(tab=='manual') {&#xa;&#x9;    this.unhideTabStripItem(1);&#xa;&#x9;    this.hideTabStripItem(2);&#xa;&#xa;&#x9;}else if(tab=='automatic'){&#xa;&#x9;    this.unhideTabStripItem(2);&#xa;&#x9;    this.hideTabStripItem(1);&#xa;    }&#xa;  &#x9;this.doLayout();&#xa;  &#x9;if(!noSwitch)this.activate(index); &#xa;}"
+    title="commons.primaryteaser.title"
+    width="600"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <settings
+            jcr:primaryType="cq:Widget"
+            title="Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <modes
+                    jcr:primaryType="cq:Widget"
+                    collapsible="{Boolean}true"
+                    title="genericsdeportes.mix1arts10.modes"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <modelist
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="genericsdeportes.mix1arts10.modes.desc"
+                            fieldLabel="Select a Mode"
+                            name="./mode"
+                            type="radio"
+                            xtype="selection">
+                            <options jcr:primaryType="cq:WidgetCollection">
+                                <manual
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.mix1arts10.manual"
+                                    value="manual"/>
+                                <automatic
+                                    jcr:primaryType="nt:unstructured"
+                                    text="genericsdeportes.mix1arts10.automatic"
+                                    value="automatic"/>
+                            </options>
+                            <listeners
+                                jcr:primaryType="nt:unstructured"
+                                selectionchanged="function(selection, value, checked) {&#xa;&#x9;if(selection.getValue() == &quot;manual&quot;){&#xa;&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}else if(selection.getValue() == &quot;automatic&quot;){&#xa;&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}&#xa;}&#xa;"/>
+                        </modelist>
+                    </items>
+                </modes>
+                <details
+                    jcr:primaryType="cq:Widget"
+                    collapsed="{Boolean}true"
+                    collapsible="{Boolean}true"
+                    title="genericsdeportes.mix1arts10.fieldset.details"
+                    xtype="dialogfieldset">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <target
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="_self"
+                            fieldDescription="commons.link.target-description"
+                            fieldLabel="commons.link.target-label"
+                            name="./linkTarget"
+                            type="select"
+                            xtype="selection">
+                            <options jcr:primaryType="cq:WidgetCollection">
+                                <self
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.link.target-option-self-text"
+                                    value="_self"/>
+                                <blank
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.link.target-option-blank-text"
+                                    value="_blank"/>
+                            </options>
+                        </target>
+                        <showcontext
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="true"
+                            fieldDescription="commons.showcontext.description"
+                            fieldLabel="commons.showcontext.label"
+                            name="./showcontext"
+                            type="checkbox"
+                            xtype="selection"/>
+                        <rendersize
+                            jcr:primaryType="cq:Widget"
+                            defaultValue="small"
+                            fieldDescription="commons.link.imagesize"
+                            fieldLabel="Size"
+                            name="./renderSize"
+                            type="select"
+                            xtype="selection">
+                            <options jcr:primaryType="cq:WidgetCollection">
+                                <small
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.link.imagesize.small"
+                                    value="small"/>
+                                <large
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.link.imagesize.large"
+                                    value="large"/>
+                            </options>
+                        </rendersize>
+                    </items>
+                </details>
+            </items>
+        </settings>
+        <manual
+            jcr:primaryType="cq:Panel"
+            title="genericsdeportes.mix1arts10.manual">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <pathshortarticle
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.standoutteaser.patharticle.description"
+                    fieldLabel="commons.standoutteaser.patharticle.label"
+                    name="./patharticle"
+                    rootPath="/content/televisa"
+                    xtype="searchpathfield"/>
+            </items>
+        </manual>
+        <automatic
+            jcr:primaryType="cq:Panel"
+            title="genericsdeportes.mix1arts10.automatic">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <parentPath
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="genericsdeportes.global.pathparent.description"
+                    fieldLabel="genericsdeportes.global.pathparent.label"
+                    name="./parentPath"
+                    rootPath="/content/televisa"
+                    xtype="searchpathfield"/>
+                <topic
+                    jcr:primaryType="cq:Widget"
+                    cls="cq-propsdialog-tags"
+                    fieldDescription="commons.article.topic.description"
+                    fieldLabel="commons.article.topic.label"
+                    fieldSubLabel="Tags/Keywords"
+                    name="./topic"
+                    xtype="tags"/>
+                <noteindex
+                    jcr:primaryType="cq:Widget"
+                    allowDecimals="{Boolean}false"
+                    allowNegative="{Boolean}false"
+                    defaultValue="0"
+                    fieldDecription="genericsdeportes.mix1arts10.noteindex.description"
+                    fieldLabel="genericsdeportes.mix1arts10.noteindex.label"
+                    name="./noteIndex"
+                    xtype="numberfield"/>
+            </items>
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(2); }"/>
+        </automatic>
+        <devices
+            jcr:primaryType="cq:Panel"
+            title="deportes.devices.tabtitle.label">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hideDevices
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="deportes.devices.hidedevices.description"
+                    fieldLabel="deportes.devices.hidedevices.label"
+                    name="./hideDevice"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            text="deportes.devices.item.do-nothing"
+                            value=""/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            text="deportes.devices.item.hide-tablet-mobile"
+                            value="hide-tablet"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            text="deportes.devices.item.hide-mobile"
+                            value="hide-mobile"/>
+                    </options>
+                </hideDevices>
+                <resType1
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./image1/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+                <resType2
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./image2/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </devices>
+    </items>
+</jcr:root>

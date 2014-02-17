@@ -1,0 +1,44 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_subhome_golf_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_subhome_golf_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:visible;
+	}
+	.td_subhome_golf_01 .c7 .mix_1arts_09{
+		width:191px !important;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_subhome_golf_01 .main .c2,
+	.td_subhome_golf_01 .main .c3,
+	.td_subhome_golf_01 .main .c4,
+	.td_subhome_golf_01 .main .c5,
+	.td_subhome_golf_01 .main .c7,
+	.td_subhome_golf_01 .main .c8,
+	.td_subhome_golf_01 .main .c9{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_subhome_golf_01 .main .c3_1,
+	.td_subhome_golf_01 .main .c3_3,
+	.td_subhome_golf_01 .main .c5_1,
+	.td_subhome_golf_01 .main .c5_2,
+	.td_subhome_golf_01 .main .c8_2,
+	.td_subhome_golf_01 .main .c8_3{
+		width: 300px;
+	}
+	.td_subhome_golf_01 .separator_component{
+	    border-right: 1px solid #CCCCCC;
+	    height: 291px;
+	    margin-left: 12px;
+	    margin-top: 0px;
+	}
+	.td_subhome_golf_01 .main .banner_mobile{
+		display: none;
+	}
+}

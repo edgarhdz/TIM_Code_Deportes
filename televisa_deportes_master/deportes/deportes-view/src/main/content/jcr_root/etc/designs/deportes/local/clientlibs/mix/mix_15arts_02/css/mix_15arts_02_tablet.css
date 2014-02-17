@@ -1,0 +1,98 @@
+/*	
+	Document   : mix_15arts_02_tablet
+	Created on : 22/08/2013, 06:34:00 pm
+	Author     : Luis Jesús Ruelas Merino
+	Description: Listado de 15 componentes de mix_1arts_16
+ */
+@media screen and (min-width: 624px){
+	/* BEGIN: mix-15arts_01 */
+
+	.mix_15arts_02{
+		width: 100%;
+		overflow: hidden;
+		height: auto;	
+	}
+	.mix_15arts_02 .list_container {
+		display: block;
+		height: auto;
+		overflow: auto;
+		position: relative;
+		width: 105%;
+		overflow-x: hidden;
+		padding-left: 0px;
+	}
+	.mix_15arts_02 .divisor{
+		border-left: 1px solid #CCCCCC;
+		height: 170px;
+		margin-left: 205px;
+		margin-top: 0px;
+		position: absolute;
+		width: 10px;
+		z-index: 10;
+	}
+	
+	.mix_15arts_02 .mix_1arts_16:first-child .mix_1arts_16_thumb li a h6{
+		padding-top: 20px;	
+	}
+
+	.mix_15arts_02 .list_container {
+		display: block;
+		width: 624px;
+		float: left;
+	}
+	.mix_15arts_02 .list_container .mix_1arts_16{
+		display:block;
+		float: left;
+		margin-bottom: 0px;
+			
+	}
+	.mix_15arts_02 .list_container .renglon{
+		float: none;
+		clear: both;
+	}
+	
+	.mix_15arts_02 .list_container .middle .mix_1arts_16{
+		padding-left: 11px;
+		border-left: 1px solid #CCCCCC;
+		margin-left: 11px;	
+		padding-right: 12px;
+		margin-right: 12px;
+		border-right: 1px solid #CCCCCC;
+		float: left;
+		margin-bottom: 36px;
+		
+	}
+	
+	.ie7 .mix_15arts_02 .list_container .middle .mix_1arts_16{
+		padding-left: 7px;
+		margin-left: 7px;	
+		padding-right: 7px;
+		margin-right: 7px;
+		
+	}
+	
+	.mix_15arts_02 .list_container  div:first-child {
+		padding-left: 0px;
+	}
+	.mix_15arts_02 .nav_paginator_01{
+		display: inherit;
+	}
+	.mix_15arts_02 .mix_15arts_02_ver_mas{
+        display: none;
+    }
+    
+    
+	.mix_15arts_02 .list_container  .mix_1arts_16 .mix_1arts_16_thumb li a h6{
+		display: inherit;
+	}
+	
+	.mix_1arts_16 .mix_1arts_16_thumb li a .background-color-pleca1{
+		display:none;
+	}
+	.mix_15arts_02 .degraded{display: none}
+
+	.ie7 .mix_15arts_02 .nav_paginator_01{
+		display: block; 
+	}  
+   
+}

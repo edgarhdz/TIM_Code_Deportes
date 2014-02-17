@@ -1,0 +1,30 @@
+@media screen{
+
+.art_quote_01{
+
+    max-width:210px;
+    padding-bottom:10px; 
+    border-bottom: 1px solid #CCC; 
+    margin-bottom:0px;
+    float: left;
+    margin-right:10px;
+}
+
+.art_quote_01 h3,
+.art_quote_01 a h3{
+
+    font-size: 1.17em;
+    font-weight:normal; 
+    line-height:22px;
+    font-style:italic;
+}
+
+.art_quote_01 a{
+    text-decoration:none;
+    color: #000;
+	
+} 
+
+
+}
+

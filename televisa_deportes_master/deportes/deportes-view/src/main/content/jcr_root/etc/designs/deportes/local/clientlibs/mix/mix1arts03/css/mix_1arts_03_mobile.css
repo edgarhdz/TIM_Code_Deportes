@@ -1,0 +1,64 @@
+@media screen {
+    .mix_1arts_03,
+    .ie8 .mix_1arts_03,
+    .ie7 .mix_1arts_03 {
+        width: 100%;
+        margin-bottom:10px;
+        overflow: hidden;
+    }
+    .mix_1arts_03 .resize{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mix_1arts_03 .type2b img,
+    .ie8 .mix_1arts_03 .type2b img,
+    .ie7 .mix_1arts_03 .type2b img {
+        height: auto;
+        width: 100%;
+    }
+    /*Se ocultan texto y bullets*/
+    .ie8 .mix_1arts_03 .type2b ul,
+    .ie8 .mix_1arts_03 .type2b p,
+
+    .mix_1arts_03 .type2b ul,
+    .mix_1arts_03 .type2b p {
+        display: none;
+    }
+
+    /*Marco Blanco*/
+    .ie7 .mix_1arts_03 .type2b .floatRight,
+    .ie8 .mix_1arts_03 .type2b .floatRight,
+    .mix_1arts_03 .type2b .floatRight{
+        background-color:#FFF;
+        width:73% ;
+        position:relative;
+        margin-top: -10%;
+        float:right;
+        padding:24px 30px;
+        height:auto;
+    }
+
+    .mix_1arts_03 .type2b .floatRight h3 {
+        margin:6px 0 18px 0;
+        line-height:20px;
+        font-size:18px;
+    }
+
+    .mix_1arts_03 .type2b .floatRight p.desc {
+        font-size:14px;
+        line-height:18px;
+    }
+
+    .mix_1arts_03 .sprite{
+        display: none;
+    }
+    /* Category */
+    .mix_1arts_03 .floatRight a.category {
+        font-size: 14px;
+        font-style: italic;
+        font-weight:bold;
+        color: #D9A961;
+        line-height:20px;
+    }
+}

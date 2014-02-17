@@ -1,0 +1,23 @@
+.vid_player_01c #theaterContainers.hide {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+.vid_player_01c #theaterContainers.show {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+}
+
+.vid_player_01c .vid_player_01c_image.hide {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+.vid_player_01c .vid_player_01c_image.show {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+}

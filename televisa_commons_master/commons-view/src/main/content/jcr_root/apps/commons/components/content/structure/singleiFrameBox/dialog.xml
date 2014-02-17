@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="iFrame Box"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <iframe
+                jcr:primaryType="cq:Panel"
+                title="Configuración">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="Título de la pleca prinicipal (Si dejas vacío este campo, la pleca NO aparecerá)"
+                        fieldLabel="Título pleca"
+                        name="./titlePleca"
+                        xtype="textfield"/>
+                    <urlPleca
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="URL de la pleca principal (Si dejas vacío este campo, la pleca NO tendrá liga)"
+                        fieldLabel="URL Título pleca"
+                        name="./urlTitlePleca"
+                        xtype="textfield"/>
+                    <linktype
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="URL Type"
+                        name="./linkType"
+                        type="radio"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                jcr:primaryType="nt:unstructured"
+                                text="generics.link.internallink.label"
+                                value="internal"/>
+                            <external
+                                jcr:primaryType="nt:unstructured"
+                                text="generics.link.externallink.label"
+                                value="external"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field, record, path) {  linkLoadContent(field, record, path);}"
+                            selectionchanged="function(selection,value, checked){ linkSelectionChanged(selection,value, checked); }"/>
+                    </linktype>
+                    <internallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="generics.link.internallink.description"
+                        fieldLabel="generics.link.internallink.label"
+                        name="./internalLink"
+                        rootPath="/content/televisa"
+                        rootTitle="Televisa"
+                        xtype="pathfield"/>
+                    <externallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="generics.link.externallink.description"
+                        fieldLabel="generics.link.externallink.label"
+                        name="./externalLink"
+                        xtype="textfield"/>
+                    <height
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="300"
+                        fieldDescription="Altura del iFrame"
+                        fieldLabel="Altura"
+                        name="./iframeHeight"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <_x0032_60px
+                                jcr:primaryType="nt:unstructured"
+                                text="260px"
+                                value="260"/>
+                            <_x0033_00px
+                                jcr:primaryType="nt:unstructured"
+                                text="300px"
+                                value="300"/>
+                            <_x0034_80px
+                                jcr:primaryType="nt:unstructured"
+                                text="480px"
+                                value="480"/>
+                            <_x0035_20px
+                                jcr:primaryType="nt:unstructured"
+                                text="520px"
+                                value="520"/>
+                            <_x0036_00px
+                                jcr:primaryType="nt:unstructured"
+                                text="600px"
+                                value="600"/>
+                            <_x0036_40px
+                                jcr:primaryType="nt:unstructured"
+                                text="640px"
+                                value="640"/>
+                            <_x0037_75px
+                                jcr:primaryType="nt:unstructured"
+                                text="775px"
+                                value="775"/>
+                        </options>
+                    </height>
+                    <scrolling
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Si"
+                        fieldDescription="Scrolling del iFrame"
+                        fieldLabel="Scrolling"
+                        name="./iframeScrolling"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <Si
+                                jcr:primaryType="nt:unstructured"
+                                text="Si"
+                                value="yes"/>
+                            <No
+                                jcr:primaryType="nt:unstructured"
+                                text="No"
+                                value="No"/>
+                        </options>
+                    </scrolling>
+                    <MostrarTablet
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Si"
+                        fieldDescription="¿Mostrar en Tablet?"
+                        fieldLabel="¿Mostrar en Tablet?"
+                        name="./iframeShowInTablet"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <Si
+                                jcr:primaryType="nt:unstructured"
+                                text="Si"
+                                value="yes"/>
+                            <No
+                                jcr:primaryType="nt:unstructured"
+                                text="No"
+                                value="No"/>
+                        </options>
+                    </MostrarTablet>
+                    <MostrarMobile
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="Si"
+                        fieldDescription="¿Mostrar en Mobile?"
+                        fieldLabel="¿Mostrar en Mobile?"
+                        name="./iframeShowInMobile"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <Si
+                                jcr:primaryType="nt:unstructured"
+                                text="Si"
+                                value="yes"/>
+                            <No
+                                jcr:primaryType="nt:unstructured"
+                                text="No"
+                                value="No"/>
+                        </options>
+                    </MostrarMobile>
+                </items>
+            </iframe>
+        </items>
+    </items>
+</jcr:root>

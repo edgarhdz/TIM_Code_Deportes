@@ -1,0 +1,6 @@
+#base=css
+
+td_local_teams_fut_01_mobile.css
+td_local_teams_fut_01_tablet.css
+td_local_teams_fut_01.css
+td_local_teams_fut_01_theme.css

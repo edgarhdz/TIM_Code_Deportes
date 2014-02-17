@@ -1,0 +1,8 @@
+@media screen and (min-width: 60em){
+    .nav_bookmark_01 ul li a.selected {
+        font-style: italic;
+        color: rgb(167, 10, 11);
+        width: 955px;
+        margin: 0 auto;
+    }
+}

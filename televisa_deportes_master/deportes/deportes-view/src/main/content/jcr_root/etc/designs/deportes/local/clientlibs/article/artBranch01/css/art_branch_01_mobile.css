@@ -1,0 +1,17 @@
+/* all devices */
+@media screen {
+    div.art_branch_01 a {
+        display:block;
+        padding:0 0 0 15px;
+        font-size: 18px;
+        font-weight:bold;
+        color: #A41D21;
+    }
+}
+
+/* only mobile */
+@media screen and (max-width: 623px) {
+    div.art_branch_01 a {
+        margin:6px 0 18px 0;
+    }
+}

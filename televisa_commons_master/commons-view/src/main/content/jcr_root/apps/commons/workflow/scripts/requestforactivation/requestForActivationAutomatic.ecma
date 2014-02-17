@@ -1,0 +1,86 @@
+var PARTICIPANT_PROPERTY = 'PARTICIPANT';
+var REQUEST_FOR_ACTIVATION_MODEL_PATH = '/etc/workflow/models/request_for_activation/jcr:content/model';
+
+var session = workflowSession.getSession();
+var resourceResolverFactory = sling.getService(Packages.org.apache.sling.jcr.resource.JcrResourceResolverFactory);
+
+function check(){
+    var isValid = false;
+    var path = workflowData.getPayload().toString();
+    var resolver = resourceResolverFactory.getResourceResolver(session);
+    var res = resolver.getResource(path);
+    if(res != null){
+
+        var workflowModel = workflowSession.getModel(REQUEST_FOR_ACTIVATION_MODEL_PATH);
+        var participantID = getParticipantID(workflowModel);
+        var participant = getAuthorizable(participantID);
+        var userID = session.getUserID();
+        var user = getAuthorizable(userID);
+        var userIsMember = false;
+
+        if(participant != null && user != null){
+            if(participant.isGroup()){
+                userIsMember = authorizableIsMemberOfGroup(user, participant);
+            }else if(user == participant){
+                userIsMember = true;
+            }
+        }
+        if(!userIsMember){
+            var page = res.adaptTo(Packages.com.day.cq.wcm.api.Page);
+            var template = page.getTemplate();
+            var templatePath = template.getPath();
+            var isVideoHome = (templatePath == "/apps/televisa/templates/noticieros/program/videoMain");
+            var isGalleryHome = (templatePath == "/apps/televisa/templates/noticieros/general/galleryMain");
+            var isSubHome =  (templatePath == "/apps/televisa/templates/noticieros/general/subhome");
+            var isHome = (templatePath == "/apps/televisa/templates/noticieros/general/home");
+
+            if(isVideoHome || isGalleryHome || isSubHome || isHome){
+                isValid = true;
+            }
+        }
+    }
+    return !isValid;
+}
+
+/*
+ Gets the participantID from a workflowModel
+ */
+function getParticipantID(workflowModel){
+    var participant = "";
+    if(workflowModel != null){
+        var nodes = workflowModel.getNodes();
+        for(var i = 0; i < nodes.size(); i++){
+            var node = nodes.get(i);
+            var metaData = node.getMetaDataMap();
+            if(metaData.containsKey(PARTICIPANT_PROPERTY)){
+                participant = metaData.get(PARTICIPANT_PROPERTY);
+                break;
+            }
+        }
+    }
+    return participant;
+}
+
+/*
+ Gets an Authorizable from a userID
+ */
+function getAuthorizable(userID){
+    var adminResolver = resourceResolverFactory.getAdministrativeResourceResolver(null);
+    var userManager = adminResolver.adaptTo(Packages.org.apache.jackrabbit.api.security.user.UserManager);
+    return userManager.getAuthorizable(userID);
+}
+
+
+function authorizableIsMemberOfGroup(authorizable, participantGroup){
+    var groupsIsMemberOf = authorizable.memberOf();
+    while(groupsIsMemberOf.hasNext()){
+        var group = groupsIsMemberOf.next();
+        if(group.equals(participantGroup)){
+            return true;
+        }
+    }
+    return false;
+}
+
+
+

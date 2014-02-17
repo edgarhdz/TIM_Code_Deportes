@@ -1,0 +1,45 @@
+@media screen and (min-width: 948px){
+
+    .wdg_goals_carru_01 > ul {
+        background-image:none;
+    }
+
+    .wdg_goals_carru_01 > div .prev,
+    .wdg_goals_carru_01 > div .next {
+        display: block;
+    }
+    .wdg_goals_carru_01 .degradado{
+        display:none;
+    }
+    .wdg_goals_carru_01 > div .full-timetable {
+        text-align:left;
+    }
+    .ie7 .wdg_goals_carru_01 > ul li div:first-child {
+        left: 0;
+        filter: alpha(opacity=80);
+    }
+    .ie8 .wdg_goals_carru_01 > ul li div:first-child {
+        filter: alpha(opacity=80);
+    }
+    .wdg_goals_carru_01 .degraded{
+        display:none;
+    }
+    .wdg_goals_carru_01 > div .full-timetable {
+        background:#E6E6E6;
+        height:28px;
+        line-height:28px;
+        margin-left: 85px;
+        padding-left:24px;
+    }
+    .wdg_goals_carru_01 > div .full-timetable span{
+        color:#232323;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .ie7 .wdg_goals_carru_01 .drop1{
+        height: 103%;
+    }
+    .ie7 .wdg_goals_carru_01 .wdg_goals_carru_012_dropdowncontent{
+        height: 103%;
+    }
+}

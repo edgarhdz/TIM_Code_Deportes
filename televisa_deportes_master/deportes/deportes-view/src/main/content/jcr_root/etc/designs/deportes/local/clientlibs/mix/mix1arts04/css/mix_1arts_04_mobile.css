@@ -1,0 +1,116 @@
+/* 
+    Document   : mix_1arts_04_mobile
+    Created on : 6/05/2013, 04:02:40 PM
+    Author     : Ricardo Jesus Ruiz Cruz
+    Description:
+        
+*/
+
+@media screen{
+    .mix_1arts_04
+    {
+        width: 100%;
+        font-family: Trebuchet MS,Arial,sans-serif;;
+        padding-top: 12px;
+        margin-bottom: 10px;
+        border-top: 0px;
+        height: auto;
+    }
+    .mix_1arts_04 .mix_img img
+    {
+        max-width: 148px;
+        width: 100%;
+    }
+    .mix_1arts_04 .left_div {
+        width: 33%;
+        padding-right: 12px;
+        float: left;
+        height: auto;
+        position: relative;
+    }
+    .mix_1arts_04 .left_div .mix_img
+    {
+        width: 100%;
+        padding-right: 12px;
+        /*padding-right: 12px;*/
+        position: relative;
+        float: left;
+        height: 92px;
+    }
+    .mix_1arts_04 .left_div .mix_redes_sociales
+    {
+        float: left;
+        width: 170px;
+        position: relative;
+        padding-right: 12px;
+        /*margin-left: 10px;*/
+    }
+    .mix_1arts_04 .left_div .mix_redes_sociales > div
+    {
+        float: left;
+        position: relative;
+        margin-bottom: 7px;
+        clear: both;
+    }
+    .mix_1arts_04 .left_div .mix_redes_sociales div div
+    {
+        float: left;
+
+    }
+    .mix_1arts_04 .left_div .mix_redes_sociales div p
+    {
+        float: left;
+        padding-top: 3px;
+        font-size: 12px;
+        font-style: italic;
+        color: #8f8f8f;
+    }
+
+    .mix_1arts_04 .left_div .mix_redes_sociales div p i.tvsa-facebook
+    {
+        color: #3D5C90;
+    }
+    .mix_1arts_04 .right_div{
+        width:61%;
+        float: left;
+        height: auto;
+        position: relative;
+    }
+    .mix_1arts_04 .art_right_text
+    {
+        float: left;
+        width: 100%;
+        margin-bottom: 12px;
+        position: relative;
+    }
+    .mix_1arts_04 .art_right_text h1
+    {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: normal;
+    }
+    .mix_1arts_04 .mix_redes_sociales2
+    {
+        display: none;
+    }
+
+    .mix_1arts_04 .art_contenido
+    {
+        float: left;
+        width: 100%;
+        padding-right: 12px;
+    }
+    .mix_1arts_04 .art_contenido .began
+    {
+        color:#232323;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .mix_1arts_04 .art_contenido .see_all
+    {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: normal !important;
+    }
+
+}

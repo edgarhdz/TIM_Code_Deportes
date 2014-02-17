@@ -1,0 +1,134 @@
+@media screen and (min-width: 39em){
+
+    .art_3arti_01{
+        width: 625px; 
+        padding-bottom: 24px;
+        border-bottom: solid 1px #ccc;
+        margin-bottom: 24px;
+    }
+
+    /* Categoria */
+    .art_3arti_01 .container-items h2 {
+        font-size: 0.9em;
+    }
+
+    .art_3arti_01 .container-items ul li div p {
+        font-weight: bold;
+        margin-top: 0.3em;
+        font-size: 1.125em;
+        line-height: 1em;
+    }
+
+    .art_3arti_01 div.container-btn {  
+        margin-bottom: 0.9em;
+        width: 40em;
+        display: block;
+    }
+
+    .art_3arti_01 .container-btn {
+        width: 100%;
+        border-top: 1px solid #CCC;
+        margin-top: 1.5em;
+    }
+
+    .art_3arti_01 .container-btn h3 {
+        background-color: #36378a;
+        width: 100%;
+        font-size: 0.85em;
+        float: left;
+    }
+
+    .art_3arti_01 .container-btn h3 a {
+        text-decoration: none;
+        color: #fff;
+        height: 1.5em;
+        display: block;
+        padding: 0.313em 0 0.313em 1.375em;
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 98% 0.35em;
+        background-size: 12px 20px;
+    }
+
+    .art_3arti_01 div.container-btn:before,
+    div.container-btn:after {
+        content: "";
+        display: table;
+    }
+    .art_3arti_01 div.container-btn:after {
+        clear: both;
+    }
+    .art_3arti_01 div.container-btn {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .art_3arti_01 div.container-btn h3 {
+        width: 57%;
+        max-width: 8.75em;
+        float: right;
+    }
+    .art_3arti_01 div.container-btn h3 a {
+        background-image: none;
+    }
+    .art_3arti_01 div.container-btn h3 a span.icon {
+        display: none;
+    }
+    /* END: Global (Medium) */
+
+    /* BEGIN: <art_3arti_01(medium)> */
+    .art_3arti_01 .container-items {
+        width: 40.0em; 
+    }
+    .art_3arti_01 .container-items:before,
+    .art_3arti_01 .container-items:after {
+        content: "";
+        display: table;
+    }
+    .art_3arti_01 .container-items:after {
+        clear: both;
+    }
+    .art_3arti_01 .container-items {
+        zoom: 1;
+        z-index: 1000 !important;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .art_3arti_01 .container-items ul li {
+        display: block;
+        float: left;
+        padding: 0 .9em;
+        width: 180px;
+        border-left: 1px solid #CCC;
+        border-bottom: none;
+    }
+    .art_3arti_01 .container-items ul li div {
+        right: 0.688em;
+        top: 11.2em;
+        background: none;
+        padding: 0;
+        position: static;
+    }
+
+    .art_3arti_01 .container-items ul li div.info-note{
+        display: block;
+    }
+    .art_3arti_01 .container-items ul li div.info-note p{
+        font-size: 1.1em;
+        font-weight: normal;
+        line-height: 1em;
+        padding-bottom: 5px;
+
+    }
+
+    .art_3arti_01 .container-items ul li div.titulos p{
+        padding-right: 0px;
+        padding-bottom:10px;
+    }
+    .art_3arti_01 .container-items ul li:first-child {
+        border-left: none;
+        margin-left: 0;
+        padding-left: 8px;
+    }
+
+
+    .art_3arti_01 .container-items ul li div.titulos span.icon {
+        display:none;
+    }
+}

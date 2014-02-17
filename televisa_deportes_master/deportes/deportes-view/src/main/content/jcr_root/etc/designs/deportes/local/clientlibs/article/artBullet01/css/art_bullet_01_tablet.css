@@ -1,0 +1,10 @@
+@media screen and (min-width: 624px){
+    blockquote.art_bullet_01 {
+        padding:0;
+        padding-bottom:24px;
+        margin-bottom: 24px;
+        font-size: 19px;
+        margin-left:0;
+        margin-right:0;
+    }
+}

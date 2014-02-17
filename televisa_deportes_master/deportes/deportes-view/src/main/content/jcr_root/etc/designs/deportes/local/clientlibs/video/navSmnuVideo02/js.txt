@@ -1,0 +1,2 @@
+#base=js
+nav_smnu_video_02.js

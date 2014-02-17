@@ -1,0 +1,41 @@
+
+# Java class files
+
+
+*.class
+
+
+
+# generated files
+
+
+bin/
+gen/
+
+
+
+# Local configuration file (sdk path, etc)
+
+
+local.properties
+
+#intellij files
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#eclipse files
+
+.classpath
+.project
+.settings
+.metadata
+
+#target folders
+
+*target*
+.DS_Store
+.vlt
+

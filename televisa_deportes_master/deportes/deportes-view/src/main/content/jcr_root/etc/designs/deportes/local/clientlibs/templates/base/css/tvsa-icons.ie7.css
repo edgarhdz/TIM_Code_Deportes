@@ -1,0 +1,126 @@
+.tvsa-large{font-size:1.3333333333333em;margin-top:-4px;padding-top:3px;margin-bottom:-4px;padding-bottom:3px;vertical-align:middle}
+.nav [class^="icon-"],.nav [class*=" icon-"]{vertical-align:inherit;margin-top:-4px;padding-top:3px;margin-bottom:-4px;padding-bottom:3px}
+.nav [class^="icon-"].tvsa-large,.nav [class*=" icon-"].tvsa-large{vertical-align:-25%}
+.nav-pills [class^="icon-"].tvsa-large,.nav-tabs [class^="icon-"].tvsa-large,.nav-pills [class*=" icon-"].tvsa-large,.nav-tabs [class*=" icon-"].tvsa-large{line-height:.75em;margin-top:-7px;padding-top:5px;margin-bottom:-5px;padding-bottom:4px}
+.btn [class^="icon-"].pull-left,.btn [class*=" icon-"].pull-left,.btn [class^="icon-"].pull-right,.btn [class*=" icon-"].pull-right{vertical-align:inherit}
+.btn [class^="icon-"].tvsa-large,.btn [class*=" icon-"].tvsa-large{margin-top:-.5em}
+a [class^="icon-"],a [class*=" icon-"]{cursor:pointer}
+ul.icons{text-indent:-1.5em;margin-left:3em}
+
+.tvsa-televisa{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0041;')}
+.tvsa-rain-sun:before{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0046;')}
+.tvsa-thunder-moon{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0043;')}
+.tvsa-wind{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0045;')}
+.tvsa-sun{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0042;')}
+.tvsa-cloud{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0047;')}
+.tvsa-cloud-moon{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0023;')}
+.tvsa-cloud-sun{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0044;')}
+.tvsa-thunder{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0049;')}
+.tvsa-snow{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004A;')}
+.tvsa-snow-moon{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0074;')}
+.tvsa-rain{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0048;')}
+.tvsa-rain-moon{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00A1;')}
+.tvsa-moon{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004C;')}
+.tvsa-music{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004E;')}
+.tvsa-headphones{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004F;')}
+.tvsa-headphones-play{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005A;')}
+.tvsa-videocamera{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0058;')}
+.tvsa-camera{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004B;')}
+.tvsa-video{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0053;')}
+.tvsa-images{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0054;')}
+.tvsa-twitter{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0055;')}
+.tvsa-facebook{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0056;')}
+.tvsa-like{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0057;')}
+.tvsa-instagram{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0052;')}
+.tvsa-pinterest{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002A;')}
+
+.tvsa-warn{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0050;')}
+.tvsa-error{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0051;')}
+.tvsa-info{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005C;')}
+.tvsa-help{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x2022;')}
+.tvsa-success{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0061;')}
+
+.tvsa-eye{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0068;')}
+.tvsa-eye-alt{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0062;')}
+.tvsa-hash{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0063;')}
+.tvsa-bell{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0064;')}
+.tvsa-cog{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0065;')}
+.tvsa-alarm{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0066;')}
+.tvsa-clock{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0067;')}
+.tvsa-mic{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x004D;')}
+.tvsa-feed{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006B;')}
+.tvsa-podcast{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006D;')}
+.tvsa-calendar{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006A;')}
+.tvsa-comments{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006F;')}
+.tvsa-comments-play{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0070;')}
+.tvsa-search{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0069;')}
+.tvsa-home{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002F;')}
+.tvsa-email{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x003B;')}
+.tvsa-inbox{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005F;')}
+.tvsa-nike{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0079;')}
+
+/* media player */
+.tvsa-volume-mute{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0030;')}
+.tvsa-volume-min{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0031;')}
+.tvsa-volume-medium{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0032;')}
+.tvsa-volume-max{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0033;')}
+.tvsa-previous{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0034;')}
+.tvsa-rewind{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0035;')}
+.tvsa-pause{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0036;')}
+.tvsa-play{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0037;')}
+.tvsa-forward{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0038;')}
+.tvsa-next{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0039;')}
+.tvsa-fullscreen{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002E;')}
+.tvsa-minimize{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00B7;')}
+.tvsa-download{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x003F;')}
+.tvsa-expand{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00BF;')}
+.tvsa-contract{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0022;')}
+.tvsa-popout{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0027;')}
+.tvsa-replay{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0026;')}
+
+/* devices */
+.tvsa-digital-tv{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0072;')}
+.tvsa-tablet{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0071;')}
+.tvsa-mobile{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006C;')}
+
+/* navigational */
+.tvsa-caret-up{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x003A;')}
+.tvsa-caret-down{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002C;')}
+.tvsa-caret-right{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x2026;')}
+.tvsa-caret-left{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0021;')}
+.tvsa-double-caret-up{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0024;')}
+.tvsa-double-caret-down{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0025;')}
+.tvsa-double-caret-left{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0029;')}
+.tvsa-double-caret-right{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0028;')}
+.tvsa-arrow{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0078;')}
+.tvsa-spinner{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x007A;')}
+
+/* traffic */
+.tvsa-map-marker{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0075;')}
+.tvsa-traffic-stop{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0077;')}
+.tvsa-traffic-circle{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0076;')}
+
+/* Mxm */
+.tvsa-mxm-goal{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0059;')}
+.tvsa-mxm-owngoal{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x007C;')}
+.tvsa-mxm-penaltykick{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002B;')}
+.tvsa-mxm-crossbar{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00F7;')}
+.tvsa-mxm-out{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00AC;')}
+.tvsa-mxm-block{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00A2;')}
+.tvsa-mxm-foul{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0040;')}
+.tvsa-mxm-yellowcard{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00E7;')}
+.tvsa-mxm-secondyellowcard{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00C7;')}
+.tvsa-mxm-redcard{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x20AC;')}
+.tvsa-mxm-offside{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005E;')}
+.tvsa-mxm-cornerkick{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0060;')}
+.tvsa-mxm-startfirsthalf{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x006E;')}
+.tvsa-mxm-startsecondhalf{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x0073;')}
+.tvsa-mxm-startovertime{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00B4;')}
+.tvsa-mxm-startextrafirsthalf{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x201C;')}
+.tvsa-mxm-startextrasecondhalf{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x201D;')}
+.tvsa-mxm-penalties{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x00A5;')}
+.tvsa-mxm-gameend{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x002D;')}
+.tvsa-mxm-playerin{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005D;')}
+.tvsa-mxm-playerout{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x005B;')}
+.tvsa-mxm-statisticdata{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x007D;')}
+.tvsa-mxm-comment{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#x007B;')}

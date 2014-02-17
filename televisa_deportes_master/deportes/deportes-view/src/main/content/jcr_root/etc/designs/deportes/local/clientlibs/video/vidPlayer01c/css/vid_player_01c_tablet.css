@@ -1,0 +1,193 @@
+@media screen and (min-width: 624px){
+
+    /*Contenedor*/
+    .vid_player_01c{
+        position: relative;
+        max-width: 948px;
+        background-color: transparent;
+        margin-bottom: 36px;
+        /*padding-bottom: 24px;*/
+        /*background-image:url(../../img/ajax-loader.gif);*/
+    }
+
+    .vid_player_01c .videowrapper{
+        max-width: 624px;
+        float: left;
+        overflow: hidden;
+
+    }
+    .vid_player_01c .txt1 h3{
+        font-size:24px;
+    }
+
+    .vid_player_01c .overlay .txt4{
+        display:block;
+        float:right;
+        margin-top:8px;
+        max-width: 294px;
+        margin-right: 3px;
+
+    }
+    .vid_player_01c .cameras .cameras_index h5{
+        color: #FE5F28;
+        text-align:center;
+        font-style: italic;
+        font-size:18px;
+        margin-bottom: 18px;
+        letter-spacing: -1px;
+    }
+    .vid_player_01c .cameras .cameras_index{
+        width: 100%;
+        display: block;
+        margin-top: 0px;
+    }
+    .vid_player_01c .cameras .cameras_index ul li{
+        font-size:12px;
+        width: 46%;
+        float:left;
+        margin-bottom:9px;
+        padding-left:0px;
+        line-height:22px;
+        cursor: pointer;
+    }
+
+    .vid_player_01c .overlay .txt4 img{
+        border: 1px solid #5D5D5D;
+    }
+
+    .vid_player_01c .txt2{
+        margin-bottom:10px;
+        margin-top: 6px;
+    }
+    .ie8 .vid_player_01c .txt2{
+        margin-bottom: 0px;
+    }
+
+    .vid_player_01c .txt3{
+        background: none;
+        margin-top:0;
+    }
+
+    .vid_player_01c .overlay {
+        padding: 16px 0 0px 25px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+    }
+
+
+
+    .vid_player_01c .overlay .txt2,
+    .vid_player_01c .overlay .txt3{
+        float:left;
+        padding:-15px;
+        display:block;
+        width:100%;
+    }
+
+    .vid_player_01c .txt2 h3{
+        font-size:14px;
+        font-weight:bold;
+        font-style:italic;
+    }
+    .vid_player_01c .txt2 h4{
+        margin-bottom: 27px;
+    }
+    .vid_player_01c .txt2 h4,
+    .vid_player_01c .txt3{
+        font-size:13px;
+        font-style:italic;
+        font-weight:normal;
+        color:#999;
+    }
+
+    .vid_player_01c #vid_player_01c_txts{
+        position: relative;
+        height: auto;
+        width: 275px;
+    }
+
+    /* Texto del Overlay */
+    .vid_player_01c .vid_player_01c_black {
+        display: block;
+        margin-right: 40px;
+        font-weight: bold;
+        font-size: 0.8em;
+        font-size: 0.8em\9;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .vid_player_01c .vid_player_01c_gray {
+        display: block;
+        left: 60px;
+        top: 320px;
+        font-style: italic;
+        margin-right: 40px;
+        color: #666666;
+        font-weight: bold;
+        font-size: 0.7em;
+        *font-size: 0.8em;
+        font-size: 0.8em\9;
+    }
+
+    .vid_player_01c div.vid_player_01c_image{
+        display: block;
+        height: 358px;
+        position: relative;
+        width: 624px;
+    }
+
+    .vid_player_01c div.vid_player_01c_image img{
+        width: 624px;
+        height:351px;
+    }
+
+    .vid_player_01c #videobtn {
+        margin-top: -103px;
+    }
+
+    .vid_player_01c .vid_player_01c_txtdetail.topspace{
+        margin-top: 10px;
+    }
+    .vid_player_01c .vid_player_01c_whtbkg {
+        padding:10px 36px;
+        height:44px;
+        width: 570px;
+    }
+
+    .vid_player_01c .cameras{
+        position: absolute;
+
+        width: 624px;
+        display:none;
+    }
+
+
+    .vid_player_01c .cameras .cameras_index{
+        display: none;
+    }
+}
+
+/* SOLO TABLET */
+@media (min-width: 624px) and (max-width: 948px){
+    .vid_player_01c .vid_player_01c_image .openbtn_td{
+        position:absolute;
+        right:0;
+        top: 50px;
+        padding:10px;
+        background-color: rgba(0,0,0,0.7);
+        color:#FFF;
+        cursor:pointer;
+        display: block;
+    }
+
+    .vid_player_01c .cameras .cameras_field{
+        position:absolute;
+        width:269px;
+        height:0px;
+        right: 0;
+        bottom: 0;
+        display:none;
+    }
+}

@@ -1,0 +1,10 @@
+.ie7 .btn_progr_01 .envivo .overlay {
+	background-color: #A70A0B;
+	height: 9em;
+	opacity: 0.8;
+	position: absolute;
+	top: 3.1em;
+	width: 100%;
+	left: 0px;
+    z-index: 1000 !important;
+}

@@ -1,0 +1,143 @@
+@media screen {
+    /*BEGIN: vid_player_01 (Small)*/
+	.vid_player_01{
+		margin-bottom:10px;
+		height: auto;
+	}
+	
+	 .vid_player_01 .overlay {
+        background-color: rgba(255, 255, 255, .75);
+        display: block;
+        margin-left: 24px;
+        padding: 7px 15px 20px;
+        margin-bottom: 0px;
+        position: static;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);
+    }
+	
+    .vid_player_01 .txt1 h3{
+        font-size:16px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+
+    .vid_player_01 .txt1 p{
+        font-size:12px;
+        line-height: 12px;
+    }
+	
+	.vid_player_01 .vid_player_01_txtdetail{
+        font-style: italic;
+        color: #a2a2a2;
+        font-size: 10px;
+    }
+	
+    /*Fondo blanco*/
+    .vid_player_01 .overlay .txt1 .introtxt,
+	.vid_player_01 .overlay .txt2 {
+        display:none;
+    }
+
+    .vid_player_01 .vid_player_01_image{
+        background-image:url(../../img/ajax-loader.gif);
+        background-repeat:no-repeat;
+        background-position:center center;
+    }
+
+
+    /* Overlay blanco */
+    .vid_player_01 div.vid_player_01_whtbkg {
+        background-color: rgba(255, 255, 255, .85);
+        display: block;
+        margin-left: 24px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#85FFFFFF,endColorstr=#85FFFFFF);
+        position: relative;
+        margin-top: 0px;
+        padding:1px 15px;
+        height:64px;
+    }
+	
+	
+	.ie7 .vid_player_01 div.vid_player_01_whtbkg,
+	.ie8 .vid_player_01 div.vid_player_01_whtbkg,
+	.vid_player_01  #videobtn {
+		z-index: 1000 !important;
+	}
+	
+	.ie7 .vid_player_01 .overlay{
+		z-index: 2000 !important;
+	}
+
+
+    /* Texto del Overlay */
+    .vid_player_01 .vid_player_01_black {
+       color: #000;
+        display: block;
+        margin-right: 40px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+
+    .vid_player_01 div.vid_player_01_image img{
+        width: 100%;
+		max-height:380px;
+    }
+
+
+    .vid_player_01 .vid_player_01_gray {
+        color: #666666;
+        font-weight: bold;
+    }
+
+    /* SPRITES */
+    .vid_player_01  #videobtn {
+        background-color: #A41D21;
+		opacity:0.70;
+        color: #fff;
+        display: block;
+        height: 1.75em;
+        left: 24px;
+        position: relative;
+        margin-top: -98px;
+        width: 1.75em;		
+        display: block;
+        margin-right: 40px;
+        text-align: center;
+        line-height: 24px; 
+    } 
+    
+    .vid_player_01 .txt3{
+        float:none;
+        width:auto;
+        padding-top:13px;
+		overflow: hidden;
+		margin-top:10px;
+		
+    }
+	
+	.vid_player_01 .wdg_social_01 .social-icons li.social_icon:first-child{
+        width:70px;
+    }
+    .vid_player_01 .wdg_social_01 .social-icons ul{
+        padding: 0;
+        float: left;
+        margin-bottom: 0;
+        width: 290px;
+        height: 77px;
+    }
+    .vid_player_01 .wdg_social_01 .social-icons li.social_icon {
+        background: none !important;
+        padding-left: 0 !important;
+        display: inline;
+        float: left;
+        /*margin-left: 5px;*/
+        height: 30px;
+        width: 50px;
+        text-align: center;
+    }
+	 .vid_player_01 .txt3{
+        background: url(../img/dotted-horizontal.png) repeat-x top;
+    }
+	
+}

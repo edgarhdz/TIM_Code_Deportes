@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="DAX">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <dax
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}false"
+            collapsible="{Boolean}false"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <tags
+                    jcr:primaryType="cq:Widget"
+                    cls="cq-propsdialog-tags"
+                    fieldLabel="Tags/Keywords"
+                    name="./daxtags"
+                    namespaces="[televisa,DAX]"
+                    xtype="tags"/>
+                <optional
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Optional tags"
+                    name="./optionaltags"
+                    xtype="textfield"/>
+            </items>
+        </dax>
+    </items>
+</jcr:root>

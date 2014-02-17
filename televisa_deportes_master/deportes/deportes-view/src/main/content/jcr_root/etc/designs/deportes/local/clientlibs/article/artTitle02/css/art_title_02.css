@@ -1,0 +1,7 @@
+@media screen and (min-width: 60em){
+    /* BEGIN: Global (Large) */
+    div.art_title_02 {
+        margin-bottom: 24px;
+    }
+    /* END: Global (Large) */
+}

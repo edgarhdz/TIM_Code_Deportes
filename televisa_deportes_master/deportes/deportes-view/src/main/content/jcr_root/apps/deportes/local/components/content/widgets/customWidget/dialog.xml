@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog" xtype="dialog">
+    <items jcr:primaryType="cq:Widget" xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1 jcr:primaryType="cq:Panel" title="Widget Personalizado">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <scriptArea jcr:primaryType="cq:Widget" fieldLabel="Script/HTML personalizado"
+                                name="./script" xtype="textarea" />
+                    <showpleca jcr:primaryType="cq:Widget"
+                               fieldDescription="deportes.customewidget.showpleca-description"
+                               fieldLabel="deportes.customewidget.showpleca-label" name="./showpleca"
+                               type="select" xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1 jcr:primaryType="nt:unstructured" text="deportes.customewidget.show"
+                                   value="true" />
+                            <item2 jcr:primaryType="nt:unstructured"
+                                   text="deportes.customewidget.hide" value="false" />
+                        </options>
+                    </showpleca>
+                </items>
+            </tab1>
+            <devices jcr:primaryType="cq:Panel" title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices jcr:primaryType="cq:Widget"
+                                 fieldDescription="deportes.devices.hidedevices.description"
+                                 fieldLabel="deportes.devices.hidedevices.label" name="./hideDevice"
+                                 type="select" xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1 jcr:primaryType="nt:unstructured" text="deportes.devices.item.do-nothing"
+                                   value="" />
+                            <item2 jcr:primaryType="nt:unstructured"
+                                   text="deportes.devices.item.hide-tablet-mobile" value="hide-tablet" />
+                            <item3 jcr:primaryType="nt:unstructured" text="deportes.devices.item.hide-mobile"
+                                   value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

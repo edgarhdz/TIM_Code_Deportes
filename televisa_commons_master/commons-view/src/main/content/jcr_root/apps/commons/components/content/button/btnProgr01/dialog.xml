@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog" title="commons.settings.title" xtype="dialog" cq:dialogMode="floating">
+    <items jcr:primaryType="cq:Widget" xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings jcr:primaryType="cq:Panel" title="commons.btnprog01.tab.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <progtitle
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="commons.btnprog01.prog.title.description"
+                            fieldLabel="commons.btnprog01.prog.title.label"
+                            name="./progTitle"
+                            validateOnBlur="true"
+                            xtype="textfield"/>
+                    <invitetext
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="commons.btnprog01.invitetext.description"
+                            fieldLabel="commons.btnprog01.invitetext.label"
+                            name="./inviteText"
+                            validateOnBlur="true"
+                            xtype="textfield"/>
+                    <linkURL
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="commons.btnprog01.link.description"
+                            fieldLabel="commons.btnprog01.link.label"
+                            name="./linkURL"
+                            xtype="pathfield"/>
+                </items>
+            </settings>
+
+
+
+            <image1
+                    jcr:primaryType="cq:Widget"
+                    cropParameter=""
+                    ddGroups="[media]"
+                    fileNameParameter="./image1/fileName"
+                    fileReferenceParameter="./image1/fileReference"
+                    mapParameter=""
+                    name="./image1/file"
+                    requestSuffix="/image1.img.png"
+                    rotateParameter=""
+
+                    title="commons.btnprog01.background.label"
+                    allowUpload="false"
+                    xtype="html5smartimage">
+
+
+            </image1>
+            <image2
+                    jcr:primaryType="cq:Widget"
+                    cropParameter=""
+                    ddGroups="[media]"
+                    fileNameParameter="./image2/fileName"
+                    fileReferenceParameter="./image2/fileReference"
+                    mapParameter=""
+                    name="./image2/file"
+                    requestSuffix="/image2.img.png"
+                    rotateParameter=""
+
+                    title="commons.btnprog01.logo.label"
+                    allowUpload="false"
+
+                    xtype="html5smartimage">
+
+            </image2>
+
+            <devices
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.devices.hidedevices.description"
+                            fieldLabel="deportes.devices.hidedevices.label"
+                            name="./hideDevice"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.do-nothing"
+                                    value=""/>
+                            <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-tablet-mobile"
+                                    value="hide-tablet"/>
+                            <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-mobile"
+                                    value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                    <resType1
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./image1/sling:resourceType"
+                            value="foundation/components/image"
+                            xtype="hidden"/>
+                    <resType2
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./image2/sling:resourceType"
+                            value="foundation/components/image"
+                            xtype="hidden"/>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

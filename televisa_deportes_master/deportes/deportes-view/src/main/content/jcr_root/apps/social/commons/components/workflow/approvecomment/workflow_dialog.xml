@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    border="{Boolean}false">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <approved
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Check to approve comment."
+            fieldLabel="Approved"
+            name="./approved"
+            type="checkbox"
+            xtype="selection"/>
+        <approvedTypeHint
+            jcr:primaryType="cq:Widget"
+            name="./approved@TypeHint"
+            value="Boolean"
+            xtype="hidden"/>
+    </items>
+</jcr:root>

@@ -1,0 +1,4 @@
+#base=css
+
+art_quote_02_mobile.css
+art_quote_02_tablet.css

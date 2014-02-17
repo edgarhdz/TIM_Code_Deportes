@@ -1,0 +1,19 @@
+
+#galleryitems .x-form-item {
+        width: 80%;
+        float:right;
+        margin-right: 0%;
+        margin-top: 5px;
+    }
+#galleryitems .x-form-item input {
+    width: 98% !important;
+}
+#galleryitems .x-form-item .x-form-item-description {
+    padding-left: 0px !important;
+}
+#galleryitems .gallery-item-image {
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    height:102px !important;
+    width:136px !important;
+}

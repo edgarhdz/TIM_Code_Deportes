@@ -1,0 +1,11 @@
+@media screen and (min-width: 948px){
+    .mix_4arts_01{
+        width: 300px;
+        margin-bottom: 36px;
+    }
+    .ie8 .mix_4arts_01 .mix_4arts_01_bottom {
+        overflow: hidden;
+    }
+
+
+}

@@ -1,0 +1,3 @@
+#base=js
+
+img_fotogalfull_01.js

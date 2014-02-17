@@ -1,0 +1,55 @@
+@media screen {
+
+    /* BEGIN: wdg_nwslt_01 (Small) */
+
+    .str_expertcmt_01 {
+        font-weight: bold;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .str_expertcmt_01 .expert_container {
+        border-bottom: 2px dotted #d3d3d3;
+        padding: 0 5px 24px;
+    }
+
+    .str_expertcmt_01 h3  {
+        border-bottom: 1px solid #d3d3d3;
+        padding: 0 0 7px 15px !important;
+    }
+    .str_expertcmt_01 h2 {
+
+        padding: 20px 0 0 40px;
+        font-size: 32px;
+        font-style: italic;
+        text-decoration: underline; color: #d3d3d3;
+    }
+
+    .str_expertcmt_01 .expert_container p{
+        padding: 12px 40px 0;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .str_expertcmt_01 .expert_container_block p{
+        padding: 12px 40px 0;
+        font-size: 14px;
+        font-style: italic;
+    }
+    
+    .str_expertcmt_01 .expert_container_block {
+        display: none;
+        padding-bottom: 10px;
+        border-bottom: 2px dotted #d3d3d3;
+    }
+
+    .str_expertcmt_01 .more p{
+        background-color: #d3d3d3;
+        display:inline; /* you might want to use this instead of "inline-block" */
+        text-align:center; /* center horizontally */
+        display: block;
+        padding: 5px 0;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Feed"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <icon
+            jcr:primaryType="cq:Widget"
+            defaultValue="{Boolean}false"
+            fieldLabel="Icon"
+            name="./icon"
+            type="checkbox"
+            xtype="selection"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Link Text"
+            name="./text"
+            xtype="textfield"/>
+        <format
+            jcr:primaryType="cq:Widget"
+            defaultValue="atom"
+            fieldLabel="Format"
+            name="./format"
+            type="radio"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <atom
+                    jcr:primaryType="nt:unstructured"
+                    text="Atom 1.0"
+                    value="atom"/>
+                <rss
+                    jcr:primaryType="nt:unstructured"
+                    text="RSS 2.0"
+                    value="rss"/>
+            </options>
+        </format>
+    </items>
+</jcr:root>

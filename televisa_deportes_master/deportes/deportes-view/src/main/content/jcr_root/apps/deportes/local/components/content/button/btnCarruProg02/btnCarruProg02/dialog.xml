@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        jcr:primaryType="cq:Dialog"
+          height="500"
+          title="deportes.btnCarruProg02.title"
+          width="900"
+          xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.settings">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.btnCarruProg02.label.title-description"
+                            fieldLabel="deportes.btnCarruProg02.label.title"
+                            name="./title"
+                            xtype="textfield"/>
+                    <listItems
+                            jcr:primaryType="cq:Widget"
+                            genericmultifieldname="./listItems"
+                            name="./listItems"
+                            xtype="genericmultifield">
+                        <fieldConfig jcr:primaryType="cq:WidgetCollection">
+                            <patharticle
+                                    jcr:primaryType="cq:Widget"
+                                    fieldDescription="deportes.btnCarruProg02.event.description"
+                                    fieldLabel="deportes.btnCarruProg02.event.label"
+                                    name="./path"
+                                    rootPath="/content/televisa"
+                                    xtype="searchpathfield"/>
+                        </fieldConfig>
+                    </listItems>
+                        <hide
+           	 			jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.hide-description"
+                        fieldLabel="commons.link.hide-label"
+                        name="./linkHide" 
+                        type = "checkbox"            
+                        xtype="selection"
+           			/>
+                </items>
+            </settings>
+            <devices
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.devices.hidedevices.description"
+                            fieldLabel="deportes.devices.hidedevices.label"
+                            name="./hideDevice"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.do-nothing"
+                                    value=""/>
+                            <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-tablet-mobile"
+                                    value="hide-tablet"/>
+                            <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="deportes.devices.item.hide-mobile"
+                                    value="hide-mobile" />
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+</jcr:root>

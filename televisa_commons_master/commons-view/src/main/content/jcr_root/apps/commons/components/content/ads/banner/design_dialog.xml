@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Dialog"
+          height="800"
+          title="commons.banner.title"
+          width="800"
+          xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <desktop
+                jcr:primaryType="cq:Widget"
+                title="commons.banner.desktop.label"
+                xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hasDesktop
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        defaultValue="false"
+                        fieldDescription="commons.banner.hasDesktop.description"
+                        fieldLabel="commons.banner.hasDesktop.label"
+                        name="./hasBannersDesktop"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasDesktop>
+                <networkCode
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="5644"
+                        fieldLabel="commons.banner.networkCode.label"
+                        name="./networkCodeDesktop"
+                        value="5644"
+                        xtype="numberfield"/>
+                <site
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.site.label"
+                        name="./siteDesktop"
+                        xtype="textfield"/>
+                <hasPleca
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        disabled="{Boolean}true"
+                        fieldLabel="commons.banner.size.hasPleca.label"
+                        name="./hasPlecaDesktop"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasPleca>
+                <pleca
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.pleca.size.label"
+                        heightParameter="./plecaHeightDesktop"
+                        widthParameter="./plecaWidthDesktop"
+                        xtype="sizefield"/>
+                <hasBox
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasBox.label"
+                        name="./hasBoxDesktop"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasBox>
+                <box
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.box.size.label"
+                        heightParameter="./boxHeightDesktop"
+                        widthParameter="./boxWidthDesktop"
+                        xtype="sizefield"/>
+                <hasCombo
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasCombo.label"
+                        name="./hasComboDesktop"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasCombo>
+                <super
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.super.size.label"
+                        heightParameter="./superHeightDesktop"
+                        widthParameter="./superWidthDesktop"
+                        xtype="sizefield"/>
+                <banner
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.banner.size.label"
+                        heightParameter="./bannerHeightDesktop"
+                        widthParameter="./bannerWidthDesktop"
+                        xtype="sizefield"/>
+            </items>
+        </desktop>
+        <tablet
+                jcr:primaryType="cq:Widget"
+                title="commons.banner.tablet.label"
+                xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hasTablet
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        defaultValue="false"
+                        fieldDescription="commons.banner.hasTablet.description"
+                        fieldLabel="commons.banner.hasTablet.label"
+                        name="./hasBannersTablet"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasTablet>
+                <networkCode
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="5644"
+                        fieldLabel="commons.banner.networkCode.label"
+                        name="./networkCodeTablet"
+                        value="5644"
+                        xtype="numberfield"/>
+                <site
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.site.label"
+                        name="./siteTablet"
+                        xtype="textfield"/>
+                <hasPleca
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasPleca.label"
+                        name="./hasPlecaTablet"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasPleca>
+                <pleca
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.pleca.size.label"
+                        heightParameter="./plecaHeightTablet"
+                        widthParameter="./plecaWidthTablet"
+                        xtype="sizefield"/>
+                <hasBox
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasBox.label"
+                        name="./hasBoxTablet"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasBox>
+                <box
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.box.size.label"
+                        heightParameter="./boxHeightTablet"
+                        widthParameter="./boxWidthTablet"
+                        xtype="sizefield"/>
+                <hasCombo
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasCombo.label"
+                        name="./hasComboTablet"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasCombo>
+                <super
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.super.size.label"
+                        heightParameter="./superHeightTablet"
+                        widthParameter="./superWidthTablet"
+                        xtype="sizefield"/>
+                <banner
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.banner.size.label"
+                        heightParameter="./bannerHeightTablet"
+                        widthParameter="./bannerWidthTablet"
+                        xtype="sizefield"/>
+            </items>
+        </tablet>
+        <mobile
+                jcr:primaryType="cq:Widget"
+                title="commons.banner.mobile.label"
+                xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hasMobile
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        defaultValue="false"
+                        fieldDescription="commons.banner.hasMobile.description"
+                        fieldLabel="commons.banner.hasMobile.label"
+                        name="./hasBannersMobile"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#x9;&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setValue(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(1).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(3).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(5).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(7).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasMobile>
+                <networkCode
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="5644"
+                        fieldLabel="commons.banner.networkCode.label"
+                        name="./networkCodeMobile"
+                        value="5644"
+                        xtype="numberfield"/>
+                <site
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.site.label"
+                        name="./siteMobile"
+                        xtype="textfield"/>
+                <hasPleca
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        fieldLabel="commons.banner.size.hasPleca.label"
+                        name="./hasPlecaMobile"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(4).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasPleca>
+                <pleca
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.pleca.size.label"
+                        heightParameter="./plecaHeightMobile"
+                        widthParameter="./plecaWidthMobile"
+                        xtype="sizefield"/>
+                <hasBox
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        disabled="{Boolean}true"
+                        fieldLabel="commons.banner.size.hasBox.label"
+                        name="./hasBoxMobile"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(true);&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(6).setVisible(false);&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasBox>
+                <box
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.box.size.label"
+                        heightParameter="./boxHeightMobile"
+                        widthParameter="./boxWidthMobile"
+                        xtype="sizefield"/>
+                <hasCombo
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}true"
+                        defaultValue="false"
+                        disabled="{Boolean}true"
+                        fieldLabel="commons.banner.size.hasCombo.label"
+                        name="./hasComboMobile"
+                        type="radio"
+                        xtype="selection">
+                    <listeners
+                            jcr:primaryType="nt:unstructured"
+                            render="function(selection) {&#xa;&#x9;if( selection.getValue() == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"
+                            selectionchanged="function(selection, value, checked) {&#xa;&#x9;if( value == &quot;true&quot; ) {&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(true);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(true);&#x9;&#xa;&#x9;}else{&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(8).setVisible(false);&#xa;&#x9;    &#x9;selection.findParentByType('panel').getComponent(9).setVisible(false);&#x9;&#xa;&#x9;}&#xa;}"/>
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <false
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.false"
+                                value="false"/>
+                        <true
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.banner.true"
+                                value="true"/>
+                    </options>
+                </hasCombo>
+                <super
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.super.size.label"
+                        heightParameter="./superHeightMobile"
+                        widthParameter="./superWidthMobile"
+                        xtype="sizefield"/>
+                <banner
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.banner.banner.size.label"
+                        heightParameter="./bannerHeightMobile"
+                        widthParameter="./bannerWidthMobile"
+                        xtype="sizefield"/>
+            </items>
+        </mobile>
+        <outofpage
+                jcr:primaryType="cq:Widget"
+                title="commons.banner.outofpage.label"
+                xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hideOutOfPage
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="false"
+                        fieldDescription="commons.banner.hideOutOfPage.description"
+                        fieldLabel="commons.banner.hideOutOfPage.label"
+                        name="./hideOutOfPage"
+                        type="checkbox"
+                        xtype="selection"/>
+            </items>
+        </outofpage>
+    </items>
+</jcr:root>

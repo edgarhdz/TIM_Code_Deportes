@@ -1,0 +1,247 @@
+@media screen {
+    .wdg_top03_01 {
+        display: block;
+        margin-bottom:12px;
+    }
+
+    /** Pleca Title **/
+    .wdg_top03_01 .wdg_top03_01_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        zoom: 1;
+    }
+    .wdg_top03_01 .wdg_top03_01_title:before,
+    .wdg_top03_01 .wdg_top03_01_title:after {
+        content: "";
+        display: table;
+    }
+    .wdg_top03_01 .wdg_top03_01_title:after {
+        clear: both;
+    }
+    .wdg_top03_01 .wdg_top03_01_title em {
+        background-color: #A70A0B;
+        width: 100%;
+        font-size: 13px;
+        float: left;
+        text-align: left;
+    }
+    .wdg_top03_01 .wdg_top03_01_title em a {
+        text-decoration: none;
+        color: #fff;
+        height: 31px;
+        line-height: 31px;
+        display: block;
+        padding-left: 24px;
+        font-weight:bold;
+        /*background: url(../img/mobile-arrow-sprites.png) no-repeat 98% 5px;*/
+        background-size: 12px 20px;
+        background-position: right 2px;
+    }
+    .wdg_top03_01 .wdg_carousa .wdg_top03_01_carousel {
+        overflow: hidden;
+        width: 300px;
+
+    }
+    .wdg_top03_01 .wdg_top03_01_title {
+        width: 100%;
+    }
+
+    .wdg_top03_01 .wdg_top03_01_title ul {
+        display: none;
+    }
+    .wdg_top03_01 .wdg_carousa div {
+        height: auto;
+    }
+    .wdg_top03_01 .wdg_carousa div ul {
+        width: 58px;
+        margin: 0;
+        float: right;
+        margin-bottom: 5px;
+    }
+    .wdg_top03_01 .wdg_carousa div ul li {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;
+        margin-top: 4px;
+    }
+    .wdg_top03_01 .wdg_carousa div ul li a {
+        width: 15px;
+        height: 9px;
+        display: none;
+        padding: 0;
+    }
+    .wdg_top03_01 .wdg_carousa div ul li a i {
+        margin-top: -1px;
+    }
+    .wdg_top03_01 .wdg_carousa div ul li:first-child {
+        margin: 5px 12px 0 0;
+    }
+    .wdg_top03_01 .wdg_carousa div ul li:last-child {
+        padding-left: 12px;
+        height: 22px;
+    }
+    .wdg_top03_01 .wdg_carousa.showArrows div:first-child ul li a {
+        display: block;
+        margin-top: 1px;
+    }
+    .wdg_top03_01 .wdg_carousa.showArrows div:first-child ul li .carouselArrowLeft{
+        padding-right: 3px;
+    }
+
+    .wdg_top03_01 .wdg_carousa div:last-child ul:before,
+    .wdg_top03_01 .wdg_carousa div:last-child ul:after {
+        content: "";
+        display: table;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul:after {
+        clear: both;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: block;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li:first-child {
+        margin: 0;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li:last-child {
+        margin-right: 0;
+        border: none;
+    }
+
+    .wdg_top03_01 .wdg_carousa div:last-child ul {
+        float: none;
+        margin: 0;
+        zoom: 1;
+        margin-top: 10px;
+        *margin-top: 0px;
+        width: 100%;
+    }
+    .wdg_top03_01 .wdg_carousa {
+        height: auto;
+        clear: both;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child {
+        height: auto;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li:first-child {
+        padding-left: 0;
+        border-left: none;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li a img {
+        width: 84px;
+        height: 63px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li:last-child {
+        margin-right: -91px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li {
+        display: block;
+        float: left;
+        margin: 0 0 0 25px;
+        height: auto;
+        padding: 0 1px 0px 1px;
+        width: 300px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div a img {
+        display: block;
+        margin-bottom: 0;
+        padding: 0 12px 0 5px;
+        border-right: 1px solid #ccc;
+        float: left;
+        margin-right: 12px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div {
+        padding-bottom: 0px;
+        height: 75px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div a {
+        padding-bottom: 15px;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div:last-child a {
+        border: none;
+    }
+    .wdg_top03_01 .inactive{
+        color:#BABABA;
+    }
+
+    .wdg_top03_01 .wdg_carousa {
+        overflow: hidden;
+    }
+    div.wdg_top03_01_title {
+        margin-bottom: 24px;
+        zoom: 1;
+    }
+    div.wdg_top03_01_title:before,
+    div.wdg_top03_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.wdg_top03_01_title:after {
+        clear: both;
+    }
+    div.wdg_top03_01_title em {
+        width: 55%;
+        float: left;
+        font-style:normal;
+    }
+    div.wdg_top03_01_title em a {
+        background-image: none;
+        background-position: right 2px;
+    }
+    div.wdg_top03_01_title em a span.icon {
+        display: none;
+    }
+
+    /** Content **/
+    .wdg_top03_01 .wdg_carousa div.wdg_top03_01_title ul li a {
+        display: block;
+    }
+    .wdg_top03_01 .wdg_carousa ul {
+        margin: 25px 0 auto;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul {
+        height: 230px;
+        margin-top: 0;
+        overflow: hidden;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div a {
+        display:inline-block;
+        vertical-align:middle;
+    }
+    .wdg_top03_01 .wdg_carousa div:last-child ul li div a img{
+        padding: 0 12px 0 0px;
+    }
+    .wdg_top03_01 span.category {
+        color:#D6A256;
+        font-size:13px;
+        font-style:italic;
+        line-height:20px;
+        font-weight:bold;
+    }
+    .wdg_top03_01 h2 {
+        font-size:14px;
+        line-height:16px;
+    }
+
+    /** Bullets **/
+    .wdg_top03_01 .bullets{
+        border-top: 1px solid #ccc;
+        clear: both;
+        overflow: hidden;
+        margin:0 0 7px 0;
+        padding:7px 0 0 0;
+        text-align:right;
+    }
+    .wdg_top03_01 .bullets div{
+        display:inline-block;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    /* END: carouseltype1c (Small) */
+}

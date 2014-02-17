@@ -1,0 +1,39 @@
+@media screen and (min-width: 948px){
+    /* BEGIN: Global (Large) */
+    .wdg_twitt_02{
+        margin-bottom: 33px;
+        max-width: 350px;
+        overflow:hidden;
+    }
+
+    .ie8 .wdg_twitt_02{
+        height: 360px;
+    }
+    .wdg_twitt_02 .wdg_carousa .wdg_twitt_02_title{
+        width: 300px;
+    }
+    .wdg_twitt_02 .bullets{
+        display: none;
+    }
+    .wdg_twitt_02 .wt2_arrows{
+        display:block;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div.wdg_twitt_02_block:nth-child(n+2){
+        border-bottom: 1px solid #ccc;
+    }
+    .ie8 .wdg_twitt_02{
+        max-height: 350px !important;
+        overflow:hidden;
+    }
+
+    .ie9 .wdg_twitt_02 .wdg_twitt_02_carousel,
+    .ie10 .wdg_twitt_02 .wdg_twitt_02_carousel{
+        max-height: 300px !important;
+        overflow: hidden;
+    }
+    .ie7 .wdg_twitt_02 .wdg_twitt_02_carousel,
+    .ie8 .wdg_twitt_02 .wdg_twitt_02_carousel{
+        max-height: 310px !important;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,38 @@
+@media screen and (min-width: 60em){
+	
+	.wdg_teams_carru_03 {
+		height: 215px;
+	}
+	
+	.wdg_teams_carru_03  .titulo_bar{
+		width: 60em;
+	}
+	
+	.wdg_teams_carru_03 .wrapper{
+		width:1100px;
+		background-image:none;	
+	}
+	
+	.wdg_teams_carru_03 .wrapper .row{
+		
+		clear:both;
+		margin:auto;
+		margin-bottom:40px;
+		width:800px
+	}
+	
+	.wdg_teams_carru_03 .wrapper .row .liga_name{
+		width:100px;
+		text-align:right;
+		float:left;
+		margin-right: 20px;
+		font-size: 14px;
+	}
+	
+	.wdg_teams_carru_03 .wrapper .row{
+		width:1100px;
+		clear:both;
+		height:50px;
+		margin-bottom:30px;
+	}
+}

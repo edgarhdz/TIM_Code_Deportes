@@ -1,0 +1,35 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_home_main_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_home_main_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_home_main_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_home_main_01 .main .c3_2,
+	.td_home_main_01 .main .c7_2,
+	.td_home_main_01 .main .c7_5{
+		width:100%;
+	}
+	.td_home_main_01 .main .c5_5{
+		display:block;
+		width:100%;
+		height:70;
+		padding-top:6px;
+		margin:auto;
+		text-align:center;
+	}
+	.td_home_main_01 .main .c3_1
+	{
+		width:100%;
+	}
+	
+}

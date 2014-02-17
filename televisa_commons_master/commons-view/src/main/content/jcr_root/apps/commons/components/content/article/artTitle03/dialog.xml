@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="commons.arttitle03.dialog.title"
+    cq:dialogMode="floating"
+    activeTab="{Long}0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            cropParameter=""
+            ddGroups="[media]"
+            fileNameParameter="./image/fileName"
+            fileReferenceParameter="./image/fileReference"
+            mapParameter=""
+            name="./image/file"
+            requestSuffix="/image.img.png"
+            rotateParameter=""
+            title="Image"
+            xtype="html5smartimage"/>
+        <advanced
+            jcr:primaryType="cq:Widget"
+            title="commons.arttitle03.tab.basic.title"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="commons.arttitle03.title.label"
+                    name="./title"
+                    xtype="textfield"/>
+                <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.arttitle03.description.label"
+                        name="./description"
+                        xtype="textarea"/>
+                <resType
+                            jcr:primaryType="cq:Widget"
+                            ignoreData="{Boolean}true"
+                            name="./image/sling:resourceType"
+                            value="foundation/components/image"
+                            xtype="hidden"/>
+            </items>
+        </advanced>
+        <devices jcr:primaryType="cq:Panel" title="commons.devices.tabtitle.label">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <hideDevices jcr:primaryType="cq:Widget"
+                             fieldDescription="commons.devices.hidedevices.description"
+                             fieldLabel="commons.devices.hidedevices.label" name="./hideDevice"
+                             type="select" xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <item1 jcr:primaryType="nt:unstructured" text="commons.devices.item.do-nothing"
+                               value="" />
+                        <item2 jcr:primaryType="nt:unstructured"
+                               text="commons.devices.item.hide-tablet-mobile" value="hide-tablet" />
+                        <item3 jcr:primaryType="nt:unstructured" text="commons.devices.item.hide-mobile"
+                               value="hide-mobile" />
+                    </options>
+                </hideDevices>
+            </items>
+        </devices>
+    </items>
+</jcr:root>

@@ -1,0 +1,8 @@
+@media screen and (min-width: 60em){  
+    .wdg_humor_01 {
+        margin-bottom: 24px;
+        display: block;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #d1d1d1;
+    }
+}

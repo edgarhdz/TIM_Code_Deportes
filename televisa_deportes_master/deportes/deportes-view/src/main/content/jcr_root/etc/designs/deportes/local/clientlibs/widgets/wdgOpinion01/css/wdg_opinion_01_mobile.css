@@ -1,0 +1,81 @@
+@media screen{ 
+    .wdg_opinion_01{
+        width: 100%;
+        margin-bottom: 12px;
+        zoom: 1;
+        display: block;
+    }  
+	
+	.wdg_opinion_01 div.str_pleca_01 {
+   		margin-bottom: 0px;
+	}
+    
+    .wdg_opinion_01_blog {
+        text-align: left;
+        width: 100%;
+    }
+    .wdg_opinion_01_blog ul li {
+        border-bottom: 1px solid #CCCCCC;
+        height: auto;
+        overflow: auto;
+        width: 100%;
+		
+    }
+    .wdg_opinion_01_blog ul li a {
+        color: #000000;
+        float: left;
+        overflow: hidden;
+        transition: all 0.2s ease-out 0s;
+        width: 100%;
+		padding-bottom: 15px;
+    }
+    .wdg_opinion_01_blog ul li a div {
+        border: medium none;
+        padding-top: 2px;
+    }
+    .wdg_opinion_01_blog ul li a div div{
+        float: left;
+        width: 85px;
+    }
+
+    .wdg_opinion_01_blog ul li a div div div {
+        border: medium none;
+        float: left;
+        height: 51px;
+        margin: 19px;
+        width: 48px;
+    }
+    .wdg_opinion_01_blog .container_blog {
+        border: medium none;
+        float: left;
+        font-size: 12px;
+        line-height: 17px;
+        width: 71%;
+
+    }
+    .wdg_opinion_01_blog ul li a div div p{
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 9px;
+    }
+	.wdg_opinion_01_blog ul li a div div p span{
+        font-size: 11px;
+    }
+    .wdg_opinion_01_blog ul li a div div i{
+        padding: 8px 19px;
+        color: #D9A961;
+    }
+    .wdg_opinion_01_blog .blog {
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: -2px;
+    }
+    .wdg_opinion_01_blog ul li a:hover {
+        background-color: #E6E6E6;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15) inset;
+        transition: all 0.2s ease-out 0s;
+    }
+	 .wdg_opinion_01_blog .tvsa-3x{
+		font-size:38px;
+	}
+}

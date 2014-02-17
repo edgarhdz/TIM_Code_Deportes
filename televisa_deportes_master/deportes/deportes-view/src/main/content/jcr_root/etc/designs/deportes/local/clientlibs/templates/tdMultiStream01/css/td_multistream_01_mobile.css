@@ -1,0 +1,27 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_multistream_01 .header01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_multistream_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_multistream_01 .main > div{
+		/*clear:both;*/
+	}
+	
+	.td_multistream_01 .main .c2 .c2_2{
+		width:280px;
+		margin:auto;
+	}
+	
+	.td_multistream_01 .main .c4{
+		clear: both;
+	}
+	.td_multistream_01 .inactive{
+		color: #373737 !important;
+	}
+}

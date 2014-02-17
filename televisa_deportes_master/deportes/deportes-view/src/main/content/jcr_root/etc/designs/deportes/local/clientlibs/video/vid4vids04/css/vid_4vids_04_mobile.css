@@ -1,0 +1,427 @@
+@media screen {
+	.vid_4vids_04{
+		height:267px;
+		overflow:hidden;
+        margin-bottom:0px;
+		width:100%;
+		position:relative;
+	}
+    .vid_4vids_04_title {
+        width: 100%;
+        border-bottom: none;
+        zoom: 1;
+    }
+    .vid_4vids_04_title:before,
+    .vid_4vids_04_title:after {
+        content: "";
+        display: table;
+    }
+    .vid_4vids_04_title:after {
+        clear: both;
+    }
+    .vid_4vids_04_title .one {
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+        line-height: 32px;
+        height: 40px;
+    }
+    .vid_4vids_04_title .one a {
+        text-decoration: none;
+        color: #fff;
+        height: 24px;
+        display: block;
+        padding: 5px 0 5px 22px;
+        background-size: 12px 20px;
+        background-position: right 2px\9;
+        *background-position: right 2px;
+		font-weight:bold; 
+        
+    }
+	div.vid_4vids_04_title .one a {
+        background-image: none;
+        background-position: right 2px\9;
+        *background-position: right 2px;   
+    }
+	div.vid_4vids_04_title .one a span.icon {
+        display: none;
+    }
+    /*START: carouseltype1a (Small)*/
+
+    .vid_4vids_04 .wdg_mix_carrousa div {
+        float: left;
+		height:auto;
+		overflow:hidden;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul {
+        width: 57px;
+        margin: 0;
+        float: right;
+        margin-bottom: 5px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li {
+        width: auto;
+        height: auto;
+        float: left;
+        margin: 0;        
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li a {
+        width: 15px;
+        height: 9px;
+        display: none;
+        padding: 0;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li:first-child {
+        margin: 5px 15px 0 0;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li:last-child {
+        padding-left: 13px;
+    }
+    
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows div:first-child h1 {
+        width: 50%;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows div:first-child h1 a span.icon {
+        display: none;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul:before,
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul:after {
+        content: "";
+        display: table;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul:after {
+        clear: both;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child .two a {
+        color: black;
+        background: none;
+        width: auto;
+        height: auto;
+        font-size:14px;
+        margin-top: -8px;
+		padding-left: 15px;
+    }
+	
+	.vid_4vids_04 .wdg_mix_carrousa a {
+		float:left;
+	}
+
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li a {
+        width: 136px;
+        height: 76px;
+        margin-bottom: 11px;
+        background: none;
+        display: block;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 106px;
+        background-color: #666;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul {
+        float: none;
+        margin: 0;
+        zoom: 1;
+        margin-top: 25px;
+        *margin-top: 0px;
+        width: 100%;
+        height:150px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li:last-child {
+        border-left: 1px dotted #666666;
+		float: left;
+		margin-top: 11px;
+		padding-left: 10px;
+		height: 9px;
+
+    }
+	.vid_4vids_04 .wdg_mix_carrousa div ul li:last-child a{
+		margin-top: -7px;
+	}
+    .vid_4vids_04 .wdg_mix_carrousa {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li {
+        display: block;
+        float: left;
+        margin: 0 0 0 0	0px;        
+        width: 450px;   /*-- Se cambio --*/
+        height: auto;
+        padding: 0;
+        overflow: hidden;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li:first-child {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li p {
+        font-style: italic;
+        color: #666;
+        font-size: 14px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child .two {
+        padding-top: 18px;
+        font-size: 17px;
+		font-weight:bold;
+        line-height: 16px;
+        margin-bottom: 3px;
+		height:auto;
+		max-height:36px;
+        overflow: hidden;
+		border-left:1px solid #CCC;
+		margin-left:11px;
+		float:left;
+		width:50%;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li a img {
+        width: 136px;
+        height: 76px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li:last-child {
+        border: none;
+        margin-right: 0px;
+        width: 450px;
+    }
+    .vid_4vids_04 .bullets ul{
+        width:130px; /*se cambio de 110*/
+        float: right;
+        margin-top:5px;
+    }
+    .vid_4vids_04 .bullets ul li{
+        width:15px;
+        height: 15px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+    .vid_4vids_04 .bullets ul li.selected{
+        background-color:#A70A0B;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li div:last-child{
+    	width: 150px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li div {
+        width: 150px;
+    }
+	.vid_4vids_04 a.ventana {
+		width:85px;
+		height:63px;
+		overflow:hidden;
+		position:relative;
+    }
+	.vid_4vids_04 a img {
+		margin-left:-30px;
+		margin-top:-7px;
+	}
+   	.vid_4vids_04 .vid_4vids_04_verMas{
+        background-color: #CCCCCC;
+        display: block;
+		position:absolute;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+    	width: 100%;
+    }
+	.vid_4vids_04 .overlay{
+		display:block;
+		color:#FFF;
+		position:absolute;
+		/*margin-top:54px !important;*/
+		bottom:0px;
+		background-color: #A41D21;
+		height: 55px;
+		opacity: 0.75;
+		position: absolute;
+		padding-left:4px;
+		width: 18px;
+	}
+	.vid_4vids_04 .arrows{
+        display:none;
+    }
+	.vid_4vids_04 .carrusel-sizes div:first-child{
+		margin-top:12px;
+	}
+	.vid_4vids_04 .carrusel-sizes > div{
+		margin-bottom:9px;
+	}
+    .vid_4vids_04 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+	.vid_4vids_04 .degraded{
+		display:block;
+		top:256px;
+	}
+	/*Mostrar solo los primeros 3 en movil*/
+    /*.vid_4vids_04 .carrusel-sizes > div{
+        display:none;
+    }
+    .vid_4vids_04 .carrusel-sizes > div:nth-child(-n+3) {
+        display:block;
+    }*/
+	 /* BEGIN: Global (Medium) */
+    .vid_4vids_04{
+		height:auto;
+        margin-bottom: 12px;
+		/*width:300px;*/
+    }
+    .vid_4vids_04 .wdg_mix_carrousa {
+        overflow: hidden;
+        width: 100%;
+        padding-left: 0;
+    }
+    div.vid_4vids_04_title {
+        margin-bottom: 12px;
+        zoom: 1;
+		border-bottom: 1px solid #CCC;
+    }
+    div.vid_4vids_04_title:before,
+    div.vid_4vids_04_title:after {
+        content: "";
+        display: table;
+    }
+    div.vid_4vids_04_title:after {
+        clear: both;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div.vid_4vids_04_title ul li a {
+        display: block;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa ul {
+        margin: 25px 0 auto;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows .vid_4vids_04_title ul{
+        display:block;
+    }
+    
+    .vid_4vids_04 .wdg_mix_carrousa.showArrows div:first-child h1 {
+        width: 300px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul {
+        margin-top: 0;
+        height: auto;
+    }
+    
+    /*Se agrego la clase*/
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li{
+    	margin: 0 0 0 28px; 
+    	width: 136px;
+    	height: auto;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div ul li{
+    	margin-top: 10px;
+    }
+    .vid_4vids_04 .wdg_mix_carrousa div:last-child ul li:last-child{
+    	width: 132px;
+    	margin-right: -91px;
+    }
+	.vid_4vids_04 .izq {
+		margin-left:24px;
+		width:136px;
+		float:left;
+		position:relative;
+    }
+	.vid_4vids_04 .izq1 {
+		margin-left:0px;
+		width:136px;
+		float:left;
+		position:relative;
+    }
+	.vid_4vids_04 .wdg_mix_carrousa a {
+		float:none;
+	}
+	.vid_4vids_04 a img {
+		margin-left:0;
+		margin-top:0;
+		padding-right:0;
+		border-right: none;
+	}
+	.vid_4vids_04 .wdg_mix_carrousa div:last-child .two a {
+		padding-left: 0px;
+    }
+	.vid_4vids_04 .vid_4vids_04_verMas{
+        display: none;
+    }
+	.vid_4vids_04 .overlay{
+		display:none;
+	}
+	.vid_4vids_04 .carrusel-sizes div:first-child{
+		margin-top:0px;
+	}
+	.vid_4vids_04 .carrusel-sizes > div{
+		margin-bottom:0px;
+	}
+	.vid_4vids_04 a.ventana {
+		width:auto;
+		height:auto;
+		overflow:hidden;
+		position:relative;
+		display:inline-block;
+    }
+	 .vid_4vids_04 .bullets{
+		display:block;
+        padding-left: 84%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: -9px;
+        padding-top: 11px;
+        margin-bottom: 0;
+		width:100%;
+    }
+    .vid_4vids_04 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #CCCCCC;
+        margin-right: 5px;
+    }
+    .vid_4vids_04 .bullets div:last-child{
+        margin-right: 0;
+    }
+	.vid_4vids_04 .wdg_mix_carrousa.showArrows .vid_4vids_04_title ul.arrows{
+		 display:none;		
+    }
+	.vid_4vids_04 .wdg_mix_carrousa .general {
+		height:91%;
+		overflow:hidden;
+		width: 100%;
+	}
+	.ie7 .vid_4vids_04 .wdg_mix_carrousa .general {
+		position:relative;
+	}
+	.vid_4vids_04 .degraded{
+		display:none;
+	}
+	.vid_4vids_04 .wdg_mix_carrousa div:last-child .two {
+		margin-bottom: 14px; 
+        padding-top: 5px;
+		border-left:none;
+		margin-left:0;
+		float:none;
+		width:100%;
+	}
+	.vid_4vids_04_title div.one {
+		height:40px;
+	}
+    .vid_4vids_04 .inactive{
+        color: #BABABA;
+    }
+	
+	.vid_4vids_04 .general .showArrows .cont4{
+		width: 328px;
+		float: left;
+	}
+	
+	.vid_4vids_04 .general .cont4.last{
+		width: 300px;
+		float: left;
+	}
+}

@@ -1,0 +1,2 @@
+#base=js
+art_12arti_01.js

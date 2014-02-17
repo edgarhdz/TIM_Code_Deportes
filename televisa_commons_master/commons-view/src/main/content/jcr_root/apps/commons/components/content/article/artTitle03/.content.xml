@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="commons.arttitle03.jcr.description"
+    jcr:primaryType="cq:Component"
+    jcr:title="commons.arttitle03.jcr.title"
+    allowedParents="[*/parsys]"
+    componentGroup="commons.componentgroup.article"/>

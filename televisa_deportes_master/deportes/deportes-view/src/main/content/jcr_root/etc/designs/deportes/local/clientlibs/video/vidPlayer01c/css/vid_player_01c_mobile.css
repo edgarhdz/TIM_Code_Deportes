@@ -1,0 +1,291 @@
+@media screen {
+    /*BEGIN: vid_player_01c (Small)*/
+    .vid_player_01c{
+        margin-bottom:0px;
+        height: auto;
+        overflow:hidden;
+    }
+
+    .vid_player_01c .overlay {
+
+        display: none;
+        /*margin-left: 24px;*/
+        padding: 7px 15px 20px;
+        margin-bottom: 0px;
+        position: static;
+        /*background-color: rgba(255, 255, 255, .75);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);*/
+	float:left;
+    }
+
+    .vid_player_01c .txt1 h3{
+        font-size:16px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+
+    .vid_player_01c .txt1 p{
+        font-size:12px;
+        line-height: 12px;
+    }
+
+    .vid_player_01c .vid_player_01c_txtdetail{
+        font-style: italic;
+        color: #a2a2a2;
+        font-size: 10px;
+    }
+
+    /*Fondo blanco*/
+    .vid_player_01c .overlay .txt1,
+    .vid_player_01c .overlay .txt2,
+    .vid_player_01c .overlay .txt3,
+    .vid_player_01c .overlay .txt4 {
+        display:none;
+    }
+
+
+
+    .vid_player_01c .vid_player_01c_image{
+        background-image:url(../../img/ajax-loader.gif);
+        background-repeat:no-repeat;
+        background-position:center center;
+    }
+
+
+    /* Overlay blanco */
+    .vid_player_01c div.vid_player_01c_whtbkg {
+        background-color: rgba(255, 255, 255, .70);
+        display: block;
+        margin-left: 24px;
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#85FFFFFF,endColorstr=#85FFFFFF);
+        position: relative;
+        margin-top: 0px;
+        padding:1px 15px;
+        height:64px;
+    }
+
+
+    .ie7 .vid_player_01c div.vid_player_01c_whtbkg,
+    .ie8 .vid_player_01c div.vid_player_01c_whtbkg,
+    .vid_player_01c  #videobtn {
+        z-index: 1000 !important;
+    }
+
+
+
+
+    /* Texto del Overlay */
+    .vid_player_01c .vid_player_01c_black {
+        display: block;
+        margin-right: 40px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+
+    .vid_player_01c div.vid_player_01c_image img{
+        width: 100%;
+        max-height:380px;
+    }
+
+
+    .vid_player_01c .vid_player_01c_gray {
+        color: #666666;
+        font-weight: bold;
+    }
+
+    /* SPRITES */
+    .vid_player_01c  #videobtn {
+        background-color: #A41D21;
+        opacity:0.70;
+        color: #fff;
+        display: block;
+        height: 30px;
+        left: 24px;
+        position: relative;
+        margin-top: -100px;
+        width: 30px;
+        display: block;
+        margin-right: 40px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .vid_player_01c .txt3{
+        float:none;
+        width:auto;
+        padding-top:13px;
+        overflow: hidden;
+        margin-top:10px;
+
+    }
+
+    .vid_player_01c .wdg_social_01 .social-icons li.social_icon:first-child{
+        width:70px;
+    }
+    .vid_player_01c .wdg_social_01 .social-icons ul{
+        padding: 0;
+        float: left;
+        margin-bottom: 0;
+        width: 290px;
+        height: 77px;
+    }
+    .vid_player_01c .wdg_social_01 .social-icons li.social_icon {
+        background: none !important;
+        padding-left: 0 !important;
+        display: inline;
+        float: left;
+        /*margin-left: 5px;*/
+        height: 30px;
+        width: 50px;
+        text-align: center;
+    }
+    .vid_player_01c .txt3{
+        background: url(../img/dotted-horizontal.png) repeat-x top;
+    }
+
+    .vid_player_01c .vid_player_01c_image .openbtn_td{
+        display:none;
+    }
+
+    .vid_player_01c .cameras .cameras_index{
+        width: 100%;
+        display: block;
+        margin-top: 14px;
+    }
+
+    .vid_player_01c .cameras .cameras_index h5{
+        color: #FE5F28;
+        text-align:center;
+        font-style: italic;
+        font-size:18px;
+        margin-bottom: 25px;
+        letter-spacing: -1px;
+    }
+
+    .vid_player_01c .cameras .cameras_index ul li{
+        font-size:12px;
+        width: 46%;
+        float:left;
+        margin-bottom:18px;
+        padding-left:10px;
+        line-height:22px;
+        cursor: pointer;
+    }
+
+    .vid_player_01c .cameras .cameras_index ul li .indice{
+        width: 22px;
+        height: 22px;
+        background-color: #555;
+        color:#FFF;
+        font-size:12px;
+        text-transform:uppercase;
+        text-align:center;
+        line-height:22px;
+        margin-right: 5px;
+        float: left;
+
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .vid_player_01c .cameras .cameras_index ul li .selected,
+    .vid_player_01c .cameras .cameras_index ul li .indice:hover{
+        background-color: #FE5F28;
+    }
+
+
+
+    .vid_player_01c .cameras_field .camera{
+        position:absolute;
+        background-image:url("../global/img/camarasvideo.png");
+        width:40px;
+        height:40px;
+        overflow: hidden;
+        cursor:pointer;
+    }
+
+	.vid_player_01c .cameras .cameras_field .game_field {
+		background-image:url("../global/img/tudiriges_fut.png");
+    	width:269px;
+    	height:338px;
+	 }
+
+
+    /*  CAMARAS */	
+	
+	/* izq-der*/
+	.vid_player_01c .cameras_field .left-right{
+		background-position: 0 -90px !important;
+	}
+	.vid_player_01c .cameras_field .left-right.selected,
+	.vid_player_01c .cameras_field .left-right:hover{
+		background-position: -44px -90px !important;
+	}
+	
+	/* der-izq*/
+	.vid_player_01c .cameras_field .right-left{
+		background-position: 0 -270px !important;
+	}
+	.vid_player_01c .cameras_field .right-left.selected,
+	.vid_player_01c .cameras_field .right-left:hover{
+		background-position: -44px -270px !important;
+	}
+	
+	/* top-der-izq*/
+	.vid_player_01c .cameras_field .top-right{
+		background-position: 0 -45px !important;
+	}
+	.vid_player_01c .cameras_field .top-right.selected,
+	.vid_player_01c .cameras_field .top-right:hover{
+		background-position: -44px -45px !important;
+	}
+	
+	/* left-der-izq*/
+	.vid_player_01c .cameras_field .top-left{
+		background-position: 0 0 !important;
+	}
+	.vid_player_01c .cameras_field .top-left.selected,
+	.vid_player_01c .cameras_field .top-left:hover{
+		background-position: -44px 0 !important;
+	}
+	
+	
+	/* bottom-der*/
+	.vid_player_01c .cameras_field .bottom-right{
+		background-position: 0px -135px !important;
+	}
+	.vid_player_01c .cameras_field .bottom-right.selected,
+	.vid_player_01c .cameras_field .bottom-right:hover{
+		background-position: -44px -135px !important;
+	}
+	
+	/* bottom-left*/
+	.vid_player_01c .cameras_field .bottom-left{
+		background-position: 0 -225px !important;
+	}
+	.vid_player_01c .cameras_field .bottom-left.selected,
+	.vid_player_01c .cameras_field .bottom-left:hover{
+		background-position: -44px -225px !important;
+	}
+	
+	/* top-bottom */
+    .vid_player_01c .cameras_field .top-bottom{
+        background-position: 0 -315px !important;
+    }
+    .vid_player_01c .cameras_field .top-bottom.selected,
+    .vid_player_01c .cameras_field .top-bottom:hover{
+        background-position: -44px -315px !important;
+    }
+    
+    /* bottom-top */
+    .vid_player_01c .cameras_field .bottom-top{
+        background-position: 0 -180px !important;
+    }
+    .vid_player_01c .cameras_field .bottom-top.selected,
+    .vid_player_01c .cameras_field .bottom-top:hover{
+        background-position: -44px -180px !important;
+    }
+
+
+}

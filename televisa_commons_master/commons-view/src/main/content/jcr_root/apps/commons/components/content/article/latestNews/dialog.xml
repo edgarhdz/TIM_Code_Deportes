@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+	    <inheritanceTab
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/inheritance/inheritanceTab.infinity.json"
+                xtype="cqinclude"/>
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <minutos
+                        jcr:primaryType="cq:Widget"
+                        collapsed="{Boolean}false"
+                        collapsible="{Boolean}true"
+                        title="commons.latestnews.minutes"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <textMinutes
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                defaultValue="Última hora"
+                                fieldDescription="commons.latestnews.label.description"
+                                fieldLabel="commons.latestnews.label-last-time"
+                                name="./textMinutes"
+                                xtype="textfield"/>
+                            <titleMinutes
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="commons.latestnews.title-attribute"
+                                fieldLabel="commons.link.title-label"
+                                name="./titleMinutes"
+                                xtype="textfield"/>
+                        </items>
+                    </minutos>
+                    <moreRead
+                        jcr:primaryType="cq:Widget"
+                        collapsed="{Boolean}false"
+                        collapsible="{Boolean}true"
+                        title="commons.latestnews.moreRead"
+                        xtype="dialogfieldset">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <textMoreRead
+                                jcr:primaryType="cq:Widget"
+                                allowBlank="{Boolean}false"
+                                defaultValue="Más leídos"
+                                fieldDescription="commons.latestnews.label.description"
+                                fieldLabel="commons.latestnews.label.most-read"
+                                name="./textMoreRead"
+                                xtype="textfield"/>
+                            <titleMoreRead
+                                jcr:primaryType="cq:Widget"
+                                fieldDescription="commons.latestnews.title-attribute"
+                                fieldLabel="commons.link.title-label"
+                                name="./titleMoreRead"
+                                xtype="textfield"/>
+                        </items>
+                    </moreRead>
+                </items>
+            </tab1>
+            <devices
+                    jcr:primaryType="cq:Panel"
+                    title="commons.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="commons.devices.hidedevices.description"
+                            fieldLabel="commons.devices.hidedevices.label"
+                            name="./hideDevice"
+                            type="select"
+                            xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.devices.item.do-nothing"
+                                    value=""/>
+                            <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.devices.item.hide-tablet-mobile"
+                                    value="hide-tablet"/>
+                            <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    text="commons.devices.item.hide-mobile"
+                                    value="hide-mobile"/>
+                        </options>
+                    </hideDevices>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

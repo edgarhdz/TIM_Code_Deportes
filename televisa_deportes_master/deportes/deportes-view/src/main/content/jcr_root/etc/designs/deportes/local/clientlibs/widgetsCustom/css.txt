@@ -1,0 +1,3 @@
+#base=.
+
+gallery/css/gallerydialog.css

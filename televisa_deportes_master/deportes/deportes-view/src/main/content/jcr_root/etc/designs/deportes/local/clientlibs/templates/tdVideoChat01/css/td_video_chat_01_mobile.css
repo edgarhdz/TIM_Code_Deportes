@@ -1,0 +1,32 @@
+@media screen { 
+	.td_video_chat_01{
+		width:100%;
+		overflow: hidden;
+    }
+    /* Encabezado */ 
+    .td_video_chat_01 .header01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_video_chat_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_video_chat_01 .main > div{
+		clear:both;
+	}
+	.td_video_chat_01 .main .c1_2{
+		text-align: center;
+		display: block;
+	}
+	.td_video_chat_01 .main .c2_3{
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.td_video_chat_01 .main .c2_5{
+		clear:both;
+	}
+}

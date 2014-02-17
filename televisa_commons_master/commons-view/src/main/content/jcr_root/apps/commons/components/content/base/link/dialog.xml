@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="commons.link.title"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <link
+                jcr:primaryType="cq:Panel"
+                title="commons.settings.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.text.description"
+                        fieldLabel="commons.link.title"
+                        name="./linkText"
+                        xtype="textfield"/>
+                    <linktype
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="commons.link.linktype-label"
+                        name="./linkType"
+                        type="radio"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <internal
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.internallink-label"
+                                value="internal"/>
+                            <external
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.externallink-label"
+                                value="external"/>
+                        </options>
+                        <listeners
+                            jcr:primaryType="nt:unstructured"
+                            loadcontent="function(field, record, path) {  linkLoadContent(field, record, path);}"
+                            selectionchanged="function(selection,value, checked){ linkSelectionChanged(selection,value, checked); }"/>
+                    </linktype>
+                    <internallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.internallink-description"
+                        fieldLabel="commons.link.internallink-label"
+                        name="./internalLink"
+                        rootPath="/content/televisa"
+                        rootTitle="Televisa"
+                        xtype="pathfield"/>
+                    <externallink
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.externallink-description"
+                        fieldLabel="commons.link.externallink-label"
+                        name="./externalLink"
+                        xtype="textfield"/>
+                    <target
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="_self"
+                        fieldDescription="commons.link.target-description"
+                        fieldLabel="commons.link.target-label"
+                        name="./linkTarget"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <blank
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-blank-text"
+                                value="_blank"/>
+                            <self
+                                jcr:primaryType="nt:unstructured"
+                                text="commons.link.target-option-self-text"
+                                value="_self"/>
+                        </options>
+                    </target>
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.link.title-description"
+                        fieldLabel="commons.link.title-label"
+                        name="./linkTitle"
+                        xtype="textfield"/>
+                </items>
+            </link>
+        </items>
+    </items>
+</jcr:root>

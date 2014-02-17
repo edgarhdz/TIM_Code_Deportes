@@ -1,0 +1,12 @@
+@media screen and (min-width: 624px){
+    .wdg_opinion_01{
+        margin-bottom: 36px;
+    }  
+     .wdg_opinion_01_blog {
+        width: 300px;
+    }
+	
+	.wdg_opinion_01 div.str_pleca_01 {
+   		margin-bottom: 3px;
+	}
+}

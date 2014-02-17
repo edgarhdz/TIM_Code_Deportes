@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="generics.brightcove.VideoGallery.title"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+	    <inheritanceTab
+                jcr:primaryType="cq:Widget"
+                path="/apps/commons/components/content/base/inheritance/inheritanceTab.infinity.json"
+                xtype="cqinclude"/>
+            <videoSettings
+                jcr:primaryType="cq:Panel"
+                title="generics.brightcoveVideoGallery.title">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <videos
+                        jcr:primaryType="cq:Widget"
+                        hideLabel="{Boolean}true"
+                        name="./videos"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            rootPath="/content/televisa"
+                            rootTitle="Televisa"
+                            xtype="brightcovevideogallerysearch"/>
+                    </videos>
+                </items>
+            </videoSettings>
+            <devices
+                jcr:primaryType="cq:Panel"
+                title="deportes.devices.tabtitle.label">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <hideDevices
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="deportes.devices.hidedevices.description"
+                        fieldLabel="deportes.devices.hidedevices.label"
+                        name="./hideDevice"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.do-nothing"
+                                value=""/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-tablet-mobile"
+                                value="hide-tablet"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                text="deportes.devices.item.hide-mobile"
+                                value="hide-mobile"/>
+                        </options>
+                    </hideDevices>
+                    <resType1
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image1/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                    <resType2
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image2/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </devices>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        jcr:primaryType="cq:Dialog"
+          height="500"
+          title="deportes.btnCarruProg02Config.title"
+          width="900"
+          xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <settings
+                    jcr:primaryType="cq:Panel"
+                    title="deportes.settings">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="deportes.btnCarruProg02Config.label-title.descripcion"
+                            fieldLabel="deportes.btnCarruProg02Config.label.title"
+                            name="./title"
+                            xtype="textfield"/>
+                </items>
+            </settings>
+        </items>
+</jcr:root>

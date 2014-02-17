@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Video Advertisement">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <Advertisement
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}false"
+            collapsible="{Boolean}false"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <Site
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Site"
+                    name="./adSite"
+                    xtype="textfield"/>
+                <Bits
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Bits configuration"
+                    name="./adBits"
+                    xtype="textfield"/>
+            </items>
+        </Advertisement>
+    </items>
+</jcr:root>

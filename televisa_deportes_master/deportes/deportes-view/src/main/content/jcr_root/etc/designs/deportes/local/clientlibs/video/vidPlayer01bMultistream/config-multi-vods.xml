@@ -1,0 +1,218 @@
+<application>
+<player multi_feed_url="content-list-multi-vods.xml" multi_feed_interval="86400" multi_allow_duplicate_streams="false" multi_startup_streams="1241186546001;" multi_startup_view_mode="1" locale_setting="es" core_ads_enabled="true" dfp_tag_url="http://ad.doubleclick.net/adx/es.esmas.video_embed/usa;tile=9;sz=1x1;ord=5208797005470842;dcmt=text/html;zone0=usa;roll=pre;pais=mex;estado=df;ciudad=mexico%20city;id_video=182018;status=nooficial?callback=cbResponse" eventmanagementstates_enabled="true" eventmanagementstates_status_url="http://www2.esmas.com/tvenvivofiles/238404/playerstate.txt" eventmanagementstates_status_interval="60" live_timestamp_mode="1" live_timestamp_source="stream" live_timestamp_timezone_offset="-4" live_timestamp_timezone_string="EDT" branding_preload="none" core_player_name="multi" domain="projects.mediadev.edgesuite.net" embed_domain="projects.mediadev.edgesuite.net" auto_play="true" fullscreen_enabled="true" volume="75" show_sharing_overlay="false" show_email_overlay="false" show_autoplay_overlay="false" use_netsession_client="false" netsession_install_prompt_frequency_secs="-1" auto_play_list="true" ad_autoplay_btn_enabled="false" ad_control_enabled="false" live_stream_flag="live" ad_server_timeout="10" scale_view_to_fit="true" pip_enabled="true" js_callback="AEP.jsCallbackHandler"></player>
+<plugins>
+<plugin host="osmf" type="dynamic" absolute="true" id="AkamaiAdvancedStreamingPlugin">
+http://players.edgesuite.net/flash/plugins/osmf/advanced-streaming-plugin/v2.10/osmf1.6/AkamaiAdvancedStreamingPlugin.swf
+</plugin>
+<plugin host="osmf" type="static" id="OSMFCSMALoader">com.akamai.playeranalytics.osmf.OSMFCSMALoaderInfo</plugin>
+</plugins>
+<view>
+<!-- VIEW ITEMS DISABLED FOR THIS PLAYER -->
+<element id="infoOverlay" style="bottom: 0px;text-align:right;" adEnabled="true"/>
+</view>
+<share></share>
+<admedia>
+<property key="AD_SITE">televisa</property>
+<vendor id="dfp">
+<!--  FULLY FORMED BASE URL FOR TESTING.  -->
+<property key="DFP_BASE_URL">
+http://ad.doubleclick.net/adx/es.esmas.video_embed/usa;tile=9;sz=1x1;ord=5208797005470842;dcmt=text/html;zone0=usa;roll=pre;pais=mex;estado=df;ciudad=mexico%20city;id_video=182018;status=nooficial?callback=cbResponse
+</property>
+<!--  STANDARD BASE URL  -->
+<!--
+
+				<property key="DFP_BASE_URL">http://ad.doubleclick.net/adx/es.televisa.video/telenovelas.porellasoyeva/</property>
+			 
+-->
+<property key="DFP_DELIMITER">;</property>
+<property key="DFP_SIZE">300x240</property>
+</vendor>
+</admedia>
+<metrics>
+<vendor id="akamai">
+<property key="MEDIA_ANALYTICS_BEACON">
+http://ma277-r.analytics.edgesuite.net/config/beacon-3527.xml
+</property>
+<dimensions default="N/A">
+<property key="category" mapType="key">matchName</property>
+<property key="eventName" mapType="key">cameraAngle</property>
+</dimensions>
+</vendor>
+<vendor id="comscore">
+<event key="adStart">
+<property key="COMSCORE_CSURL">http://b.scorecardresearch.com/b</property>
+<property key="COMSCORE_CSC1">1</property>
+<property key="COMSCORE_CSC2">0000000</property>
+<property key="COMSCORE_CSC3">Customer</property>
+<property key="COMSCORE_CSC4"/>
+<property key="COMSCORE_CSC5">09</property>
+<property key="COMSCORE_CSC6"/>
+<property key="COMSCORE_CSC7"/>
+<property key="COMSCORE_CSC8"/>
+<property key="COMSCORE_CSC9"/>
+<property key="COMSCORE_CSC10"/>
+<property key="COMSCORE_CSC14"/>
+</event>
+<event key="videoStart">
+<property key="COMSCORE_CSURL">http://b.scorecardresearch.com/b</property>
+<property key="COMSCORE_CSC1">1</property>
+<property key="COMSCORE_CSC2">0000000</property>
+<property key="COMSCORE_CSC3">Customer</property>
+<property key="COMSCORE_CSC4"/>
+<property key="COMSCORE_CSC5">02</property>
+<property key="COMSCORE_CSC6"/>
+<property key="COMSCORE_CSC7"/>
+<property key="COMSCORE_CSC8"/>
+<property key="COMSCORE_CSC9"/>
+<property key="COMSCORE_CSC10"/>
+<property key="COMSCORE_CSC14"/>
+</event>
+</vendor>
+</metrics>
+<locales>
+<locale id="en">
+<property key="MSG_EMAIL_TO">To</property>
+<property key="MSG_EMAIL_FROM">From</property>
+<property key="MSG_EMAIL_VIDEO">Email this video</property>
+<property key="MSG_EMAIL_MESSAGE_DEFAULT">Check out this video from xxx</property>
+<property key="MSG_EMAIL_MESSAGE">Message</property>
+<property key="MSG_EMAIL_ADDRESS_INVALID">Invalid Email Address</property>
+<property key="MSG_EMAIL_MESSAGE_INVALID">
+Please limit your message to 500 characters or less.
+</property>
+<property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT">characters left</property>
+<property key="MSG_EMAIL_SEND_FAILURE">Message could not be sent.</property>
+<property key="MSG_EMAIL_SEND_SUCCESS_MESSAGE">Your email has been sent!</property>
+<property key="MSG_SHARE_VIDEO_TEXT">Share this video...</property>
+<property key="MSG_POST_TEXT">Post</property>
+<property key="MSG_EMBED_TEXT">Embed</property>
+<property key="MSG_LINK_TEXT">Link</property>
+<property key="MSG_SHARE_CONNECT_FAILURE">Unable to connect. Please try again.</property>
+<property key="MSG_SHARE_CONTENT_DISABLED">Share and embed are disabled.</property>
+<property key="MSG_VERSION_TEXT">Version</property>
+<property key="MSG_BUFFERING_TEXT">buffering</property>
+<property key="MSG_CUSTOMIZE_CLIP_POINTS">Customize the start and end point of the video.</property>
+<property key="MSG_PAUSE">Pause</property>
+<property key="MSG_PREVIEW">Preview</property>
+<property key="MSG_CURRENT">Currrent</property>
+<property key="MSG_SEEK_TO">Seek to</property>
+<property key="MSG_LIVE">LIVE</property>
+<property key="MSG_DEFAULT_ERROR_MESSAGE">
+Sorry, we were unable to play the media you selected. Please try again, or select alternate media.
+</property>
+<property key="MSG_ERROR_PREFIX">Error encountered:</property>
+<property key="MSG_STREAM_NOT_FOUND">Stream not found</property>
+<property key="MSG_CURRENT_WORKING_BANDWIDTH">Current working bandwidth</property>
+<property key="MSG_CURRENT_BITRATE_PLAYING">Current bitrate playing</property>
+<property key="MSG_MAX_BITRATE_AVAILABLE">Max bitrate available</property>
+<property key="MSG_NOT_AVAILABLE">Not Available</property>
+<property key="MSG_GO_LIVE">GO LIVE</property>
+<property key="MSG_REPLAY">Replay</property>
+<property key="MSG_MEDIA_ITEM_INVALID">Media item invalid</property>
+<property key="MSG_STREAM_ENCOUNTERED_ERROR">This stream has encountered an error.</property>
+<property key="MSG_STREAM_ENDED">This stream has ended.</property>
+<property key="MSG_SELECT_STREAM">Click here to select a stream.</property>
+<property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT">characters left</property>
+<property key="MSG_NEXT_VIDEO_STARTS">Next video starts in:</property>
+<property key="MSG_TOKEN_SERVICE_NOT_AVAILABLE">token service not available</property>
+<property key="MSG_ERROR">error:</property>
+<property key="MSG_SELECT_CHANNEL">Select Channel</property>
+<property key="MSG_DRAG">Drag</property>
+<property key="MSG_SWAP">Swap</property>
+<property key="MSG_CHANGE">Change</property>
+<property key="MSG_LIVE">Live</property>
+<property key="MSG_GOLIVE">Go Live</property>
+<property key="MSG_ADDPIP">Add PIP</property>
+<property key="MSG_VIEW">View</property>
+</locale>
+<locale id="es">
+<property key="MSG_EMAIL_TO">a</property>
+<property key="MSG_EMAIL_FROM">de</property>
+<property key="MSG_EMAIL_VIDEO">Enviar este vídeo</property>
+<property key="MSG_EMAIL_MESSAGE_DEFAULT">Echa un vistazo a este video de xxx</property>
+<property key="MSG_EMAIL_MESSAGE">mensaje</property>
+<property key="MSG_EMAIL_ADDRESS_INVALID">Dirección de correo electrónico no válida</property>
+<property key="MSG_EMAIL_MESSAGE_INVALID">
+Por favor limite su mensaje a 500 caracteres o menos.
+</property>
+<property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT">personajes de la izquierda</property>
+<property key="MSG_EMAIL_SEND_FAILURE">El mensaje no pudo ser enviado.</property>
+<property key="MSG_EMAIL_SEND_SUCCESS_MESSAGE">Tu email ha sido enviado!</property>
+<property key="MSG_SHARE_VIDEO_TEXT">Comparte este vídeo...</property>
+<property key="MSG_POST_TEXT">enviar</property>
+<property key="MSG_EMBED_TEXT">incrustar</property>
+<property key="MSG_LINK_TEXT">enlace</property>
+<property key="MSG_SHARE_CONNECT_FAILURE">
+No se puede conectar. Por favor, inténtelo de nuevo.
+</property>
+<property key="MSG_SHARE_CONTENT_DISABLED">Compartir e incrustar están desactivados.</property>
+<property key="MSG_VERSION_TEXT">versión</property>
+<property key="MSG_BUFFERING_TEXT">Buffering</property>
+<property key="MSG_CUSTOMIZE_CLIP_POINTS">Personalizar el inicio y el punto final del video.</property>
+<property key="MSG_PAUSE">romper</property>
+<property key="MSG_PREVIEW">vista previa</property>
+<property key="MSG_CURRENT">corriente</property>
+<property key="MSG_SEEK_TO">Tratar de</property>
+<property key="MSG_LIVE">EN VIVO</property>
+<property key="MSG_DEFAULT_ERROR_MESSAGE">
+Lo sentimos, no hemos podido jugar los medios de comunicación seleccionados. Por favor, inténtelo de nuevo, o seleccionar los medios de comunicación alternativos.
+</property>
+<property key="MSG_ERROR_PREFIX">Se produjo un error:</property>
+<property key="MSG_STREAM_NOT_FOUND">Stream que no se encuentra</property>
+<property key="MSG_CURRENT_WORKING_BANDWIDTH">Ancho de banda actual de trabajo</property>
+<property key="MSG_CURRENT_BITRATE_PLAYING">Tasa de bits de reproducción actual</property>
+<property key="MSG_MAX_BITRATE_AVAILABLE">Tasa de bits máxima disponible</property>
+<property key="MSG_NOT_AVAILABLE">No está disponible</property>
+<property key="MSG_GO_LIVE">IR A EN VIVO</property>
+<property key="MSG_REPLAY">Repetir</property>
+<property key="MSG_MEDIA_ITEM_INVALID">Medios elemento no válido</property>
+<property key="MSG_STREAM_ENCOUNTERED_ERROR">Esta señal ha encontrado un error.</property>
+<property key="MSG_STREAM_ENDED">Esta corriente ha terminado.</property>
+<property key="MSG_SELECT_STREAM">Haga clic aquí para elegir una señal.</property>
+<property key="MSG_EMAIL_CHARACTERS_REMAINING_TEXT">personajes de la izquierda</property>
+<property key="MSG_NEXT_VIDEO_STARTS">Siguiente video comienza en:</property>
+<property key="MSG_TOKEN_SERVICE_NOT_AVAILABLE">servicio de token no está disponible</property>
+<property key="MSG_ERROR">error:</property>
+<property key="MSG_SELECT_CHANNEL">Seleccione el canal</property>
+<property key="MSG_DRAG">Arrastrar</property>
+<property key="MSG_SWAP">Intercambiar</property>
+<property key="MSG_CHANGE">Cambiar</property>
+<property key="MSG_LIVE">EN VIVO</property>
+<property key="MSG_GOLIVE">IR A EN VIVO</property>
+<property key="MSG_VIEW">Ver</property>
+<property key="MSG_ADDPIP">Añadir Señal</property>
+</locale>
+</locales>
+<eventmanagementstates>
+<states>
+<state>
+<property key="ID">pre</property>
+<property key="POSTER_SRC">
+http://i2.esmas.com/2013/06/13/529251/foro-tv-previa-ok-640x360.jpg
+</property>
+<property key="URL"/>
+</state>
+<state>
+<property key="ID">post</property>
+<property key="POSTER_SRC">
+http://i2.esmas.com/2013/06/13/529251/foro-tv-previa-ok-640x360.jpg
+</property>
+<property key="URL"/>
+</state>
+<state>
+<property key="ID">error</property>
+<property key="POSTER_SRC">
+http://i2.esmas.com/2011/05/31/222530/foro-tv-error-640x360.jpg
+</property>
+<property key="URL"/>
+</state>
+<state>
+<property key="ID">off</property>
+<property key="POSTER_SRC">
+http://i2.esmas.com/2013/06/13/529251/foro-tv-previa-ok-640x360.jpg
+</property>
+<property key="URL"/>
+</state>
+</states>
+</eventmanagementstates>
+</application>

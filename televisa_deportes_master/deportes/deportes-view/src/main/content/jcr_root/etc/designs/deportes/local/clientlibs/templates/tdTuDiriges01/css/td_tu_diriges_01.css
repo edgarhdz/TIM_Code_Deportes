@@ -1,0 +1,61 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_tu_diriges_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+	.td_tu_diriges_01 .main .c4{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}	
+	/* Flotan a la izq */
+	.td_tu_diriges_01 .main .c2{
+		float:left;
+		width: 100%;
+		clear:both;
+		
+	}
+	.td_tu_diriges_01 .main .c2_1{
+		float: left;
+	}
+	
+	.ie7 .td_tu_diriges_01 .main .c2_1{
+		width: 624px;
+	}
+	
+	/* Flotan a la der */
+	.td_tu_diriges_01 .main .c3{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	
+	/*bloques*/	
+	.td_tu_diriges_01 .main .c3_1,
+	.td_tu_diriges_01 .main .c3_2,
+	.td_tu_diriges_01 .main .c3_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_tu_diriges_01 .main .c2 .c2_2 {
+		text-align: right;
+		margin: auto;
+		width: 300px;
+		float: none;
+	}
+	.td_tu_diriges_01 .main .c2 .c2_3 {
+		overflow: hidden;
+	}
+	
+	.ie7 .td_tu_diriges_01 .main .c2 .c2_1 .nav_smnu_video_02 {
+		display: inline;
+	}
+	.ie7 .td_tu_diriges_01 .main .c2 .c2_2 {
+		text-align: right;
+		margin:0;
+		width: 624px;
+		float: none;
+	}
+}

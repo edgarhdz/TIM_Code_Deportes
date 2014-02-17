@@ -1,0 +1,36 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_opinion_blog_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+    /* Contenedor izquierdo */
+    .td_opinion_blog_01 .main .c1{
+		width: 624px;
+        clear:both;
+    }
+	.td_opinion_blog_01 .main .c1 .c1_2 .art_reltd_01{
+		background: url(../../img/dotted-vertical.png) repeat-y right;
+		width:297px;	
+	}
+	.td_opinion_blog_01 .main .c1 .c1_2r{
+		padding-left: 26px;
+		margin-bottom: 0px;
+		margin-top: 11px:
+	}
+    /* Contenedor derecho */
+    .td_opinion_blog_01 .main .c2{
+		width: 624px;
+        overflow: hidden;
+    }
+	.td_opinion_blog_01 .main .c2_2, 
+	.td_opinion_blog_01 .main .c2_3 {
+   		width: 300px;
+	}
+    .td_opinion_blog_01 .main .c1 .c1_3{
+        clear: both;
+        width: 624px;
+        height: 1px;
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,42 @@
+@media screen and (min-width: 624px){
+    .mix_8arts_01{
+        width: 624px;
+        margin-bottom: 26px;
+        overflow: hidden;
+    }
+    .mozilla .mix_8arts_01{
+        overflow: hidden;
+    }
+    .mix_8arts_01 .cont-left{
+        width: 300px;
+        margin-left: 24px;
+        float: left
+    }
+    .mix_8arts_01 .cont-right{
+        display:block;
+        width: 300px;
+        margin-left: 24px;
+        float: left
+    }
+    .mix_8arts_01 .cont-left:first-child{
+        width: 300px;
+        margin-left: 0px;
+        float: left
+    }
+    .ie8 .mix_8arts_01 .cont-left:first-child{
+        margin-left: 0;
+    }
+    .mix_8arts_01 .mix_4arts_01 .mix_4arts_01_top {
+        margin: 0 0 20px;
+    }
+    .mix_8arts_01 .cont-left .mix_4arts_01{
+        margin-bottom:0;
+    }
+    .mix_8arts_01 .cont-left .mix_4arts_01 .mix_1arts_07:last-child{
+        margin-bottom:0;
+    }
+    .mix_8arts_01 .mix_1arts_08,
+    .mix_8arts_01 .mix_1arts_08b{
+        margin-bottom:24px;
+    }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="User State Toggle Button"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <models
+            jcr:primaryType="cq:Widget"
+            title="Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <stateProvider
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    defaultValue=""
+                    fieldLabel="Toggle State Provider"
+                    name="./stateProvider"
+                    options="$PATH.provideroptions.json"
+                    type="select"
+                    xtype="selection"/>
+                <toggleWorkflowModel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Toggle Workflow model"
+                    hideThumbnail="{Boolean}true"
+                    name="./toggleWorkflowModel"
+                    xtype="cq.workflow.model.selector"/>
+                <untoggleWorkflowModel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Untoggle Workflow model"
+                    hideThumbnail="{Boolean}true"
+                    name="./untoggleWorkflowModel"
+                    xtype="cq.workflow.model.selector"/>
+                <approval
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="{Boolean}true"
+                    fieldLabel="Administrator Approval Needed"
+                    inputValue="true"
+                    name="./toggleStateApproval"
+                    type="checkbox"
+                    xtype="selection"/>
+            </items>
+        </models>
+        <text
+            jcr:primaryType="cq:Widget"
+            title="Texts &amp; Labels"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <toggleLabel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="This label is shown, if the user state is toggled (as per the chosen state provider)."
+                    fieldLabel="Button Label Toggled"
+                    name="./toggleLabel"
+                    xtype="textfield"/>
+                <untoggleLabel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="This label is shown, if the user state is untoggled (as per the chosen state provider)."
+                    fieldLabel="Button Label Untoggled"
+                    name="./untoggleLabel"
+                    xtype="textfield"/>
+                <transitionLabel
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldDescription="This label is shown, if the user state is currently transitioning between toggled/untoggled states (e.g. because the associated workflow hasn't completed yet)."
+                    fieldLabel="Button Label Transition"
+                    name="./transitionLabel"
+                    xtype="textfield"/>
+                <confirmationMessageToggle
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Toggled Confirmation Message"
+                    name="./confirmationMessageToggle"
+                    xtype="richtext"/>
+                <confirmationMessageUntoggle
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="Untoggled Confirmation Message"
+                    name="./confirmationMessageUntoggle"
+                    xtype="richtext"/>
+            </items>
+        </text>
+    </items>
+</jcr:root>

@@ -1,0 +1,111 @@
+@media screen {
+	header.nav_header_01 {
+		line-height: 16px!important;
+		font-family: 'Trebuchet MS'!important;
+		font-size: 12px!important;
+	}
+	.mix_1arts_08 {
+		text-align: left;
+		margin-bottom: 12px;
+	}
+	.mix_1arts_08 .articleMobile {
+		height: auto;
+		padding: 0;
+		border-top: 1px solid #ccc;
+		overflow: hidden;
+	}
+	.mix_1arts_08 .articleMedium {
+		padding: 0;
+		color: #000;
+		position: relative;
+	}
+	.mix_1arts_08 .articleMedium img {
+	}
+	.ie8 .mix_1arts_08 .articleMedium {
+		z-index: 1000 !important;
+	}
+	.mix_1arts_08 .articleMedium img {
+		width: 100%;
+	}
+	.mix_1arts_08 .articleMedium div {
+		position: relative;
+		overflow: hidden;
+		background-color: #FFF;
+		margin: -24px 0 0 25px;
+		padding: 20px 35px 20px 32px;
+	}
+	.ie8 .mix_1arts_08 .articleMedium div {
+		z-index: 2000 !important;
+	}
+	.mix_1arts_08 .articleMedium div h2 {
+		padding-left: 0;
+		height: auto;
+		margin-top: -1%;
+	}
+	.mix_1arts_08 .articlesThumbList {
+		width: 100%;
+	}
+	.mix_1arts_08 .articlesThumbList li {
+		height: auto;
+		padding: 0;
+		border-top: 1px solid #ccc;
+		overflow: hidden;
+		position: relative;
+	}
+	.mix_1arts_08 .articlesThumbList li a {
+		width: 96.8%;
+		text-decoration: none;
+		color: #666;
+		display: block;
+		font-size: 13px;
+		margin: 8px 0;
+	}
+	.mix_1arts_08 .articlesThumbList li a:before,  .mix_1arts_08 .articlesThumbList li a:after {
+		content: "";
+		display: table;
+	}
+	.mix_1arts_08 .articlesThumbList li a:after {
+		clear: both;
+	}
+	.mix_1arts_08 .articlesThumbList li a {
+		zoom: 1;/* For IE 6/7 (trigger hasLayout) */
+	
+	}
+	.mix_1arts_08 .articlesThumbList li a p {
+		width: 66%;
+		padding-left: 16px;
+		line-height: 24px;
+	}
+	.mix_1arts_08 .articlesThumbList li a img {
+		display: none;
+	}
+	.mix_1arts_08 .articlesThumbList li a h3 {
+		display: none;
+	}
+	.mix_1arts_08 ul li div.mix_1arts_08_text {
+		background-color: #fff;
+		height: auto;
+		margin: -24px 0 0 24px;
+		position: relative;
+		padding: 16px;
+		width: auto;
+		z-index: 11;
+	}
+	.mix_1arts_08 div .articleMedium div h2 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.mix_1arts_08 div .articleMedium div span {
+		color: #9ea31d;
+		font-size: 14px;
+		font-style: italic;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+	.mix_1arts_08 div .articleMedium a .sprite {
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: inline;
+	}
+}

@@ -1,0 +1,73 @@
+/*	
+	Document   : mix_15arts_02_mobile
+	Created on : 22/08/2013, 06:34:00 pm
+	Author     : Luis Jesús Ruelas Merino
+	Description: Listado de 15 componentes de mix_1arts_16
+ */
+@media screen{
+	.mix_15arts_02{
+		width: 100%;
+		overflow: hidden;
+		height: 395px;	
+		min-height: 300px !important;
+		position: relative;
+	}
+	.mix_15arts_02 .list_container {
+		display: block;
+		height: 395px;
+		overflow: auto;
+		position: relative;
+		width: 105%;
+		overflow-x: hidden;
+		padding-left: 10px;
+	}
+	/*.mix_15arts_02 .list_container  .mix_1arts_16{
+		display:none;
+	}
+	.mix_15arts_02 .list_container  .mix_1arts_16:nth-child(-n+10){
+		display:block;
+	}*/
+	
+	.mix_15arts_02 .mix_1arts_16:first-child .mix_1arts_16_thumb li a h6{
+		padding-top: 5px;	
+	}
+	
+	.mix_15arts_02 .mix_1arts_16:first-child ul li a .tvsa-caret-right{
+		top: 15%;
+	}
+
+	
+	.mix_15arts_02 .list_container  .mix_1arts_16 .mix_1arts_16_thumb li{
+		border-top: 0px solid #ccc;
+	}	
+	.mix_15arts_02 .list_container  .mix_1arts_16 .mix_1arts_16_thumb li img{
+		border-right: 1px solid #8D8D8D;
+		padding-right: 10px;
+	}
+	.mix_15arts_02 .list_container  .mix_1arts_16 .mix_1arts_16_thumb li{
+		background-color: transparent;
+	}
+	.mix_15arts_02 .nav_paginator_01{
+		display: none;
+	}	
+	/*botón ver más*/
+	.mix_15arts_02 .mix_15arts_02_ver_mas{
+        display:block;
+        background:#CCC;
+        text-align:center;
+        padding:10px;
+		font-size:12px;
+    }
+	.mix_15arts_02 .see_less{	
+		display:none;
+		width: 100%;
+        background-color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+	}
+	.mix_15arts_02 .degraded{
+		bottom: 0;
+	}
+}

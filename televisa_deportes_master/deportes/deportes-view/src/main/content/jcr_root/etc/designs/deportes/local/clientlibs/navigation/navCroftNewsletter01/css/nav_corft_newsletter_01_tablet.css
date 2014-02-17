@@ -1,0 +1,298 @@
+@media screen and (min-width: 624px){  
+    /*.nav_corft_newsletter_01{
+        margin-bottom: 24px;
+    }*/
+    .nav_corft_newsletter_01 footer .leftBorder {
+        border-left: 1px solid #dadada;
+    }
+    .nav_corft_newsletter_01 footer .noticias,
+    .nav_corft_newsletter_01 footer .deportes,
+    .nav_corft_newsletter_01 footer .entretenimiento,
+    .nav_corft_newsletter_01 footer .ninos,
+    .nav_corft_newsletter_01 footer .estilo,
+    .nav_corft_newsletter_01 footer .television {
+        background-color: transparent;
+    }
+    .nav_corft_newsletter_01 footer .mobileNav {
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer {
+        background: white;
+    }
+    .nav_corft_newsletter_01 footer a:hover {
+        text-decoration: underline;
+    }
+    .nav_corft_newsletter_01 footer .makeBookmark {
+        display: block;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+        background: #F5F5F5;
+        font-size: 11px;
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 1.5em;
+    }
+    .nav_corft_newsletter_01 footer .makeBookmark span {
+        display: block;
+        margin: 0 auto;
+        width: 618px;
+        padding: 11px 0;
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat 0 -85px;
+    }
+    .nav_corft_newsletter_01 footer .makeBookmark span a {
+        color: #1970B4;
+        padding-left: 20px;
+    }
+    .nav_corft_newsletter_01 footer ul {
+        float: left;
+        font-size: 0.9em;
+        min-height: 240px;
+        width: 169px;
+        overflow: hidden;
+    }
+    .nav_corft_newsletter_01 footer ul li {
+        color: #000;
+        padding: 0 0 0 1.438em;
+        overflow: hidden;
+        margin: 0;
+        display: block;
+    }
+    .nav_corft_newsletter_01 footer ul li > ul {
+        display: block;
+        font-weight: normal;
+        color: #5d5d5d;
+        border-left: none;
+        height: auto;
+    }
+    .nav_corft_newsletter_01 footer ul li > ul li {
+        padding: 0 0 0.750em 0;
+        border-left: none;
+    }
+
+    .nav_corft_newsletter_01 footer .icon {
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer .desktopNav {
+        display: block;
+        overflow: hidden;
+        text-align: left;
+        background: white;
+        margin-top: 2.5em;
+    }
+    .nav_corft_newsletter_01 footer .desktopNav ul {
+        width: 618px;
+        margin: 0 auto;
+        border-bottom: 1px solid #ccc;
+        min-height: 1.313em;
+        overflow: hidden;
+        float: none;
+    }
+    .nav_corft_newsletter_01 footer .desktopNav ul li {
+        float: left;
+        margin: 1em 0;
+        font-size: 0.8em;
+        padding: 0 1.5em;
+        border-left: 1px dotted #ccc;
+    }
+    .nav_corft_newsletter_01 footer .desktopNav ul li.active a {
+        color: #1970B4;
+    }
+
+    .nav_corft_newsletter_01 footer div .nav_corft_newsletter_01_wrapper {
+        overflow: hidden;
+        margin: auto;
+        width: 49%;
+    }
+    .nav_corft_newsletter_01 footer div .row {
+        margin: 1.250em 0 0 0;
+    }
+    .nav_corft_newsletter_01 footer .white-row {
+        text-align: center;
+        background-color: #fff;
+    }
+    .nav_corft_newsletter_01 footer .white-row .nav_corft_newsletter_01_wrapper {
+        height: 600px;
+        padding-top: 1.875em;
+        width: 618px;
+        padding-bottom: 5.125em;
+    }
+    .nav_corft_newsletter_01 footer .white-row .column {
+        width: 157px;
+        margin-right: 4.063em;
+        float: left;
+    }
+    .nav_corft_newsletter_01 footer .white-row .column ul {
+        min-height: 0;
+        border-left: 1px solid #ccc;
+        float: none;
+        padding-bottom: 1.250em;
+        padding-left: 1em;
+    }
+    .nav_corft_newsletter_01 footer .white-row .column ul.videopodcast,
+    .nav_corft_newsletter_01 footer .white-row .column ul.iphoneApps,
+    .nav_corft_newsletter_01 footer .white-row .column ul.androidApps,
+    .nav_corft_newsletter_01 footer .white-row .column ul.platforms {
+        display: block;
+    }
+    .nav_corft_newsletter_01 footer .white-row ul {
+        text-align: left;
+        width: 157px;
+        padding-left: 0.625em;
+        position: relative;
+        overflow: visible;
+        float: none;
+    }
+    .nav_corft_newsletter_01 footer .white-row ul li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 0.30em 0;
+    }
+    .nav_corft_newsletter_01 footer .white-row ul li .icon {
+        position: absolute;
+        width: 22px;
+        height: 23px;
+        top: 0;
+        left: -33px;
+        display: block;
+    }
+
+    .nav_corft_newsletter_01 footer .white-row ul ul {
+        float: none;
+        border-left: 1px solid #ccc;
+    }
+    .nav_corft_newsletter_01 footer .white-row ul ul li {
+        border-top: 0;
+        border-left: 0;
+    }
+    .nav_corft_newsletter_01 footer .white-row ul ul li ul {
+        float: none;
+        margin-bottom: 1.438em;
+        padding: 0;
+    }
+
+    .nav_corft_newsletter_01 footer span.icon {
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat;
+    }
+    .nav_corft_newsletter_01 footer .twitter span.icon {
+        background-position: 0 -37px;
+    }
+    .nav_corft_newsletter_01 footer .facebook span.icon {
+        background-position: 0 -60px;
+    }
+    .nav_corft_newsletter_01 footer .foros span.icon {
+        background-position: -22px -37px;
+    }
+    .nav_corft_newsletter_01 footer .blogs span.icon {
+        background-position: -46px -60px;
+    }
+    .nav_corft_newsletter_01 footer .apps span.icon,
+    .nav_corft_newsletter_01 footer .iphoneApps span.icon,
+    .nav_corft_newsletter_01 footer .ipadApps span.icon,
+    .nav_corft_newsletter_01 footer .androidApps span.icon,
+    .nav_corft_newsletter_01 footer .platforms span.icon {
+        background-position: -69px -39px;
+    }
+    .nav_corft_newsletter_01 footer .podcast span.icon {
+        background-position: -46px -37px;
+    }
+    .nav_corft_newsletter_01 footer .videopodcast span.icon {
+        background-position: -22px -60px;
+    }
+    
+
+    .ie8 .nav_corft_newsletter_01 footer .dark-row{
+        z-index: 2000 !important;
+    }
+    .ie7 .nav_corft_newsletter_01 footer .dark-row{
+        z-index: 2000 !important;
+    }
+    .ie8 .nav_corft_newsletter_01 footer .dark-row .nav_corft_newsletter_01_wrapper{
+        z-index: 1000 !important;
+    }
+    .ie7 .nav_corft_newsletter_01 footer .dark-row .nav_corft_newsletter_01_wrapper{
+        z-index: 1000 !important;
+    }
+
+    .nav_corft_newsletter_01 footer .expanded {
+        border-top: 0.313em solid #f39040;
+        padding-bottom: 3.125em;
+    }
+    .nav_corft_newsletter_01 footer .expanded .hide {
+        display: block;
+    }
+    .nav_corft_newsletter_01 footer .expanded .show {
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer .notExpanded .hide {
+        display: none;
+    }
+    .nav_corft_newsletter_01 footer .notExpanded .show {
+        display: block;
+    }
+    .nav_corft_newsletter_01 footer .dark-row a {
+        float: left;
+    }
+
+
+    .nav_corft_newsletter_01 footer .dark-row a.logo {
+        margin-top: 1.3em !important;
+    }
+    .nav_corft_newsletter_01 footer nav {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .nav_corft_newsletter_01 footer div .legal {
+        padding-top: 0;
+		padding-bottom: 20px;
+    }
+    .nav_corft_newsletter_01 footer div .legal div .right,
+    .nav_corft_newsletter_01 footer div .legal div .left {
+        padding: 0;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row {
+        width: 85%;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row .right {
+        text-align: right;
+        float: right;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row div.left {
+        width: 130px;
+        float: left;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row nav {
+        position: relative;
+        overflow: hidden;
+        width: auto;
+        display: block;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row nav ul {
+        width: auto;
+        float: none;
+        padding: 2px 0 0;
+        min-height: 0;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row nav ul li {
+        border-left: 1px solid #888;
+        float: left;
+        margin: 0 0 0 0.625em;
+        padding: 0 0 0 0.625em;
+    }
+    .nav_corft_newsletter_01 footer div .legal div.row nav ul li a {
+        font-size: 1em;
+        line-height: 1.3em;
+        text-decoration: underline;
+        border-top: 0;
+        padding: 0;
+        font-style: normal;
+        color: #666;
+    }
+
+}
+
+

@@ -1,0 +1,10 @@
+@media screen{  
+	.mix_1arts_10 .articleMedium #videobtn2 {
+	    display: block;
+	    height: 1.75em;
+	    left: 0;
+	    margin-top: -32px;
+	    position: relative;
+	    width: 1.75em;
+	}
+} 

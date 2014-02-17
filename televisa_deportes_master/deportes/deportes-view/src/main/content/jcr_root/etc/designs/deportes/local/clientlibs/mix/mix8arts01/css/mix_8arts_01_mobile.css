@@ -1,0 +1,17 @@
+@media screen {
+    .mix_8arts_01{
+        width: 100%;
+    }
+    .mix_8arts_01 .cont-left{
+        width: 100%;
+    }
+    .mix_8arts_01 .cont-right{
+        display:none;
+    }
+    .mix_8arts_01 .mix_1arts_08 {
+        margin-bottom: 0px;
+    }
+    .mix_8arts_01 .mix_1arts_08 .articleMedium h2 a{
+        color:#D9A961;
+    }
+}

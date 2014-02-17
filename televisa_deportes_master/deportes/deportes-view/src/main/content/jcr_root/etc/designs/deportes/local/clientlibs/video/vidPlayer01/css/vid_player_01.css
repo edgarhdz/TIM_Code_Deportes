@@ -1,0 +1,16 @@
+@media screen and (min-width: 948px){
+    .vid_player_01 .vid_player_01_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    
+    .ie8.vid_player_01 .vid_player_01_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    .ie7.vid_player_01 .vid_player_01_whtbkg
+    {
+        z-index: 1500!important;
+    }
+
+}

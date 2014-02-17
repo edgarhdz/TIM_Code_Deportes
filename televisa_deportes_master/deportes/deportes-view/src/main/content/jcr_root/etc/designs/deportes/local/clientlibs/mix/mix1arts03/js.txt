@@ -1,0 +1,3 @@
+#base=js
+
+mix_1arts_03.js

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Arguments">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <arguments
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}false"
+            collapsible="{Boolean}false"
+            title="Crop Image Arguments"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <dimension43
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="The base dimension is the width and height required for create the thumbnails with aspect ratio 4:3 and make the crop in the respective images. And is defined by width:heigth in pixel for example: 1024:768"
+                    fieldLabel="Base Dimension 4:3"
+                    name="./metaData/dimension43"
+                    xtype="textfield"/>
+                <grayFor43
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="false"
+                    fieldDescription="Create gray thumbnails for Aspect Radio 4:3"
+                    fieldLabel="Create Gray Thumbnails 4:3?"
+                    name="./metaData/grayFor43"
+                    type="checkbox"
+                    value="false"
+                    xtype="selection"/>
+                <aspectRatio43
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="A image is defined by the width:heigth. Width and heigth define the image size in pixel."
+                    fieldLabel="Aspect Ratio 4:3"
+                    name="./metaData/aspectRatio43"
+                    xtype="multifield"/>
+                <dimension169
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="The base dimension is the width and height required for create the thumbnails with aspect ratio 16:9 and make the crop in the respective images. And is defined by width:heigth in pixel for example: 1024:576"
+                    fieldLabel="Base Dimension 16:9"
+                    name="./metaData/dimension169"
+                    xtype="textfield"/>
+                <grayFor169
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="false"
+                    fieldDescription="Create gray thumbnails for Aspect Radio 16:9"
+                    fieldLabel="Create Gray Thumbnails 16:9?"
+                    name="./metaData/grayFor169"
+                    type="checkbox"
+                    value="false"
+                    xtype="selection"/>
+                <aspectRatio169
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="A image is defined by the width:heigth. Width and heigth define the image size in pixel."
+                    fieldLabel="Aspect Ratio 16:9"
+                    name="./metaData/aspectRatio169"
+                    xtype="multifield"/>
+                <dimension11
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="The base dimension is the width and height required for create the thumbnails with aspect ratio 1:1 and make the crop in the respective images. And is defined by width:heigth in pixel for example: 768:768"
+                    fieldLabel="Base Dimension 1:1"
+                    name="./metaData/dimension11"
+                    xtype="textfield"/>
+                <grayFor11
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="false"
+                    fieldDescription="Create gray thumbnails for Aspect Radio 1:1"
+                    fieldLabel="Create Gray Thumbnails 1:1?"
+                    name="./metaData/grayFor11"
+                    type="checkbox"
+                    value="false"
+                    xtype="selection"/>
+                <aspectRatio11
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="A image is defined by the width:heigth. Width and heigth define the image size in pixel."
+                    fieldLabel="Aspect Ratio 1:1"
+                    name="./metaData/aspectRatio11"
+                    xtype="multifield"/>
+            </items>
+        </arguments>
+    </items>
+</jcr:root>

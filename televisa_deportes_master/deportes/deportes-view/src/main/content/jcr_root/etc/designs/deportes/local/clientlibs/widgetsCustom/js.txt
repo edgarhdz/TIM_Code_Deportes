@@ -1,0 +1,10 @@
+photogallerysearch/photoGallerySearch.js
+youtubevideogallerysearch/youtubeVideoGallerySearch.js
+videogallerysearch/videoGallerySearch.js
+
+jquery/jquery-ui-1.9.2.custom.min.js
+gallery/Gallery.js
+gallery/GalleryItem.js
+gallery/GalleryMultiField.js
+gallery/GalleryMultiFieldItem.js
+gallery/Util.js

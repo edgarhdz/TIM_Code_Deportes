@@ -1,0 +1,46 @@
+.ie7 .vid_4vids_01 .type1a {
+	  
+	position:relative !important; 
+	padding-left:13% !important;
+}
+
+
+.ie7 .vid_4vids_01 #carrusel .selectedGallery{
+	
+	display:none;
+}
+
+
+/*Fondo blanco*/
+.ie7 .vid_4vids_01 .overlay {
+
+	width: 95%;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	-khtml-opacity: 0.75;
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+	
+	
+/*Fondo blanco*/
+.ie7 .vid_4vids_01 .overlay2 {
+	background-color: #FFFFFF;
+	display: block;
+	margin-left: 5%;
+	margin-top: -15px;
+	position:relative;
+	
+
+   
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	-khtml-opacity: 0.75;
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+.ie7 .vid_4vids_01 .overlay2 {
+	margin-top: 10px;
+}

@@ -1,0 +1,64 @@
+@media screen and (min-width: 948px){
+	.nav_corft_01 footer div .legal div.row{
+		float: right;
+		width: 94%;
+	}
+    .nav_corft_01 footer div .legal div.row div.left {
+        width:35%;
+        float:left;
+        margin-top:5px;
+        padding-left:5px;
+    }
+
+    .nav_corft_01 footer .blue-row ul li a {
+        font-size: 12px;
+        padding: 4px 0 10px 0;
+    }
+    
+    .nav_corft_01 a.show,
+    .nav_corft_01 a.hide {
+        color: #f39040;
+    }    
+    .nav_corft_01 a.show span.text,
+    .nav_corft_01 a.hide span.text {
+    	display:inline-block;
+    }
+    .nav_corft_01 footer div .nav_corft_01_wrapper{
+    	width: 950px;
+    }
+	
+	 .nav_corft_01 footer .blue-row .blueSections > li {
+		width: 176px;
+    }
+     .nav_corft_01 footer .blue-row .blueSections > li:nth-child(2) {
+        width: 172px        
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li:nth-child(3) {
+        width: 172px;        
+    }	
+	.nav_corft_01 footer .blue-row a {
+    	padding-right: 0px;
+    }
+       div.dark-row div a span.nav_corft_01_sprite{    
+        margin-left: 0;
+        margin-top: 6px;       
+    }
+    .nav_corft_01_sprite.logo {
+    	margin-right: 10px;
+    }
+	
+	.nav_corft_01 footer ul{
+		width: 169px;
+	}
+	
+	.ie7 .nav_corft_01 .nav_corft_01_sprite,
+	.ie8 .nav_corft_01 .nav_corft_01_sprite {
+		background: url(../global/img/global-sprites.png) no-repeat 0 0 !important;
+		background-position: -270px -40px !important;
+	}
+	
+	.ie7 .nav_corft_01 footer div .legal div.row{
+		width: 91%;
+	}
+   	
+}

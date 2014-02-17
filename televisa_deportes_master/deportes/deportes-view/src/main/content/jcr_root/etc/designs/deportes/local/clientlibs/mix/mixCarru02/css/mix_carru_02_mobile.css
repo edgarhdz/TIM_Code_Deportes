@@ -1,0 +1,322 @@
+@media screen{  
+    .mix_carru_02{
+        margin-bottom:12px;
+        /*width: 624px;*/
+    }
+   .mix_carru_02 .resize{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mix_carru_02.type2b2_02 > div.first-child div h2 {
+        font-size: 1em;
+    }
+    .mix_carru_02 .type2b2_02 .articleMobile {
+        height: auto;
+        background-color: red;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+    }
+    .mix_carru_02 .type2b2_02 .articleBigModule_02 {
+        padding: 0;
+        color: #000;
+        position: relative;
+        overflow: hidden;
+    }
+    .mix_carru_02 .type2b2_02 .articleBigModule_02 p {
+        display: none;
+    } 
+    .mix_carru_02 .type2b2_02 .articleBigModule_02 h2 {
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom:10px;
+    }
+    
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 {
+        position:relative;
+        height: auto;
+        margin:-24px 0 0 24px;
+        padding:24px 36px 24px 36px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 h2 {
+        padding-left: 0;
+        height: auto;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02:before,
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02:after {
+        content: "";
+        display: table;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02:after {
+        clear: both;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 {
+        zoom: 1;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 > ul:first-child {
+        float: right;
+        width: 100%;
+        display: block;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 > ul:first-child li {
+        height: 0.625em;
+        width: 0.625em;
+        float: right;
+        background-color: #ccc;
+        margin: 0.1em;
+    }
+    .type2b2_02 .articleBigModule_02 > .galleryCaption_02 > ul:first-child .selected {
+        background-color: #666;
+    }
+    .type2b2_02 .articleMobile {
+        height: auto;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+    }
+    .type2b2_02 .articlesThumbList {
+        width: 100%;
+    }
+    .type2b2_02 .articlesThumbList li {
+        background-color: #eee;
+        height: auto;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        position: relative;
+    }
+    .type2b2_02 .articlesThumbList li img {
+        display: none;
+    }
+    .type2b2_02 .articlesThumbList li a {
+        width: 96.8%;
+        text-decoration: none;
+        color: #666;
+        display: block;
+        font-size: 0.8em;
+        margin: 0.8em 0;
+    }
+    .type2b2_02 .articlesThumbList li a:before,
+    .type2b2_02 .articlesThumbList li a:after {
+        content: "";
+        display: table;
+    }
+    .type2b2_02 .articlesThumbList li a:after {
+        clear: both;
+    }
+    .type2b2_02 .articlesThumbList li a {
+        zoom: 1;
+    }
+    .type2b2_02 .articlesThumbList li a p,
+    .type2b2_02 .articlesThumbList li a h4 {
+        width: 70%;
+        padding-left: 1em;
+        line-height: 1.5em;
+    }
+    .type2b2_02 .articlesThumbList li a span.icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 10px 14px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.5em;
+        right: 0.5em;
+    }
+    .type2b2_02 .articlesThumbList li a h2 {
+        display: none;
+    }
+    .mix_carru_02 .title {
+        position: relative;
+    }
+    .mix_carru_02 .title h3 {
+        background-color: #0079c2;
+    }
+
+    .mix_carru_02 .title h3 a {
+        background-image: none;
+    }
+    .mix_carru_02 .title h1 a {
+        background: none;
+    }
+    .mix_carru_02 .title h1 a .icon {
+        background: transparent url(../img/verticalhero/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 10px 14px;
+        height: 70%;
+        width: 1.188em;
+        float: right;
+        margin-top: 0.15em;
+        margin-right: 0.15em;
+    }
+    .mix_carru_02 .title ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3.5em;
+        height: 2em;
+        padding-left: 0.8em;
+    }
+    .mix_carru_02 .title ul > li {
+        float: left;
+        width: 1em;
+        height: 0.5em;
+        font-size: 1.3em;
+        margin: 0.6em 0 0;
+    }
+    .mix_carru_02 .title ul > li a {
+        width: 0.95em;
+        height: 0.563em;
+        padding: 0;
+        color: transparent;
+    }
+    .mix_carru_02 .title ul > li:first-child a {
+        background: url(../img/verticalhero/arrow-sprites.png) no-repeat 6px 0
+    }
+    .mix_carru_02 .title ul > li:last-child {
+        border-left: 1px dotted #666;
+        padding-left: 10px;
+    }
+    .mix_carru_02 .title ul > li:last-child a {
+        background: url(../img/verticalhero/arrow-sprites.png) no-repeat -15px 0;
+    }
+    .mix_carru_02.showArrows .title h1 {
+        width: 50%;
+    }
+    .mix_carru_02.showArrows .title h1 a .icon {
+        display: none;
+    }
+    .mix_carru_02.showArrows .title ul {
+        display: block;
+    }
+    .mix_carru_02 .type2b2_02 .galleryImages_02 {
+        width:100%;
+        overflow:hidden;
+    }
+    .mix_carru_02 .type2b2_02 .galleryImages_02 > ul {
+        display: block;
+        position:relative;
+    }
+    .mix_carru_02 .type2b2_02 .galleryImages_02 > ul > li {
+        float: left;
+        overflow: hidden;
+    }
+    .mix_carru_02 .type2b2_02 .galleryImages_02 > ul > li:last-child {
+        margin-right: 0px;
+    }
+    
+    .mix_carru_02 .galleryImages_02 ul {
+        width:10000px;
+    }
+    
+    .mix_carru_02 .articleBigModule_02 img {
+        width: 100%;
+        height: auto;
+    }
+    .mix_carru_02 .articleBigModule_02 .galleryCaption_02 {
+        background-color: white;
+        position: relative;
+    }
+    .mix_carru_02 .articleBigModule_02 .galleryCaption_02 > h3 {
+        font-style: italic;
+    }
+    .mix_carru_02 .articleBigModule_02 h2 a,
+    .mix_carru_02 .articleBigModule_02 h4 a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .mix_carru_02 .articleBigModule_02 h2 a:hover,
+    .mix_carru_02 .articleBigModule_02 h4 a:hover {
+        text-decoration: none;
+    }
+    .mix_carru_02 > .type2a .articleMedium {
+        height: auto;
+        border-top: 1px solid #ccc;
+    }
+    .mix_carru_02 > .type2a .articleMedium div:last-child {
+        height: auto;
+        background-color: #fff;
+        padding: 1.4em;
+        position: relative;
+        width: 100%;
+    }
+    .mix_carru_02 > .type2a .articleMedium img {
+        display: none;
+    }
+    .mix_carru_02 > .type2a .articleMedium a {
+        width: 96.8%;
+        text-decoration: none;
+        color: #666;
+        display: inline;
+        font-size: 0.8em;
+    }
+    .mix_carru_02 > .type2a .articleMedium a h4 {
+        width: 70%;
+        float: left;
+        padding: 0 1em;
+        font-size: 1em;
+    }
+    .mix_carru_02 > .type2a .articleMedium a p:first-child {
+        font-size: 0.8em;
+        font-style: italic;
+        display: block;
+    }
+    .mix_carru_02 > .type2a .articleMedium a span.icon {
+        background: url(../img/verticalhero/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 10px 14px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        top: 2.7em;
+        right: 3.6em;
+    }
+    .mix_carru_02 .galleryCaption_02 .bullets_02{
+        display: block;
+        position:absolute;
+        top:6px;
+        right:6px;
+        margin:0;
+    }
+    .mix_carru_02 .galleryCaption_02 .bullets_02 ul{
+        width: 68px;
+        float: right;
+        margin-top:5px;
+        display: block;
+    }
+    .mix_carru_02 .galleryCaption_02 .bullets_02 ul li{
+        width:12px;
+        height: 12px;
+        background-color:#CCC;
+        margin-left: 5px;
+        float:left;
+    }
+    .mix_carru_02 .galleryCaption_02 .bullets_02 ul li.selected{
+        background-color:#09C;
+    }
+    .mix_carru_02 span.corner {
+        position:absolute;
+        top:0;
+        right:-1px;
+        height:40px;
+        width:40px;
+        background: url(../img/global-sprites.png) no-repeat;
+    }
+    
+    .mix_carru_02 span.corner.photo {
+        background-position: -85px -40px !important;
+    }
+    .mix_carru_02 span.corner.video {
+        background-position: -132px -40px !important;
+        height: 43px;
+        width: 43px;
+    }
+}
+@media screen and (max-width: 623px) {
+    .mix_carru_02 .type2b2_02 .articleBigModule_02 .galleryThumbs {
+        display:none;
+    }
+}

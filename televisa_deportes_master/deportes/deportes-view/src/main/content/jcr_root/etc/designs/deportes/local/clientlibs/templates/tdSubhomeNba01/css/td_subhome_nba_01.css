@@ -1,0 +1,48 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_subhome_nba_01 .main{
+        width: 948px;
+    }
+	/*Tamaño contenedores primarios*/
+	.td_subhome_nba_01 .main .c2,
+	.td_subhome_nba_01 .main .c4,
+	.td_subhome_nba_01 .main .c7{
+		float:left;
+		width: 624px;
+	}
+	/* Flotan a la der */
+	.td_subhome_nba_01 .main .c3,
+	.td_subhome_nba_01 .main .c5,
+	.td_subhome_nba_01 .main .c8{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_subhome_nba_01 .main .c3_1,
+	.td_subhome_nba_01 .main .c3_2,
+	.td_subhome_nba_01 .main .c3_3,
+	.td_subhome_nba_01 .main .c5_1,
+	.td_subhome_nba_01 .main .c5_2,
+	.td_subhome_nba_01 .main .c8_1,
+	.td_subhome_nba_01 .main .c8_2,
+	.td_subhome_nba_01 .main .c8_3{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_subhome_nba_01 .main .c3_2,
+	.td_subhome_nba_01 .main .c3_3,
+	.td_subhome_nba_01 .main .c3_4,
+	.td_subhome_nba_01 .main .c5_1,
+	.td_subhome_nba_01 .main .c8_1,
+	.td_subhome_nba_01 .main .c8_2,
+	.td_subhome_nba_01 .main .c8_3,
+	.td_subhome_nba_01 .main .c8_4,
+	.td_subhome_nba_01 .main .c8_5,
+	.td_subhome_nba_01 .main .c8_6,
+	.td_subhome_nba_01 .main .c8_7{
+		clear:both;
+	}
+
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="generics.akamai.title"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <akamaiSettings
+                jcr:primaryType="cq:Panel"
+                title="Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <id
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="generics.akamai.id.description"
+                        fieldLabel="generics.akamai.id.label"
+                        name="./akamaiId"
+                        xtype="textfield"/>
+                    <smavp
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="generics.akamai.smavp.description"
+                        fieldLabel="generics.akamai.smavp.label"
+                        name="./smavp"
+                        type="checkbox"
+                        xtype="selection"/>
+                    <size
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="generics.akamai.size.description"
+                        fieldLabel="generics.akamai.size.label"
+                        heightParameter="./height"
+                        widthParameter="./width"
+                        xtype="sizefield"/>
+                </items>
+            </akamaiSettings>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <containers
+            jcr:primaryType="cq:Panel"
+            title="commons.twitterList.settings.title">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <numberOfTweets
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    blankText="commons.standoutteaser.patharticle.blanktext"
+                    fieldDescription="commons.twitterList.numberOfTweets.description"
+                    fieldLabel="commons.twitterList.numberOfTweets.label"
+                    name="./numberOfTweets"
+                    xtype="numberfield"/>
+                <twitterList
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.twitterList.list.description"
+                    fieldLabel="commons.twitterList.list.label"
+                    name="./twitterList"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="cq:Widget"
+                        allowBlank="{Boolean}false"
+                        blankText="commons.standoutteaser.patharticle.blanktext"
+                        xtype="textfield"/>
+                </twitterList>
+            </items>
+        </containers>
+    </items>
+</jcr:root>

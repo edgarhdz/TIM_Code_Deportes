@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Author">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <name
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Name"
+            name="./userIdentifier"
+            xtype="textfield"/>
+        <email
+            jcr:primaryType="cq:Widget"
+            fieldLabel="E-mail Address"
+            name="./email"
+            vtype="email"
+            xtype="textfield"/>
+        <url
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Website"
+            name="./url"
+            vtype="url"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

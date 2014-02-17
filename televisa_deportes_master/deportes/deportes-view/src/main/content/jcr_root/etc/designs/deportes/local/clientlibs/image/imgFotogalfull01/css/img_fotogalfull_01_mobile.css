@@ -1,0 +1,74 @@
+/* All devices */
+div.interes-gallery {display:none;position:relative;}
+div.img_fotogalfull_01 div.share {display:none;}
+div.img_fotogalfull_01 div.image-container:hover div.share {display:block;}
+div.img_fotogalfull_01 span.data {display:none;}
+div.img_fotogalfull_01 div.interes-gallery {display:none;}
+div.img_fotogalfull_01 div.image-container,
+div.img_fotogalfull_01 div.related-container {position:relative; overflow:hidden;}
+div.img_fotogalfull_01 div.related-container {background:#e2e2e2; display:none;}
+div.img_fotogalfull_01 div.share {position:absolute; top:0; left:24px;}
+div.img_fotogalfull_01 div.share a {
+	background:rgb(167, 10, 11);
+    color:#FFF;
+    display:block;
+    float:left;
+    height:28px;
+    width:28px;
+    line-height:28px;
+    margin-right:1px;
+    text-align:center;
+}
+div.img_fotogalfull_01 div.overlay {
+	background:rgba(255,255,255,.75);
+	position:absolute;
+	bottom:3px;
+	left:24px;
+	width:100%;
+}
+div.img_fotogalfull_01 div.related-container div.overlay {
+	bottom:0!important;
+}
+div.img_fotogalfull_01 div.overlay a {
+	color:#A70A0B;
+	font-style:italic;
+}
+div.img_fotogalfull_01 abbr,
+div.img_fotogalfull_01 acronym {
+	border-bottom:1px dotted;
+}
+.lt-ie9 div.img_fotogalfull_01 div.overlay {
+	background:#FFF;
+	opacity:.75;
+	filter: alpha(opacity=75);
+}
+#col2 {display:none;}
+div.img_fotogalfull_01 div.overlay p {font-size:12px;padding:24px 24px 24px 24px; text-align:left;}
+div.img_fotogalfull_01 div.overlay div.controls {position:absolute;top:-28px;left:0;}
+div.img_fotogalfull_01 div.overlay div.controls a {width:28px; color:#FFF; height:28px; display:block; margin-right:1px; float:left; text-align:center; line-height:28px;}
+
+div.img_fotogalfull_01 a.left.disabled,
+div.img_fotogalfull_01 a.right.disabled {color:#8C8C8C;}
+
+/* Internet mo$%&fu*&#ng Explorer */
+.ie7 div.img_fotogalfull_01 div.image-container div.overlay {
+    background:url(../img/75percentwhite.png);
+}
+.ie7 img { -ms-interpolation-mode: bicubic; }
+.ie7 div.carousel div {
+	overflow:hidden;
+	position:relative;
+	width:80%!important;
+    position:absolute;left:10%;
+}
+/* Only Mobile */
+@media screen and (max-width: 623px) {
+    div.img_fotogalfull_01 img.mainimage {width:100%;height:auto;}
+    div.img_fotogalfull_01 div.share {display:none;}
+    div.img_fotogalfull_01 #main {margin:0;}
+    div.img_fotogalfull_01 div.carousel {display:none;}
+    div.img_fotogalfull_01 div.overlay {width:100%; bottom:4px; position:relative; }
+    div.img_fotogalfull_01 div.overlay .imageDescription {text-align:left;}
+    div.img_fotogalfull_01 div.details {display:none;}
+    .related-container {display:none;}
+}

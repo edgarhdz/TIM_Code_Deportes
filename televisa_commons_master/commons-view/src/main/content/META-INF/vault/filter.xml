@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/commons/components"/>
+    <filter root="/apps/commons/workflow"/>
+    <filter root="/etc/designs/commons/clientlibs"/>
+    <filter root="/etc/designs/commons"/>
+    <filter root="/etc/workflow/launcher/config/deportes_article_creation_launch"/>
+    <filter root="/etc/workflow/models/deportes-article-creation"/>
+</workspaceFilter>

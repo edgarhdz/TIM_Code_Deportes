@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    manageTabs="function(tab,noSwitch){&#xa;&#xa;&#x9;if(tab == 'art_quote_02' || tab == 'art_quote_04'){tab = &quot;image&quot;;}&#xa;&#xa;&#x9;var tabs=['settings','link', 'image'];&#xa;&#x9;var index=tabs.indexOf(tab);&#xa;&#xa;&#x9;for(var i=2;i&lt;=tabs.length;i++){&#xa;&#x9;&#x9;if(index==i){&#xa;&#x9;  &#x9;&#x9;this.unhideTabStripItem(i);&#xa;&#x9;&#x9;}else if(index==-1){&#xa;&#x9;  &#x9;&#x9;this.hideTabStripItem(i);&#xa;&#x9;&#x9;}&#xa;&#x9;}&#xa;  &#xa;  &#x9;this.doLayout();&#xa;  &#x9;if(!noSwitch)this.activate(index);  &#xa;}"
+    title="commons.artquote01.title"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <settings
+            jcr:primaryType="cq:Widget"
+            title="Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <quotelist
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.artquote01.quotelist-description"
+                    fieldLabel="commons.artquote01.title"
+                    name="./quote"
+                    type="radio"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <art_quote_01
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.artquote01.quotelist-artquote01text"
+                            value="art_quote_01"/>
+                        <art_quote_02
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.artquote01.quotelist-artquote02text"
+                            value="art_quote_02"/>
+                        <art_quote_03
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.artquote01.quotelist-artquote03text"
+                            value="art_quote_03"/>
+                        <art_quote_04
+                            jcr:primaryType="nt:unstructured"
+                            text="genericsdeportes.artquote01.quotelist-artquote04text"
+                            value="art_quote_04"/>
+                    </options>
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        loadcontent="function(field, record, path) {&#xa;&#x9;if(this.getValue() == 'art_quote_01' || this.getValue() == 'art_quote_03'){&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(false);&#xa;&#x9;}else if(this.getValue() == 'art_quote_02'){&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(true);&#xa;&#x9;} &#xa;&#xa;}"
+                        selectionchanged="function(selection, value, checked) {&#xa;&#x9;if(selection.getValue() == &quot;art_quote_01&quot; || selection.getValue() == &quot;Quote sin Imagen&quot;){&#x9;&#x9;&#x9;&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(false);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}else if(selection.getValue() == &quot;art_quote_02&quot;){&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}else if(selection.getValue() == &quot;art_quote_03&quot;){&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(false);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(false);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}else if(selection.getValue() == &quot;art_quote_04&quot;){&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(1).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('panel').getComponent(2).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').getComponent(1).getComponent(5).setVisible(true);&#xa;&#x9;&#x9;selection.findParentByType('tabpanel').manageTabs(value);&#xa;&#xa;&#x9;}&#xa;}"/>
+                </quotelist>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.artquote01.title-description"
+                    fieldLabel="commons.artquote01.title-label"
+                    name="./title"
+                    xtype="textarea"/>
+                <author
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.artquote01.author-description"
+                    fieldLabel="commons.artquote01.author-label"
+                    name="./author"
+                    xtype="textfield"/>
+            </items>
+        </settings>
+        <link
+            jcr:primaryType="cq:Widget"
+            id="link"
+            title="Link"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <linktype
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="commons.link.linktype-label"
+                    name="./linkType"
+                    type="radio"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <internal
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.internallink-label"
+                            value="internal"/>
+                        <external
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.externallink-label"
+                            value="external"/>
+                    </options>
+                    <listeners
+                        jcr:primaryType="nt:unstructured"
+                        loadcontent="function(field, record, path) {  linkLoadContent(field, record, path);}"
+                        selectionchanged="function(selection,value, checked){ linkSelectionChanged(selection,value, checked); }"/>
+                </linktype>
+                <internallink
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.link.internallink-description"
+                    fieldLabel="commons.link.internallink-label"
+                    name="./internalLink"
+                    rootPath="/content/televisa"
+                    rootTitle="Televisa"
+                    xtype="pathfield"/>
+                <externallink
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.link.externallink-description"
+                    fieldLabel="commons.link.externallink-label"
+                    name="./externalLink"
+                    xtype="textfield"/>
+                <target
+                    jcr:primaryType="cq:Widget"
+                    defaultValue="_self"
+                    fieldDescription="commons.link.target-description"
+                    fieldLabel="commons.link.target-label"
+                    name="./linkTarget"
+                    type="select"
+                    xtype="selection">
+                    <options jcr:primaryType="cq:WidgetCollection">
+                        <blank
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.target-option-blank-text"
+                            value="_blank"/>
+                        <self
+                            jcr:primaryType="nt:unstructured"
+                            text="commons.link.target-option-self-text"
+                            value="_self"/>
+                    </options>
+                </target>
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.link.target-description"
+                    fieldLabel="commons.link.title-label"
+                    name="./linkTitle"
+                    xtype="textfield"/>
+                <alt
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="commons.stageimage.alt-description"
+                    fieldLabel="Alt Text"
+                    name="./alt"
+                    xtype="textfield"/>
+            </items>
+        </link>
+        <image
+            jcr:primaryType="cq:Widget"
+            allowUpload="{Boolean}false"
+            cropParameter=""
+            ddGroups="[media]"
+            fileNameParameter="./fileName"
+            fileReferenceParameter="./fileReference"
+            mapParameter=""
+            name="./file"
+            requestSuffix=".img.png"
+            rotateParameter=""
+            title="Image"
+            xtype="html5smartimage">
+            <listeners
+                jcr:primaryType="nt:unstructured"
+                render="function() { this.findParentByType('tabpanel').hideTabStripItem(2); }"/>
+        </image>
+    </items>
+</jcr:root>

@@ -1,0 +1,23 @@
+@media screen and (min-width: 39em){
+    /* BEGIN: Global (Medium) */
+    div.art_reltd_01 {
+        width: 100%;
+        display: block;
+    }
+    div.art_reltd_01_title {
+        margin-bottom: 1.5em;
+        margin-left: .5em;
+    }
+    div.art_reltd_01_title:before,
+    div.art_reltd_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.art_reltd_01_title:after {
+        clear: both;
+    }
+    div.art_reltd_01_title {
+        zoom: 1;
+    }
+
+}

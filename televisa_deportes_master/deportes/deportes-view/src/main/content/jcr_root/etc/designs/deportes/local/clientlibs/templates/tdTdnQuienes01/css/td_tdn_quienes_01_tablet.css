@@ -1,0 +1,45 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_tdn_quienes_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_tdn_quienes_01 .main .c1{
+		margin-top:24px;
+	}
+	.td_tdn_quienes_01 .main .c1_1{
+		overflow:hidden;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tdn_quienes_01 .main .c2,
+	.td_tdn_quienes_01 .main .c3,
+	.td_tdn_quienes_01 .main .c3bis{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_tdn_quienes_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_tdn_quienes_01 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_tdn_quienes_01 .main .c2 .c2_4{
+		clear:both;
+	}
+	.td_tdn_quienes_01 .main .c3 > div{
+		width:300px;
+	}
+	.td_tdn_quienes_01 .img_stage_02 .texto p.img_stage_02_black {
+		padding-left:15px;
+	}
+	.td_tdn_quienes_01 .main .c1_1 > img{
+		margin-left:0px;
+		margin-bottom: 24px;
+	}
+	
+	.td_tdn_quienes_01 .banner_template{
+		margin-bottom: 0;
+	}
+}

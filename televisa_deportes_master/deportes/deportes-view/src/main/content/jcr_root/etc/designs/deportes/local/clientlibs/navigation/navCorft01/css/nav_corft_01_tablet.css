@@ -1,0 +1,470 @@
+@media screen and (min-width: 624px){  
+    /*.nav_corft_01{
+        margin-bottom: 24px;
+    }*/
+    .nav_corft_01 footer .leftBorder {
+        border-left: 1px solid #dadada;
+    }
+    .nav_corft_01 footer .noticias,
+    .nav_corft_01 footer .deportes,
+    .nav_corft_01 footer .entretenimiento,
+    .nav_corft_01 footer .ninos,
+    .nav_corft_01 footer .estilo,
+    .nav_corft_01 footer .television {
+        background-color: transparent;
+    }
+    .nav_corft_01 footer .mobileNav {
+        display: none;
+    }
+    .nav_corft_01 footer {
+        background: white;
+    }
+    .nav_corft_01 footer a:hover {
+        text-decoration: underline;
+    }
+    .nav_corft_01 footer .makeBookmark {
+        display: block;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+        background: #F5F5F5;
+        font-size: 11px;
+        font-style: italic;
+        font-weight: bold;
+        margin-top: 24px;
+    }
+    .nav_corft_01 footer .makeBookmark span {
+        display: block;
+        margin: 0 auto;
+        width: 618px;
+        padding: 11px 0;
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat 0 -85px;
+    }
+    .nav_corft_01 footer .makeBookmark span a {
+        color: #1970B4;
+        padding-left: 20px;
+    }
+    .nav_corft_01 footer ul {
+        float: left;
+        font-size: 14px;
+        min-height: 240px;
+        width: 107px;
+        overflow: hidden;
+    }
+    .nav_corft_01 footer ul li {
+        color: #000;
+        padding: 0 0 0 23px;
+        overflow: hidden;
+        margin: 0;
+        display: block;
+    }
+    .nav_corft_01 footer ul li > ul {
+        display: block;
+        font-weight: normal;
+        color: #5d5d5d;
+        border-left: none;
+        height: auto;
+    }
+    .nav_corft_01 footer ul li > ul li {
+        padding: 0 0 12px 0;
+        border-left: none;
+    }
+
+    .nav_corft_01 footer .icon {
+        display: none;
+    }
+    .nav_corft_01 footer .desktopNav {
+        display: block;
+        overflow: hidden;
+        text-align: left;
+        background: white;
+        margin-top: 40px;
+    }
+    .nav_corft_01 footer .desktopNav ul {
+        width: 618px;
+        margin: 0 auto;
+        border-bottom: 1px solid #ccc;
+        min-height: 21px;
+        overflow: hidden;
+        float: none;
+    }
+    .nav_corft_01 footer .desktopNav ul li {
+        float: left;
+        margin: 16px 0;
+        font-size: 13px;
+        padding: 0 24px;
+        border-left: 1px dotted #ccc;
+    }
+    .nav_corft_01 footer .desktopNav ul li.active a {
+        color: #1970B4;
+    }
+
+    .nav_corft_01 footer div .nav_corft_01_wrapper {
+        overflow: hidden;
+        margin: auto;
+        min-width: 624px; 
+        width: 74%;     
+    }
+    .nav_corft_01 footer div .row {
+        margin: 14px 0 0 0;
+        padding-bottom: 21px;
+    }
+    .nav_corft_01 footer .white-row {
+        text-align: center;
+        background-color: #fff;
+    }
+    .nav_corft_01 footer .white-row .nav_corft_01_wrapper {
+        height: 600px;
+        padding-top: 30px;
+        width: 618px;
+        padding-bottom: 82px;
+    }
+    .nav_corft_01 footer .white-row .column {
+        width: 157px;
+        margin-right: 65px;
+        float: left;
+    }
+    .nav_corft_01 footer .white-row .column ul {
+        min-height: 0;
+        border-left: 1px solid #ccc;
+        float: none;
+        padding-bottom: 20px;
+        padding-left: 16px;
+    }
+    .nav_corft_01 footer .white-row .column ul.videopodcast,
+    .nav_corft_01 footer .white-row .column ul.iphoneApps,
+    .nav_corft_01 footer .white-row .column ul.androidApps,
+    .nav_corft_01 footer .white-row .column ul.platforms {
+        display: block;
+    }
+    .nav_corft_01 footer .white-row ul {
+        text-align: left;
+        width: 157px;
+        padding-left: 10px;
+        position: relative;
+        overflow: visible;
+        float: none;
+    }
+    .nav_corft_01 footer .white-row ul li {
+        border: 0;
+        width: auto;
+        height: auto;
+        padding: 5px 0;
+    }
+    .nav_corft_01 footer .white-row ul li .icon {
+        position: absolute;
+        width: 22px;
+        height: 23px;
+        top: 0;
+        left: -33px;
+        display: block;
+    }
+
+    .nav_corft_01 footer .white-row ul ul {
+        float: none;
+        border-left: 1px solid #ccc;
+    }
+    .nav_corft_01 footer .white-row ul ul li {
+        border-top: 0;
+        border-left: 0;
+    }
+    .nav_corft_01 footer .white-row ul ul li ul {
+        float: none;
+        margin-bottom: 23px;
+        padding: 0;
+    }
+
+    .nav_corft_01 footer span.icon {
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat;
+    }
+    .nav_corft_01 footer .twitter span.icon {
+        background-position: 0 -37px;
+    }
+    .nav_corft_01 footer .facebook span.icon {
+        background-position: 0 -60px;
+    }
+    .nav_corft_01 footer .foros span.icon {
+        background-position: -22px -37px;
+    }
+    .nav_corft_01 footer .blogs span.icon {
+        background-position: -46px -60px;
+    }
+    .nav_corft_01 footer .apps span.icon,
+    .nav_corft_01 footer .iphoneApps span.icon,
+    .nav_corft_01 footer .ipadApps span.icon,
+    .nav_corft_01 footer .androidApps span.icon,
+    .nav_corft_01 footer .platforms span.icon {
+        background-position: -69px -39px;
+    }
+    .nav_corft_01 footer .podcast span.icon {
+        background-position: -46px -37px;
+    }
+    .nav_corft_01 footer .videopodcast span.icon {
+        background-position: -22px -60px;
+    }
+    .nav_corft_01 footer .blue-row {
+        height:30px;
+        text-align: left;
+        padding: 6px 0;
+        border-top: 5px solid #204369;
+    }
+    .ie8 .nav_corft_01 footer .blue-row{
+        z-index: 2000 !important;
+    }
+    .ie7 .nav_corft_01 footer .blue-row{
+        z-index: 2000 !important;
+    }
+    .ie8 .nav_corft_01 footer .blue-row .nav_corft_01_wrapper{
+        z-index: 1000 !important;
+    }
+    .ie7 .nav_corft_01 footer .blue-row .nav_corft_01_wrapper{
+        z-index: 1000 !important;
+    }
+
+    .ie8 .nav_corft_01 footer .dark-row{
+        z-index: 2000 !important;
+    }
+    .ie7 .nav_corft_01 footer .dark-row{
+        z-index: 2000 !important;
+    }
+    .ie8 .nav_corft_01 footer .dark-row .nav_corft_01_wrapper{
+        z-index: 1000 !important;
+    }
+    .ie7 .nav_corft_01 footer .dark-row .nav_corft_01_wrapper{
+        z-index: 1000 !important;
+    }
+
+
+
+    .nav_corft_01 footer .blue-row a {
+        float: right;
+		font-style: italic;
+    	padding-right: 0;
+    }
+    .nav_corft_01 footer .blue-row a .text {
+        display: block;
+        font-size: 13px;
+        color: #f39040;
+        margin: 0;
+        float: left;
+        padding: 0 5px;
+    }
+    .nav_corft_01 footer .blue-row.expanded {
+        border-top: 5px solid #f39040;
+    }
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper {
+        text-align: left;
+        margin: auto;
+        position: relative;
+    }
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper > a {
+        margin-right:18px;
+        position: absolute;
+        right: 0;
+        top:0;
+        text-decoration: none;
+    }
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper > a .more,
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper > a .less {
+        display: block;
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat 0 0;
+        height: 16px;
+        width: 16px;
+        float: left;
+    }
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper > a .more {
+        /*background: transparent url(../img/footervertical/sprites.png) no-repeat 0 0;*/
+    }
+    .nav_corft_01 footer .blue-row .nav_corft_01_wrapper > a .less {
+        background: transparent url(../img/footervertical/sprites_deportes.png) no-repeat 0 -18px;
+    }
+    .nav_corft_01 footer .blue-row .blueSections {
+        width: 100%;
+        min-height: 0; 
+        padding-top:3px;
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li {
+        width: 100px;
+        float: left;
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li:nth-child(2) {
+        width: 88px;        
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li:nth-child(3) {
+        width: 75px;        
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li ul.blueSections-list {
+        min-height: 0;
+        display: none;
+    }
+    .nav_corft_01 footer .blue-row .blueSections > li ul.blueSections-list li a {
+        color: #fff;
+        float: left;
+        border: 0; 
+        font-size: 10px;
+    }
+    .nav_corft_01 footer .blue-row.expanded .blueSections > li ul {
+        display: block;    
+    }
+    .nav_corft_01 footer .blue-row ul li a {
+        padding: 0 0 10px 18px;
+        border-bottom: none;
+        font-size: 12px;
+    }
+
+    .nav_corft_01 footer .expanded {
+        border-top: 5px solid #f39040;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    .nav_corft_01 footer .expanded .hide {
+        display: block;
+    }
+    .nav_corft_01 footer .expanded .show {
+        display: none;
+    }
+    .nav_corft_01 footer .notExpanded .hide {
+        display: none;
+    }
+    .nav_corft_01 footer .notExpanded .show {
+        display: block;
+    }
+    .nav_corft_01 footer .dark-row a {
+        float: left;
+    }
+
+    .nav_corft_01 footer div.row nav ul li a{
+        font-size: 10px !important;
+    }
+    .nav_corft_01 footer .dark-row a.logo {    	
+        margin-top: 10px !important;
+        padding-left: 9px;
+    }
+    .nav_corft_01 footer nav {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .nav_corft_01 footer div .legal {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .nav_corft_01 footer div .legal div .right,
+    .nav_corft_01 footer div .legal div .left {
+        padding: 0;
+    }
+    .nav_corft_01 footer div .legal div.row {
+        width: 87%;
+    }
+    .nav_corft_01 footer div .legal div.row .right {
+        text-align: right;
+        float: right;
+        width: auto;
+    }
+    .nav_corft_01 footer div .legal div.row div.left {
+        width: 21%;        
+        float: left;
+    }
+    .nav_corft_01 footer div .legal div.row nav {
+        position: relative;
+        overflow: hidden;
+        width: auto;
+        display: block;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+    }
+    .nav_corft_01 footer div .legal div.row nav ul {
+        width: auto;
+        float: none;
+        padding: 2px 0 0;
+        min-height: 0;
+    }
+    .nav_corft_01 footer div .legal div.row nav ul li {
+        border-left: 1px solid #888;
+        float: left;
+        margin: 0 0 0 10px;
+        padding: 0 0 0 10px;
+    }
+    .nav_corft_01 footer div .legal div.row nav ul li a {
+        font-size: 16px;
+        line-height: 14px;
+        text-decoration: underline;
+        border-top: 0;
+        padding: 0;
+        font-style: normal;
+        color: #666;
+    }
+
+
+    .nav_corft_01 footer .blue-row ul li a i {
+        display:none;
+    }
+    
+    .nav_corft_01 a.show,
+    .nav_corft_01 a.hide {
+        color: #f39040;
+    }
+    
+    .nav_corft_01 a.show span.text,
+    .nav_corft_01 a.hide span.text {
+    display:none; 
+    line-height:20px; 
+    font-size:12px; 
+    font-weight:bold;
+    }
+    
+    
+    div.dark-row div a span.nav_corft_01_sprite{    
+        margin-left: 15px;
+        margin-top: 6px;
+        
+    }
+    .nav_corft_01_sprite.logo {
+    	margin-right: 10px;
+    }
+    .nav_corft_01 footer div.row {
+    	 padding-top: 3px;
+    }
+    
+    /*Ocultar las flechas*/
+    .nav_corft_01 footer .dark-row .nav_corft_01_wrapper .row .right nav ul li a i.tvsa-caret-right{
+    	display: none;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+   .nav_corft_01 footer .dark-row {
+   		margin-bottom:-10px;
+   }  
+}
+/* iPads (portrait) ------------ */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+   .nav_corft_01 footer .dark-row {
+   		margin-bottom:-10px;
+   }  
+}
+/*Dispositivos vista retina------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 624px),(min-resolution: 192dpi) and (min-width: 624px) {
+	.nav_corft_01_sprite {
+		background: url(../global/img/sprite_logos_televisa_movil@2x.png) no-repeat 0 0;
+		background-size:187px 38px;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+		overflow: hidden;
+        text-indent: -1584px;
+	}
+	.nav_corft_01_sprite.logo {
+		background-position: 0px 0px;
+		height: 21px;
+		width: 30px;
+		margin-right: 6px;
+	}
+}

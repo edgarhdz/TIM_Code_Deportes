@@ -1,0 +1,44 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_home_main_01 .main{
+        width: 948px;
+    }
+	/* 100 porciento */
+    .td_home_main_01 .main .c1{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}	
+	/* Flotan a la izq */
+	.td_home_main_01 .main .c2,
+	.td_home_main_01 .main .c4,
+	.td_home_main_01 .main .c6{ 
+		float:left;
+		width: 624px;
+		clear:none;
+	}
+	/* Flotan a la der */
+	.td_home_main_01 .main .c3,
+	.td_home_main_01 .main .c5,
+	.td_home_main_01 .main .c7{
+		float:right;
+		width: 300px;
+		clear:none;
+	} 
+	/*bloques*/	
+	.td_home_main_01 .main .c3_1,
+	.td_home_main_01 .main .c3_2,
+	.td_home_main_01 .main .c3_3,
+	.td_home_main_01 .main .c7_6{
+		float: none;
+		clear:both;
+		overflow:hidden;
+	}
+	.ie8 .vid_4vids_01 a.td_bg{
+		background: rgba(167,10,11,.6) !important;
+	}
+	.ie8 .vid_4vids_01 .back_overlay{
+		background: rgba(167,10,11,.6) !important;
+	}
+
+}

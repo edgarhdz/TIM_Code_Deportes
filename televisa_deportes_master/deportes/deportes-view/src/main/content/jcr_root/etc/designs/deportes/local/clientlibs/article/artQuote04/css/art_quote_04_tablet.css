@@ -1,0 +1,143 @@
+@media screen and (min-width: 39em){  
+
+    .art_quote_04{
+    	border-bottom: 1px solid #CCCCCC;
+        max-width:210px;
+        font-style:italic;
+        padding-bottom:10px; 
+        border-bottom: 1px solid #CCC; 
+        margin-bottom: 0px;
+        float:left;
+        margin: 0px 24px 24px 0px;
+    }
+
+    .art_quote_04 div .articleMedium div h3{
+    	padding-top: 5px;
+	    font-size: 12px;
+	    font-weight: normal;
+        padding-left: 0 !important;
+
+    }
+
+
+    .art_quote_04 .articleMedium {
+        border: 0;
+        padding: 0;
+        /*margin: 0.50em 0 1em 0.44em;*/
+        position: relative;
+        /*height: 18.35em;
+        width: 300px;*/
+        float: left;
+		
+    }
+	
+	.ie8 .art_quote_04 .articleMedium {
+		z-index:1000 !important;
+	}
+    .art_quote_04 .articleMedium img,
+    .art_quote_04 .articleMedium h2 {
+        display: block;
+        min-width: 210px;
+    }
+
+    .art_quote_04 .articleMedium div {
+    	background-color: transparent;
+	    height: 100%;
+	    left: 0%;
+	    margin-top: 0%;
+	    overflow: hidden;
+	    padding: 0;
+	    position: relative;
+	    width: 100%;
+	    min-width: 120px;
+	    opacity:0.99;
+    }
+	.ie8 .art_quote_04 .articleMedium div {
+		z-index: 2000 !important;
+	}
+	
+    .art_quote_04 .articlesThumbList {
+        display: block;
+        width: 300px;
+        float: right;
+        text-align: left;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
+    .art_quote_04 .articlesThumbList li {
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        min-height: 4.9em;
+        position: relative;
+        /*margin-left: 0.44em;*/
+    }
+    .art_quote_04 .articlesThumbList li:before,
+    .art_quote_04 .articlesThumbList li:after {
+        content: "";
+        display: table;
+    }
+    .art_quote_04 .articlesThumbList li:after {
+        clear: both;
+    }
+    .art_quote_04 .articlesThumbList li {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+
+    }
+    .art_quote_04 .articlesThumbList li a {
+        padding: 0;
+        color: black;
+    }
+    .art_quote_04 .articlesThumbList li a p {
+        position: absolute;
+        left: 7em;
+        right: 0;
+        top: 1.99em;
+    }
+    .art_quote_04 .articlesThumbList li a img {
+        margin-right: 1em !important;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-right: 0.8em;
+        border-right: 1px solid #ccc;
+    }
+
+    .art_quote_04 .articlesThumbList li a h3 {
+        display: block;
+        margin-left: 100px;
+        font-style: italic;
+        font-weight: 800;
+        font-size: .9em;
+        padding-top: .35em;
+    }
+
+    .art_quote_04 .articlesThumbList li a span.icon {
+        display: none;
+    }
+    
+
+    .art_quote_04 div .articleMedium div h4{
+        width: 92%;
+        padding: 0;
+        margin-left: 2%;
+        /* margin-top: -20px;*/
+        font-size: 100%;
+        line-height: 16pt;
+        margin-top: 3%;
+    }
+
+    .art_quote_04 div .articleMedium div h2{
+        line-height: 1.8em;
+        /*color: #9ea31d;*/
+        /*color: #1bbaa5;*/
+        font-style: italic;
+        font-weight: 800;
+        font-size: 0.9em;
+
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+}

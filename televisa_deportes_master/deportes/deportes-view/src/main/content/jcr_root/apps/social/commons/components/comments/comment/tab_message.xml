@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Panel"
+    title="Message">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <message
+            jcr:primaryType="cq:Widget"
+            hideLabel="true"
+            name="./jcr:description"
+            xtype="textarea"/>
+        <approvedTypeHint
+            jcr:primaryType="cq:Widget"
+            ignoreData="{Boolean}true"
+            name="./approved@TypeHint"
+            value="Boolean"
+            xtype="hidden"/>
+        <approved
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Moderate"
+            name="./approved"
+            type="select"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <approve
+                    jcr:primaryType="nt:unstructured"
+                    text="Approve"
+                    value="{Boolean}true"/>
+                <deny
+                    jcr:primaryType="nt:unstructured"
+                    text="Deny"
+                    value="{Boolean}false"/>
+                <pending
+                    jcr:primaryType="nt:unstructured"
+                    text="Pending"
+                    text_commentI18n="Comment moderation"
+                    value=""/>
+            </options>
+        </approved>
+        <isSpamTypeHint
+            jcr:primaryType="cq:Widget"
+            ignoreData="{Boolean}true"
+            name="./isSpam@TypeHint"
+            value="Boolean"
+            xtype="hidden"/>
+        <isSpam
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Mark as spam"
+            name="./isSpam"
+            type="select"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <spam
+                    jcr:primaryType="nt:unstructured"
+                    text="Yes"
+                    value="{Boolean}true"/>
+                <notspam
+                    jcr:primaryType="nt:unstructured"
+                    text="No"
+                    value=""/>
+            </options>
+        </isSpam>
+    </items>
+</jcr:root>

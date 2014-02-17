@@ -1,0 +1,34 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_video_chat_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_video_chat_01 .main .c1{
+		margin-top:24px;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_video_chat_01 .main .c2,
+	.td_video_chat_01 .main .c3{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	.td_video_chat_01 .main .c2 .c2_2 .art_reltd_01 {
+		border-right: 1px dashed #CCCCCC;
+		width: 297px;
+	}
+	.td_video_chat_01 .main .c2 .c2_3{
+		width:270px;
+	}
+	.td_video_chat_01 .main .c2 .c2_4{
+		clear:both;
+	}
+	
+	.td_video_chat_01 .main .c3 .c3_3{
+		width:300px;
+	}
+	.banner_template {
+		margin-bottom:36px !important;
+	}
+}

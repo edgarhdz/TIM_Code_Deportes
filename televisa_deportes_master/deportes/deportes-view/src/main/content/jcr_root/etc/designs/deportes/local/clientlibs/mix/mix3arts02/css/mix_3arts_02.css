@@ -1,0 +1,8 @@
+@media screen and (min-width: 948px){ 
+    /* BEGIN: Global (Large) */
+    div.mix_3arts_02 div.mix_3arts_02_last div.mix_1arts_09 {
+        padding: 0px 0px 9px 12px !important;
+    }
+
+    /* END: Global (Large) */
+}

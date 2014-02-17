@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template"
+    jcr:description="td.history.description"
+    jcr:title="td.history.title"
+    allowedPaths="/content(/.*)?"
+    allowedChildren="[]"
+    ranking="{Long}1">
+    <jcr:content
+        cq:designPath="/etc/designs/deportes/local"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/deportes/local/components/page/history"/>
+</jcr:root>

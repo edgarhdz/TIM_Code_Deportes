@@ -1,0 +1,12 @@
+@media screen and (min-width: 948px){
+    .str_expertcmt_02 .scroll{
+        height:auto;
+    }
+    .str_expertcmt_02 .degradado{
+        display:none;
+    }
+    .ie7 .str_expertcmt_02 .str_expertcmt_02_separator,
+    .ie8 .str_expertcmt_02 .str_expertcmt_02_separator{
+        height: 160px;
+    }
+}

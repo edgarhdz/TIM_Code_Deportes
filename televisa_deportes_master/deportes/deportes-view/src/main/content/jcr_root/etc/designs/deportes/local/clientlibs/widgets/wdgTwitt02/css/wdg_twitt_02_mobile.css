@@ -1,0 +1,205 @@
+@media screen {
+    .wdg_twitt_02 {
+        display: none;
+        overflow:hidden;
+    }
+
+    .wdg_twitt_02_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+    }
+    .wdg_twitt_02_title:before,  .wdg_twitt_02_title:after {
+        content: "";
+        display: table;
+    }
+    .wdg_twitt_02_title:after {
+        clear: both;
+    }
+    .wdg_twitt_02_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+        width: 100%;
+    }
+    .wdg_twitt_02_title strong {
+        background-color: #A70A0B;
+        width: 100%;
+        font-size: 14px;
+        float: left;
+        text-align: left;
+    }
+    .wdg_twitt_02_title strong a {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 98% 6px;
+        background-size: 12px 20px;
+        background-position: right 2px;
+        *background-position: right 2px;
+        color: #fff;
+        display: block;
+        height: 32px;
+        line-height: 31px;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+    .wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel {
+        overflow:hidden;
+        width: 310px;
+    }
+    .wdg_twitt_02 .wdg_carousa div {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .wdg_twitt_02 .wdg_carousa div ul {
+        width: 57px;
+        margin: 0px 0 5px;
+        float: right;
+    }
+    .ie7 .wdg_twitt_02 .wdg_carousa div ul {
+        width: 63px;
+    }
+    .ie8 .wdg_twitt_02 .wdg_carousa div ul {
+        width: 63px;
+    }
+    .wdg_twitt_02 .wdg_carousa div ul li {
+        width: auto;
+        height: 17px;
+        float: left;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .wdg_twitt_02 .wdg_carousa div ul li#right {
+        margin-top: 10px;
+    }
+    .wdg_twitt_02 .wdg_carousa div ul li a {
+        width: 15px;
+        height: 9px;
+        display: none;
+        padding: 0;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul {
+        float: none;
+        margin: 0;
+        margin-top: 10px;
+        width: 16000px;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li p {
+        font-style: italic;
+        font-size: 12px;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul li a {
+        width: auto;
+        height: auto;
+        padding: auto;
+        background: none;
+        display: inline;
+    }
+
+
+    .wdg_twitt_02 .wdg_carousa div ul li:last-child {
+        border-left: 1px dotted #666;
+        padding-left: 10px;
+    }
+    .wdg_twitt_02 .wdg_carousa {
+        height: auto;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul li {
+        width: 128px;
+        height: auto;
+        padding: 0 2px 0px 2px;
+        width: 300px;
+        margin: 0 0 0 24px;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul li:first-child {
+        margin: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li:first-child {
+        margin: 7px 16px 0 0;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div.one{
+        margin-bottom: 15px;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div.wdg_twitt_02_block {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 19px;
+        overflow: hidden;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div.wdg_twitt_02_block:nth-child(n+2){
+        border-bottom: none;
+        overflow: hidden;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li a img {
+        width: 36px;
+        height: 36px;
+    }
+    .wdg_twitt_02 .wdg_carousa div:last-child ul li:last-child {
+        border: none;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div a span.title {
+        color: #9EA31D;
+        font-size: 10pt;
+        font-style: italic;
+        font-weight: 800;
+        padding: 4px 0 5px 0;
+    }
+    .wdg_twitt_02 .wdg_carousa .wdg_twitt_02_carousel ul li .wdg_twitt_02_block {
+        display: inline-block;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div a p {
+        line-height: 16px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        margin-bottom: 3px;
+        word-spacing: -1px;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div .wdg_twitt_02_blue {
+        font-size: 10px;
+        font-weight: normal;
+    }
+    .wdg_twitt_02 .wdg_carousa ul li div .wdg_twitt_02_black {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /* END: carouseltype1c (Small) */
+    .wdg_twitt_02 .wdg_twitt_02_img {
+        float: left;
+        width: 37px !important;
+        padding:6px 22px 0 23px;
+    }
+    .wdg_twitt_02 .wdg_twitt_02_txt {
+        float: left;
+        width: 216px !important;
+        overflow: hidden!important;
+    }
+    .wdg_twitt_02 .cta_twitter {
+        color: #3a3b8d;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .wdg_twitt_02 .textcolor-title4 {
+        color: #B1B1B1 !important;
+    }
+    .wdg_twitt_02 .wdg_carousa_right {
+        margin-top: -4px;
+    }
+    .wdg_twitt_02 .bullets{
+        padding-left: 85%;
+        clear: both;
+        overflow: hidden;
+        border-top: 1px solid #ccc;
+        margin-top: 0;
+        padding-top: 7px;
+        margin-bottom: 7px;
+    }
+    .wdg_twitt_02 .bullets div{
+        float: left;
+        width: 11px;
+        height: 11px;
+        background-color: #8f8f8f;
+        margin-right: 5px;
+    }
+    .wdg_twitt_02 .inactive{
+        color: #BABABA;
+    }
+}

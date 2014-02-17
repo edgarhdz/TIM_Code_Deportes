@@ -1,0 +1,7 @@
+.ie7 .mix_carru_01 .articleBigModule > ul.galleryThumbs li {
+    float: left;
+    margin: 0.167em 0 0 0.167em;
+    height: 5.167em;
+    cursor: pointer;
+    width: 5.130em;
+}

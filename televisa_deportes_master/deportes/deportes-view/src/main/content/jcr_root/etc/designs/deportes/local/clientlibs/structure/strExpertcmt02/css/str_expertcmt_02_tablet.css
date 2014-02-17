@@ -1,0 +1,70 @@
+@media screen and (min-width: 624px){
+    .str_expertcmt_02 {
+        width: 624px;
+        margin-bottom: 36px;
+    }
+
+    .str_expertcmt_02 .expert_container {
+        position: relative;
+        float: left;
+        width: 300px;
+        padding: 0 5px 4px;
+    }
+    .str_expertcmt_02 .expert_container_block {
+        position: relative;
+        float: left;
+        width: 300px;
+        display: block;
+        padding: 0 5px 6px;
+        border-bottom: 0;
+
+    }
+    .str_expertcmt_02 .expert_container_block:nth-last-child(4) p,
+    .str_expertcmt_02 .expert_container_block:nth-last-child(2) p,
+    .str_expertcmt_02 .expert_container_block:nth-last-child(4),
+    .str_expertcmt_02 .expert_container_block:nth-last-child(2){
+        padding-bottom: 0px;
+    }
+    .str_expertcmt_02 .str_expertcmt_02_separator{
+        float: left;
+        height: 170px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        width:1px;
+    }
+    .ie7 .str_expertcmt_02 .str_expertcmt_02_separator,
+    .ie8 .str_expertcmt_02 .str_expertcmt_02_separator{
+        height: 180px;
+        margin-top: 5px;
+    }
+    .str_expertcmt_02 .more {
+        display: none;
+    }
+
+    .str_expertcmt_02 h2 {
+        padding: 14px 0 0 42px;
+    }
+    .str_expertcmt_02 .degradado{
+        display:none;
+    }
+    .str_expertcmt_02 .scroll{
+        height:auto;
+    }
+    .str_expertcmt_02 h2.tab{
+        padding: 14px 0 0 24px;
+    }
+    .str_expertcmt_02 .expert_container p.tab2 {
+        padding: 8px 34px 11px 17px;
+    }
+    .str_expertcmt_02 .dotted-bottom-right {
+        /*background: url("../img/dotted-horizontal.png") repeat-x scroll center bottom, url("../img/dotted-vertical.png") repeat-y scroll right center rgba(0, 0, 0, 0);*/
+        background: url("../img/dotted-horizontal.png") repeat-x scroll center bottom;
+    }
+    .str_expertcmt_02 .r_special{
+        /*background:url("../img/dotted-vertical.png") repeat-y scroll right center rgba(0, 0, 0, 0);*/
+        background: none;
+    }
+    .str_expertcmt_02 h3  {
+        padding: 0 0 7px 0 !important;
+    }
+}

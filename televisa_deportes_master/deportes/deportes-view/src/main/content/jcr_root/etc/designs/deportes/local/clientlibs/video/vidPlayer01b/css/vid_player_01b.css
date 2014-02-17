@@ -1,0 +1,88 @@
+@media screen and (min-width: 948px){
+	.vid_player_01b{
+		border-bottom: 1px solid #555;
+	}
+	
+    .vid_player_01b .vid_player_01b_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    
+    .ie8.vid_player_01b .vid_player_01b_whtbkg
+    {
+        z-index: 1500!important;
+    }
+    .ie7.vid_player_01b .vid_player_01b_whtbkg
+    {
+        z-index: 1500!important;
+    }
+	.vid_player_01b .overlay .txt1,
+	.vid_player_01b .overlay .txt2,
+	.vid_player_01b .overlay .txt3{
+		display: block;
+	}
+	.vid_player_01b .overlay .txt4{
+		display:none;
+	}
+	
+	.vid_player_01b .overlay .txt1{
+		float: left;
+        width: 230px;
+        height: auto;
+		margin-right:10px;
+	}
+	.vid_player_01b #vid_player_01b_txts{
+        background: url("../img/dotted-vertical.png") repeat-y left !important;
+		padding-left: 26px;
+    }
+	
+	.vid_player_01b .overlay {    
+        padding: 24px 0 10px 60px;
+		
+	}
+	
+}
+
+	.ie7 .vid_player_01b{
+		margin-bottom:15px;
+		height: auto;
+	}
+	
+	.ie7 .vid_player_01b .overlay {
+        
+        display: inline-block !important;
+        /*margin-left: 24px;*/
+        padding: 7px 15px 20px;
+        margin-top:15px;
+        margin-bottom: 0px;
+        position: relative;
+        float: left;
+		/*background-color: rgba(255, 255, 255, .75);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#65FFFFFF,endColorstr=#75FFFFFF);*/
+    }
+    .ie7 .vid_player_01b .overlay .txt1 {
+		float: left;
+		width: 230px;
+		height: auto;
+		margin-right: 10px;
+	}
+	.vid_player_01b .txt1 h3 {
+		font-size: 24px;
+	}
+    .ie7 .vid_player_01b .txt1 p{
+        font-size: 12px;
+		line-height: 12px;
+    }
+	
+	.ie7 .vid_player_01b .vid_player_01b_txtdetail{
+        font-style: italic;
+        color: #a2a2a2;
+        font-size: 10px;
+    }
+	
+    /*Fondo blanco*/
+    .ie7 .vid_player_01b .overlay .txt1,
+	.ie7 .vid_player_01b .overlay .txt2,
+	.ie7 .vid_player_01b .overlay .txt3 {
+        display:block;
+    }

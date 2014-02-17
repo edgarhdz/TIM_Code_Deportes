@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="300"
+    title="commons.inheritance.title"
+    width="550"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <setting
+                jcr:primaryType="cq:Panel"
+                title="commons.inheritance.settings"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <resourcePath
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="commons.inheritance.resourcePath.description"
+                        fieldLabel="commons.inheritance.resourcePath.label"
+                        name="./resourcePath"
+                        xtype="paragraphreference"/>
+                </items>
+            </setting>
+        </items>
+    </items>
+</jcr:root>

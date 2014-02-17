@@ -1,0 +1,23 @@
+.vid_player_01_image .hide {
+    position: absolute !important;
+    top: -999px !important;
+    left: -999px !important;
+}
+
+.vid_player_01_image .show {
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+}
+
+.vid_4vids_05 .image-container .hide {
+    position: absolute !important;
+    top: -999px !important;
+    left: -999px !important;
+}
+
+.vid_4vids_05 .image-container .show {
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+}

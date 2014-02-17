@@ -1,0 +1,3 @@
+#base=js
+
+wdg_poll_01.js

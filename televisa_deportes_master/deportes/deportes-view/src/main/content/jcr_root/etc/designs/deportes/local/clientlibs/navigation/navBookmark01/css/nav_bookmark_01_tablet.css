@@ -1,0 +1,62 @@
+@media screen and (min-width: 39em){
+
+    /* BEGIN: Global (Medium) */
+    .nav_bookmark_01 div.title {
+        margin-bottom: 1.5em;
+    }
+    .nav_bookmark_01 div.title:before,
+    .nav_bookmark_01 div.title:after {
+        content: "";
+        display: table;
+    }
+    .nav_bookmark_01 div.title:after {
+        clear: both;
+    }
+    .nav_bookmark_01 div.title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+
+    }
+    .nav_bookmark_01 div.title h3 {
+        width: 57%;
+        max-width: 18.75em;
+        float: left;
+    }
+    .nav_bookmark_01 div.title h3 a {
+        background-image: none;
+    }
+    .nav_bookmark_01 div.title h3 a span.icon {
+        display: none;
+    }
+
+    /* END: Global (Medium) */
+
+
+    /*START: str_bookm_01 (Medium)*/
+    .nav_bookmark_01 {
+        width: 99.8%;
+        margin-bottom: 0px;
+        display: block;
+
+    }
+    .nav_bookmark_01 ul li a {
+        padding: 0.6em 1.85em;
+    }
+
+    .ie7 .nav_bookmark_01 ul li.image {
+        display: block;  
+    }
+
+    .ie7 .nav_bookmark_01 ul li a span{
+        display: block;
+        float: left;
+    }  
+    .nav_bookmark_01 ul li a.selected {
+        font-style: italic;
+        color: rgb(167, 10, 11);
+        width: 624px;
+        margin: 0 auto;
+    }
+    /*END: str_bookm_01 (Medium)*/
+
+}

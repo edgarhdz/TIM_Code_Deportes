@@ -1,0 +1,67 @@
+@media screen and (min-width: 39em){
+    /*Contenedor*/
+    .img_stage_01 {
+        height: 350px;
+        position: relative;
+        width: 624px;
+        /*padding-bottom: 24px;
+        border-bottom: 1px dotted #CCC;*/
+        background-color: transparent;
+        margin-bottom: 24px;
+
+
+    }
+    .img_stage_01 a.img_stage_01_whtbkg {
+        background-color: #FFFFFF;
+        display: block;
+        height: 35px;
+        left: 3.5%;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+        filter: alpha(opacity=60);
+        -khtml-opacity: 0.6;
+        -moz-opacity: 0.6;
+        opacity: 0.6;
+        position: realtive;
+        width: 532px;
+        margin-top: -69px;
+		padding: 15px 35px;
+    }
+    .img_stage_01 a p.img_stage_01_black {
+        display: block;
+
+        /*
+        position: absolute;*/
+        padding-top: 0;
+		padding-left: 0;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 0.7em;
+        *font-size: 0.8em;
+        font-size: 0.8em\9;
+    }
+
+    .img_stage_01 a p.img_stage_01_gray {
+        display: block;
+        /*left: 7%;
+        position: absolute;
+        top: 50%;*/
+		padding-top: 0;
+		padding-left: 0;
+        font-style: italic;
+        color: #666666;
+        font-weight: bold;
+        font-size: 0.7em;
+        *font-size: 0.8em;
+        font-size: 0.8em\9;
+    }
+    .img_stage_01 div.img_stage_01_image{
+        display: inline;
+    }
+
+    .img_stage_01 div.img_stage_01_image img{
+        width: 624px;
+        height:350px;
+    }
+
+
+}

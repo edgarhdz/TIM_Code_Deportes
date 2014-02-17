@@ -1,0 +1,24 @@
+@media screen and (min-width: 948px){
+
+    .nav_smnu_video_02{
+        margin-bottom: 5px;
+    }
+    /*
+    .nav_smnu_video_02 .sings{
+		margin-left: 135px
+    }
+   */
+    .nav_smnu_video_02 .navarrowleft,
+    .nav_smnu_video_02 .navarrowright{
+        display:block;
+    }
+    /*
+    .nav_smnu_video_02 .cont{
+        padding-left: 103px;
+    }
+
+    .nav_smnu_video_02 .container{
+        width:470px;
+    }
+    */
+}

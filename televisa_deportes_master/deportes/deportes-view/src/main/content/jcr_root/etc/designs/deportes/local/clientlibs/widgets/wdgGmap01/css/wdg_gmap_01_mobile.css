@@ -1,0 +1,16 @@
+@media screen {
+	.wdg_gmap_01{
+        margin-bottom:10px;
+		width:100%;
+		height:60%;
+	}
+	.wdg_gmap_01 .wdg_gmap_01_properties {
+		padding: 0;
+        width: 100%;
+        height:60% ;
+	}
+	.wdg_gmap_01 .wdg_gmap_01_margen{
+		display:block;
+		height:0px;
+	}
+}

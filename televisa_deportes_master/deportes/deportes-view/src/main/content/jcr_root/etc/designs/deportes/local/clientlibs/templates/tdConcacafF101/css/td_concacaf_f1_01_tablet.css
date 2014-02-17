@@ -1,0 +1,36 @@
+@media screen and (min-width: 624px){
+    /*Wrap*/
+    .td_concacaf_f1_01 .main{
+        width: 624px;
+        margin:auto;
+    }
+	.td_concacaf_f1_01 .main .c1{
+		margin-top:0;
+	}
+	/*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_concacaf_f1_01 .main .c1,
+	.td_concacaf_f1_01 .main .c2,
+	.td_concacaf_f1_01 .main .c4{
+		width:624px;
+		overflow:hidden;
+	}
+	/*Fija Tamaño*/
+	.td_concacaf_f1_01 .main .c3_1,
+	.td_concacaf_f1_01 .main .c3_2{
+		width: 300px;
+	}
+	.td_concacaf_f1_01 .main .c3_3{
+		margin-bottom: 24px;
+	}
+	.td_concacaf_f1_01 .footerPleca .footer{
+		clear: both;
+	}
+	.td_concacaf_f1_01 .c2 .c2_1 .c2_1o,
+	.td_concacaf_f1_01 .mix_4arts_05 .str_pleca_01{
+		display:block;
+    }
+
+    .td_concacaf_f1_01 .mix_3arts_02 .mix_1arts_09 h2{
+    	padding-top: 11px;
+    }
+}

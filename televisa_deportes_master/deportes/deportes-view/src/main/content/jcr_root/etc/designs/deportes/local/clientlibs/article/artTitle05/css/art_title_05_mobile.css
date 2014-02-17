@@ -1,0 +1,70 @@
+@media screen {
+    .art_title_05 {
+        width: 100%;
+        margin-bottom: 24px;
+        clear: both;
+        overflow: hidden;
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+    .art_title_05 > div{
+        float: left;
+        height: auto;
+    }
+    .art_title_05_left img{
+        width: 78px;
+        height: 68px;
+    }
+    .art_title_05 .art_title_05_left{
+        width: 100%;
+        margin-right: 4px;
+        margin-left: 0px;
+        padding-top: 5px;
+    }
+    .art_title_05 .art_title_05_left .canal{
+        font-weight:bold;
+        line-height: 22px;
+    }
+
+    .art_title_05 .art_title_05_left .textcolor-title2{
+        font-style:italic;
+        font-size: 13px;
+    }
+    .art_title_05 .art_title_05_right{
+        width: 95%;
+        background: url("../img/dotted-horizontal.png") repeat-x top !important;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .art_title_05 .art_title_05_principal{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .art_title_05 .art_title_05_principal h1{
+        font-size: 26px;
+        font-style: italic;
+        font-weight: normal
+    }
+    .art_title_05 .art_title_05_principal > div{
+        width: 30px;
+        height: 10px;
+        border-bottom: 1px solid #d3d3d3;
+        margin-bottom: 7px;
+    }
+    .art_title_05 .art_title_05_texto p{
+        line-height: 18px;
+        font-size: 14px;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+
+    .art_title_05 .art_title_05_texto p:first-child{
+        font-size:14px;
+    }
+
+    .art_title_05 .art_title_05_texto p.textcolor-title2{
+        font-style: italic;
+    }
+}

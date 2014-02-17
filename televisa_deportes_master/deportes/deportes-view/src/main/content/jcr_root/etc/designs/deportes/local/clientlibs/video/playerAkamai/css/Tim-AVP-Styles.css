@@ -1,0 +1,28 @@
+/*mensaje no disponible para tu pais*/	
+#flashContent { display:none; }
+
+#AVP_error_display{
+width: 607px;
+height: 344px;
+background-color: #000000;
+}
+#AVP_error_display h1{
+color:#FFFFFF;
+line-height:normal;
+padding-top: 100px;
+text-align:center;
+margin:0px;
+}
+/*titulo de la publicidad*/
+#AVP_title_display{
+background-color:#FF0000;
+color:#FFFFFF;
+font-family:verdana;
+font-size:12px;
+height:20px;
+//opacity:0.7;
+text-align:center;
+line-height:normal;
+text-decoration:none;
+margin:0px;
+}

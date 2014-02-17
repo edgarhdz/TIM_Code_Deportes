@@ -1,0 +1,49 @@
+@media screen {
+    .art_title_03 {
+        width: 100%;
+        margin-bottom: 24px;
+        clear: both;
+        overflow: hidden;
+        padding-left: 10px;
+		margin-top: 24px;
+    }
+    .art_title_03 > div{
+        float: left;
+        height: auto;
+    }
+    .art_title_03_left img{
+        width: 78px;
+        height: 68px;
+    }
+    .art_title_03 .art_title_03_left{
+        width: 78px;
+        margin-right: 4px;
+        margin-left: 0px;
+    }
+    .art_title_03 .art_title_03_right{
+        width: 72%;
+    }
+    .art_title_03 .art_title_03_principal{
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .art_title_03 .art_title_03_principal h1{
+        font-size: 26px;
+        font-style: italic;
+        font-weight: normal
+    }
+    .art_title_03 .art_title_03_principal > div{
+        width: 30px;
+        height: 10px;
+        border-bottom: 1px solid #d3d3d3; 
+        margin-bottom: 7px;
+    }
+    .art_title_03 .art_title_03_texto p{
+        line-height: 18px;
+        font-size: 14px;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+		margin-left: 15px;
+    }
+}

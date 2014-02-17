@@ -1,0 +1,96 @@
+@media screen {
+    /* BEGIN:mix_1arts_13 (Small)*/
+   
+    .mix_1arts_13_sprite.video-corner {
+        background-position: -131px -40px;
+        height: 43px;
+        width: 43px;
+    }
+    .mix_1arts_13 > div.first-child div h2 {
+        font-size: 1em;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb {
+        width: 100%;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li {
+        height: auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li img {
+		border-right: 1px solid;
+		float: left;
+		height: 63px;
+		margin-right: 10px;
+		padding-right: 10px;
+		width: auto;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a {      	
+		text-decoration: none;
+		display: block;
+		overflow: hidden;     
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a:before,
+    .mix_1arts_13 .mix_1arts_13_thumb li a:after {
+        content: "";
+        display: table;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a:after {
+        clear: both;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a {
+        zoom: 1;      
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a p,
+    .mix_1arts_13 .mix_1arts_13_thumb li a h4 {
+        width: 90%;
+        padding-left: 16px;
+        padding:10px;
+        font-size: 14px;
+        padding-top:0px;
+        font-weight: bold;
+    }	
+	.mix_1arts_13 .mix_1arts_13_thumb li a p{
+		height:100%;
+		
+	}	
+    .mix_1arts_13 .mix_1arts_13_thumb li a .background-color-pleca1 {
+        bottom: 0;
+		height:30px;
+		line-height:32px;
+		opacity: 0.7;
+        position: absolute;
+		text-align:center;
+        width:30px;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a h2 {
+        display: none;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #D6A256;
+        padding-left:10px;
+        padding-top:10px;
+		font-weight: normal;
+    }
+    .mix_1arts_13 .mix_1arts_13_thumb li a h6{
+		padding-left:10px;
+		padding-top: 5px;
+		font-style:italic;
+		font-size:12px;
+		margin-bottom: 0px;
+    }
+    .mix_1arts_13 .image{        	
+		border-right: 1px solid #8D8D8D;
+    	float: left;
+		height:63px;
+		margin-right: 10px;		
+		padding-right: 10px;
+		position: relative;
+		width: 84px;
+    }
+    /* END:mix_1arts_13 (Small)*/
+}
+
+

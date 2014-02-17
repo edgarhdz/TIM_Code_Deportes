@@ -1,0 +1,38 @@
+@media screen and (min-width: 624px){
+    #main {margin:0 24px 24px 24px;}
+    #col1 { width: 100%; }
+    #col2 { float:none; width: 300px}
+    div.img_fotogalfull_01 {font-size:14px;}
+    div.img_fotogalfull_01 div.image-container,
+    div.img_fotogalfull_01 div.related-container {overflow:hidden; text-align:center; }
+    div.related-container {display:none;color:#717171;}
+    div.img_fotogalfull_01 div.related-container div.suggestions {width:486px; margin:50px auto 0 auto;}
+    div.img_fotogalfull_01 div.related-container div.suggestions h2 {font-style:italic; margin-bottom:26px;}
+    div.img_fotogalfull_01 div.related-container div.suggestions li {width:136px; height:150px; float:left; margin-right:26px;}
+    div.img_fotogalfull_01 div.related-container div.suggestions a {color:#717171}
+    div.img_fotogalfull_01 img.mainimage {width:100%; height:auto;}
+    div.img_fotogalfull_01 div.overlay div.controls .rewind,
+    div.img_fotogalfull_01 div.overlay div.controls .forward {display:none;}
+    #col2 #col2_content {margin-top:-6px;}
+    #col2 p {font-size:13px;line-height:17px;}
+    div.img_fotogalfull_01 div.carousel {position:relative; padding:12px 0 0 0;  }
+    div.img_fotogalfull_01 div.carousel div.carousel-content {margin:0 auto; height:38px; width:80%; overflow:hidden;}
+    div.img_fotogalfull_01 div.carousel ul {width:10000px; margin:0; padding:0; float:left;}
+    div.img_fotogalfull_01 div.carousel ul li {float:left; margin-right:12px;}
+    div.img_fotogalfull_01 div.carousel ul li a {position:relative; display:block; float:left;}
+    div.img_fotogalfull_01 div.carousel ul li a:hover span.border,
+    div.img_fotogalfull_01 div.carousel ul li.active a span.border {position:absolute; top:0; left:0; border:3px solid #A70A0B; width:61px; height:32px;}
+    div.img_fotogalfull_01 div.carousel a.left,
+    div.img_fotogalfull_01 div.carousel a.right {position:absolute;top:12px; line-height:38px; width:10%; text-align:center; }
+    div.img_fotogalfull_01 div.carousel a.left {left:0;}
+    div.img_fotogalfull_01 div.carousel a.right {right:0;}
+    div.img_fotogalfull_01 div.details {display:block; width:80%; margin:12px auto 36px auto; padding-top:24px;}
+    div.img_fotogalfull_01 div.leftcol { width:45%; float:left; padding-right:5%;}
+    div.img_fotogalfull_01 div.rightcol { margin-left:55%; }
+    div.details strong {color: #A70A0B; font-style:italic; font-size:13px; font-weight:bold;}
+    div.details div.leftcol p {}
+    div.details div.rightcol p,
+    div.details div.rightcol p a {color:#8c8c8c}
+    div.details div.rightcol p {padding-bottom:24px;}
+    div.details div.rightcol img.social {padding-top:24px;}
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 39em){
+	
+	.wdg_teams_carru_01{
+	
+		width:100%;
+		margin-bottom: 24px;	
+		
+	}
+	
+	.wdg_teams_carru_01 .wrapper{
+		width:624px;		
+		overflow:auto;
+	}
+	
+	.wdg_teams_carru_01  .titulo_bar{
+		width: 624px;
+	}
+	
+	.wdg_teams_carru_01 .wrapper .row{
+		width:700px;
+	}
+	
+}

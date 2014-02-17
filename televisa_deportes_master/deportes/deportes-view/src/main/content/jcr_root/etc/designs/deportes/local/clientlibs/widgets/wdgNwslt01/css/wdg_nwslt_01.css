@@ -1,0 +1,16 @@
+@media screen and (min-width: 948px){
+    .wdg_nwslt_01{
+        display: block;
+    }
+    .ie7 .wdg_nwslt_01{
+        display: block;
+    }
+    .ie7 .wdg_nwslt_01 .container-top p{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .ie7 .wdg_nwslt_01  .container-top .img-download {
+        margin-left:15px;
+    }
+
+}

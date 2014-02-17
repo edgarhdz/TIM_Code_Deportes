@@ -1,0 +1,62 @@
+@media screen {
+    div.str_pleca_01_title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+    }
+    div.str_pleca_01_title:before,
+    div.str_pleca_01_title:after {
+        content: "";
+        display: table;
+    }
+    div.str_pleca_01_title:after {
+        clear: both;
+    }
+    div.str_pleca_01_title {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    div.str_pleca_01_title h3 {
+        width: 100%;
+        font-size: 0.85em;
+        float: left;
+        text-align: left;
+        height: 40px;
+    }
+    div.str_pleca_01_title h3 a {
+        text-decoration: none;
+        /*color: #fff;*/
+        height: 1.1em;
+        display: block;
+        padding: 0.7em 0 0.313em 1.375em;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        /*background: url(../img/str_pleca_01_arrow.png) no-repeat 98% 0.35em;
+        -webkit-background-size: 12px 12px;
+        -moz-background-size: 12px 20px;
+        -o-background-size: 12px 12px;
+        background-size: 12px 20px;*/
+    }
+    /*.str_pleca_01 .str_pleca_01_title h3 a span.str_pleca_01_arrow {
+        display: inline-block;
+        height: 29px;
+        width: 19px;
+        float: right;
+        background: url(../img/str_pleca_01_arrow.png) no-repeat 90% 0.35em;
+        margin-top: -1%;
+        margin-right: 2%;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        rotation: 90deg;
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }*/
+    .ie9 div.str_pleca_01_title h3 a {
+        /*background-position: right 10px;*/
+        background-position-x: right 10px\9;
+        background-position-y: 5px\9;
+        *background-position-x: right 10px;
+        *background-position-y: 5px;
+    }
+}
+

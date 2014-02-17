@@ -1,0 +1,7 @@
+#base=js
+vid_4vids_01.js
+video-globals.js
+video-utils.js
+youtube-video-gallery-manager.js
+brightcove-video-gallery-manager.js
+

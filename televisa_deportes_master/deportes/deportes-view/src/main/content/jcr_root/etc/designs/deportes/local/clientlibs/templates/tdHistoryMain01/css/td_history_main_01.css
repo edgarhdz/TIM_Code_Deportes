@@ -1,0 +1,34 @@
+@media screen and (min-width: 948px){
+    /*Wrap*/
+    .td_history_main_01 .main{
+        width: 948px;
+    }
+    /* Contenedor izquierdo */
+    .td_history_main_01 .main .c1{
+		float:left;
+        clear: both;
+        width: 624px;
+    }
+    /* Contenedor derecho */
+    .td_history_main_01 .main .c2{
+		float:right;
+        overflow: hidden;
+        width: 300px;
+    }
+	
+	
+	.ie7 .td_history_main_01 .main .c2 .c2_2{
+		clear:both;
+		overflow: hidden;
+		display: block;
+		float: none;
+	}
+
+    .ie7 .nav_paginator_01
+    {
+        display: block;
+        height: 100px;
+        background-color: red;  
+        width: 300px; 
+    } 
+}

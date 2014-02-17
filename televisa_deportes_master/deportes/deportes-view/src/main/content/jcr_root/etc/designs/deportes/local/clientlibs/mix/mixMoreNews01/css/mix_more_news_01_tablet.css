@@ -1,0 +1,8 @@
+@media screen and (min-width: 39em){
+	.mix_more_news_01 {
+        width: 300px !important;
+    }
+    .mix_more_news_01 ul li.firt_child {
+        padding-top: 0;
+    }
+}

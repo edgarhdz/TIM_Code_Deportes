@@ -1,0 +1,33 @@
+@media screen { 
+    /* Encabezado */ 
+    .td_tdn_home_01 .nav_header_01{
+		margin-bottom:0px !important;
+    }
+    /*Wrap*/
+    .td_tdn_home_01 .main{
+        width: 100%;
+		position:relative;
+    }
+    /*Todos los divs contenedores primarios se hacen al 100%*/
+	.td_tdn_home_01 .main > div{
+		width:100%;
+		clear:both;
+		overflow:hidden;
+	}
+	
+	.td_tdn_home_01 .main .c1 {
+	   margin-top:24px;
+	}
+	/*
+	.td_tdn_home_01 .main .c1 .c1_1{
+		display: block;
+	}
+	*/
+	.td_tdn_home_01 .main .c7_1,
+	.td_tdn_home_01 .main .c3_2,
+	.td_tdn_home_01 .main .c3_3,
+	.td_tdn_home_01 .main .c5_1 {
+		width:100%;
+	}
+
+}

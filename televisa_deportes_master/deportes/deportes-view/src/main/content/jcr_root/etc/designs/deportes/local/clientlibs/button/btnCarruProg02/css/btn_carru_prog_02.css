@@ -1,0 +1,43 @@
+@media screen and (min-width: 948px){
+    /* START: carouseltypecarruse (Medium) */
+    .btn_carru_prog_02{
+        width:100%;
+        max-width: 948px;
+    }
+    .btn_carru_prog_02 .title {
+        margin:9px 0 24px;
+    }
+    .btn_carru_prog_02 .typecarruse{
+        height:178px;
+        margin-top:-34px;
+        float: left;
+    }
+    .btn_carru_prog_02 .typecarruse .title .flechas{
+        display:block;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    .btn_carru_prog_02 .bullets{
+        display:none;
+    }
+    .btn_carru_prog_02 #b_tablet{
+        display:none;
+    }
+    .btn_carru_prog_02 #b_mobile{
+        display:none;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown{
+        width: 651px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown div.wdg_tennisresult_01_pleca{
+        width: 300px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown div.wdg_scroll_list{
+        width: 327px;
+    }
+    .btn_carru_prog_02 .wdg_scroll_dropdown .wdg_scroll_events{
+        width: 327px;
+    }
+    .btn_carru_prog_02 .pleca{
+        float: left;
+    }
+}

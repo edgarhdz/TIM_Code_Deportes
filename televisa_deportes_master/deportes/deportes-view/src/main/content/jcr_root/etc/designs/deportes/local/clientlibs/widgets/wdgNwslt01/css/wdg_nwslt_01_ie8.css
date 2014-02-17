@@ -1,0 +1,4 @@
+.ie8 .wdg_nwslt_01 .container-email {
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#aaaaaa');
+}   

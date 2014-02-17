@@ -1,0 +1,257 @@
+@media screen{
+    .wdg_sched_02{
+    	margin-bottom: 0px;
+    	height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .wdg_sched_02 > ul {
+        height: 197px;
+		display: block;
+		overflow: auto;
+		position: relative;
+		width: 110%;
+		overflow-x: hidden;
+		border-top: 1px solid #ccc;
+    }
+
+    .wdg_sched_02 > ul li {
+        border-bottom: 1px solid #D1D1D1;
+        display: block;
+        position: relative;
+    }
+    .wdg_sched_02 > ul li h3 {
+        font-weight:inherit;
+    }
+    .wdg_sched_02 > ul li div:first-child:after {
+        clear: both;
+    }
+
+    .wdg_sched_02 > ul li div:first-child:before, 
+    .wdg_sched_02 > ul li div:first-child:after {
+        content: "";
+        display: table;
+    }
+
+
+    .wdg_sched_02 ul li div:first-child {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wdg_sched_02 > ul li div:first-child {
+        left: 0;
+        position: absolute;
+        top: 8px;
+        width: 83px;
+    }
+
+    .wdg_sched_02 ul li div:first-child time, 
+    .wdg_sched_02 ul li div:first-child span, 
+    .wdg_sched_02 ul li div:first-child time + span {
+        display: block;
+        margin: 0;
+        position: static;
+        text-align: center;
+        width: auto;
+        font-size: 16px !important;
+		
+    }
+
+    .wdg_sched_02 > ul li div:first-child span.active {
+        color: #DEB476;
+        font-weight: bold;
+        left: 0;
+        position: absolute;
+        text-align: right;
+        top: 0;
+        width: 51px;
+    }
+
+    .wdg_sched_02 > ul li div:first-child time {
+        display: block;
+        font-size: 12px !important;
+        margin: 1px -3px 0 0 !important;
+        text-align: right;
+		padding-left: 5px;
+		color:#DEB476;
+    }
+
+    .wdg_sched_02 ul li div:first-child time, 
+    .wdg_sched_02 ul li div:first-child span, 
+    .wdg_sched_02 ul li div:first-child time + span {
+        display: block;
+        position: static;
+        text-align: center;
+        width: auto;
+    }
+
+    .wdg_sched_02 time {
+        font-weight:normal;
+    }
+    .wdg_sched_02 span.hour {
+        font-weight:bold;
+    }
+    .wdg_sched_02 > ul li.color a {
+        padding: 13px 10px;
+    }
+
+    .wdg_sched_02 > ul li a {
+        display: block;
+        height: 26px;
+        margin-left: 83px;
+        padding: 0;
+        transition: all 0.2s ease-out 0s;
+    }
+
+    .wdg_sched_02 > ul li a .program {
+        color: #000000;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        top: 8px;
+    }
+
+    .wdg_sched_02 > ul li a span {
+        left: 104px;
+        position: absolute;
+    }
+
+    .wdg_sched_02 > ul li.color a .channel {
+        font-style: italic;
+    }
+
+    .wdg_sched_02 > ul li a .channel {
+        color: #948F8F;
+        display: block;
+        font-size: 12px;
+        top: 24px;
+    }
+
+    .wdg_sched_02 > ul li a span {
+        left: 104px;
+        position: absolute;
+    }
+
+    .wdg_sched_02 > ul li a:hover {
+      -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+      -ms-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+      -o-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+      background-color: #E6E6E6;
+    }
+
+    .wdg_sched_02 > div:last-child {
+        margin-top: 20px;
+    }
+
+    .wdg_sched_02 .nav {
+        position: relative;
+		border-top:1px solid #CCC;
+		display:none;
+    }
+
+    .wdg_sched_02 a.next {
+        background-color: #A41D21;
+    }
+
+    .wdg_sched_02 > div .prev, 
+    .wdg_sched_02 > div .next {
+        background: none repeat scroll 0 0 #AAAAAA;
+        display: none;
+        height: 28px;
+        left: 0;
+        line-height:28px;
+        position: absolute;
+        top: 0;
+        width: 29px;
+    }
+
+    .wdg_sched_02 > div .next {
+        left: 29px;
+        margin-left: 1px;
+    }
+
+    .wdg_sched_02 > div .full-timetable {
+        background: none repeat scroll 0 0 #E6E6E6;
+        box-shadow: 0 0 7px #C0C0C0 inset;
+        display: none;
+        height: 28px;
+        line-height: 28px;
+        margin-left: 83px;
+        padding-left: 21px;
+    }
+
+    .wdg_sched_02 > div .full-timetable span {
+        color: #000000;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .wdg_sched_02 > div .full-timetable {
+        line-height: 25px;
+    }
+
+ 
+    .wdg_sched_02 > div .tvsa-caret-up{
+        margin: 2px 0 0 10px;
+    }
+    .wdg_sched_02 > div .tvsa-caret-down{
+        margin: 2px 0 0 10px;
+    }
+	.wdg_sched_02 .degraded{
+		bottom:61px;
+	}
+    .wdg_sched_02 .seemore{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bold;
+        height: 24px;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #dadada;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        background-color: #dadada; 
+        height: 40px;
+    }
+    .wdg_sched_02 .seemore a{
+        float: none;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        background-color: 0;
+        color: #8f8f8f;
+        display: block;
+    }
+	
+	.wdg_sched_02 .nav .bgactive{
+		background-color:#A70A0B;
+	}
+	
+	.wdg_sched_02 .nav .bginactive{
+		background-color:#BF6163;
+	}
+	
+	.wdg_sched_02 .nav .bgactive span{
+		color:#FFF;
+	}
+	
+	.wdg_sched_02 .nav .bginactive span{
+		color:#DBA5A5;
+	}
+    .wdg_sched_02 .separator{
+        float: left;
+        height: 29px;
+        background: #ccc;
+        width: 1px;
+        margin-left: 83px;
+        margin-top: 11px;
+    }
+
+}

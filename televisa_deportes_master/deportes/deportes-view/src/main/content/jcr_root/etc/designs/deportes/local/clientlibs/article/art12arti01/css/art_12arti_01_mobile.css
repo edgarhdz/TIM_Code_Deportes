@@ -1,0 +1,91 @@
+@media screen {
+    .art_12arti_01{
+        width: 100%;
+        background-color: #F5F5F5;
+        float: left;
+        margin-bottom: 0px;
+    }
+    .art_12arti_01 .nav_paginator_01 {
+        display: none;
+    }
+    .art_12arti_01 .div.title {
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+    }
+    .art_12arti_01 .container-items {
+        width: 100%;
+        position: relative;
+        height: 390px;
+        overflow: hidden;
+        clear: both;
+    }
+    .art_12arti_01 .container-items h2 {
+        font-size: 0.7em;
+        line-height: 1.8em;
+        font-style: italic;
+        font-weight: normal !important;
+        color: #D6A256;
+    }
+    .art_12arti_01 .container-items ul {
+        list-style: none;
+        width: 100%;
+    }
+    .art_12arti_01 .container-items ul li {
+        position: relative;
+        /*display: none;*/
+        display: block;
+        /*width: 18.750em;*/
+        overflow: hidden;
+        padding: 15px;
+        border-bottom: 1px solid #CCC;
+    }
+    .art_12arti_01 .container-items ul:last-child {
+        border-bottom: none;
+    }
+    .art_12arti_01 .container-items ul li {
+        zoom: 1;
+        /* For IE 6/7 (trigger hasLayout) */
+    }
+    .art_12arti_01 .container-items ul li div.titulos p{
+
+        padding-right: 40px;
+    }
+    .art_12arti_01 .container-items ul li div.info-note{
+        font-size: 0.8em;
+        display: none;
+    }
+    .art_12arti_01 .container-items ul li div p {
+        font-weight: bold;
+        margin-top: 0;
+        font-size: .9em;
+        line-height: 1em;
+    }
+    .art_12arti_01 div.container-btn {
+        display: none;
+    }
+    .art_12arti_01 .container-items ul li div.titulos span.icon {
+        background: url(../img/mobile-arrow-sprites.png) no-repeat 0 0;
+        background-size: 19px 29px;
+        height: 2em;
+        width: 2.188em;
+        position: absolute;
+        margin-top: -0.5em;
+        top: 40%;
+        right: 0.5em;
+    }
+    .art_12arti_01 .ver-mas {
+        width: 100%;
+        line-height: 34px;
+        font-size: 12px;
+        text-align: center;
+        background-color: #ccc;
+        cursor: pointer;
+        display: block;
+    }
+    .art_12arti_01 .titulos h3 {
+        display: block;
+        font-size: 10px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+}
